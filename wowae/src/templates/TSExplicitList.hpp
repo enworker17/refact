@@ -6,8 +6,8 @@
 
 #include "TSList.hpp"
 
-template<typename T, unsigned int iP>
-class TSExplicitList : public TSList<T,TSGetExplicitLink<T> >  
+template<typename T, int iP>
+class TSExplicitList : public TSList<T, TSGetExplicitLink<T> >  
 {
 public:
     TSExplicitList<T, iP>() 
