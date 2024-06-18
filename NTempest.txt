@@ -14,23 +14,28 @@ enum NTempest::CDynTable<T>::__unnamed_
 };
 
 
-enum NTempest::MinPValue {
+enum NTempest::MinPValue 
+{
   eMinPValue = 0x10,
 };
 
-enum NTempest::MaxPValue {
+enum NTempest::MaxPValue 
+{
   eMaxPValue = 0x7fffffee,
 };
 
-enum NTempest::eDefPValue {
+enum NTempest::eDefPValue 
+{
   eDefPValue = 0x3fffffff,
 };
 
-enum NTempest::LowSystemPValue {
+enum NTempest::LowSystemPValue 
+{
   eLowSystemPValue = 0x0,
 };
 
-enum NTempest::HighSystemPValue {
+enum NTempest::HighSystemPValue 
+{
   eHighSystemPValue = 0x7fffffff,
 };
 
