@@ -256,22 +256,14 @@ enum NTempest::C22Matrix::__unnamed_
   eComponents = 0x4,
 };
 
-enum NTempest::CRange::__unnamed_
+enum NTempest::CRange::__unnamed_ // +++
 {
   eComponents = 0x2,
 };
 
-enum NTempest::CiRange::__unnamed_
+enum NTempest::CiRange::__unnamed_ // +++
 {
   eComponents = 0x2,
-};
-
-enum NTempest::CRandom::__unnamed_
-{
-  rexp = 0x3f800000,
-  rmant = 0x7fffff,
-  lrexp = 0x3ff00000,
-  lrmant = 0xfffff,
 };
 
 enum NTempest::C3Vector::Componets 
@@ -288,200 +280,25 @@ enum NTempest::C3Vector::EAxis
 
 
 
-class NTempest::C3Vector 
+class NTempest::CRndSeed // +++
 {
 
-  // static data ------------------------------------
+  unsigned long rndacc;
+  unsigned long rndvls;
+  
+public:
+  CRndSeed(char* str);
+  CRndSeed(unsigned long seed);
+  ~CRndSeed();
+  
+  void SetSeed(char* password);
+  void SetSeed(unsigned long seed);
 
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float x;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float y;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float z;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Min(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& a);
-  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Max(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& a);
-  static class NTempest::C3Vector __fastcall Lerp(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
-  static float __fastcall NTempest::C3Vector::Dot(/*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector& l, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& r);
-  static class NTempest::C3Vector __fastcall Cross(class NTempest::C3Vector&, class NTempest::C2Vector&);
-  static class NTempest::C3Vector __fastcall Cross(class NTempest::C2Vector&, class NTempest::C3Vector&);
-  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Cross(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& l);
-  static class NTempest::C3Vector __fastcall ProjectionOnPlane(class NTempest::C3Vector&, class NTempest::C3Vector&);
-  static class NTempest::C3Vector __fastcall NearestOnPlane(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
-
-  // non-virtual functions --------------------------
-  void __thiscall C3Vector(class NTempest::C3iVector&);
-  void __thiscall C3Vector(class NTempest::C2Vector&);
-  void __thiscall NTempest::C3Vector::C3Vector(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y, /*<regrel ebp+0x10>*/ /*|0x4|*/ float z);
-  void __thiscall NTempest::C3Vector::C3Vector(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  void __thiscall NTempest::C3Vector::~C3Vector();
-  class NTempest::C3Vector __thiscall asC3Vector();
-  class NTempest::C3Vector* __thiscall asFloatPtr();
-  void __thiscall Get(float&, float&, float&);
-  void __thiscall NTempest::C3Vector::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ float tx, /*<regrel ebp+0xc>*/ /*|0x4|*/ float ty, /*<regrel ebp+0x10>*/ /*|0x4|*/ float tz);
-  class NTempest::C2Vector __thiscall operator class NTempest::C2Vector();
-  class NTempest::C3Vector& __thiscall operator+=(float);
-  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator+=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
-  class NTempest::C3Vector& __thiscall operator-=(float);
-  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator-=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
-  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  class NTempest::C3Vector& __thiscall operator*=(class NTempest::C3Vector&);
-  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator/=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  class NTempest::C3Vector& __thiscall operator/=(class NTempest::C3Vector&);
-  class NTempest::C3Vector __thiscall NTempest::C3Vector::operator-();
-  float& __thiscall NTempest::C3Vector::operator[](/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int sub);
-  float& __thiscall NTempest::C3Vector::operator[](/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int sub);
-  float __thiscall NTempest::C3Vector::SquaredMag();
-  float __thiscall NTempest::C3Vector::Mag();
-  float __thiscall SumC();
-  unsigned char __thiscall IsUnit();
-  void __thiscall NTempest::C3Vector::Normalize();
-  void __thiscall SafeNormalize();
-  void __thiscall Scale(float);
-  enum NTempest::C3Vector::EAxis __thiscall NTempest::C3Vector::MajorAxis();
-  enum NTempest::C3Vector::EAxis __thiscall NTempest::C3Vector::MinorAxis();
-  void __thiscall Minimize(class NTempest::C3Vector&);
-  void __thiscall NTempest::C3Vector::Maximize(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
-  void __thiscall __dflt_ctor_closure();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
 };
-// <size 0xc>
 
-class NTempest::CRandom 
+
+class NTempest::CRange // +++
 {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static unsigned long __fastcall NTempest::CRandom::Seed(/*<register ecx>*/ /*|0x4|*/ char* password);
-  static unsigned long __fastcall NTempest::CRandom::uint32_(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static long __fastcall int32_(class NTempest::CRndSeed&);
-  static float __fastcall real_(class NTempest::CRndSeed&);
-  static double __fastcall lreal_(class NTempest::CRndSeed&);
-  static float __fastcall realp_(class NTempest::CRndSeed&);
-  static double __fastcall lrealp_(class NTempest::CRndSeed&);
-  static float __fastcall reals_(class NTempest::CRndSeed&);
-  static double __fastcall lreals_(class NTempest::CRndSeed&);
-  static float __fastcall NTempest::CRandom::reale_(/*<regrel ebp+0x8>*/ /*|0x4|*/ float mean, /*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static float __fastcall NTempest::CRandom::reale_(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static double __fastcall NTempest::CRandom::lreale_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double mean, /*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static double __fastcall NTempest::CRandom::lreale_(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static float __fastcall NTempest::CRandom::realg_(/*<regrel ebp+0x8>*/ /*|0x4|*/ float mean, /*<regrel ebp+0xc>*/ /*|0x4|*/ float var, /*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static float __fastcall NTempest::CRandom::realg_(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static double __fastcall NTempest::CRandom::lrealg_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double mean, /*<regrel ebp+0x10>*/ /*|0x8|*/ double var, /*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static double __fastcall NTempest::CRandom::lrealg_(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static class NTempest::C2Vector __fastcall NTempest::CRandom::C2Vector_(/*<register ecx>*/ /*|0x4|*/ class NTempest::C2Vector* __$ReturnUdt);
-  static class NTempest::C3Vector __fastcall NTempest::CRandom::C3Vector_(/*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector* __$ReturnUdt);
-  static unsigned long __fastcall dice_(unsigned long, unsigned long, class NTempest::CRndSeed&);
-  static unsigned long __fastcall dice_(unsigned long, class NTempest::CRndSeed&);
-  static unsigned char __fastcall coin_(float, class NTempest::CRndSeed&);
-  static unsigned char __fastcall coin_(unsigned long, unsigned long, class NTempest::CRndSeed&);
-  static unsigned char __fastcall coin_(unsigned long, class NTempest::CRndSeed&);
-  static unsigned char __fastcall coin_(class NTempest::CRndSeed&);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ class NTempest::C2Vector* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ long* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::array_(/*<register ecx>*/ /*|0x4|*/ unsigned long* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayp_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayp_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrays_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrays_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arraye_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x8|*/ double mean, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arraye_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ float mean, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arraye_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arraye_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayg_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x8|*/ double mean, /*<regrel ebp+0x10>*/ /*|0x8|*/ double var, /*<regrel ebp+0x18>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayg_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ float mean, /*<regrel ebp+0xc>*/ /*|0x4|*/ float var, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayg_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::arrayg_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ double* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ float* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ unsigned long* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ long* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ unsigned short* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ short* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ unsigned char* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ char* buf, /*<register edx>*/ /*|0x4|*/ unsigned long count, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::shuffle_(/*<register ecx>*/ /*|0x4|*/ char* buf, /*<register edx>*/ /*|0x4|*/ class NTempest::CRndSeed& seed);
-  static void __fastcall NTempest::CRandom::crypt_(/*<register ecx>*/ /*|0x4|*/ char* buf, /*<register edx>*/ /*|0x4|*/ unsigned long size, /*<regrel ebp+0x8>*/ /*|0x4|*/ char* password);
-  static void __fastcall NTempest::CRandom::crypt_(/*<register ecx>*/ /*|0x4|*/ char* buf, /*<register edx>*/ /*|0x4|*/ unsigned long size, /*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long seednum);
-  static void __fastcall checksum_(class NTempest::CRndSeed&, unsigned long&);
-  static unsigned long __fastcall checksum_(unsigned long);
-  static void __fastcall checksum8_(unsigned long, unsigned long&);
-  static void __fastcall checksum16_(unsigned long, unsigned long&);
-  static void __fastcall checksum32_(unsigned long, unsigned long&);
-  static void __fastcall checksumr_(float, unsigned long&);
-  static void __fastcall checksumm32_(unsigned long*, unsigned long, unsigned long, unsigned long&);
-  static void __fastcall checksumm32_(unsigned long*, unsigned long, unsigned long&);
-  static void __fastcall checksumm16_(unsigned short*, unsigned long, unsigned short, unsigned long&);
-  static void __fastcall checksumm16_(unsigned short*, unsigned long, unsigned long&);
-  static void __fastcall checksumm8_(unsigned char*, unsigned long, unsigned char, unsigned long&);
-  static void __fastcall checksumm8_(unsigned char*, unsigned long, unsigned long&);
-  static void __fastcall checksumms_(char**, unsigned long, unsigned long&);
-  static unsigned long __fastcall NTempest::CRandom::lattice_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ long z, /*<regrel ebp+0xc>*/ /*|0x4|*/ long w);
-  static unsigned long __fastcall NTempest::CRandom::lattice_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ long z);
-  static unsigned long __fastcall NTempest::CRandom::lattice_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y);
-  static unsigned long __fastcall NTempest::CRandom::lattice_(/*<register ecx>*/ /*|0x4|*/ long x);
-  static void __fastcall NTempest::CRandom::lattice2_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ unsigned long* vtx);
-  static void __fastcall NTempest::CRandom::lattice4_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long* vtx);
-  static void __fastcall NTempest::CRandom::lattice8_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ long z, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned long* vtx);
-  static void __fastcall NTempest::CRandom::lattice3_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ unsigned long* vtx);
-  static void __fastcall NTempest::CRandom::lattice9_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long* vtx);
-  static void __fastcall NTempest::CRandom::lattice27_(/*<register ecx>*/ /*|0x4|*/ long x, /*<register edx>*/ /*|0x4|*/ long y, /*<regrel ebp+0x8>*/ /*|0x4|*/ long zc, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned long* vtx);
-  static float __fastcall NTempest::CRandom::noise_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double x, /*<regrel ebp+0x10>*/ /*|0x8|*/ double y, /*<regrel ebp+0x18>*/ /*|0x8|*/ double z, /*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector& d);
-  static float __fastcall NTempest::CRandom::noise_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double x, /*<regrel ebp+0x10>*/ /*|0x8|*/ double y, /*<regrel ebp+0x18>*/ /*|0x8|*/ double z);
-  static float __fastcall NTempest::CRandom::noise_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double x, /*<regrel ebp+0x10>*/ /*|0x8|*/ double y);
-  static float __fastcall NTempest::CRandom::noise_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double x);
-  static float __fastcall NTempest::CRandom::turbulence_(/*<regrel ebp+0x8>*/ /*|0x8|*/ double x, /*<regrel ebp+0x10>*/ /*|0x8|*/ double y, /*<regrel ebp+0x18>*/ /*|0x8|*/ double z, /*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector& d, /*<register edx>*/ /*|0x4|*/ unsigned long __formal);
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1>
-
-class NTempest::CRndSeed {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long rndacc;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long rndvls;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CRndSeed(char*);
-  void __thiscall CRndSeed(unsigned long);
-  void __thiscall ~CRndSeed();
-  void __thiscall NTempest::CRndSeed::SetSeed(/*<regrel ebp+0x8>*/ /*|0x4|*/ char* password);
-  void __thiscall NTempest::CRndSeed::SetSeed(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long seed);
-  void __thiscall __dflt_ctor_closure();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
-class NTempest::CRange {
 
   // static data ------------------------------------
 
@@ -540,7 +357,7 @@ class NTempest::CRange {
 };
 // <size 0x8>
 
-class NTempest::CiRange 
+class NTempest::CiRange // +++
 {
 
   // static data ------------------------------------
@@ -842,203 +659,7 @@ class NTempest::CMath
 };
 // <size 0x1>
 
-class NTempest::CCone 
-{
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector position;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float angle;
-  /*<thisrel this+0x10>*/ /*|0xc|*/ class NTempest::C3Vector axis;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ float height;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ float cosAngle;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CCone(class NTempest::C3Vector&, float, float, class NTempest::C3Vector&, unsigned char);
-  void __thiscall Angle(float);
-  float __thiscall Angle();
-  float __thiscall CosAngle();
-  void __thiscall ~CCone();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x24>
-
-class NTempest::CRect 
-{
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float t;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float miny;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float l;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float minx;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float b;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float maxy;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float r;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float maxx;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static class NTempest::CRect __fastcall Lerp(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect&);
-  static class NTempest::CRect __fastcall Intersection(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect&);
-  static class NTempest::CRect __fastcall NTempest::CRect::Intersection(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRect* __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::CRect& l);
-  static class NTempest::CRect __fastcall Union(class NTempest::CRect&, class NTempest::CRect&);
-  static class NTempest::CRect __fastcall ClippedLocal(class NTempest::CRect&, class NTempest::CRect&);
-  static unsigned long __fastcall Difference(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect*);
-
-  // non-virtual functions --------------------------
-  void __thiscall CRect(struct tagRECT&);
-  void __thiscall CRect(class NTempest::CiRect&);
-  void __thiscall CRect(class NTempest::C2Vector&, class NTempest::C2Vector&);
-  void __thiscall CRect(class NTempest::C2Vector&);
-  void __thiscall NTempest::CRect::CRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ float top, /*<regrel ebp+0xc>*/ /*|0x4|*/ float left, /*<regrel ebp+0x10>*/ /*|0x4|*/ float bottom, /*<regrel ebp+0x14>*/ /*|0x4|*/ float right);
-  void __thiscall NTempest::CRect::CRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  void __thiscall ~CRect();
-  void __thiscall Get(float&, float&, float&, float&);
-  void __thiscall Set(float, float, float, float);
-  struct tagRECT __thiscall operator struct tagRECT();
-  class NTempest::CRect __thiscall asCRect();
-  class NTempest::CRect* __thiscall asFloatPtr();
-  class NTempest::CRect& __thiscall operator+=(class NTempest::CRect&);
-  class NTempest::CRect& __thiscall operator-=(class NTempest::CRect&);
-  class NTempest::CRect& __thiscall operator*=(class NTempest::CRect&);
-  class NTempest::CRect& __thiscall operator/=(class NTempest::CRect&);
-  class NTempest::CRect __thiscall operator-();
-  void __thiscall Stretch(class NTempest::C2Vector&);
-  void __thiscall Stretch(float, float);
-  void __thiscall Offset(class NTempest::C2Vector&);
-  void __thiscall Offset(float, float);
-  unsigned char __thiscall NTempest::CRect::NotEmpty();
-  unsigned char __thiscall Empty();
-  unsigned char __thiscall Invalid();
-  unsigned char __thiscall NotInvalid();
-  unsigned char __thiscall Encloses(class NTempest::CRect&);
-  unsigned char __thiscall Encloses(class NTempest::C2Vector&);
-  unsigned char __thiscall Contains(class NTempest::CRect&);
-  unsigned char __thiscall Contains(class NTempest::C2Vector&);
-  unsigned char __thiscall InOpenR(class NTempest::CRect&);
-  unsigned char __thiscall InOpenR(class NTempest::C2Vector&);
-  float __thiscall Width();
-  float __thiscall Height();
-  void __thiscall SetWidth(float);
-  void __thiscall SetHeight(float);
-  class NTempest::C2Vector __thiscall TopLeft();
-  class NTempest::C2Vector __thiscall TopRight();
-  class NTempest::C2Vector __thiscall BottomLeft();
-  class NTempest::C2Vector __thiscall BottomRight();
-  void __thiscall Center(class NTempest::CRect&);
-  class NTempest::C2Vector __thiscall Center();
-  class NTempest::C2Vector __thiscall Diagonal();
-  void __thiscall CenterV(class NTempest::CRect&);
-  void __thiscall CenterH(class NTempest::CRect&);
-  void __thiscall AlignTop(class NTempest::CRect&);
-  void __thiscall AlignLeft(class NTempest::CRect&);
-  void __thiscall AlignBottom(class NTempest::CRect&);
-  void __thiscall AlignRight(class NTempest::CRect&);
-  class NTempest::CRect __thiscall NTempest::CRect::Intersect(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRect* __$ReturnUdt);
-  class NTempest::CRect __thiscall Unite(class NTempest::CRect&);
-  void __thiscall __dflt_ctor_closure();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-class NTempest::CiRect 
-{
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long t;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long miny;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long l;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long minx;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long b;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long maxy;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long r;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long maxx;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static class NTempest::CiRect __fastcall Intersection(class NTempest::CiRect&, class NTempest::CiRect&, class NTempest::CiRect&);
-  static class NTempest::CiRect __fastcall NTempest::CiRect::Intersection(/*<register ecx>*/ /*|0x4|*/ class NTempest::CiRect* __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::CiRect& l);
-  static class NTempest::CiRect __fastcall Union(class NTempest::CiRect&, class NTempest::CiRect&);
-  static class NTempest::CiRect __fastcall ClippedLocal(class NTempest::CiRect&, class NTempest::CiRect&);
-  static unsigned long __fastcall Difference(class NTempest::CiRect&, class NTempest::CiRect&, class NTempest::CiRect*);
-
-  // non-virtual functions --------------------------
-  void __thiscall CiRect(struct tagRECT&);
-  void __thiscall CiRect(class NTempest::C2iVector&, class NTempest::C2iVector&);
-  void __thiscall CiRect(class NTempest::C2iVector&);
-  void __thiscall NTempest::CiRect::CiRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ long top, /*<regrel ebp+0xc>*/ /*|0x4|*/ long left, /*<regrel ebp+0x10>*/ /*|0x4|*/ long bottom, /*<regrel ebp+0x14>*/ /*|0x4|*/ long right);
-  void __thiscall CiRect(long);
-  void __thiscall ~CiRect();
-  void __thiscall Get(long&, long&, long&, long&);
-  void __thiscall Set(long, long, long, long);
-  struct tagRECT __thiscall operator struct tagRECT();
-  class NTempest::CiRect& __thiscall operator+=(class NTempest::CiRect&);
-  class NTempest::CiRect& __thiscall operator-=(class NTempest::CiRect&);
-  class NTempest::CiRect& __thiscall operator*=(class NTempest::CiRect&);
-  class NTempest::CiRect& __thiscall operator/=(class NTempest::CiRect&);
-  class NTempest::CiRect __thiscall operator-();
-  void __thiscall Stretch(class NTempest::C2iVector&);
-  void __thiscall Stretch(long, long);
-  void __thiscall Offset(class NTempest::C2iVector&);
-  void __thiscall Offset(long, long);
-  unsigned char __thiscall NotEmpty();
-  unsigned char __thiscall Empty();
-  unsigned char __thiscall Invalid();
-  unsigned char __thiscall NotInvalid();
-  unsigned char __thiscall Encloses(class NTempest::CiRect&);
-  unsigned char __thiscall Encloses(class NTempest::C2iVector&);
-  unsigned char __thiscall Contains(class NTempest::CiRect&);
-  unsigned char __thiscall Contains(class NTempest::C2iVector&);
-  unsigned char __thiscall InOpenR(class NTempest::CiRect&);
-  unsigned char __thiscall InOpenR(class NTempest::C2iVector&);
-  long __thiscall NTempest::CiRect::Width();
-  long __thiscall NTempest::CiRect::Height();
-  void __thiscall SetWidth(long);
-  void __thiscall SetHeight(long);
-  class NTempest::C2iVector __thiscall TopLeft();
-  class NTempest::C2iVector __thiscall TopRight();
-  class NTempest::C2iVector __thiscall BottomLeft();
-  class NTempest::C2iVector __thiscall BottomRight();
-  void __thiscall Center(class NTempest::CiRect&);
-  class NTempest::C2iVector __thiscall Center();
-  class NTempest::C2iVector __thiscall Diagonal();
-  void __thiscall CenterV(class NTempest::CiRect&);
-  void __thiscall CenterH(class NTempest::CiRect&);
-  void __thiscall AlignTop(class NTempest::CiRect&);
-  void __thiscall AlignLeft(class NTempest::CiRect&);
-  void __thiscall AlignBottom(class NTempest::CiRect&);
-  void __thiscall AlignRight(class NTempest::CiRect&);
-  class NTempest::CiRect __thiscall Intersect(class NTempest::CiRect&);
-  class NTempest::CiRect __thiscall Unite(class NTempest::CiRect&);
-  void __thiscall __dflt_ctor_closure();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-class NTempest::C3iVector 
+class NTempest::C2iVector 
 {
 
   // static data ------------------------------------
@@ -1046,56 +667,52 @@ class NTempest::C3iVector
   // non-static data --------------------------------
   /*<thisrel this+0x0>*/ /*|0x4|*/ long x;
   /*<thisrel this+0x4>*/ /*|0x4|*/ long y;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long z;
 
   // base classes -----------------------------------
 
   // friends ----------------------------------------
 
   // static functions -------------------------------
-  static class NTempest::C3iVector __fastcall Min(class NTempest::C3iVector&, class NTempest::C3iVector&);
-  static class NTempest::C3iVector __fastcall Max(class NTempest::C3iVector&, class NTempest::C3iVector&);
-  static long __fastcall Dot(class NTempest::C3iVector&, class NTempest::C3iVector&);
-  static class NTempest::C3iVector __fastcall Cross(class NTempest::C3iVector&, class NTempest::C3iVector&);
+  static class NTempest::C2iVector __fastcall Min(class NTempest::C2iVector&, class NTempest::C2iVector&);
+  static class NTempest::C2iVector __fastcall Max(class NTempest::C2iVector&, class NTempest::C2iVector&);
+  static long __fastcall Dot(class NTempest::C2iVector&, class NTempest::C2iVector&);
 
   // non-virtual functions --------------------------
-  void __thiscall C3iVector(class NTempest::C3Vector&);
-  void __thiscall C3iVector(class NTempest::C2iVector&);
-  void __thiscall C3iVector(long, long, long);
-  void __thiscall C3iVector(long);
-  void __thiscall ~C3iVector();
-  void __thiscall Get(long&, long&, long&);
-  void __thiscall Set(long, long, long);
-  class NTempest::C2iVector __thiscall operator class NTempest::C2iVector();
-  class NTempest::C3iVector& __thiscall operator+=(long);
-  class NTempest::C3iVector& __thiscall operator+=(class NTempest::C3iVector&);
-  class NTempest::C3iVector& __thiscall operator-=(long);
-  class NTempest::C3iVector& __thiscall operator-=(class NTempest::C3iVector&);
-  class NTempest::C3iVector& __thiscall operator*=(long);
-  class NTempest::C3iVector& __thiscall operator*=(class NTempest::C3iVector&);
-  class NTempest::C3iVector& __thiscall operator/=(long);
-  class NTempest::C3iVector& __thiscall operator/=(class NTempest::C3iVector&);
-  class NTempest::C3iVector& __thiscall operator>>=(long);
-  class NTempest::C3iVector& __thiscall operator>>=(class NTempest::C3iVector&);
-  class NTempest::C3iVector& __thiscall operator<<=(long);
-  class NTempest::C3iVector& __thiscall operator<<=(class NTempest::C3iVector&);
-  class NTempest::C3iVector __thiscall operator-();
-  long& __thiscall operator[](unsigned int);
-  long& __thiscall operator[](unsigned int);
+  void __thiscall C2iVector(struct tagPOINT&);
+  void __thiscall C2iVector(class NTempest::C2Vector&);
+  void __thiscall NTempest::C2iVector::C2iVector(/*<regrel ebp+0x8>*/ /*|0x4|*/ long x, /*<regrel ebp+0xc>*/ /*|0x4|*/ long y);
+  void __thiscall NTempest::C2iVector::C2iVector(/*<regrel ebp+0x8>*/ /*|0x4|*/ long a);
+  void __thiscall NTempest::C2iVector::~C2iVector();
+  void __thiscall Get(long&, long&);
+  void __thiscall Set(long, long);
+  struct tagPOINT __thiscall operator struct tagPOINT();
+  class NTempest::C2iVector& __thiscall operator+=(long);
+  class NTempest::C2iVector& __thiscall operator+=(class NTempest::C2iVector&);
+  class NTempest::C2iVector& __thiscall operator-=(long);
+  class NTempest::C2iVector& __thiscall operator-=(class NTempest::C2iVector&);
+  class NTempest::C2iVector& __thiscall operator*=(long);
+  class NTempest::C2iVector& __thiscall operator*=(class NTempest::C2iVector&);
+  class NTempest::C2iVector& __thiscall operator/=(long);
+  class NTempest::C2iVector& __thiscall operator/=(class NTempest::C2iVector&);
+  class NTempest::C2iVector& __thiscall operator>>=(long);
+  class NTempest::C2iVector& __thiscall operator>>=(class NTempest::C2iVector&);
+  class NTempest::C2iVector& __thiscall operator<<=(long);
+  class NTempest::C2iVector& __thiscall operator<<=(class NTempest::C2iVector&);
+  class NTempest::C2iVector __thiscall operator-();
   long __thiscall SquaredMag();
   long __thiscall Mag();
   long __thiscall SumC();
   unsigned char __thiscall IsUnit();
   void __thiscall Normalize();
   void __thiscall Scale(long);
-  void __thiscall Minimize(class NTempest::C3iVector&);
-  void __thiscall Maximize(class NTempest::C3iVector&);
+  void __thiscall Minimize(class NTempest::C2iVector&);
+  void __thiscall Maximize(class NTempest::C2iVector&);
   void __thiscall __dflt_ctor_closure();
   void* __thiscall __vecDelDtor(unsigned int);
 
   // virtual functions ------------------------------
 };
-// <size 0xc>
+// <size 0x8>
 
 class NTempest::C2Vector 
 {
@@ -1156,6 +773,189 @@ class NTempest::C2Vector
   // virtual functions ------------------------------
 };
 // <size 0x8>
+
+class NTempest::C3iVector 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ long x;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ long y;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ long z;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::C3iVector __fastcall Min(class NTempest::C3iVector&, class NTempest::C3iVector&);
+  static class NTempest::C3iVector __fastcall Max(class NTempest::C3iVector&, class NTempest::C3iVector&);
+  static long __fastcall Dot(class NTempest::C3iVector&, class NTempest::C3iVector&);
+  static class NTempest::C3iVector __fastcall Cross(class NTempest::C3iVector&, class NTempest::C3iVector&);
+
+  // non-virtual functions --------------------------
+  void __thiscall C3iVector(class NTempest::C3Vector&);
+  void __thiscall C3iVector(class NTempest::C2iVector&);
+  void __thiscall C3iVector(long, long, long);
+  void __thiscall C3iVector(long);
+  void __thiscall ~C3iVector();
+  void __thiscall Get(long&, long&, long&);
+  void __thiscall Set(long, long, long);
+  class NTempest::C2iVector __thiscall operator class NTempest::C2iVector();
+  class NTempest::C3iVector& __thiscall operator+=(long);
+  class NTempest::C3iVector& __thiscall operator+=(class NTempest::C3iVector&);
+  class NTempest::C3iVector& __thiscall operator-=(long);
+  class NTempest::C3iVector& __thiscall operator-=(class NTempest::C3iVector&);
+  class NTempest::C3iVector& __thiscall operator*=(long);
+  class NTempest::C3iVector& __thiscall operator*=(class NTempest::C3iVector&);
+  class NTempest::C3iVector& __thiscall operator/=(long);
+  class NTempest::C3iVector& __thiscall operator/=(class NTempest::C3iVector&);
+  class NTempest::C3iVector& __thiscall operator>>=(long);
+  class NTempest::C3iVector& __thiscall operator>>=(class NTempest::C3iVector&);
+  class NTempest::C3iVector& __thiscall operator<<=(long);
+  class NTempest::C3iVector& __thiscall operator<<=(class NTempest::C3iVector&);
+  class NTempest::C3iVector __thiscall operator-();
+  long& __thiscall operator[](unsigned int);
+  long& __thiscall operator[](unsigned int);
+  long __thiscall SquaredMag();
+  long __thiscall Mag();
+  long __thiscall SumC();
+  unsigned char __thiscall IsUnit();
+  void __thiscall Normalize();
+  void __thiscall Scale(long);
+  void __thiscall Minimize(class NTempest::C3iVector&);
+  void __thiscall Maximize(class NTempest::C3iVector&);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0xc>
+
+class NTempest::C3Vector 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float x;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float y;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float z;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Min(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Max(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  static class NTempest::C3Vector __fastcall Lerp(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  static float __fastcall NTempest::C3Vector::Dot(/*<register ecx>*/ /*|0x4|*/ class NTempest::C3Vector& l, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& r);
+  static class NTempest::C3Vector __fastcall Cross(class NTempest::C3Vector&, class NTempest::C2Vector&);
+  static class NTempest::C3Vector __fastcall Cross(class NTempest::C2Vector&, class NTempest::C3Vector&);
+  static class NTempest::C3Vector __fastcall NTempest::C3Vector::Cross(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& l);
+  static class NTempest::C3Vector __fastcall ProjectionOnPlane(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  static class NTempest::C3Vector __fastcall NearestOnPlane(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+
+  // non-virtual functions --------------------------
+  void __thiscall C3Vector(class NTempest::C3iVector&);
+  void __thiscall C3Vector(class NTempest::C2Vector&);
+  void __thiscall NTempest::C3Vector::C3Vector(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y, /*<regrel ebp+0x10>*/ /*|0x4|*/ float z);
+  void __thiscall NTempest::C3Vector::C3Vector(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  void __thiscall NTempest::C3Vector::~C3Vector();
+  class NTempest::C3Vector __thiscall asC3Vector();
+  class NTempest::C3Vector* __thiscall asFloatPtr();
+  void __thiscall Get(float&, float&, float&);
+  void __thiscall NTempest::C3Vector::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ float tx, /*<regrel ebp+0xc>*/ /*|0x4|*/ float ty, /*<regrel ebp+0x10>*/ /*|0x4|*/ float tz);
+  class NTempest::C2Vector __thiscall operator class NTempest::C2Vector();
+  class NTempest::C3Vector& __thiscall operator+=(float);
+  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator+=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  class NTempest::C3Vector& __thiscall operator-=(float);
+  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator-=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  class NTempest::C3Vector& __thiscall operator*=(class NTempest::C3Vector&);
+  class NTempest::C3Vector& __thiscall NTempest::C3Vector::operator/=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  class NTempest::C3Vector& __thiscall operator/=(class NTempest::C3Vector&);
+  class NTempest::C3Vector __thiscall NTempest::C3Vector::operator-();
+  float& __thiscall NTempest::C3Vector::operator[](/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int sub);
+  float& __thiscall NTempest::C3Vector::operator[](/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int sub);
+  float __thiscall NTempest::C3Vector::SquaredMag();
+  float __thiscall NTempest::C3Vector::Mag();
+  float __thiscall SumC();
+  unsigned char __thiscall IsUnit();
+  void __thiscall NTempest::C3Vector::Normalize();
+  void __thiscall SafeNormalize();
+  void __thiscall Scale(float);
+  enum NTempest::C3Vector::EAxis __thiscall NTempest::C3Vector::MajorAxis();
+  enum NTempest::C3Vector::EAxis __thiscall NTempest::C3Vector::MinorAxis();
+  void __thiscall Minimize(class NTempest::C3Vector&);
+  void __thiscall NTempest::C3Vector::Maximize(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0xc>
+
+class NTempest::C4iVector 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ long x;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ long y;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ long z;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ long w;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::C4iVector __fastcall Min(class NTempest::C4iVector&, class NTempest::C4iVector&);
+  static class NTempest::C4iVector __fastcall Max(class NTempest::C4iVector&, class NTempest::C4iVector&);
+  static long __fastcall Dot(class NTempest::C4iVector&, class NTempest::C4iVector&);
+
+  // non-virtual functions --------------------------
+  void __thiscall C4iVector(class NTempest::C4Vector&);
+  void __thiscall C4iVector(class NTempest::C3iVector&);
+  void __thiscall C4iVector(class NTempest::C2iVector&);
+  void __thiscall C4iVector(long, long, long, long);
+  void __thiscall C4iVector(long);
+  void __thiscall ~C4iVector();
+  void __thiscall Get(long&, long&, long&, long&);
+  void __thiscall Set(long, long, long, long);
+  class NTempest::C2iVector __thiscall operator class NTempest::C2iVector();
+  class NTempest::C3iVector __thiscall operator class NTempest::C3iVector();
+  class NTempest::C4iVector& __thiscall operator+=(long);
+  class NTempest::C4iVector& __thiscall operator+=(class NTempest::C4iVector&);
+  class NTempest::C4iVector& __thiscall operator-=(long);
+  class NTempest::C4iVector& __thiscall operator-=(class NTempest::C4iVector&);
+  class NTempest::C4iVector& __thiscall operator*=(long);
+  class NTempest::C4iVector& __thiscall operator*=(class NTempest::C4iVector&);
+  class NTempest::C4iVector& __thiscall operator/=(long);
+  class NTempest::C4iVector& __thiscall operator/=(class NTempest::C4iVector&);
+  class NTempest::C4iVector& __thiscall operator>>=(long);
+  class NTempest::C4iVector& __thiscall operator>>=(class NTempest::C4iVector&);
+  class NTempest::C4iVector& __thiscall operator<<=(long);
+  class NTempest::C4iVector& __thiscall operator<<=(class NTempest::C4iVector&);
+  class NTempest::C4iVector __thiscall operator-();
+  long __thiscall SquaredMag();
+  long __thiscall Mag();
+  long __thiscall SumC();
+  unsigned char __thiscall IsUnit();
+  void __thiscall Normalize();
+  void __thiscall Scale(long);
+  void __thiscall Minimize(class NTempest::C4iVector&);
+  void __thiscall Maximize(class NTempest::C4iVector&);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x10>
 
 class NTempest::C4Vector 
 {
@@ -1218,64 +1018,332 @@ class NTempest::C4Vector
 };
 // <size 0x10>
 
-class NTempest::C4iVector 
+class NTempest::CRandom 
+{
+	enum
+	{
+	  rexp   = 0x3f800000,
+	  rmant  = 0x007fffff,
+	  lrexp  = 0x3ff00000,
+	  lrmant = 0x000fffff,
+	};
+
+
+public:
+  static unsigned long __fastcall Seed(char* password);
+  static unsigned long __fastcall uint32_(CRndSeed& seed);
+  static long __fastcall int32_(CRndSeed& seed);
+  static float __fastcall real_(CRndSeed& seed);
+  static double __fastcall lreal_(CRndSeed& seed);
+  static float __fastcall realp_(CRndSeed& seed);
+  static double __fastcall lrealp_(CRndSeed& seed);
+  static float __fastcall reals_(CRndSeed& seed);
+  static double __fastcall lreals_(CRndSeed& seed);
+  static float __fastcall reale_(float mean, CRndSeed& seed);
+  static float __fastcall reale_(CRndSeed& seed);
+  static double __fastcall lreale_(double mean, CRndSeed& seed);
+  static double __fastcall lreale_(CRndSeed& seed);
+  static float __fastcall realg_(float mean, float var, CRndSeed& seed);
+  static float __fastcall realg_(CRndSeed& seed);
+  static double __fastcall lrealg_(double mean, double var, CRndSeed& seed);
+  static double __fastcall lrealg_(CRndSeed& seed);
+  static C2Vector __fastcall C2Vector_(C2Vector* ReturnUdt);
+  static C3Vector __fastcall C3Vector_(C3Vector* ReturnUdt);
+  static unsigned long __fastcall dice_(unsigned long, unsigned long, CRndSeed& seed);
+  static unsigned long __fastcall dice_(unsigned long, CRndSeed& seed);
+  static unsigned char __fastcall coin_(float, CRndSeed& seed);
+  static unsigned char __fastcall coin_(unsigned long, unsigned long, CRndSeed& seed);
+  static unsigned char __fastcall coin_(unsigned long, CRndSeed& seed);
+  static unsigned char __fastcall coin_(CRndSeed& seed);
+  static void __fastcall array_(C3Vector* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall array_(C2Vector* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall array_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall array_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall array_(long* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall array_(unsigned long* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrayp_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrayp_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrays_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrays_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arraye_(double* buf, unsigned long count, double mean, CRndSeed& seed);
+  static void __fastcall arraye_(float* buf, unsigned long count, float mean, CRndSeed& seed);
+  static void __fastcall arraye_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arraye_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrayg_(double* buf, unsigned long count, double mean, double var, CRndSeed& seed);
+  static void __fastcall arrayg_(float* buf, unsigned long count, float mean, float var, CRndSeed& seed);
+  static void __fastcall arrayg_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall arrayg_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(double* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(float* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(unsigned long* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(long* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(unsigned short* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(short* buf, unsigned long count,CRndSeed& seed);
+  static void __fastcall shuffle_(unsigned char* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(char* buf, unsigned long count, CRndSeed& seed);
+  static void __fastcall shuffle_(char* buf, CRndSeed& seed);
+  static void __fastcall crypt_(char* buf, unsigned long size, char* password);
+  static void __fastcall crypt_(char* buf, unsigned long size, unsigned long seednum);
+  static void __fastcall checksum_(class NTempest::CRndSeed&, unsigned long&);
+  static unsigned long __fastcall checksum_(unsigned long);
+  static void __fastcall checksum8_(unsigned long, unsigned long&);
+  static void __fastcall checksum16_(unsigned long, unsigned long&);
+  static void __fastcall checksum32_(unsigned long, unsigned long&);
+  static void __fastcall checksumr_(float, unsigned long&);
+  static void __fastcall checksumm32_(unsigned long*, unsigned long, unsigned long, unsigned long&);
+  static void __fastcall checksumm32_(unsigned long*, unsigned long, unsigned long&);
+  static void __fastcall checksumm16_(unsigned short*, unsigned long, unsigned short, unsigned long&);
+  static void __fastcall checksumm16_(unsigned short*, unsigned long, unsigned long&);
+  static void __fastcall checksumm8_(unsigned char*, unsigned long, unsigned char, unsigned long&);
+  static void __fastcall checksumm8_(unsigned char*, unsigned long, unsigned long&);
+  static void __fastcall checksumms_(char**, unsigned long, unsigned long&);
+  static unsigned long __fastcall lattice_(long x, long y, long z, long w);
+  static unsigned long __fastcall lattice_(long x, long y, long z);
+  static unsigned long __fastcall lattice_(long x, long y);
+  static unsigned long __fastcall lattice_(long x);
+  static void __fastcall lattice2_(long x, unsigned long* vtx);
+  static void __fastcall lattice4_(long x, long y, unsigned long* vtx);
+  static void __fastcall lattice8_(long x, long y, long z, unsigned long* vtx);
+  static void __fastcall lattice3_(long x, unsigned long* vtx);
+  static void __fastcall lattice9_(long x, long y, unsigned long* vtx);
+  static void __fastcall lattice27_(long x, long y, long zc, unsigned long* vtx);
+  static float __fastcall noise_(double x, double y, double z, C3Vector& d);
+  static float __fastcall noise_(double x, double y, double z);
+  static float __fastcall noise_(double x, double y);
+  static float __fastcall noise_(double x);
+  static float __fastcall turbulence_(double x, double y, double z, C3Vector& d, unsigned long __formal);
+
+};
+
+
+class NTempest::C22Matrix 
 {
 
   // static data ------------------------------------
 
   // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long x;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long y;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long z;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long w;
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float b0;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float b1;
 
   // base classes -----------------------------------
 
   // friends ----------------------------------------
 
   // static functions -------------------------------
-  static class NTempest::C4iVector __fastcall Min(class NTempest::C4iVector&, class NTempest::C4iVector&);
-  static class NTempest::C4iVector __fastcall Max(class NTempest::C4iVector&, class NTempest::C4iVector&);
-  static long __fastcall Dot(class NTempest::C4iVector&, class NTempest::C4iVector&);
+  static class NTempest::C22Matrix __fastcall NTempest::C22Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt);
 
   // non-virtual functions --------------------------
-  void __thiscall C4iVector(class NTempest::C4Vector&);
-  void __thiscall C4iVector(class NTempest::C3iVector&);
-  void __thiscall C4iVector(class NTempest::C2iVector&);
-  void __thiscall C4iVector(long, long, long, long);
-  void __thiscall C4iVector(long);
-  void __thiscall ~C4iVector();
-  void __thiscall Get(long&, long&, long&, long&);
-  void __thiscall Set(long, long, long, long);
-  class NTempest::C2iVector __thiscall operator class NTempest::C2iVector();
-  class NTempest::C3iVector __thiscall operator class NTempest::C3iVector();
-  class NTempest::C4iVector& __thiscall operator+=(long);
-  class NTempest::C4iVector& __thiscall operator+=(class NTempest::C4iVector&);
-  class NTempest::C4iVector& __thiscall operator-=(long);
-  class NTempest::C4iVector& __thiscall operator-=(class NTempest::C4iVector&);
-  class NTempest::C4iVector& __thiscall operator*=(long);
-  class NTempest::C4iVector& __thiscall operator*=(class NTempest::C4iVector&);
-  class NTempest::C4iVector& __thiscall operator/=(long);
-  class NTempest::C4iVector& __thiscall operator/=(class NTempest::C4iVector&);
-  class NTempest::C4iVector& __thiscall operator>>=(long);
-  class NTempest::C4iVector& __thiscall operator>>=(class NTempest::C4iVector&);
-  class NTempest::C4iVector& __thiscall operator<<=(long);
-  class NTempest::C4iVector& __thiscall operator<<=(class NTempest::C4iVector&);
-  class NTempest::C4iVector __thiscall operator-();
-  long __thiscall SquaredMag();
-  long __thiscall Mag();
-  long __thiscall SumC();
-  unsigned char __thiscall IsUnit();
-  void __thiscall Normalize();
-  void __thiscall Scale(long);
-  void __thiscall Minimize(class NTempest::C4iVector&);
-  void __thiscall Maximize(class NTempest::C4iVector&);
-  void __thiscall __dflt_ctor_closure();
+  void __thiscall C22Matrix(class NTempest::C2Vector&, class NTempest::C2Vector&);
+  void __thiscall C22Matrix(float, float, float, float);
+  void __thiscall C22Matrix(float);
+  void __thiscall C22Matrix();
+  void __thiscall ~C22Matrix();
+  class NTempest::C22Matrix __thiscall asC22Matrix();
+  class NTempest::C22Matrix* __thiscall asFloatPtr();
+  float* __thiscall Access();
+  float* __thiscall Access();
+  float* __thiscall operator[](unsigned int);
+  float* __thiscall operator[](unsigned int);
+  class NTempest::C2Vector* __thiscall Row0AsVec2();
+  class NTempest::C2Vector* __thiscall Row1AsVec2();
+  class NTempest::C2Vector __thiscall Row0();
+  class NTempest::C2Vector __thiscall Row1();
+  class NTempest::C2Vector __thiscall Col0();
+  class NTempest::C2Vector __thiscall Col1();
+  class NTempest::C22Matrix& __thiscall operator+=(class NTempest::C22Matrix&);
+  class NTempest::C22Matrix& __thiscall operator-=(class NTempest::C22Matrix&);
+  class NTempest::C22Matrix& __thiscall operator*=(float);
+  class NTempest::C22Matrix& __thiscall operator*=(class NTempest::C22Matrix&);
+  class NTempest::C22Matrix& __thiscall operator/=(float);
+  void __thiscall Zero();
+  void __thiscall Identity();
+  float __thiscall Trace();
+  class NTempest::C22Matrix __thiscall Transpose();
+  float __thiscall Determinant();
+  class NTempest::C22Matrix __thiscall Inverse();
+  class NTempest::C22Matrix __thiscall Inverse(float);
   void* __thiscall __vecDelDtor(unsigned int);
 
   // virtual functions ------------------------------
 };
 // <size 0x10>
+
+class NTempest::C33Matrix 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float a2;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float b0;
+  /*<thisrel this+0x10>*/ /*|0x4|*/ float b1;
+  /*<thisrel this+0x14>*/ /*|0x4|*/ float b2;
+  /*<thisrel this+0x18>*/ /*|0x4|*/ float c0;
+  /*<thisrel this+0x1c>*/ /*|0x4|*/ float c1;
+  /*<thisrel this+0x20>*/ /*|0x4|*/ float c2;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static float __fastcall Det(float, float, float, float);
+  static class NTempest::C33Matrix __fastcall NTempest::C33Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt);
+  static class NTempest::C33Matrix __fastcall NTempest::C33Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
+
+  // non-virtual functions --------------------------
+  void __thiscall C33Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall NTempest::C33Matrix::C33Matrix(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a0, /*<regrel ebp+0xc>*/ /*|0x4|*/ float a1, /*<regrel ebp+0x10>*/ /*|0x4|*/ float a2, /*<regrel ebp+0x14>*/ /*|0x4|*/ float b0, /*<regrel ebp+0x18>*/ /*|0x4|*/ float b1, /*<regrel ebp+0x1c>*/ /*|0x4|*/ float b2, /*<regrel ebp+0x20>*/ /*|0x4|*/ float c0, /*<regrel ebp+0x24>*/ /*|0x4|*/ float c1, /*<regrel ebp+0x28>*/ /*|0x4|*/ float c2);
+  void __thiscall C33Matrix(float);
+  void __thiscall C33Matrix();
+  void __thiscall ~C33Matrix();
+  class NTempest::C33Matrix __thiscall asC33Matrix();
+  class NTempest::C33Matrix* __thiscall asFloatPtr();
+  float* __thiscall Access();
+  float* __thiscall Access();
+  float* __thiscall operator[](unsigned int);
+  float* __thiscall operator[](unsigned int);
+  class NTempest::C2Vector* __thiscall Row0AsVec2();
+  class NTempest::C2Vector* __thiscall Row1AsVec2();
+  class NTempest::C2Vector* __thiscall Row2AsVec2();
+  class NTempest::C3Vector* __thiscall Row0AsVec3();
+  class NTempest::C3Vector* __thiscall Row0AsVec3();
+  class NTempest::C3Vector* __thiscall Row1AsVec3();
+  class NTempest::C3Vector* __thiscall Row1AsVec3();
+  class NTempest::C3Vector* __thiscall Row2AsVec3();
+  class NTempest::C3Vector* __thiscall Row2AsVec3();
+  class NTempest::C3Vector __thiscall Row0();
+  class NTempest::C3Vector __thiscall Row1();
+  class NTempest::C3Vector __thiscall Row2();
+  class NTempest::C3Vector __thiscall Col0();
+  class NTempest::C3Vector __thiscall Col1();
+  class NTempest::C3Vector __thiscall Col2();
+  class NTempest::C33Matrix& __thiscall operator+=(class NTempest::C33Matrix&);
+  class NTempest::C33Matrix& __thiscall operator-=(class NTempest::C33Matrix&);
+  class NTempest::C33Matrix& __thiscall operator*=(float);
+  class NTempest::C33Matrix& __thiscall operator*=(class NTempest::C33Matrix&);
+  class NTempest::C33Matrix& __thiscall operator/=(float);
+  void __thiscall Zero();
+  void __thiscall Identity();
+  float __thiscall Trace();
+  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y);
+  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C2Vector& scale);
+  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float scale);
+  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y, /*<regrel ebp+0x10>*/ /*|0x4|*/ float z);
+  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& scale);
+  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle);
+  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& rotation);
+  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char unit);
+  void __thiscall NTempest::C33Matrix::Translate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C2Vector& move);
+  class NTempest::C33Matrix __thiscall Transpose();
+  float __thiscall NTempest::C33Matrix::Determinant();
+  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Cofactors();
+  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Adjoint();
+  class NTempest::C33Matrix __thiscall Inverse();
+  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Inverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
+  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
+  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
+  class NTempest::C33Matrix __thiscall AffineInverse();
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesXYZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& za_);
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesXZY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& ya_);
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesYXZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& za_);
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesYZX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& xa_);
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesZXY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& ya_);
+  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesZYX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& xa_);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesXYZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesXZY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesYXZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesYZX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesZXY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void __thiscall NTempest::C33Matrix::FromEulerAnglesZYX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x24>
+
+class NTempest::C34Matrix 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float a2;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float b0;
+  /*<thisrel this+0x10>*/ /*|0x4|*/ float b1;
+  /*<thisrel this+0x14>*/ /*|0x4|*/ float b2;
+  /*<thisrel this+0x18>*/ /*|0x4|*/ float c0;
+  /*<thisrel this+0x1c>*/ /*|0x4|*/ float c1;
+  /*<thisrel this+0x20>*/ /*|0x4|*/ float c2;
+  /*<thisrel this+0x24>*/ /*|0x4|*/ float d0;
+  /*<thisrel this+0x28>*/ /*|0x4|*/ float d1;
+  /*<thisrel this+0x2c>*/ /*|0x4|*/ float d2;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::C34Matrix __fastcall NTempest::C34Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
+  static class NTempest::C3Vector __fastcall mul3v33m_(class NTempest::C34Matrix&, class NTempest::C3Vector&);
+  static class NTempest::C3Vector __fastcall mul3v33m_(class NTempest::C3Vector&, class NTempest::C34Matrix&);
+
+  // non-virtual functions --------------------------
+  void __thiscall C34Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C34Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C34Matrix(class NTempest::C33Matrix&);
+  void __thiscall NTempest::C34Matrix::C34Matrix(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a0, /*<regrel ebp+0xc>*/ /*|0x4|*/ float a1, /*<regrel ebp+0x10>*/ /*|0x4|*/ float a2, /*<regrel ebp+0x14>*/ /*|0x4|*/ float b0, /*<regrel ebp+0x18>*/ /*|0x4|*/ float b1, /*<regrel ebp+0x1c>*/ /*|0x4|*/ float b2, /*<regrel ebp+0x20>*/ /*|0x4|*/ float c0, /*<regrel ebp+0x24>*/ /*|0x4|*/ float c1, /*<regrel ebp+0x28>*/ /*|0x4|*/ float c2, /*<regrel ebp+0x2c>*/ /*|0x4|*/ float d0, /*<regrel ebp+0x30>*/ /*|0x4|*/ float d1, /*<regrel ebp+0x34>*/ /*|0x4|*/ float d2);
+  void __thiscall C34Matrix(float);
+  void __thiscall NTempest::C34Matrix::C34Matrix();
+  void __thiscall ~C34Matrix();
+  float* __thiscall Access();
+  float* __thiscall Access();
+  float* __thiscall operator[](unsigned int);
+  float* __thiscall operator[](unsigned int);
+  class NTempest::C3Vector* __thiscall Row0AsVec3();
+  class NTempest::C3Vector* __thiscall Row0AsVec3();
+  class NTempest::C3Vector* __thiscall Row1AsVec3();
+  class NTempest::C3Vector* __thiscall Row1AsVec3();
+  class NTempest::C3Vector* __thiscall Row2AsVec3();
+  class NTempest::C3Vector* __thiscall Row2AsVec3();
+  class NTempest::C3Vector* __thiscall Row3AsVec3();
+  class NTempest::C3Vector* __thiscall Row3AsVec3();
+  class NTempest::C3Vector __thiscall Row0();
+  class NTempest::C3Vector __thiscall Row1();
+  class NTempest::C3Vector __thiscall Row2();
+  class NTempest::C3Vector __thiscall Row3();
+  class NTempest::C4Vector __thiscall Col0();
+  class NTempest::C4Vector __thiscall Col1();
+  class NTempest::C4Vector __thiscall Col2();
+  class NTempest::C33Matrix __thiscall operator class NTempest::C33Matrix();
+  class NTempest::C34Matrix& __thiscall operator=(class NTempest::C34Matrix&);
+  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator+=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
+  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator-=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
+  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
+  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator/=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  void __thiscall Zero();
+  void __thiscall Identity();
+  float __thiscall Trace();
+  void __thiscall NTempest::C34Matrix::Translate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& move);
+  void __thiscall NTempest::C34Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float scale);
+  void __thiscall NTempest::C34Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& scale);
+  void __thiscall NTempest::C34Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& rotation);
+  void __thiscall NTempest::C34Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char unit);
+  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
+  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
+  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x30>
 
 class NTempest::C44Matrix 
 {
@@ -1375,234 +1443,201 @@ class NTempest::C44Matrix
 };
 // <size 0x40>
 
-class NTempest::C34Matrix 
+class NTempest::CiRect 
 {
 
   // static data ------------------------------------
 
   // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float a2;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float b0;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ float b1;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ float b2;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ float c0;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ float c1;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ float c2;
-  /*<thisrel this+0x24>*/ /*|0x4|*/ float d0;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ float d1;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ float d2;
+  /*<thisrel this+0x0>*/ /*|0x4|*/ long t;
+  /*<thisrel this+0x0>*/ /*|0x4|*/ long miny;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ long l;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ long minx;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ long b;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ long maxy;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ long r;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ long maxx;
 
   // base classes -----------------------------------
 
   // friends ----------------------------------------
 
   // static functions -------------------------------
-  static class NTempest::C34Matrix __fastcall NTempest::C34Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
-  static class NTempest::C3Vector __fastcall mul3v33m_(class NTempest::C34Matrix&, class NTempest::C3Vector&);
-  static class NTempest::C3Vector __fastcall mul3v33m_(class NTempest::C3Vector&, class NTempest::C34Matrix&);
+  static class NTempest::CiRect __fastcall Intersection(class NTempest::CiRect&, class NTempest::CiRect&, class NTempest::CiRect&);
+  static class NTempest::CiRect __fastcall NTempest::CiRect::Intersection(/*<register ecx>*/ /*|0x4|*/ class NTempest::CiRect* __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::CiRect& l);
+  static class NTempest::CiRect __fastcall Union(class NTempest::CiRect&, class NTempest::CiRect&);
+  static class NTempest::CiRect __fastcall ClippedLocal(class NTempest::CiRect&, class NTempest::CiRect&);
+  static unsigned long __fastcall Difference(class NTempest::CiRect&, class NTempest::CiRect&, class NTempest::CiRect*);
 
   // non-virtual functions --------------------------
-  void __thiscall C34Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
-  void __thiscall C34Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
-  void __thiscall C34Matrix(class NTempest::C33Matrix&);
-  void __thiscall NTempest::C34Matrix::C34Matrix(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a0, /*<regrel ebp+0xc>*/ /*|0x4|*/ float a1, /*<regrel ebp+0x10>*/ /*|0x4|*/ float a2, /*<regrel ebp+0x14>*/ /*|0x4|*/ float b0, /*<regrel ebp+0x18>*/ /*|0x4|*/ float b1, /*<regrel ebp+0x1c>*/ /*|0x4|*/ float b2, /*<regrel ebp+0x20>*/ /*|0x4|*/ float c0, /*<regrel ebp+0x24>*/ /*|0x4|*/ float c1, /*<regrel ebp+0x28>*/ /*|0x4|*/ float c2, /*<regrel ebp+0x2c>*/ /*|0x4|*/ float d0, /*<regrel ebp+0x30>*/ /*|0x4|*/ float d1, /*<regrel ebp+0x34>*/ /*|0x4|*/ float d2);
-  void __thiscall C34Matrix(float);
-  void __thiscall NTempest::C34Matrix::C34Matrix();
-  void __thiscall ~C34Matrix();
-  float* __thiscall Access();
-  float* __thiscall Access();
-  float* __thiscall operator[](unsigned int);
-  float* __thiscall operator[](unsigned int);
-  class NTempest::C3Vector* __thiscall Row0AsVec3();
-  class NTempest::C3Vector* __thiscall Row0AsVec3();
-  class NTempest::C3Vector* __thiscall Row1AsVec3();
-  class NTempest::C3Vector* __thiscall Row1AsVec3();
-  class NTempest::C3Vector* __thiscall Row2AsVec3();
-  class NTempest::C3Vector* __thiscall Row2AsVec3();
-  class NTempest::C3Vector* __thiscall Row3AsVec3();
-  class NTempest::C3Vector* __thiscall Row3AsVec3();
-  class NTempest::C3Vector __thiscall Row0();
-  class NTempest::C3Vector __thiscall Row1();
-  class NTempest::C3Vector __thiscall Row2();
-  class NTempest::C3Vector __thiscall Row3();
-  class NTempest::C4Vector __thiscall Col0();
-  class NTempest::C4Vector __thiscall Col1();
-  class NTempest::C4Vector __thiscall Col2();
-  class NTempest::C33Matrix __thiscall operator class NTempest::C33Matrix();
-  class NTempest::C34Matrix& __thiscall operator=(class NTempest::C34Matrix&);
-  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator+=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
-  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator-=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
-  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator*=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C34Matrix& a);
-  class NTempest::C34Matrix& __thiscall NTempest::C34Matrix::operator/=(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
-  void __thiscall Zero();
-  void __thiscall Identity();
-  float __thiscall Trace();
-  void __thiscall NTempest::C34Matrix::Translate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& move);
-  void __thiscall NTempest::C34Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float scale);
-  void __thiscall NTempest::C34Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& scale);
-  void __thiscall NTempest::C34Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& rotation);
-  void __thiscall NTempest::C34Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char unit);
-  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
-  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
-  class NTempest::C34Matrix __thiscall NTempest::C34Matrix::AffineInverse();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x30>
-
-class NTempest::C33Matrix 
-{
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float a2;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float b0;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ float b1;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ float b2;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ float c0;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ float c1;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ float c2;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static float __fastcall Det(float, float, float, float);
-  static class NTempest::C33Matrix __fastcall NTempest::C33Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt);
-  static class NTempest::C33Matrix __fastcall NTempest::C33Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
-
-  // non-virtual functions --------------------------
-  void __thiscall C33Matrix(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
-  void __thiscall NTempest::C33Matrix::C33Matrix(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a0, /*<regrel ebp+0xc>*/ /*|0x4|*/ float a1, /*<regrel ebp+0x10>*/ /*|0x4|*/ float a2, /*<regrel ebp+0x14>*/ /*|0x4|*/ float b0, /*<regrel ebp+0x18>*/ /*|0x4|*/ float b1, /*<regrel ebp+0x1c>*/ /*|0x4|*/ float b2, /*<regrel ebp+0x20>*/ /*|0x4|*/ float c0, /*<regrel ebp+0x24>*/ /*|0x4|*/ float c1, /*<regrel ebp+0x28>*/ /*|0x4|*/ float c2);
-  void __thiscall C33Matrix(float);
-  void __thiscall C33Matrix();
-  void __thiscall ~C33Matrix();
-  class NTempest::C33Matrix __thiscall asC33Matrix();
-  class NTempest::C33Matrix* __thiscall asFloatPtr();
-  float* __thiscall Access();
-  float* __thiscall Access();
-  float* __thiscall operator[](unsigned int);
-  float* __thiscall operator[](unsigned int);
-  class NTempest::C2Vector* __thiscall Row0AsVec2();
-  class NTempest::C2Vector* __thiscall Row1AsVec2();
-  class NTempest::C2Vector* __thiscall Row2AsVec2();
-  class NTempest::C3Vector* __thiscall Row0AsVec3();
-  class NTempest::C3Vector* __thiscall Row0AsVec3();
-  class NTempest::C3Vector* __thiscall Row1AsVec3();
-  class NTempest::C3Vector* __thiscall Row1AsVec3();
-  class NTempest::C3Vector* __thiscall Row2AsVec3();
-  class NTempest::C3Vector* __thiscall Row2AsVec3();
-  class NTempest::C3Vector __thiscall Row0();
-  class NTempest::C3Vector __thiscall Row1();
-  class NTempest::C3Vector __thiscall Row2();
-  class NTempest::C3Vector __thiscall Col0();
-  class NTempest::C3Vector __thiscall Col1();
-  class NTempest::C3Vector __thiscall Col2();
-  class NTempest::C33Matrix& __thiscall operator+=(class NTempest::C33Matrix&);
-  class NTempest::C33Matrix& __thiscall operator-=(class NTempest::C33Matrix&);
-  class NTempest::C33Matrix& __thiscall operator*=(float);
-  class NTempest::C33Matrix& __thiscall operator*=(class NTempest::C33Matrix&);
-  class NTempest::C33Matrix& __thiscall operator/=(float);
-  void __thiscall Zero();
-  void __thiscall Identity();
-  float __thiscall Trace();
-  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y);
-  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C2Vector& scale);
-  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float scale);
-  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ float x, /*<regrel ebp+0xc>*/ /*|0x4|*/ float y, /*<regrel ebp+0x10>*/ /*|0x4|*/ float z);
-  void __thiscall NTempest::C33Matrix::Scale(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& scale);
-  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle);
-  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& rotation);
-  void __thiscall NTempest::C33Matrix::Rotate(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char unit);
-  void __thiscall NTempest::C33Matrix::Translate(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C2Vector& move);
-  class NTempest::C33Matrix __thiscall Transpose();
-  float __thiscall NTempest::C33Matrix::Determinant();
-  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Cofactors();
-  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Adjoint();
-  class NTempest::C33Matrix __thiscall Inverse();
-  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Inverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
-  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
-  class NTempest::C33Matrix __thiscall NTempest::C33Matrix::AffineInverse(/*<regrel ebp+0x8>*/ /*|0x0|*/ ... __$ReturnUdt);
-  class NTempest::C33Matrix __thiscall AffineInverse();
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesXYZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& za_);
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesXZY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& ya_);
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesYXZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& za_);
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesYZX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& xa_);
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesZXY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& xa_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& ya_);
-  unsigned char __thiscall NTempest::C33Matrix::ToEulerAnglesZYX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& za_, /*<regrel ebp+0xc>*/ /*|0x4|*/ float& ya_, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& xa_);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesXYZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesXZY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesYXZ(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesYZX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesZXY(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void __thiscall NTempest::C33Matrix::FromEulerAnglesZYX(/*<regrel ebp+0x8>*/ /*|0x4|*/ float yaw, /*<regrel ebp+0xc>*/ /*|0x4|*/ float pitch, /*<regrel ebp+0x10>*/ /*|0x4|*/ float roll);
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x24>
-
-class NTempest::C22Matrix 
-{
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float a0;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float a1;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float b0;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float b1;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static class NTempest::C22Matrix __fastcall NTempest::C22Matrix::Rotation(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt);
-
-  // non-virtual functions --------------------------
-  void __thiscall C22Matrix(class NTempest::C2Vector&, class NTempest::C2Vector&);
-  void __thiscall C22Matrix(float, float, float, float);
-  void __thiscall C22Matrix(float);
-  void __thiscall C22Matrix();
-  void __thiscall ~C22Matrix();
-  class NTempest::C22Matrix __thiscall asC22Matrix();
-  class NTempest::C22Matrix* __thiscall asFloatPtr();
-  float* __thiscall Access();
-  float* __thiscall Access();
-  float* __thiscall operator[](unsigned int);
-  float* __thiscall operator[](unsigned int);
-  class NTempest::C2Vector* __thiscall Row0AsVec2();
-  class NTempest::C2Vector* __thiscall Row1AsVec2();
-  class NTempest::C2Vector __thiscall Row0();
-  class NTempest::C2Vector __thiscall Row1();
-  class NTempest::C2Vector __thiscall Col0();
-  class NTempest::C2Vector __thiscall Col1();
-  class NTempest::C22Matrix& __thiscall operator+=(class NTempest::C22Matrix&);
-  class NTempest::C22Matrix& __thiscall operator-=(class NTempest::C22Matrix&);
-  class NTempest::C22Matrix& __thiscall operator*=(float);
-  class NTempest::C22Matrix& __thiscall operator*=(class NTempest::C22Matrix&);
-  class NTempest::C22Matrix& __thiscall operator/=(float);
-  void __thiscall Zero();
-  void __thiscall Identity();
-  float __thiscall Trace();
-  class NTempest::C22Matrix __thiscall Transpose();
-  float __thiscall Determinant();
-  class NTempest::C22Matrix __thiscall Inverse();
-  class NTempest::C22Matrix __thiscall Inverse(float);
+  void __thiscall CiRect(struct tagRECT&);
+  void __thiscall CiRect(class NTempest::C2iVector&, class NTempest::C2iVector&);
+  void __thiscall CiRect(class NTempest::C2iVector&);
+  void __thiscall NTempest::CiRect::CiRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ long top, /*<regrel ebp+0xc>*/ /*|0x4|*/ long left, /*<regrel ebp+0x10>*/ /*|0x4|*/ long bottom, /*<regrel ebp+0x14>*/ /*|0x4|*/ long right);
+  void __thiscall CiRect(long);
+  void __thiscall ~CiRect();
+  void __thiscall Get(long&, long&, long&, long&);
+  void __thiscall Set(long, long, long, long);
+  struct tagRECT __thiscall operator struct tagRECT();
+  class NTempest::CiRect& __thiscall operator+=(class NTempest::CiRect&);
+  class NTempest::CiRect& __thiscall operator-=(class NTempest::CiRect&);
+  class NTempest::CiRect& __thiscall operator*=(class NTempest::CiRect&);
+  class NTempest::CiRect& __thiscall operator/=(class NTempest::CiRect&);
+  class NTempest::CiRect __thiscall operator-();
+  void __thiscall Stretch(class NTempest::C2iVector&);
+  void __thiscall Stretch(long, long);
+  void __thiscall Offset(class NTempest::C2iVector&);
+  void __thiscall Offset(long, long);
+  unsigned char __thiscall NotEmpty();
+  unsigned char __thiscall Empty();
+  unsigned char __thiscall Invalid();
+  unsigned char __thiscall NotInvalid();
+  unsigned char __thiscall Encloses(class NTempest::CiRect&);
+  unsigned char __thiscall Encloses(class NTempest::C2iVector&);
+  unsigned char __thiscall Contains(class NTempest::CiRect&);
+  unsigned char __thiscall Contains(class NTempest::C2iVector&);
+  unsigned char __thiscall InOpenR(class NTempest::CiRect&);
+  unsigned char __thiscall InOpenR(class NTempest::C2iVector&);
+  long __thiscall NTempest::CiRect::Width();
+  long __thiscall NTempest::CiRect::Height();
+  void __thiscall SetWidth(long);
+  void __thiscall SetHeight(long);
+  class NTempest::C2iVector __thiscall TopLeft();
+  class NTempest::C2iVector __thiscall TopRight();
+  class NTempest::C2iVector __thiscall BottomLeft();
+  class NTempest::C2iVector __thiscall BottomRight();
+  void __thiscall Center(class NTempest::CiRect&);
+  class NTempest::C2iVector __thiscall Center();
+  class NTempest::C2iVector __thiscall Diagonal();
+  void __thiscall CenterV(class NTempest::CiRect&);
+  void __thiscall CenterH(class NTempest::CiRect&);
+  void __thiscall AlignTop(class NTempest::CiRect&);
+  void __thiscall AlignLeft(class NTempest::CiRect&);
+  void __thiscall AlignBottom(class NTempest::CiRect&);
+  void __thiscall AlignRight(class NTempest::CiRect&);
+  class NTempest::CiRect __thiscall Intersect(class NTempest::CiRect&);
+  class NTempest::CiRect __thiscall Unite(class NTempest::CiRect&);
+  void __thiscall __dflt_ctor_closure();
   void* __thiscall __vecDelDtor(unsigned int);
 
   // virtual functions ------------------------------
 };
 // <size 0x10>
+
+class NTempest::CRect 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float t;
+  /*<thisrel this+0x0>*/ /*|0x4|*/ float miny;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float l;
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float minx;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float b;
+  /*<thisrel this+0x8>*/ /*|0x4|*/ float maxy;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float r;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float maxx;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::CRect __fastcall Lerp(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect&);
+  static class NTempest::CRect __fastcall Intersection(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect&);
+  static class NTempest::CRect __fastcall NTempest::CRect::Intersection(/*<register ecx>*/ /*|0x4|*/ class NTempest::CRect* __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::CRect& l);
+  static class NTempest::CRect __fastcall Union(class NTempest::CRect&, class NTempest::CRect&);
+  static class NTempest::CRect __fastcall ClippedLocal(class NTempest::CRect&, class NTempest::CRect&);
+  static unsigned long __fastcall Difference(class NTempest::CRect&, class NTempest::CRect&, class NTempest::CRect*);
+
+  // non-virtual functions --------------------------
+  void __thiscall CRect(struct tagRECT&);
+  void __thiscall CRect(class NTempest::CiRect&);
+  void __thiscall CRect(class NTempest::C2Vector&, class NTempest::C2Vector&);
+  void __thiscall CRect(class NTempest::C2Vector&);
+  void __thiscall NTempest::CRect::CRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ float top, /*<regrel ebp+0xc>*/ /*|0x4|*/ float left, /*<regrel ebp+0x10>*/ /*|0x4|*/ float bottom, /*<regrel ebp+0x14>*/ /*|0x4|*/ float right);
+  void __thiscall NTempest::CRect::CRect(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  void __thiscall ~CRect();
+  void __thiscall Get(float&, float&, float&, float&);
+  void __thiscall Set(float, float, float, float);
+  struct tagRECT __thiscall operator struct tagRECT();
+  class NTempest::CRect __thiscall asCRect();
+  class NTempest::CRect* __thiscall asFloatPtr();
+  class NTempest::CRect& __thiscall operator+=(class NTempest::CRect&);
+  class NTempest::CRect& __thiscall operator-=(class NTempest::CRect&);
+  class NTempest::CRect& __thiscall operator*=(class NTempest::CRect&);
+  class NTempest::CRect& __thiscall operator/=(class NTempest::CRect&);
+  class NTempest::CRect __thiscall operator-();
+  void __thiscall Stretch(class NTempest::C2Vector&);
+  void __thiscall Stretch(float, float);
+  void __thiscall Offset(class NTempest::C2Vector&);
+  void __thiscall Offset(float, float);
+  unsigned char __thiscall NTempest::CRect::NotEmpty();
+  unsigned char __thiscall Empty();
+  unsigned char __thiscall Invalid();
+  unsigned char __thiscall NotInvalid();
+  unsigned char __thiscall Encloses(class NTempest::CRect&);
+  unsigned char __thiscall Encloses(class NTempest::C2Vector&);
+  unsigned char __thiscall Contains(class NTempest::CRect&);
+  unsigned char __thiscall Contains(class NTempest::C2Vector&);
+  unsigned char __thiscall InOpenR(class NTempest::CRect&);
+  unsigned char __thiscall InOpenR(class NTempest::C2Vector&);
+  float __thiscall Width();
+  float __thiscall Height();
+  void __thiscall SetWidth(float);
+  void __thiscall SetHeight(float);
+  class NTempest::C2Vector __thiscall TopLeft();
+  class NTempest::C2Vector __thiscall TopRight();
+  class NTempest::C2Vector __thiscall BottomLeft();
+  class NTempest::C2Vector __thiscall BottomRight();
+  void __thiscall Center(class NTempest::CRect&);
+  class NTempest::C2Vector __thiscall Center();
+  class NTempest::C2Vector __thiscall Diagonal();
+  void __thiscall CenterV(class NTempest::CRect&);
+  void __thiscall CenterH(class NTempest::CRect&);
+  void __thiscall AlignTop(class NTempest::CRect&);
+  void __thiscall AlignLeft(class NTempest::CRect&);
+  void __thiscall AlignBottom(class NTempest::CRect&);
+  void __thiscall AlignRight(class NTempest::CRect&);
+  class NTempest::CRect __thiscall NTempest::CRect::Intersect(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRect* __$ReturnUdt);
+  class NTempest::CRect __thiscall Unite(class NTempest::CRect&);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x10>
+
+class NTempest::CCone 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector position;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float angle;
+  /*<thisrel this+0x10>*/ /*|0xc|*/ class NTempest::C3Vector axis;
+  /*<thisrel this+0x1c>*/ /*|0x4|*/ float height;
+  /*<thisrel this+0x20>*/ /*|0x4|*/ float cosAngle;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall CCone(class NTempest::C3Vector&, float, float, class NTempest::C3Vector&, unsigned char);
+  void __thiscall Angle(float);
+  float __thiscall Angle();
+  float __thiscall CosAngle();
+  void __thiscall ~CCone();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x24>
 
 class NTempest::CObBox 
 {
@@ -1631,6 +1666,63 @@ class NTempest::CObBox
 };
 // <size 0x3c>
 
+
+class NTempest::C4Quaternion : class NTempest::C4Vector  
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+
+  // base classes -----------------------------------
+  // baseclass class NTempest::C4Vector
+  // <base data offset+0x0>
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::C4Quaternion __fastcall NTempest::C4Quaternion::Slerp(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<register edx>*/ /*|0x4|*/ class NTempest::C4Quaternion& p);
+  static void __fastcall NTempest::C4Quaternion::SquadInterm(/*<register ecx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q0, /*<register edx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q1, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& q2, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C4Quaternion& a, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C4Quaternion& b);
+  static void __fastcall NTempest::C4Quaternion::SquadIntermMaxCompat(/*<register ecx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q0, /*<register edx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q1, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& q2, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C4Quaternion& a, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C4Quaternion& b);
+  static void __fastcall NTempest::C4Quaternion::SquadIntermTCB(/*<register ecx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q0, /*<register edx>*/ /*|0x4|*/ class NTempest::C4Quaternion& q1, /*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C4Quaternion& q2, /*<regrel ebp+0xc>*/ /*|0x4|*/ float time0, /*<regrel ebp+0x10>*/ /*|0x4|*/ float time1, /*<regrel ebp+0x14>*/ /*|0x4|*/ float time2, /*<regrel ebp+0x18>*/ /*|0x4|*/ float tension, /*<regrel ebp+0x1c>*/ /*|0x4|*/ float continuity, /*<regrel ebp+0x20>*/ /*|0x4|*/ float bias, /*<regrel ebp+0x24>*/ /*|0x4|*/ class NTempest::C4Quaternion& a, /*<regrel ebp+0x28>*/ /*|0x4|*/ class NTempest::C4Quaternion& b);
+  static class NTempest::C4Quaternion __fastcall NTempest::C4Quaternion::Squad(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<register edx>*/ /*|0x4|*/ class NTempest::C4Quaternion& p, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C4Quaternion& a, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C4Quaternion& b);
+
+  // non-virtual functions --------------------------
+  void __thiscall C4Quaternion(float, class NTempest::C3Vector&);
+  void __thiscall NTempest::C4Quaternion::C4Quaternion(/*<regrel ebp+0x8>*/ /*|0x4|*/ float w, /*<regrel ebp+0xc>*/ /*|0x4|*/ float x, /*<regrel ebp+0x10>*/ /*|0x4|*/ float y, /*<regrel ebp+0x14>*/ /*|0x4|*/ float z);
+  void __thiscall C4Quaternion(class NTempest::C4Vector&);
+  void __thiscall C4Quaternion();
+  void __thiscall ~C4Quaternion();
+  class NTempest::C3Vector __thiscall Vector();
+  float __thiscall Real();
+  void __thiscall SetVector(class NTempest::C3Vector&);
+  void __thiscall SetReal(float);
+  void __thiscall Set(float, class NTempest::C3Vector&);
+  void __thiscall Identity();
+  void __thiscall Zero();
+  unsigned char __thiscall IsValid();
+  class NTempest::C33Matrix __thiscall operator class NTempest::C33Matrix();
+  class NTempest::C4Quaternion& __thiscall operator*=(class NTempest::C4Quaternion&);
+  class NTempest::C4Quaternion __thiscall operator*(float);
+  class NTempest::C3Vector __thiscall NTempest::C4Quaternion::operator*(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector* __$ReturnUdt);
+  float __thiscall Norm();
+  float __thiscall Abs();
+  void __thiscall NTempest::C4Quaternion::FromRotationMatrix(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C33Matrix& r);
+  void __thiscall NTempest::C4Quaternion::FromRotationMatrixInv(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C33Matrix& r);
+  void __thiscall ToRotationMatrix(class NTempest::C33Matrix&);
+  void __thiscall ToRotationMatrixInv(class NTempest::C33Matrix&);
+  void __thiscall NTempest::C4Quaternion::FromAngleAxis(/*<regrel ebp+0x8>*/ /*|0x4|*/ float angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
+  void __thiscall NTempest::C4Quaternion::ToAngleAxis(/*<regrel ebp+0x8>*/ /*|0x4|*/ float& angle, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& axis);
+  class NTempest::C4Quaternion __thiscall NTempest::C4Quaternion::Conjugate();
+  class NTempest::C4Quaternion __thiscall NTempest::C4Quaternion::Inverse();
+  class NTempest::C4Quaternion __thiscall UnitInverse();
+  class NTempest::C4Quaternion __thiscall NTempest::C4Quaternion::Exp();
+  class NTempest::C4Quaternion __thiscall NTempest::C4Quaternion::Log();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x10>
 
 class NTempest::C4QuaternionCompressed 
 {
@@ -1793,6 +1885,672 @@ class NTempest::CMemBlock : class NTempest::CEntity
   virtual /*<vtableoff 0x0>*/ void* __thiscall __vecDelDtor(unsigned int);
 };
 // <size 0x1c>
+
+class NTempest::C3Spline 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x4>*/ /*|0x4|*/ float cachedLength;
+  /*<thisrel this+0x8>*/ /*|0x14|*/ class TSGrowableArray<NTempest::C3Vector> points;
+  /*<thisrel this+0x1c>*/ /*|0x14|*/ class TSGrowableArray<float> cachedSegLength;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall NTempest::C3Spline::ValidateCache();
+  void __thiscall NTempest::C3Spline::Evaluate(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C44Matrix& coeffs, /*<regrel ebp+0x14>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  void __thiscall NTempest::C3Spline::EvaluateDer1(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C34Matrix& coeffs, /*<regrel ebp+0x14>*/ /*|0x4|*/ class NTempest::C3Vector& der);
+  void __thiscall NTempest::C3Spline::EvaluateDer2(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class C24Matrix& coeffs, /*<regrel ebp+0x14>*/ /*|0x4|*/ class NTempest::C3Vector& der);
+  float __thiscall NTempest::C3Spline::SegLength(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C44Matrix& coeffs);
+  void __thiscall NTempest::C3Spline::ParametricSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float wholeT, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int segCount, /*<regrel ebp+0x10>*/ /*|0x4|*/ unsigned int& segment, /*<regrel ebp+0x14>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline::ArclengthSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float s, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C44Matrix& coeffs, /*<regrel ebp+0x10>*/ /*|0x4|*/ unsigned int segCount, /*<regrel ebp+0x14>*/ /*|0x4|*/ unsigned int& seg, /*<regrel ebp+0x18>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline::Curvature(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C34Matrix& der1coeffs, /*<regrel ebp+0x14>*/ /*|0x4|*/ class C24Matrix& der2coeffs, /*<regrel ebp+0x18>*/ /*|0x4|*/ class NTempest::C3Vector& centerOfCurvature);
+  unsigned int __thiscall NumPoints();
+  class NTempest::C3Vector& __thiscall Point(unsigned int);
+  void __thiscall SetPoints(class TSGrowableArray<NTempest::C3Vector>&);
+  void __thiscall NTempest::C3Spline::SetPoints(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector* pts, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int count);
+  void __thiscall NTempest::C3Spline::SetPoint(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int pointSub, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& p);
+  void __thiscall NTempest::C3Spline::Pos(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& pos, /*<regrel ebp+0x10>*/ /*|0x4|*/ enum NTempest::C3Spline::EvalType ptype);
+  void __thiscall NTempest::C3Spline::Vel(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& vel, /*<regrel ebp+0x10>*/ /*|0x4|*/ enum NTempest::C3Spline::EvalType ptype);
+  void __thiscall NTempest::C3Spline::Frame(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C34Matrix& frame, /*<regrel ebp+0x10>*/ /*|0x4|*/ enum NTempest::C3Spline::EvalType ptype);
+  float __thiscall Length();
+  void __thiscall C3Spline(class NTempest::C3Spline&);
+  void __thiscall NTempest::C3Spline::C3Spline();
+  class NTempest::C3Spline& __thiscall operator=(class NTempest::C3Spline&);
+  void __thiscall NTempest::C3Spline::~C3Spline();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+  virtual /*<vtableoff 0x0>*/ float __thiscall NTempest::C3Spline::ILength(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segCount) = 0;
+  virtual /*<vtableoff 0x0>*/ float __thiscall ILength() = 0;
+  virtual /*<vtableoff 0x4>*/ void __thiscall IValidateCache() = 0;
+  virtual /*<vtableoff 0x8>*/ void __thiscall IPosArclength(float, class NTempest::C3Vector&) = 0;
+  virtual /*<vtableoff 0xc>*/ void __thiscall IPosParametric(float, class NTempest::C3Vector&) = 0;
+  virtual /*<vtableoff 0x10>*/ void __thiscall IVelArclength(float, class NTempest::C3Vector&) = 0;
+  virtual /*<vtableoff 0x14>*/ void __thiscall IVelParametric(float, class NTempest::C3Vector&) = 0;
+  virtual /*<vtableoff 0x18>*/ void __thiscall IFrameArclength(float, class NTempest::C34Matrix&) = 0;
+  virtual /*<vtableoff 0x1c>*/ void __thiscall NTempest::C3Spline::ISetPoints(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector* pts, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int count);
+};
+// <size 0x30>
+
+class NTempest::CIterator 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long iscan;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall CIterator();
+  unsigned long __thiscall Index();
+  void __thiscall SetIndex(unsigned long);
+
+  // virtual functions ------------------------------
+};
+// <size 0x4>
+
+class NTempest::CImVector 
+{
+
+  // static data ------------------------------------
+  static /*<rva 0x4becac>*/ /*|0x0|*/ unsigned char s_a1Table[0];
+  static /*<rva 0x4becb0>*/ /*|0x0|*/ unsigned char s_a4Table[0];
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0x1|*/ unsigned char b;
+  /*<thisrel this+0x1>*/ /*|0x1|*/ unsigned char g;
+  /*<thisrel this+0x2>*/ /*|0x1|*/ unsigned char r;
+  /*<thisrel this+0x3>*/ /*|0x1|*/ unsigned char a;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static unsigned char __fastcall ScaleC(unsigned long, unsigned long);
+  static unsigned char __fastcall ScaleC255(unsigned long, unsigned long);
+  static unsigned char __fastcall BlendC(unsigned long, unsigned long, unsigned long);
+  static unsigned long __fastcall MakeARGB(unsigned char, unsigned char, unsigned char, unsigned char);
+  static unsigned long __fastcall MakeRGB(unsigned char, unsigned char, unsigned char);
+  static unsigned long __fastcall A_(unsigned long);
+  static unsigned long __fastcall R_(unsigned long);
+  static unsigned long __fastcall G_(unsigned long);
+  static unsigned long __fastcall B_(unsigned long);
+  static void __fastcall Get_(unsigned long, float&, float&, float&, float&);
+  static void __fastcall Get_(unsigned long, unsigned long&, unsigned long&, unsigned long&, unsigned long&);
+  static void __fastcall Get_(unsigned long, unsigned long&, unsigned long&, unsigned long&);
+  static unsigned long __fastcall Neg(unsigned long);
+  static unsigned long __fastcall NegRGB(unsigned long);
+  static unsigned long __fastcall Desaturate(unsigned long);
+  static unsigned long __fastcall NegA(unsigned long);
+  static unsigned long __fastcall NegR(unsigned long);
+  static unsigned long __fastcall NegG(unsigned long);
+  static unsigned long __fastcall NegB(unsigned long);
+  static unsigned char __fastcall Gray(unsigned long);
+
+  // non-virtual functions --------------------------
+  unsigned long __thiscall SetC_(unsigned long, unsigned long, unsigned long);
+  void __thiscall Scale_(unsigned long);
+  void __thiscall ScaleRGB_(unsigned long);
+  void __thiscall NTempest::CImVector::Scale255_(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long a);
+  void __thiscall Scale255RGB_(unsigned long);
+  void __thiscall Multiply_(class NTempest::CImVector*);
+  void __thiscall NTempest::CImVector::MultiplyRGB_(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CImVector* s);
+  void __thiscall Blend_(unsigned long, class NTempest::CImVector*);
+  void __thiscall NTempest::CImVector::BlendRGB_(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long a, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::CImVector* s);
+  void __thiscall BlendARGB_(unsigned long, class NTempest::CImVector*);
+  void __thiscall NTempest::CImVector::Blend255_(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long a, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::CImVector* s);
+  void __thiscall NTempest::CImVector::BlendRGB255_(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long a, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::CImVector* s);
+  void __thiscall NTempest::CImVector::CImVector(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CImVector& s);
+  void __thiscall CImVector(class NTempest::CImVector*);
+  void __thiscall CImVector(unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CImVector::CImVector(/*<regrel ebp+0x8>*/ /*|0x1|*/ unsigned char a, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char r, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char g, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char b);
+  void __thiscall NTempest::CImVector::CImVector(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long n);
+  void __thiscall NTempest::CImVector::~CImVector();
+  unsigned long __thiscall A_();
+  unsigned long __thiscall R_();
+  unsigned long __thiscall G_();
+  unsigned long __thiscall B_();
+  void __thiscall Neg();
+  void __thiscall NegRGB();
+  void __thiscall Desaturate();
+  void __thiscall NegA();
+  void __thiscall NegR();
+  void __thiscall NegG();
+  void __thiscall NegB();
+  unsigned char __thiscall Gray();
+  unsigned long* __thiscall IV_();
+  void __thiscall Get(float&, float&, float&, float&);
+  void __thiscall Get(unsigned long&, unsigned long&, unsigned long&, unsigned long&);
+  void __thiscall Get(unsigned long&, unsigned long&, unsigned long&);
+  unsigned long __thiscall Get();
+  unsigned long __thiscall GetRGB();
+  void __thiscall SetA(unsigned char);
+  void __thiscall SetR(unsigned char);
+  void __thiscall SetG(unsigned char);
+  void __thiscall SetB(unsigned char);
+  void __thiscall Set(float, float, float, float);
+  void __thiscall Set(unsigned long);
+  void __thiscall Set(class NTempest::CImVector*);
+  void __thiscall Set(class NTempest::CImVector&);
+  void __thiscall Set(unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CImVector::Set(/*<regrel ebp+0x8>*/ /*|0x1|*/ unsigned char a, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char r, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char g, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char b);
+  void __thiscall SetRGB(unsigned long);
+  void __thiscall NTempest::CImVector::SetRGB(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CImVector* s);
+  void __thiscall SetRGB(class NTempest::CImVector&);
+  void __thiscall SetRGB(unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CImVector::From565(/*<regrel ebp+0x8>*/ /*|0x1|*/ unsigned char r5, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char g6, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char b5);
+  void __thiscall From1555(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall From4444(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall FromARGB(unsigned char, class NTempest::CImVector&);
+  unsigned long __thiscall operator~();
+  unsigned long __thiscall operator unsigned long();
+  void __thiscall Scale(unsigned long);
+  void __thiscall ScaleRGB(unsigned long);
+  void __thiscall Scale255(unsigned long);
+  void __thiscall Scale255RGB(unsigned long);
+  void __thiscall ScaleA(unsigned long);
+  void __thiscall ScaleA255(unsigned long);
+  void __thiscall Multiply(class NTempest::CImVector*);
+  void __thiscall MultiplyRGB(class NTempest::CImVector*);
+  void __thiscall Blend(unsigned long, unsigned long);
+  void __thiscall Blend(unsigned long, class NTempest::CImVector*);
+  void __thiscall Blend(unsigned long);
+  void __thiscall Blend(class NTempest::CImVector*);
+  void __thiscall BlendRGB(unsigned long, unsigned long);
+  void __thiscall BlendRGB(unsigned long, class NTempest::CImVector*);
+  void __thiscall BlendRGB(unsigned long);
+  void __thiscall BlendRGB(class NTempest::CImVector*);
+  void __thiscall BlendARGB(unsigned long, unsigned long);
+  void __thiscall BlendARGB(unsigned long, class NTempest::CImVector*);
+  void __thiscall Blend255(unsigned long, unsigned long);
+  void __thiscall Blend255(unsigned long, class NTempest::CImVector*);
+  void __thiscall Blend255RGB(unsigned long, unsigned long);
+  void __thiscall Blend255RGB(unsigned long, class NTempest::CImVector*);
+  class NTempest::CImVector& __thiscall NTempest::CImVector::operator=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& c);
+  class NTempest::CImVector& __thiscall operator=(class NTempest::CArgb4444&);
+  class NTempest::CImVector& __thiscall operator=(class NTempest::CArgb1555&);
+  class NTempest::CImVector& __thiscall NTempest::CImVector::operator=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRgb565& c);
+  class NTempest::CImVector& __thiscall NTempest::CImVector::operator=(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned long n);
+  class NTempest::CImVector& __thiscall operator=(class NTempest::CImVector&);
+  class NTempest::C3Vector __thiscall operator class NTempest::C3Vector();
+  unsigned char& __thiscall operator[](unsigned long);
+  unsigned char& __thiscall operator[](unsigned long);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x4>
+
+class NTempest::CArgb4444 
+{
+
+  // static data ------------------------------------
+  static /*<rva 0x4becc0>*/ /*|0x0|*/ unsigned char s_a1Table[0];
+
+  // non-static data --------------------------------
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short b:0:4;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short g:4:4;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short r:8:4;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short a:c:4;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall CArgb4444(unsigned short);
+  void __thiscall CArgb4444(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall CArgb4444();
+  void __thiscall From1555(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CArgb4444::From565(/*<regrel ebp+0x8>*/ /*|0x1|*/ unsigned char r5, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char g6, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char b5);
+  void __thiscall From4444(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall From8888(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall FromARGB(unsigned char, class NTempest::CArgb4444&);
+  unsigned short __thiscall operator unsigned short();
+  class NTempest::CArgb4444& __thiscall operator=(class NTempest::CImVector&);
+  class NTempest::CArgb4444& __thiscall operator=(class NTempest::CArgb1555&);
+  class NTempest::CArgb4444& __thiscall operator=(class NTempest::CRgb565&);
+  class NTempest::CArgb4444& __thiscall operator=(class NTempest::CArgb4444&);
+  class NTempest::CArgb4444& __thiscall operator=(unsigned short);
+
+  // virtual functions ------------------------------
+};
+// <size 0x2>
+
+class NTempest::CArgb1555 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short b:0:5;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short g:5:5;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short r:a:5;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short a:f:1;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall CArgb1555(unsigned short);
+  void __thiscall CArgb1555(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CArgb1555::CArgb1555();
+  void __thiscall From1555(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CArgb1555::From565(/*<regrel ebp+0x8>*/ /*|0x1|*/ unsigned char r5, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char g6, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char b5);
+  void __thiscall From4444(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall From8888(unsigned char, unsigned char, unsigned char, unsigned char);
+  void __thiscall FromARGB(unsigned char, class NTempest::CArgb1555&);
+  unsigned short __thiscall operator unsigned short();
+  class NTempest::CArgb1555& __thiscall operator=(class NTempest::CImVector&);
+  class NTempest::CArgb1555& __thiscall operator=(class NTempest::CArgb4444&);
+  class NTempest::CArgb1555& __thiscall NTempest::CArgb1555::operator=(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::CRgb565& c);
+  class NTempest::CArgb1555& __thiscall operator=(class NTempest::CArgb1555&);
+  class NTempest::CArgb1555& __thiscall operator=(unsigned short);
+
+  // virtual functions ------------------------------
+};
+// <size 0x2>
+
+class NTempest::CRgb565 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short b:0:5;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short g:5:6;
+  /*<bitfield this+0x0>*/ /*|0x2|*/ unsigned short r:b:5;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static unsigned char __fastcall BlendC(unsigned long, unsigned long, unsigned long);
+  static class NTempest::CRgb565 __fastcall Blend(unsigned long, class NTempest::CRgb565&, class NTempest::CRgb565&);
+
+  // non-virtual functions --------------------------
+  void __thiscall CRgb565(unsigned short);
+  void __thiscall CRgb565(unsigned char, unsigned char, unsigned char);
+  void __thiscall NTempest::CRgb565::CRgb565();
+  class NTempest::CImVector __thiscall MakeArgb();
+  void __thiscall From565(unsigned char, unsigned char, unsigned char);
+  void __thiscall From888(unsigned int, unsigned int, unsigned int);
+  void __thiscall From555(unsigned char, unsigned char, unsigned char);
+  void __thiscall From444(unsigned char, unsigned char, unsigned char);
+  void __thiscall FromARGB(unsigned char, class NTempest::CRgb565&);
+  unsigned short __thiscall operator unsigned short();
+  class NTempest::CRgb565& __thiscall operator=(class NTempest::CArgb4444&);
+  class NTempest::CRgb565& __thiscall operator=(class NTempest::CArgb1555&);
+  class NTempest::CRgb565& __thiscall operator=(class NTempest::CImVector&);
+  class NTempest::CRgb565& __thiscall operator=(class NTempest::CRgb565&);
+  class NTempest::CRgb565& __thiscall operator=(unsigned short);
+
+  // virtual functions ------------------------------
+};
+// <size 0x2>
+
+class NTempest::C3Segment 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector start;
+  /*<thisrel this+0xc>*/ /*|0xc|*/ class NTempest::C3Vector end;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall C3Segment(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C3Segment();
+  class NTempest::C3Vector __thiscall Direction();
+  class NTempest::C3Vector __thiscall Point(float);
+  class NTempest::CAaBox __thiscall AaBox();
+  void __thiscall ~C3Segment();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x18>
+
+class NTempest::CAaBox 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector b;
+  /*<thisrel this+0xc>*/ /*|0xc|*/ class NTempest::C3Vector t;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static class NTempest::CAaBox __fastcall Lerp(class NTempest::CAaBox&, class NTempest::CAaBox&, class NTempest::CAaBox&);
+  static class NTempest::CAaBox __fastcall Intersection(class NTempest::CAaBox&, class NTempest::CAaBox&, class NTempest::CAaBox&);
+  static class NTempest::CAaBox __fastcall Intersection(class NTempest::CAaBox&, class NTempest::CAaBox&);
+  static class NTempest::CAaBox __fastcall Union(class NTempest::CAaBox&, class NTempest::CAaBox&);
+  static class NTempest::CAaBox __fastcall NTempest::CAaBox::Bounding(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::CDynTable<unsigned long>& index);
+  static class NTempest::CAaBox __fastcall Bounding(class NTempest::CDynTable<NTempest::C3Vector>&);
+  static class NTempest::CAaBox __fastcall NTempest::CAaBox::Bounding(/*<register ecx>*/ /*|0x0|*/ ... __$ReturnUdt, /*<register edx>*/ /*|0x4|*/ class NTempest::C3Vector* vectors);
+
+  // non-virtual functions --------------------------
+  void __thiscall NTempest::CAaBox::CAaBox(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& bottom, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& top);
+  void __thiscall CAaBox(class NTempest::C3Vector&);
+  void __thiscall NTempest::CAaBox::CAaBox(/*<regrel ebp+0x8>*/ /*|0x4|*/ float a);
+  void __thiscall NTempest::CAaBox::~CAaBox();
+  float* __thiscall Access();
+  float* __thiscall Access();
+  void __thiscall Get(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall Set(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall Set(class NTempest::C3Vector&);
+  void __thiscall Set(float);
+  class NTempest::CAaBox& __thiscall operator+=(float);
+  class NTempest::CAaBox& __thiscall operator+=(class NTempest::CAaBox&);
+  class NTempest::CAaBox& __thiscall operator-=(float);
+  class NTempest::CAaBox& __thiscall operator-=(class NTempest::CAaBox&);
+  class NTempest::CAaBox& __thiscall operator*=(float);
+  class NTempest::CAaBox& __thiscall operator*=(class NTempest::CAaBox&);
+  class NTempest::CAaBox& __thiscall operator/=(float);
+  class NTempest::CAaBox& __thiscall operator/=(class NTempest::CAaBox&);
+  class NTempest::CAaBox __thiscall operator-();
+  unsigned char __thiscall NotEmpty();
+  unsigned char __thiscall Empty();
+  unsigned char __thiscall Encloses(class NTempest::CAaBox&);
+  unsigned char __thiscall Encloses(class NTempest::C2Vector&);
+  unsigned char __thiscall Encloses(class NTempest::C3Vector&);
+  unsigned char __thiscall Contains(class NTempest::CAaBox&);
+  unsigned char __thiscall Contains(class NTempest::C2Vector&);
+  unsigned char __thiscall Contains(class NTempest::C3Vector&);
+  unsigned char __thiscall InOpenR(class NTempest::CAaBox&);
+  unsigned char __thiscall InOpenR(class NTempest::C3Vector&);
+  unsigned char __thiscall Intersects(class NTempest::CAaBox&);
+  unsigned char __thiscall Intersects2d(class NTempest::CAaBox&);
+  float __thiscall Width();
+  float __thiscall Height();
+  float __thiscall Depth();
+  class NTempest::C3Vector __thiscall Diagonal();
+  class NTempest::C3Vector __thiscall Center();
+  void __thiscall CenterX(class NTempest::CAaBox&);
+  float __thiscall CenterX();
+  void __thiscall CenterY(class NTempest::CAaBox&);
+  float __thiscall CenterY();
+  void __thiscall CenterZ(class NTempest::CAaBox&);
+  float __thiscall CenterZ();
+  void __thiscall Stretch(float);
+  void __thiscall Stretch(class NTempest::C3Vector&);
+  void __thiscall StretchX(float);
+  void __thiscall StretchY(float);
+  void __thiscall StretchZ(float);
+  void __thiscall Offset(class NTempest::C3Vector&);
+  void __thiscall OffsetX(float);
+  void __thiscall OffsetY(float);
+  void __thiscall OffsetZ(float);
+  void __thiscall SetWidth(float);
+  void __thiscall SetHeight(float);
+  void __thiscall SetDepth(float);
+  void __thiscall SetWidthTop(float);
+  void __thiscall SetHeightTop(float);
+  void __thiscall SetDepthTop(float);
+  void __thiscall NTempest::CAaBox::Enclose(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& d);
+  void __thiscall SetWidthCenter(float);
+  void __thiscall SetHeightCenter(float);
+  void __thiscall SetDepthCenter(float);
+  void __thiscall CenterAt(class NTempest::CAaBox&);
+  void __thiscall CenterAt(class NTempest::C3Vector&);
+  void __thiscall AlignBottom(class NTempest::CAaBox&);
+  void __thiscall AlignTop(class NTempest::CAaBox&);
+  void __thiscall AlignBottomX(class NTempest::CAaBox&);
+  void __thiscall AlignTopX(class NTempest::CAaBox&);
+  void __thiscall AlignBottomY(class NTempest::CAaBox&);
+  void __thiscall AlignTopY(class NTempest::CAaBox&);
+  void __thiscall AlignBottomZ(class NTempest::CAaBox&);
+  void __thiscall AlignTopZ(class NTempest::CAaBox&);
+  class NTempest::CAaBox __thiscall Intersect(class NTempest::CAaBox&);
+  class NTempest::CAaBox __thiscall Unite(class NTempest::CAaBox&);
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x18>
+
+class NTempest::C3Spline_CatmullRom : class NTempest::C3Spline  
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x30>*/ /*|0x4|*/ enum NTempest::C3Spline_CatmullRom::SPLINE_MODE splineMode;
+
+  // base classes -----------------------------------
+  // baseclass class NTempest::C3Spline
+  // <base data offset+0x0>
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  unsigned int __thiscall SegCount();
+  float __thiscall NTempest::C3Spline_CatmullRom::SegLength(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment);
+  void __thiscall NTempest::C3Spline_CatmullRom::ParametricSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float wholeT, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int& segment, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline_CatmullRom::ArclengthSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float s, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int& seg, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline_CatmullRom::Evaluate(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  void __thiscall NTempest::C3Spline_CatmullRom::EvaluateDer1(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& der);
+  void __thiscall NTempest::C3Spline_CatmullRom::EvaluateDer2(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& der);
+  void __thiscall NTempest::C3Spline_CatmullRom::Curvature(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& centerOfCurvature);
+  void __thiscall SetSplineMode(enum NTempest::C3Spline_CatmullRom::SPLINE_MODE);
+  void __thiscall C3Spline_CatmullRom(class NTempest::C3Spline_CatmullRom&);
+  void __thiscall NTempest::C3Spline_CatmullRom::C3Spline_CatmullRom();
+  class NTempest::C3Spline_CatmullRom& __thiscall operator=(class NTempest::C3Spline_CatmullRom&);
+  void __thiscall ~C3Spline_CatmullRom();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+  virtual /*<vtableoff 0x0>*/ float __thiscall NTempest::C3Spline_CatmullRom::ILength();
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IValidateCache();
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IPosArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IPosParametric(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IVelArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& vel);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IVelParametric(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& vel);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::ISetPoints(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector* pts, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int count);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_CatmullRom::IFrameArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C34Matrix& frame);
+};
+// <size 0x34>
+
+class NTempest::C3Spline_Bezier3 : class NTempest::C3Spline  
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+
+  // base classes -----------------------------------
+  // baseclass class NTempest::C3Spline
+  // <base data offset+0x0>
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  unsigned int __thiscall SegCount();
+  float __thiscall NTempest::C3Spline_Bezier3::SegLength(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment);
+  void __thiscall NTempest::C3Spline_Bezier3::ParametricSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float wholeT, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int& segment, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline_Bezier3::ArclengthSegT(/*<regrel ebp+0x8>*/ /*|0x4|*/ float s, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int& seg, /*<regrel ebp+0x10>*/ /*|0x4|*/ float& t);
+  void __thiscall NTempest::C3Spline_Bezier3::Evaluate(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  void __thiscall NTempest::C3Spline_Bezier3::EvaluateDer1(/*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int segment, /*<regrel ebp+0xc>*/ /*|0x4|*/ float t, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& der);
+  void __thiscall C3Spline_Bezier3(class NTempest::C3Spline_Bezier3&);
+  void __thiscall C3Spline_Bezier3(class NTempest::C3Vector*, unsigned int);
+  void __thiscall C3Spline_Bezier3();
+  class NTempest::C3Spline_Bezier3& __thiscall operator=(class NTempest::C3Spline_Bezier3&);
+  void __thiscall ~C3Spline_Bezier3();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+  virtual /*<vtableoff 0x0>*/ float __thiscall NTempest::C3Spline_Bezier3::ILength();
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IValidateCache();
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IPosArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IPosParametric(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& pos);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IVelArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& vel);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IVelParametric(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& vel);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::ISetPoints(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector* pts, /*<regrel ebp+0xc>*/ /*|0x4|*/ unsigned int count);
+  virtual /*<vtableoff 0x0>*/ void __thiscall NTempest::C3Spline_Bezier3::IFrameArclength(/*<regrel ebp+0x8>*/ /*|0x4|*/ float t, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C34Matrix& frame);
+};
+// <size 0x30>
+
+class NTempest::C4Plane 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector n;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float d;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall NTempest::C4Plane::From3Pos(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& a, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& b, /*<regrel ebp+0x10>*/ /*|0x4|*/ class NTempest::C3Vector& c);
+  float* __thiscall Access();
+  float* __thiscall Access();
+  void __thiscall C4Plane(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C4Plane(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C4Plane(float, float, float, float);
+  void __thiscall NTempest::C4Plane::C4Plane(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& n, /*<regrel ebp+0xc>*/ /*|0x4|*/ float d);
+  void __thiscall Get(float&, float&, float&, float&);
+  void __thiscall Get(class NTempest::C3Vector&, float&);
+  void __thiscall NTempest::C4Plane::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& pn, /*<regrel ebp+0xc>*/ /*|0x4|*/ class NTempest::C3Vector& a);
+  void __thiscall Set(class NTempest::C3Vector&, class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall Set(float, float, float, float);
+  void __thiscall Set(class NTempest::C3Vector&, float);
+  void __thiscall Translate(class NTempest::C3Vector&);
+  class NTempest::C4Vector __thiscall operator class NTempest::C4Vector();
+  class NTempest::C4Plane __thiscall operator-();
+  float __thiscall DistSigned(class NTempest::C3Vector&);
+  float __thiscall DistSquared(class NTempest::C3Vector&);
+  float __thiscall Dist(class NTempest::C3Vector&);
+  float __thiscall SolveForX(float, float);
+  float __thiscall SolveForY(float, float);
+  float __thiscall SolveForZ(float, float);
+  void __thiscall NTempest::C4Plane::~C4Plane();
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x10>
+
+class NTempest::C3Ray 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector origin;
+  /*<thisrel this+0xc>*/ /*|0xc|*/ class NTempest::C3Vector dir;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+
+  // non-virtual functions --------------------------
+  void __thiscall C3Ray(class NTempest::C3Vector&, class NTempest::C3Vector&);
+  void __thiscall C3Ray();
+  class NTempest::C3Vector __thiscall Point(float);
+  class NTempest::CAaBox __thiscall AaBox();
+  void __thiscall ~C3Ray();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x18>
+
+class NTempest::CAaSphere 
+{
+
+  // static data ------------------------------------
+
+  // non-static data --------------------------------
+  /*<thisrel this+0x0>*/ /*|0xc|*/ class NTempest::C3Vector c;
+  /*<thisrel this+0xc>*/ /*|0x4|*/ float r;
+
+  // base classes -----------------------------------
+
+  // friends ----------------------------------------
+
+  // static functions -------------------------------
+  static float __fastcall square_(float);
+  static float __fastcall cube_(float);
+  static class NTempest::CAaBox __fastcall FindExtrema(class NTempest::CAaSphere*, unsigned long);
+  static class NTempest::CAaSphere __fastcall Lerp(class NTempest::CAaSphere&, class NTempest::CAaSphere&, class NTempest::CAaSphere&);
+  static class NTempest::CAaSphere __fastcall Bounding(class NTempest::CDynTable<NTempest::CAaSphere>&);
+  static class NTempest::CAaSphere __fastcall Bounding(class NTempest::CAaSphere*, unsigned long);
+  static class NTempest::CAaSphere __fastcall Bounding(class NTempest::CDynTable<unsigned long>&, class NTempest::CDynTable<NTempest::C3Vector>&);
+  static class NTempest::CAaSphere __fastcall Bounding(class NTempest::CDynTable<NTempest::C3Vector>&);
+  static class NTempest::CAaSphere __fastcall Bounding(class NTempest::C3Vector*, unsigned long);
+
+  // non-virtual functions --------------------------
+  void __thiscall NTempest::CAaSphere::CAaSphere(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& center, /*<regrel ebp+0xc>*/ /*|0x4|*/ float radius);
+  float* __thiscall Access();
+  float* __thiscall Access();
+  void __thiscall Get(class NTempest::C3Vector&, float&);
+  void __thiscall Set(class NTempest::C3Vector&, float);
+  float __thiscall SquaredD(class NTempest::CAaSphere&);
+  float __thiscall NTempest::CAaSphere::SquaredD(/*<regrel ebp+0x8>*/ /*|0x4|*/ class NTempest::C3Vector& p);
+  unsigned char __thiscall NotEmpty();
+  unsigned char __thiscall Empty();
+  unsigned char __thiscall Intersects(class NTempest::CAaSphere&);
+  unsigned char __thiscall Intersects(class NTempest::C3Vector&);
+  unsigned char __thiscall Encloses(class NTempest::CAaSphere&);
+  unsigned char __thiscall Encloses(class NTempest::C3Vector&);
+  unsigned char __thiscall Contains(class NTempest::CAaSphere&);
+  unsigned char __thiscall Contains(class NTempest::C3Vector&);
+  float __thiscall Diameter();
+  float __thiscall Area();
+  float __thiscall Volume();
+  class NTempest::C3Vector __thiscall Minimum();
+  class NTempest::C3Vector __thiscall Maximum();
+  void __thiscall ~CAaSphere();
+  void __thiscall __dflt_ctor_closure();
+  void* __thiscall __vecDelDtor(unsigned int);
+
+  // virtual functions ------------------------------
+};
+// <size 0x10>
 
 
 struct NTempest::CFacet 
