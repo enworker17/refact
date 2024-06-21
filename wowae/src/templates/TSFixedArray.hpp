@@ -2,7 +2,7 @@
 // TSFixedArray.hpp - template TSFixedArray
 //
 
-#pragma once;
+#pragma once
 
 #include "TSBaseArray.hpp"
 

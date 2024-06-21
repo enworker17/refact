@@ -31,7 +31,7 @@ public:
     }
     
     TSLink<T>(const TSLink<T>& source) { 
-        CopyConstructor(sorce); 
+        CopyConstructor(source); 
     }
 
     TSLink<T>&  operator=(const TSLink<T>& source) { 

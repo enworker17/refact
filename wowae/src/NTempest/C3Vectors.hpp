@@ -8,76 +8,21 @@
 
 namespace NTempest
 {
-    class C3iVector 
-    {
-        enum
-        {
-            eComponents = 0x3,
-        };
-
-    private:
-        long x;
-        long y;
-        long z;
-
-    public:
-        // static functions -------------------------------
-        static C3iVector __fastcall Min(C3iVector&, C3iVector&);
-        static C3iVector __fastcall Max(C3iVector&, C3iVector&);
-        static long __fastcall Dot(C3iVector&, C3iVector&);
-        static C3iVector __fastcall Cross(C3iVector&, C3iVector&);
-
-        // non-virtual functions --------------------------
-        C3iVector(class NTempest::C3Vector&);
-        C3iVector(class NTempest::C2iVector&);
-        C3iVector(long, long, long);
-        C3iVector(long);
-        ~C3iVector();
-
-        void Get(long&, long&, long&);
-        void Set(long, long, long);
-
-        operator C2iVector();
-        C3iVector& operator+=(long);
-        C3iVector& operator+=(C3iVector&);
-        C3iVector& operator-=(long);
-        C3iVector& operator-=(C3iVector&);
-        C3iVector& operator*=(long);
-        C3iVector& operator*=(C3iVector&);
-        C3iVector& operator/=(long);
-        C3iVector& operator/=(C3iVector&);
-        C3iVector& operator>>=(long);
-        C3iVector& operator>>=(C3iVector&);
-        C3iVector& operator<<=(long);
-        C3iVector& operator<<=(C3iVector&);
-        C3iVector operator-();
-        long& operator[](unsigned int);
-        long& operator[](const unsigned int);
-
-        long SquaredMag();
-        long Mag();
-        long SumC();
-        unsigned char IsUnit();
-        void Normalize();
-        void Scale(long);
-        void Minimize(C3iVector&);
-        void Maximize(C3iVector&);
-    };
-
-
+    class C3iVector;
+    class C3Vector;
     class C3Vector 
     {
-        enum Componets 
-        {
-            eComponents = 0x3,
-        };
-
     private:
         float x;
         float y;
         float z;
 
     public:
+        enum Componets 
+        {
+            eComponents = 0x3,
+        };
+
         enum EAxis 
         {
             C3AXIS_X = 0x0,
@@ -121,7 +66,7 @@ namespace NTempest
         C3Vector& operator/=(C3Vector&);
         C3Vector operator-();
         float& operator[](unsigned int sub);
-        float& operator[](const unsigned int sub);
+        // float& operator[](const unsigned int sub);
 
         float SquaredMag();
         float Mag();
@@ -137,4 +82,60 @@ namespace NTempest
         EAxis MinorAxis();
     };
 
+
+    class C3iVector 
+    {
+        enum
+        {
+            eComponents = 0x3,
+        };
+
+    private:
+        long x;
+        long y;
+        long z;
+
+    public:
+        // static functions -------------------------------
+        static C3iVector __fastcall Min(C3iVector&, C3iVector&);
+        static C3iVector __fastcall Max(C3iVector&, C3iVector&);
+        static long __fastcall Dot(C3iVector&, C3iVector&);
+        static C3iVector __fastcall Cross(C3iVector&, C3iVector&);
+
+        // non-virtual functions --------------------------
+        C3iVector(C3Vector&);
+        C3iVector(C2iVector&);
+        C3iVector(long, long, long);
+        C3iVector(long);
+        ~C3iVector();
+
+        void Get(long&, long&, long&);
+        void Set(long, long, long);
+
+        operator C2iVector();
+        C3iVector& operator+=(long);
+        C3iVector& operator+=(C3iVector&);
+        C3iVector& operator-=(long);
+        C3iVector& operator-=(C3iVector&);
+        C3iVector& operator*=(long);
+        C3iVector& operator*=(C3iVector&);
+        C3iVector& operator/=(long);
+        C3iVector& operator/=(C3iVector&);
+        C3iVector& operator>>=(long);
+        C3iVector& operator>>=(C3iVector&);
+        C3iVector& operator<<=(long);
+        C3iVector& operator<<=(C3iVector&);
+        C3iVector operator-();
+        long& operator[](unsigned int);
+        // long& operator[](const unsigned int);
+
+        long SquaredMag();
+        long Mag();
+        long SumC();
+        unsigned char IsUnit();
+        void Normalize();
+        void Scale(long);
+        void Minimize(C3iVector&);
+        void Maximize(C3iVector&);
+    };
 }

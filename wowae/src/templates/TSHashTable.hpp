@@ -226,7 +226,7 @@ public:
         return;
     }
 
-    virtual T* InternalNew(TSExplicitList<T, 0xDDDDDDDD>* listptr, unsigned long extrabytes, unsigned long flags) 
+    virtual T* InternalNew(TSExplicitList<T, ((int)0xDDDDDDDD)>* listptr, unsigned long extrabytes, unsigned long flags) 
     {
         return nullptr;
     }

@@ -197,7 +197,7 @@ namespace NTempest
         static int __fastcall isnan_(double);
         static int __fastcall isinf_(double);
         static void __fastcall invertarray_(double* a, unsigned long n);
-        static void __fastcall sqrtarray_(/double* a, unsigned long n);
+        static void __fastcall sqrtarray_(double* a, unsigned long n);
         static void __fastcall sqrtinvarray_(double* a, unsigned long n);
         static double __fastcall cbrt_(double);
         static float __fastcall cbrt_(float);
