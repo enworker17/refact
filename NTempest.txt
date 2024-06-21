@@ -41,17 +41,17 @@ enum NTempest::HighSystemPValue
 
 
 
-enum NTempest::C44Matrix::Components 
+enum NTempest::C44Matrix::Components // +++
 {
   eComponents = 0x10,
 };
 
-enum NTempest::C34Matrix::__unnamed_
+enum NTempest::C34Matrix::__unnamed_ // +++
 {
   eComponents = 0xc,
 };
 
-enum NTempest::C33Matrix::__unnamed_
+enum NTempest::C33Matrix::__unnamed_ // +++
 {
   eComponents = 0x9,
 };
@@ -241,7 +241,7 @@ enum NTempest::CArgb1555::__unnamed_
   eBlueS = 0x0,
 };
 
-enum NTempest::C4iVector::__unnamed_
+enum NTempest::C4iVector::__unnamed_ // +++
 {
   eComponents = 0x4,
 };
@@ -251,7 +251,7 @@ enum NTempest::C3Spline::__unnamed_
   DEFAULT_STEPS = 0x14,
 };
 
-enum NTempest::C22Matrix::__unnamed_
+enum NTempest::C22Matrix::__unnamed_ // +++
 {
   eComponents = 0x4,
 };
@@ -1281,7 +1281,7 @@ class NTempest::CRect // +++
 };
 // <size 0x10>
 
-class NTempest::CCone 
+class NTempest::CCone // +++
 {
 
   // static data ------------------------------------
@@ -1312,7 +1312,7 @@ class NTempest::CCone
 // <size 0x24>
 
 
-class NTempest::C22Matrix 
+class NTempest::C22Matrix // +++
 {
 
   // static data ------------------------------------
@@ -1366,7 +1366,7 @@ class NTempest::C22Matrix
 };
 // <size 0x10>
 
-class NTempest::C33Matrix 
+class NTempest::C33Matrix // +++
 {
 
   // static data ------------------------------------
@@ -1462,7 +1462,7 @@ class NTempest::C33Matrix
 };
 // <size 0x24>
 
-class NTempest::C34Matrix 
+class NTempest::C34Matrix // +++
 {
 
   // static data ------------------------------------
@@ -1541,7 +1541,7 @@ class NTempest::C34Matrix
 };
 // <size 0x30>
 
-class NTempest::C44Matrix 
+class NTempest::C44Matrix // +++
 {
 
   // static data ------------------------------------
@@ -1667,7 +1667,7 @@ class NTempest::CObBox
 // <size 0x3c>
 
 
-class NTempest::C4Quaternion : class NTempest::C4Vector  
+class NTempest::C4Quaternion : class NTempest::C4Vector // ++
 {
 
   // static data ------------------------------------
@@ -1724,7 +1724,7 @@ class NTempest::C4Quaternion : class NTempest::C4Vector
 };
 // <size 0x10>
 
-class NTempest::C4QuaternionCompressed 
+class NTempest::C4QuaternionCompressed // +++
 {
 
   // static data ------------------------------------
