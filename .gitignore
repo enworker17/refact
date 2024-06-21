@@ -1,7 +1,6 @@
 # Folders
-[Dd]ata
-[Bb]in
-[Bb]uild
+.vscode/
+
 
 # Files
 *.log

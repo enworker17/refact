@@ -6,7 +6,7 @@
 
 namespace NTempest
 {
-    class NTempest::CiRange 
+    class CiRange 
     {
         enum
         {

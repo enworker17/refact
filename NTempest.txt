@@ -88,17 +88,17 @@ enum NTempest::CImVector::Canal
   eBlueS = 0x0,
 };
 
-enum NTempest::C2Vector::__unnamed_
+enum NTempest::C2Vector::__unnamed_ // +++
 {
   eComponents = 0x2,
 };
 
-enum NTempest::CiRect::__unnamed_
+enum NTempest::CiRect::__unnamed_ 
 {
   eComponents = 0x4,
 };
 
-enum NTempest::C4Vector::__unnamed_
+enum NTempest::C4Vector::__unnamed_ // +++
 {
   eComponents = 0x4,
 };
@@ -118,7 +118,7 @@ enum NTempest::C3Spline::EvalType
   EVAL_COUNT = 0x2,
 };
 
-enum NTempest::C2iVector::__unnamed_
+enum NTempest::C2iVector::__unnamed_ // +++
 {
   eComponents = 0x2,
 };
@@ -168,7 +168,7 @@ enum NTempest::ETempestError
   eErrBaseU_ = 0xfff,
 };
 
-enum NTempest::C3iVector::__unnamed_
+enum NTempest::C3iVector::__unnamed_ // +++
 {
   eComponents = 0x3,
 };
@@ -266,12 +266,12 @@ enum NTempest::CiRange::__unnamed_ // +++
   eComponents = 0x2,
 };
 
-enum NTempest::C3Vector::Componets 
+enum NTempest::C3Vector::Componets // +++
 {
   eComponents = 0x3,
 };
 
-enum NTempest::C3Vector::EAxis 
+enum NTempest::C3Vector::EAxis // +++
 {
   C3AXIS_X = 0x0,
   C3AXIS_Y = 0x1,
@@ -414,7 +414,7 @@ class NTempest::CiRange // +++
 };
 // <size 0x8>
 
-class NTempest::CMath 
+class NTempest::CMath // +++
 {
 
   // static data ------------------------------------
@@ -659,7 +659,7 @@ class NTempest::CMath
 };
 // <size 0x1>
 
-class NTempest::C2iVector 
+class NTempest::C2iVector // +++
 {
 
   // static data ------------------------------------
@@ -714,7 +714,7 @@ class NTempest::C2iVector
 };
 // <size 0x8>
 
-class NTempest::C2Vector 
+class NTempest::C2Vector // +++
 {
 
   // static data ------------------------------------
@@ -774,7 +774,7 @@ class NTempest::C2Vector
 };
 // <size 0x8>
 
-class NTempest::C3iVector 
+class NTempest::C3iVector // +++
 {
 
   // static data ------------------------------------
@@ -833,7 +833,7 @@ class NTempest::C3iVector
 };
 // <size 0xc>
 
-class NTempest::C3Vector 
+class NTempest::C3Vector // +++
 {
 
   // static data ------------------------------------
@@ -898,7 +898,7 @@ class NTempest::C3Vector
 };
 // <size 0xc>
 
-class NTempest::C4iVector 
+class NTempest::C4iVector // +++
 {
 
   // static data ------------------------------------
@@ -957,7 +957,7 @@ class NTempest::C4iVector
 };
 // <size 0x10>
 
-class NTempest::C4Vector 
+class NTempest::C4Vector // +++
 {
 
   // static data ------------------------------------
