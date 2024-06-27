@@ -1,0 +1,418 @@
+ Storm\\Source\\SFile2.cpp 		*V
+ Storm\\Source\\SStr.cpp 		*V+
+ Storm\\Source\\SCmd.cpp 		*V
+ Storm\\Source\\SComp.cpp		*V
+ Storm\\Source\\SBig.cpp		*V
+ Storm\\Source\\SZip.cpp		*V
+ Storm\\Source\\SEvt.cpp		*V
+ Storm\\Source\\SSignature.cpp		*V
+ Storm\\Source\\SErr.cpp 		V
+ Storm\\Source\\SReg.cpp 		V
+ Storm\\Source\\SOption.cpp 		V
+ Storm\\Source\\SMem.cpp 		
+ Storm\\Source\\SMsg.cpp		V
+ Storm\\Source\\SRgn.cpp		V
+
+ Storm\\Source\\W32\\SDir.cpp		V
+ Storm\\Source\\W32\\SThread.cpp	V
+ Storm\\Source\\W32\\SLock.cpp
+ Storm\\Source\\W32\\SServer.cpp
+
+ ENGINE\\Source\\Event\\EvtInt.h
+ ENGINE\\Source\\Event\\EvtApi.cpp
+ ENGINE\\Source\\Event\\EvtSched.cpp	V
+ ENGINE\\Source\\Event\\EvtInput.cpp
+ ENGINE\\Source\\Event\\EvtQueue.cpp
+ ENGINE\\Source\\Event\\CInputObserver.cpp	V
+ ENGINE\\Source\\Event\\CObserver.cpp	V
+ ENGINE\\Source\\Event\\EvtTimer.cpp	V
+
+ ENGINE\\Source\\Model\\ModelCreate.cpp
+ ENGINE\\Source\\Model\\ModelRender.cpp
+ ENGINE\\Source\\Model\\ModelAnim.cpp
+ ENGINE\\Source\\Model\\ModelMisc.cpp
+ ENGINE\\Source\\Model\\CollisionData.cpp
+ ENGINE\\Source\\Model\\MdlParticleEmitter2.cpp
+ ENGINE\\Source\\Model\\MdlCamera.cpp
+ ENGINE\\Source\\Model\\MdlSgLight.cpp
+ ENGINE\\Source\\Model\\MdlRibbonEmitter.cpp
+ ENGINE\\Source\\Model\\MdlSgModel.cpp
+ ENGINE\\Source\\Model\\CollisionDisplay.cpp
+
+ ENGINE\\Source\\Os\\W32\\OsGui.cpp	V
+ ENGINE\\Source\\Os\\W32\\Time.cpp
+ ENGINE\\Source\\Os\\W32\\OsIME.cpp	V
+ ENGINE\\Source\\Os\\W32\\Path.cpp
+ ENGINE\\Source\\Os\\W32\\OsFile.cpp
+ ENGINE\\Source\\Os\\W32\\Tls.cpp
+ ENGINE\\Source\\Os\\W32\\OsCall.cpp	V
+ ENGINE\\Source\\Os\\W32\\OsTcp.cpp	V
+ ENGINE\\Source\\Os\\W32\\OSSystem.cpp
+ ENGINE\\Source\\Os\\W32\\Input.cpp
+ ENGINE\\Source\\Os\\W32\\OsSound.cpp
+ ENGINE\\Source\\Os\\W32\\OsSoundMIDI.cpp
+ ENGINE\\Source\\Os\\W32\\OsJoystick.cpp
+ ENGINE\\Source\\Os\\W32\\OsClipboard.cpp	V
+ ENGINE\\Source\\Os\\W32\\OsISoundCache.cpp	V
+
+ ENGINE\\Source\\Scrn\\STOCK.CPP
+ ENGINE\\Source\\Scrn\\PERF.CPP
+
+ ENGINE\\Source\\Services\\SysMessage.cpp	V
+ ENGINE\\Source\\Services\\Texture.cpp	V
+ ENGINE\\Source\\Services\\AsyncFileRead.cpp
+ ENGINE\\Source\\Services\\GfxSingletonManager.cpp	V
+ ENGINE\\Source\\Services\\RibbonEmitter.cpp
+ ENGINE\\Source\\Services\\ParticleSystem2.cpp
+ ENGINE\\Source\\Services\\Camera.cpp
+ ENGINE\\Source\\Services\\DataMgrInt.h
+ ENGINE\\Source\\Services\\ParticleSystem2.h
+ ENGINE\\Source\\Services\\ParticleMisc.cpp
+ ENGINE\\Source\\Services\\DataMgr.cpp
+ ENGINE\\Source\\Services\\TextBlock.cpp
+ ENGINE\\Source\\Services\\ParticleSystem.cpp
+
+ ENGINE\\Source\\Tempest\\crandom.cpp
+ ENGINE\\Source\\Tempest\\crandom.h
+ ENGINE\\Source\\Tempest\\caabox.cpp
+ ENGINE\\Source\\Tempest\\cdyntable.h
+ ENGINE\\Source\\Tempest\\cmemblock.cpp	V
+ ENGINE\\Source\\Tempest\\c34matrix.cpp
+ ENGINE\\Source\\Tempest\\c44matrix.cpp
+ ENGINE\\Source\\Tempest\\c4quaternion.cpp
+ ENGINE\\Source\\Tempest\\c4quaternion.h
+ ENGINE\\Source\\Tempest\\c33matrix.cpp
+ ENGINE\\Source\\Tempest\\c3spline.cpp
+ ENGINE\\Source\\Tempest\\cmath.cpp
+ ENGINE\\Source\\Tempest\\cimvector.cpp
+ ENGINE\\Source\\Tempest\\tempest_intersect.cpp
+
+ ENGINE\\Source\\gx\\GxApi\\GxApi.cpp
+
+ ENGINE\\Source\\gx\\CGxDevice\\CGxDevice.cpp	V
+
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\CGxDeviceOpenGl.cpp	V
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\GlExtSupport.cpp
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\CGxDeviceOpenGl.h
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\CGxOglState.cpp
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\CGxOglTexture.cpp
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\CGxOglPrim.cpp
+ ENGINE\\Source\\gx\\CGxDeviceOpenGL\\W32\\CGxOglDeviceW32.cpp
+
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dTexture.cpp	V
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dPrim.cpp
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxDeviceD3d.h
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dXform.cpp
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dCaps.cpp
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dState.cpp
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxDeviceD3d.cpp	V
+ ENGINE\\Source\\gx\\CGxDeviceD3d\\CGxD3dDevice.cpp	V
+
+ ENGINE\\Source\\Images\\tga.cpp	V
+ ENGINE\\Source\\Images\\funcs.cpp
+
+ ENGINE\\SOURCE\\FrameXML\\FrameXML.cpp	V
+ ENGINE\\SOURCE\\FrameXML\\LoadXML.cpp
+ ENGINE\\SOURCE\\FrameXML\\XMLTree.cpp	V
+
+ ENGINE\\SOURCE\\lua\\src\\lstate.c	V
+ ENGINE\\SOURCE\\lua\\src\\lgc.c	V
+ ENGINE\\SOURCE\\lua\\src\\lstring.c	V
+ ENGINE\\SOURCE\\lua\\src\\lfunc.c	V
+ ENGINE\\SOURCE\\lua\\src\\ltable.c	V
+ ENGINE\\SOURCE\\lua\\src\\lmem.c	V
+ ENGINE\\SOURCE\\lua\\src\\lparser.c	V
+ ENGINE\\SOURCE\\lua\\src\\lundump.c	V
+ ENGINE\\SOURCE\\lua\\src\\lmemPool.cpp	V
+
+ ENGINE\\SOURCE\\FrameScript\\FrameScript.cpp	V
+
+ ENGINE\\Source\\Anim\\MdlAnim.cpp
+ ENGINE\\Source\\Anim\\Interp.h
+ ENGINE\\Source\\Anim\\Interface.cpp
+ ENGINE\\Source\\Anim\\Anim.cpp
+ ENGINE\\Source\\Anim\\Transform.cpp
+ ENGINE\\Source\\Anim\\Init.cpp
+ ENGINE\\Source\\Anim\\Interp.cpp
+
+ ENGINE\\Source\\Frame\\CSimpleTop.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleModel.cpp
+ ENGINE\\Source\\Frame\\SimpleFrameRegistry.cpp
+ ENGINE\\Source\\Frame\\CSimpleFrame.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleRender.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleStatusBar.cpp
+ ENGINE\\Source\\Frame\\CBackdropGenerator.cpp
+ ENGINE\\Source\\Frame\\CSimpleRegion.cpp
+ ENGINE\\Source\\Frame\\CSimpleButton.cpp
+ ENGINE\\Source\\Frame\\CSimpleCheckbox.cpp
+ ENGINE\\Source\\Frame\\CSimpleEditBox.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleMessageFrame.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleMessageScrollFrame.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleSlider.cpp
+ ENGINE\\Source\\Frame\\CSimpleHTML.cpp	V
+ ENGINE\\Source\\Frame\\CSimpleHyperlinkedFrame.cpp	V
+
+ ENGINE\\Source\\MDLFile\\MDLFile.cpp
+ ENGINE\\Source\\MDLFile\\TokenText.cpp
+ ENGINE\\Source\\MDLFile\\GenObject.cpp
+ ENGINE\\Source\\MDLFile\\MDLTypes.h
+ ENGINE\\Source\\MDLFile\\Camera.cpp
+ ENGINE\\Source\\MDLFile\\Bone.cpp
+ ENGINE\\Source\\MDLFile\\Geoset.cpp
+ ENGINE\\Source\\MDLFile\\Texture.cpp
+ ENGINE\\Source\\MDLFile\\Sequences.cpp
+ ENGINE\\Source\\MDLFile\\Model.cpp
+ ENGINE\\Source\\MDLFile\\Version.cpp
+ ENGINE\\Source\\MDLFile\\TSet.cpp
+
+ ENGINE\\Source\\Services\\Profile.cpp
+ ENGINE\\Source\\Services\\Lightning.cpp
+
+
+ engine\\Source\\Base\\MsgBuffer.cpp	V
+ engine\\Source\\Base\\CUnreal.cpp
+ engine\\Source\\Base\\CDataRecycler.cpp	V
+ engine\\Source\\Base\\CDataAllocator.cpp	V
+ engine\\Source\\Base\\CDataStore.cpp
+ engine\\Source\\Base\\Status.cpp	V
+ engine\\Source\\Base\\Handle.cpp
+ engine\\Source\\Base\\FileCache.cpp	V
+ engine\\Source\\Base\\Prop.cpp		V
+ engine\\Source\\Base\\RCString.cpp	V
+
+ engine\\Source\\Gxu\\GxuLight.cpp
+ engine\\Source\\Gxu\\Gxu.cpp
+ engine\\Source\\Gxu\\GxuFont.cpp
+ engine\\Source\\Gxu\\GxuFontUtil.cpp	V
+ engine\\Source\\Gxu\\IGxuFont.h
+ engine\\Source\\Gxu\\GxuFontFace.cpp
+ engine\\Source\\Gxu\\IGxuFontGlyph.cpp	V
+
+ engine\\Source\\BLPFile\\blp.cpp	V
+
+
+ WoW\\Source\\SoundInterface\\SoundInterface.cpp	V
+ WoW\\Source\\SoundInterface\\SoundInterfaceProviderPrefs.cpp
+ WoW\\Source\\SoundInterface\\SoundInterfaceGlueMusic.cpp
+ WoW\\Source\\SoundInterface\\ISoundInterface.cpp	V
+ WoW\\Source\\SoundInterface\\SndDebug.cpp
+ WoW\\Source\\SoundInterface\\SoundInterfaceDoodad.cpp
+ WoW\\Source\\SoundInterface\\SoundInterfaceWater.cpp
+ WoW\\Source\\SoundInterface\\SndDebugOutdoors.cpp
+ WoW\\Source\\SoundInterface\\SndDebugIndoors.cpp
+ WoW\\Source\\SoundInterface\\SoundInterfaceVocal.cpp
+
+ WoW\\Source\\Client.cpp	V
+ WoW\\Source\\ClientCommands.cpp
+ WoW\\Source\\LoadingScreen.cpp		V
+
+ WoW\\Source\\ObjectAlloc\\ObjectAlloc.cpp	V
+
+ WoW\\Source\\ObjectMgrClient\\ObjectMgrClient.cpp	V
+
+ WoW\\Source\\Glue\\CGlueMgr.cpp	V
+ WoW\\Source\\Glue\\CharCreateInfo.cpp
+ WoW\\Source\\Glue\\CharSelectInfo.cpp
+
+ WoW\\Source\\Component\\../../Common/ComponentCore/CharacterCustomizationCore.cpp
+ WoW\\Source\\Component\\CharacterCustomization.cpp
+ WoW\\Source\\Component\\Component.cpp
+
+ WoW\\Source\\Object\\mirror.cpp
+
+ WoW\\Source\\Ui\\GameUI.cpp		V
+ WoW\\Source\\Ui\\ChatFrame.cpp		V
+ WoW\\Source\\Ui\\WorldFrame.cpp	V
+ WoW\\Source\\Ui\\PartyFrame.cpp	V
+ WoW\\Source\\Ui\\SpellBookFrame.cpp	V
+ WoW\\Source\\Ui\\LootFrame.cpp		V
+ WoW\\Source\\Ui\\DuelInfo.cpp		V
+ WoW\\Source\\Ui\\WorldMap.cpp		V
+ WoW\\Source\\Ui\\PetInfo.cpp		V
+ WoW\\Source\\Ui\\ClassTrainerFrame.cpp	V
+ WoW\\Source\\Ui\\QuestLog.cpp		V
+ WoW\\Source\\Ui\\TaxiMapFrame.cpp	V
+ WoW\\Source\\Ui\\ItemTextFrame.cpp
+ WoW\\Source\\Ui\\BuffFrame.cpp
+ WoW\\Source\\Ui\\ActionBarFrame.cpp	V
+ WoW\\Source\\Ui\\PaperDollInfoFrame.cpp	V
+ WoW\\Source\\Ui\\UIBindings.cpp	V
+ WoW\\Source\\Ui\\PetitionInfo.cpp	V
+ WoW\\Source\\Ui\\GuildRegistrar.cpp
+ WoW\\Source\\Ui\\ReputationInfo.cpp	V
+ WoW\\Source\\Ui\\CraftInfo.cpp		V
+ WoW\\Source\\Ui\\BankFrame.cpp
+ WoW\\Source\\Ui\\ContainerFrame.cpp	V
+ WoW\\Source\\Ui\\TradeFrame.cpp	V
+ WoW\\Source\\Ui\\MerchantFrame.cpp	V
+ WoW\\Source\\Ui\\TradeSkillFrame.cpp	V
+ WoW\\Source\\Ui\\QuestFrame.cpp	V
+ WoW\\Source\\Ui\\TabardModelFrame.cpp
+ WoW\\Source\\Ui\\CharacterModelBase.cpp	V
+ WoW\\Source\\Ui\\MinimapFrame.cpp	V
+ WoW\\Source\\Ui\\QuestTextParser.cpp	V
+ WoW\\Source\\Ui\\NamePlateFrame.cpp	V
+
+ WoW\\Source\\UIUtil\\SmartScreenRects.cpp
+ WoW\\Source\\UIUtil\\Tooltip.cpp		V
+ WoW\\Source\\UIUtil\\CSimpleCamera.cpp
+ WoW\\Source\\UIUtil\\Camera.cpp		V
+ WoW\\Source\\UIUtil\\InputControl.cpp		V
+ WoW\\Source\\UIUtil\\ScriptEvents.cpp		V
+ WoW\\Source\\UIUtil\\Cursor.cpp		V
+ WoW\\Source\\UIUtil\\PortraitButton.cpp	V
+ WoW\\Source\\UIUtil\\HealthBar.cpp		V
+
+ WoW\\Source\\Net\\NetInternal.cpp	V
+
+ WoW\\Source\\DB\\DBClient\\DBClient.cpp
+ WoW\\Source\\DB\\DBClient\\DBCache.cpp	V
+ WoW\\Source\\DB\\DBClient\\sdbItemSubclass.cpp
+
+ WoW\\Source\\CompFilenameDecoration\\../../Common/CompDecorationCore.cpp
+
+ WoW\\Source\\WowSvcs\\WowSvcsClient\\ClientServices.cpp	V
+ WoW\\Source\\WowSvcs\\WowSvcsClient\\FriendList.cpp		V
+
+ WoW\\Source\\WowServices\\WowConnection.cpp			V
+ WoW\\Source\\WowServices\\WDataStore.cpp			V
+ WoW\\Source\\WowServices\\Linux\\WowConnectionNetSelect.cpp
+ WoW\\Source\\WowServices\\WowConnectionNet.cpp
+
+ WoW\\Source\\Object\\ObjectClient\\Trade_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Item_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Player_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Unit_C.h
+ WoW\\Source\\Object\\ObjectClient\\GameObject_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Object_C.h
+ WoW\\Source\\Object\\ObjectClient\\GameObject_C.h
+ WoW\\Source\\Object\\ObjectClient\\Unit_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Object_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\PlayerGM_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\UnitSound_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Corpse_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Container_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\Movement_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\CollideDisplay.cpp
+ WoW\\Source\\Object\\ObjectClient\\UnitEffects.cpp
+ WoW\\Source\\Object\\ObjectClient\\IUnitEffects.h
+ WoW\\Source\\Object\\ObjectClient\\UnitFootprints.cpp
+ WoW\\Source\\Object\\ObjectClient\\UnitFootprintsI.h
+ WoW\\Source\\Object\\ObjectClient\\Bag_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\UnitCombatLog_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\GuildStats_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\UnitCombat_C.cpp
+ WoW\\Source\\Object\\ObjectClient\\PlayerSound_C.cpp
+
+ WoW\\Common\\GameObjectDefs.cpp
+ WoW\\Common\\WowTime.cpp
+ WoW\\Common\\AaBsp.cpp
+ WoW\\Common\\DayNight.cpp
+
+ WoW\\Source\\Console\\ConsoleClient.cpp
+ WoW\\Source\\Console\\ConsoleVar.cpp
+ WoW\\Source\\Console\\ConsoleCommand.cpp
+
+ WoW\\Source\\WorldClient\\World.cpp
+ WoW\\Source\\WorldClient\\AreaList.cpp
+ WoW\\Source\\WorldClient\\WorldScene.cpp
+ WoW\\Source\\WorldClient\\MapWater.cpp
+ WoW\\Source\\WorldClient\\Map.cpp
+ WoW\\Source\\WorldClient\\MapLoad.cpp
+ WoW\\Source\\WorldClient\\MapUnload.cpp
+ WoW\\Source\\WorldClient\\MapPrepare.cpp
+ WoW\\Source\\WorldClient\\MapUpdate.cpp
+ WoW\\Source\\WorldClient\\MapLight.cpp
+ WoW\\Source\\WorldClient\\MapQuery.cpp
+ WoW\\Source\\WorldClient\\MapEntity.cpp
+ WoW\\Source\\WorldClient\\MapObjGroup.cpp
+ WoW\\Source\\WorldClient\\MapMem.cpp
+ WoW\\Source\\WorldClient\\MapObj.cpp
+ WoW\\Source\\WorldClient\\MapPurge.cpp
+ WoW\\Source\\WorldClient\\MapChunk.cpp
+ WoW\\Source\\WorldClient\\MapObjRender.cpp
+ WoW\\Source\\WorldClient\\MapRender.cpp
+ WoW\\Source\\WorldClient\\DetailDoodad.cpp
+ WoW\\Source\\WorldClient\\MapDoodadDef.cpp
+ WoW\\Source\\WorldClient\\MapChunkRender.cpp
+ WoW\\Source\\WorldClient\\SimpleDoodad.cpp
+ WoW\\Source\\WorldClient\\MapArea.cpp
+ WoW\\Source\\WorldClient\\MapBaseObj.cpp
+ WoW\\Source\\WorldClient\\MapObjUpdate.cpp
+ WoW\\Source\\WorldClient\\MapObjRead.cpp
+ WoW\\Source\\WorldClient\\MapTexture.cpp
+ WoW\\Source\\WorldClient\\MapLod.cpp
+
+ WoW\\Source\\Game\\Loot.cpp
+ WoW\\Source\\Game\\GameTime.cpp
+
+ WoW\\Source\\Game\\GameClient\\GameTime_C.cpp
+ WoW\\Source\\Game\\GameClient\\TaxiMap.cpp
+ WoW\\Source\\Game\\GameClient\\WeaponTrails.cpp
+ WoW\\Source\\Game\\GameClient\\PlayerName.cpp
+ WoW\\Source\\Game\\GameClient\\WorldText.cpp
+ WoW\\Source\\Game\\GameClient\\../ValidateName.cpp
+ WoW\\Source\\Game\\GameClient\\shadow.cpp
+ WoW\\Source\\Game\\GameClient\\Minimap.cpp
+
+ WoW\\Source\\Magic\\MagicClient\\SpellTable.cpp
+ WoW\\Source\\Magic\\MagicClient\\SpellVisuals.cpp
+ WoW\\Source\\Magic\\MagicClient\\Spell_C.cpp
+
+ WoW\\Source\\Object\\CreatureStats.cpp		V
+ WoW\\Source\\Object\\GameObjectStats.cpp	V
+ WoW\\Source\\Object\\ItemStats.cpp		V
+ WoW\\Source\\Object\\NPCText.cpp		V
+ WoW\\Source\\Object\\GuildStats.cpp
+ WoW\\Source\\Object\\Combat.cpp
+ WoW\\Source\\Object\\Unit.cpp
+ WoW\\Source\\Object\\GameObject.cpp
+
+
+
+
+..\\Tempest/c3vector.h
+..\\Base/MsgBuffer.h
+..\\FrameScript/FrameScript.h
+..\\Services/MatrixStack.h
+..\\..\\..\\..\\engine\\source\\Tempest/cmath.h
+..\\..\\..\\..\\engine\\source\\Tempest/cdyntable.h
+..\\..\\..\\..\\engine\\source\\Tempest/cpriorityq.h
+..\\..\\..\\common\\MapDefs.h
+..\\..\\WorldClient/World.h
+..\\..\\Ui/PartyFrame.h
+.data:008A005C	0000002C	C	..\\..\\..\\engine\\source\\Tempest/cpriorityq.h
+.data:008A00C8	0000002B	C	..\\..\\..\\engine\\source\\Tempest/cdyntable.h
+.data:008A0168	0000002A	C	..\\..\\..\\engine\\source\\Tempest/c3vector.h
+.data:0086363C	0000001A	C	../..\\WorldClient/World.h
+.data:00865C0C	0000002C	C	../../../../engine/source\\Tempest/crandom.h
+.data:008989A4	00000014	C	..\\DB/WowClientDB.h
+.data:0085D4E4	0000002C	C	../../../../engine/source\\Base/CDataStore.h
+.data:0085D874	0000001B	C	../../../../storm/h\\stpl.h
+.data:0085F1B4	0000002A	C	../../../../engine/source\\Tempest/cmath.h
+.data:0086055C	00000014	C	../..\\Object/Unit.h
+.data:00860704	00000016	C	../..\\Ui/WorldFrame.h
+..\\Object/Item.h
+..\\Ui/WorldFrame.h
+..\\Object/Unit.h
+..\\..\\common\\TextureCacheCore.cpp
+..\\..\\..\\..\\engine\\source\\Base/CDataStore.h
+..\\..\\DB/WowClientDB.h
+..\\..\\Object/CreatureStats.h
+..\\..\\Object/GameObjectStats.h
+..\\..\\Object/ItemStats.h
+..\\..\\Object/NPCText.h
+..\\..\\..\\..\\storm\\h\\stpl.h
+..\\..\\..\\engine\\source\\Base/CDataStore.h
+..\\..\\..\\engine\\source\\Frame/CSimpleTop.h
+..\\..\\common\\ComponentCore/ComponentUtilCore.cpp
+..\\..\\common\\ComponentCore/ComponentCore.cpp
+..\\..\\common\\ComponentCore/ComponentUtilCore.h
+..\\UIUtil/Tooltip.h
+..\\WowServices/BitField.h
+..\\..\\..\\engine\\source\\FrameScript/FrameScript.h
+..\\..\\..\\engine\\source\\Tempest/cmath.h
+..\\..\\..\\storm\\h\\stpl.h
+..\\..\\..\\engine\\source\\Tempest/crandom.h
+..\\Services/RibbonEmitter.h
+..\\Services/IParticleMisc.h

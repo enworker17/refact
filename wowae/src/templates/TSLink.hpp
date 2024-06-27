@@ -63,9 +63,9 @@ public:
         return nullptr; 
     }
     
-    // const T* Next() {return nullptr; }
-    // const T* Prev() {return nullptr; }
-    // const T* RawNext() {return nullptr; }
+    const T* Next() const { return nullptr; }
+    const T* Prev() const { return nullptr; }
+    const T* RawNext() const { return nullptr; }
 
 };
 

@@ -1,0 +1,3263 @@
+
+global /*<rva 0xa13344>*/ /*|0x4|*/ void  (glMultiTexCoord4ivARB*)(unsigned int, int*)
+
+global /*<rva 0x8c4dc8>*/ /*|0x4|*/ int OsNet::TCPNET::s_preTerminateHostAddr
+
+global /*<rva 0xa11f24>*/ /*|0xc|*/ class TSList<DIRTYFACE,TSGetLink<DIRTYFACE> > s_freeList
+
+global /*<rva 0xa12344>*/ /*|0x14|*/ class WowClientDB<TaxiPathRec> g_taxiPathDB
+
+global /*<rva 0xa12740>*/ /*|0x14|*/ class WowClientDB<CharVariationsRec> g_charVariationsDB
+
+global /*<rva 0xa64e70>*/ /*|0x1|*/ unsigned char CMap::enableSpecularWater
+
+global /*<rva 0xa13354>*/ /*|0x4|*/ void  (glMultiTexCoord4dvARB*)(unsigned int, double*)
+
+global /*<rva 0xa1334c>*/ /*|0x4|*/ void  (glMultiTexCoord4fvARB*)(unsigned int, float*)
+
+global /*<rva 0x49feb0>*/ /*|0x4|*/ float CMapLight::halfBucketSize
+
+global /*<rva 0xa132a8>*/ /*|0x4|*/ int glExtBgra
+
+global /*<rva 0x425af8>*/ /*|0x10|*/ struct _GUID IID_IStream
+
+global /*<rva 0x9e4900>*/ /*|0x4|*/ int CGPetitionInfo::m_petitionID
+
+global /*<rva 0xa1333c>*/ /*|0x4|*/ void  (glMultiTexCoord4svARB*)(unsigned int, short*)
+
+global /*<rva 0xae1cc4>*/ /*|0x4|*/ void  (CMapObj::gRenderCallback*)(unsigned int, void*, int)
+
+global /*<rva 0x41f5e4>*/ /*|0x10|*/ struct _GUID GUID_Buffer_3D_Dry
+
+global /*<rva 0xa11388>*/ /*|0x4|*/ unsigned int CGTooltip::m_spellID
+
+global /*<rva 0x44b9ec>*/ /*|0x4|*/ int CGTradeSkillInfo::m_invTypeFilter
+
+global /*<rva 0xa6e498>*/ /*|0xc|*/ class TSExplicitList<CMapEntity,8> CMap::entityList
+
+global /*<rva 0xa133a0>*/ /*|0x4|*/ void  (glMultiTexCoord1sARB*)(unsigned int, short)
+
+global /*<rva 0xa1218c>*/ /*|0x14|*/ class WowClientDB<SpellChainEffectsRec> g_spellChainEffectsDB
+
+global /*<rva 0x41f6f4>*/ /*|0x10|*/ struct _GUID GUID_DisableTimeSig
+
+global /*<rva 0xa133a8>*/ /*|0x4|*/ void  (glMultiTexCoord1iARB*)(unsigned int, int)
+
+global /*<rva 0x9dbbf0>*/ /*|0x14|*/ class TSGrowableArray<NTempest::C3Vector> g_debugNormalVerts
+
+global /*<rva 0xcbaa5c>*/ /*|0x4|*/ class unreal u_1ov6
+
+global /*<rva 0xa3a3b0>*/ /*|0x4|*/ class CGxTex* CWorld::shadowModGxTex
+
+global /*<rva 0x420074>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_SERENUM_BUS_ENUMERATOR
+
+global /*<rva 0x409ce0>*/ /*|0x34|*/ char* s_questEventStrings[13]
+
+global /*<rva 0xa133b8>*/ /*|0x4|*/ void  (glMultiTexCoord1dARB*)(unsigned int, double)
+
+global /*<rva 0xa133b0>*/ /*|0x4|*/ void  (glMultiTexCoord1fARB*)(unsigned int, float)
+
+global /*<rva 0xa41b50>*/ /*|0x4|*/ int CWorldScene::frustumIndex
+
+global /*<rva 0x41fdc4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_ECHO
+
+global /*<rva 0xa1332c>*/ /*|0x4|*/ void  (glCompressedTexSubImage2DARB*)(unsigned int, int, int, int, int, int, unsigned int, int, void*)
+
+global /*<rva 0xa41ad8>*/ /*|0xc|*/ class NTempest::C3Vector CWorldScene::camPos
+
+global /*<rva 0xa408d4>*/ /*|0x4|*/ class CMapObjDef* CWorldScene::viewerMapObjDef
+
+global /*<rva 0x4bec8c>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1281976168,39>::s_name[5]
+
+global /*<rva 0x9e14b8>*/ /*|0x8|*/ unsigned __int64 CGDuelInfo::m_arbiter
+
+global /*<rva 0xcb9480>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleStatusBar::s_scriptMethods
+
+global /*<rva 0xa132e4>*/ /*|0x4|*/ void  (glBindProgramARB*)(unsigned int, unsigned int)
+
+global /*<rva 0x4af8d0>*/ /*|0x8|*/ unsigned short CSimpleRender::s_indices[4]
+
+global /*<rva 0x41f6d4>*/ /*|0x10|*/ struct _GUID GUID_DisableTempo
+
+global /*<rva 0xa133c8>*/ /*|0x4|*/ int glExtCVA
+
+global /*<rva 0x40aa80>*/ /*|0x14|*/ char* g_creatureClassification[5]
+
+global /*<rva 0x9e4ee0>*/ /*|0x14|*/ class TSGrowableArray<CraftInfo *> CGCraftInfo::m_skills
+
+global /*<rva 0x41fab4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicChordTrack
+
+global /*<rva 0xa42d00>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_triLinear
+
+global /*<rva 0x41fc54>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicDownloadedInstrument
+
+global /*<rva 0xa3753c>*/ /*|0x4|*/ void* Storm::SFile::s_explodebuffer
+
+global /*<rva 0xa4ca00>*/ /*|0x4|*/ int  (CMap::entityCollisionHandler*)(unsigned __int64, unsigned long, struct WorldObjCollisionHandlerData*)
+
+global /*<rva 0x40a674>*/ /*|0x14|*/ char* s_monsterSizeClassStrings[5]
+
+global /*<rva 0xcb22e8>*/ /*|0x20|*/ class NTempest::C2Vector DNStars::m_fadeTable[4]
+
+global /*<rva 0xa13258>*/ /*|0x4|*/ int wglEXTSwapControl
+
+global /*<rva 0x40a9b8>*/ /*|0x2c|*/ char* g_characterSections[11]
+
+global /*<rva 0x9c5ffc>*/ /*|0x4|*/ unsigned int CParticleEmitter2::s_renderedIndices
+
+global /*<rva 0xa12ab8>*/ /*|0x40|*/ class DBCache<ItemStats_C,int,HASHKEY_INT> g_itemDBCache
+
+global /*<rva 0xab3968>*/ /*|0x4|*/ unsigned int CMapChunk::farCornerIndex
+
+global /*<rva 0x49ff74>*/ /*|0x10|*/ unsigned short g_1bitSplatMask[8]
+
+global /*<rva 0x4368ac>*/ /*|0x4|*/ char* OsNet::OSNETERR_SENDFAILED
+
+global /*<rva 0x40a554>*/ /*|0x8|*/ char* g_skillAcquireStrings[2]
+
+global /*<rva 0xa132f4>*/ /*|0x4|*/ void  (glFinalCombinerInputNV*)(unsigned int, unsigned int, unsigned int, unsigned int)
+
+global /*<rva 0xa3750c>*/ /*|0x4|*/ unsigned long Storm::SFile::s_cdthreadid
+
+global /*<rva 0x44b568>*/ /*|0x4|*/ int CGTradeInfo::m_playerEnchantSlot
+
+global /*<rva 0x9dff7c>*/ /*|0x14|*/ class TSGrowableArray<int> CGSpellBook::m_shapeshiftForms
+
+global /*<rva 0x9e20b4>*/ /*|0x14|*/ class TSGrowableArray<int> CGItemText::m_pages
+
+global /*<rva 0x411014>*/ /*|0x4|*/ float CMapEntity::dirLightScaleRate
+
+global /*<rva 0xab2128>*/ /*|0x1220|*/ class NTempest::C2Vector CMapChunk::rmTexCoordList[4][145]
+
+global /*<rva 0xa42d34>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_detailDensity
+
+global /*<rva 0x41f6e4>*/ /*|0x10|*/ struct _GUID GUID_EnableTimeSig
+
+global /*<rva 0xa435d8>*/ /*|0x30|*/ class NTempest::C3Vector Particulate::s_vcv[4]
+
+global /*<rva 0xa126f0>*/ /*|0x14|*/ class WowClientDB<SpellRec> g_spellDB
+
+global /*<rva 0x4c3a94>*/ /*|0x4|*/ void  (kernel32_RemoveDirectoryW_Ptr*)()
+
+global /*<rva 0xa3754c>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_streamlock
+
+global /*<rva 0x9e606c>*/ /*|0x4|*/ unsigned int CGMerchantInfo::m_callbackCount
+
+global /*<rva 0x425958>*/ /*|0x10|*/ struct _GUID IID_IServerSecurity
+
+global /*<rva 0x41fa04>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicLyricsTrack
+
+global /*<rva 0xa42d6c>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_shadowLevel
+
+global /*<rva 0xcbabd4>*/ /*|0x4|*/ class unreal u_n2
+
+global /*<rva 0xa4ca48>*/ /*|0x4|*/ unsigned int CMap::nGbChunksPrepared
+
+global /*<rva 0x9ddb28>*/ /*|0x4|*/ class CSimpleTop* CGGameUI::m_simpleTop
+
+global /*<rva 0x41fc84>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicDownload
+
+global /*<rva 0xcb94fc>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleScrollFrame::s_scriptMethods
+
+global /*<rva 0x9ddc94>*/ /*|0x4|*/ class CGWorldFrame* CGWorldFrame::s_currentWorldFrame
+
+global /*<rva 0xa12790>*/ /*|0x14|*/ class WowClientDB<ItemDisplayInfoRec> g_itemDisplayInfoDB
+
+global /*<rva 0xa37540>*/ /*|0x4|*/ void* Storm::SFile::s_soundreadbuffer
+
+global /*<rva 0x41f474>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicAudioPath
+
+global /*<rva 0x425ad8>*/ /*|0x10|*/ struct _GUID IID_IStorage
+
+global /*<rva 0x9e1598>*/ /*|0x4|*/ unsigned int CGPetInfo::m_petMode
+
+global /*<rva 0xa5ca90>*/ /*|0x4|*/ void* CMap::oldSelectLightParm
+
+global /*<rva 0x409d14>*/ /*|0xc|*/ char* s_questActionStrings[3]
+
+global /*<rva 0x409cb8>*/ /*|0x18|*/ char* damageClasses[6]
+
+global /*<rva 0x41ffb4>*/ /*|0x10|*/ struct _GUID IID_IReferenceClock
+
+global /*<rva 0x4a48d4>*/ /*|0x14|*/ unsigned long DNClouds::m_tmSizeTable[5]
+
+global /*<rva 0x49ff44>*/ /*|0x10|*/ unsigned short g_2bitSplatMask[8]
+
+global /*<rva 0xbaca28>*/ /*|0x24|*/ class NTempest::C3Vector CAaBsp::s_axisNormalTable[3]
+
+global /*<rva 0xa37548>*/ /*|0x4|*/ int Storm::SFile::s_cdshutdown
+
+global /*<rva 0x9e6078>*/ /*|0x14|*/ class TSGrowableArray<TradeSkillInfo *> CGTradeSkillInfo::m_skills
+
+global /*<rva 0x9e80e0>*/ /*|0xac|*/ struct MinimapTexParams CGMinimapFrame::s_minimapTexParams
+
+global /*<rva 0x45aecc>*/ /*|0x5|*/ char TSGrowableArray_<unsigned char,1112297538,85>::s_name[5]
+
+global /*<rva 0x9e1cd0>*/ /*|0x4|*/ unsigned int CGQuestLog::m_numSortTypes
+
+global /*<rva 0xcb9614>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleEditBox::s_scriptMethods
+
+global /*<rva 0x9e1894>*/ /*|0x4|*/ int CGClassTrainer::m_collapseFilter
+
+global /*<rva 0xa6e554>*/ /*|0x1|*/ class HASHKEY_NONE CMapObj::nullHashKey
+
+global /*<rva 0xa42d80>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_particleDensity
+
+global /*<rva 0xa123a8>*/ /*|0x14|*/ class WowClientDB<ItemGroupSoundsRec> g_itemGroupSoundsDB
+
+global /*<rva 0xcbab58>*/ /*|0x4|*/ class unreal u_28
+
+global /*<rva 0xa4ca88>*/ /*|0x1|*/ unsigned char CMap::enableTerrainShader
+
+global /*<rva 0xa40650>*/ /*|0x4|*/ unsigned int CWorld::pnct0EstimateIndex
+
+global /*<rva 0x446e08>*/ /*|0x4|*/ int CGSpellBook::m_selectedSlot
+
+global /*<rva 0xcbaef0>*/ /*|0x10|*/ class NTempest::CImVector table[4]
+
+global /*<rva 0xcbaed0>*/ /*|0x10|*/ class NTempest::CImVector table[4]
+
+global /*<rva 0xcbaf50>*/ /*|0x10|*/ class NTempest::CImVector table[4]
+
+global /*<rva 0xcbaf10>*/ /*|0x10|*/ class NTempest::CImVector table[4]
+
+global /*<rva 0xa406ec>*/ /*|0x4|*/ class CMapObj* CWorldScene::camMapObj
+
+global /*<rva 0x4048f4>*/ /*|0x4|*/ float CParticleEmitter2::MIN_ZSOURCE
+
+global /*<rva 0x9e5084>*/ /*|0x8|*/ unsigned char CGTradeInfo::m_playerItemSlot[8]
+
+global /*<rva 0x4c4090>*/ /*|0xc|*/ class RCString RCString::s_nullString
+
+global /*<rva 0xa12718>*/ /*|0x14|*/ class WowClientDB<SkillLineRec> g_skillLineDB
+
+global /*<rva 0x8c4dd4>*/ /*|0x4|*/ int OsNet::TCPNET::s_tcpShutdown
+
+global /*<rva 0xa128a8>*/ /*|0x14|*/ class WowClientDB<CreatureDisplayInfoRec> g_creatureDisplayInfoDB
+
+global /*<rva 0xa12560>*/ /*|0x14|*/ class WowClientDB<AreaPOIRec> g_areaPOIDB
+
+global /*<rva 0x425968>*/ /*|0x10|*/ struct _GUID IID_IClientSecurity
+
+global /*<rva 0x425928>*/ /*|0x10|*/ struct _GUID IID_IFillLockBytes
+
+global /*<rva 0x41ffc4>*/ /*|0x10|*/ struct _GUID DSDEVID_DefaultVoiceCapture
+
+global /*<rva 0x49d898>*/ /*|0x4|*/ unsigned int CWorld::lodMin
+
+global /*<rva 0xa12768>*/ /*|0x14|*/ class WowClientDB<TabardEmblemTexturesRec> g_tabardEmblemTexturesDB
+
+global /*<rva 0x9e15d8>*/ /*|0x4|*/ unsigned long CGPetInfo::m_expirationTime
+
+global /*<rva 0xa6b1f8>*/ /*|0x804|*/ class TSCArray<CGxBuf *,512> CMapObjGroup::extGxBufFreeList
+
+global /*<rva 0xcb2160>*/ /*|0x10|*/ struct LightGroup g_areaLights
+
+global /*<rva 0xa12b38>*/ /*|0x40|*/ class DBCache<CreatureStats_C,int,HASHKEY_INT> g_creatureDBCache
+
+global /*<rva 0x9dbc6c>*/ /*|0x14|*/ class TSGrowableArray<NTempest::CImVector> g_debugVertColors
+
+global /*<rva 0x421310>*/ /*|0x4|*/ struct FT_Module_Class_* tt_driver_class
+
+global /*<rva 0x421310>*/ /*|0x64|*/ struct FT_Driver_Class_ tt_driver_class
+
+global /*<rva 0x425b48>*/ /*|0x10|*/ struct _GUID IID_IPersistStream
+
+global /*<rva 0xa12830>*/ /*|0x14|*/ class WowClientDB<CharStartOutfitRec> g_charStartOutfitDB
+
+global /*<rva 0x4af8d8>*/ /*|0x4|*/ enum EGxTexFilter CSimpleTexture::s_textureFilterMode
+
+global /*<rva 0xcbac48>*/ /*|0x4|*/ void  (Unicows_SetCurrentDirectoryW*)()
+
+global /*<rva 0x9ddb78>*/ /*|0x4|*/ float CGGameUI::m_interactMaxDist
+
+global /*<rva 0x4bec84>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1281976168,38>::s_name[5]
+
+global /*<rva 0xa408d8>*/ /*|0x200|*/ float CWorldScene::clipBuffer[128]
+
+global /*<rva 0xcbac44>*/ /*|0x4|*/ void  (Unicows_GetCurrentDirectoryW*)()
+
+global /*<rva 0xa4ca7c>*/ /*|0x4|*/ class CGxPixelShader* CMap::psSpecUTerrain
+
+global /*<rva 0x409c80>*/ /*|0x2c|*/ char* bonusStatFields[11]
+
+global /*<rva 0x446c68>*/ /*|0x4|*/ int CGPartyInfo::m_leaderIndex
+
+global /*<rva 0xcbab44>*/ /*|0x4|*/ class unreal u_18
+
+global /*<rva 0xa30135>*/ /*|0x1|*/ unsigned char s_useOldFindFile
+
+global /*<rva 0xa123e4>*/ /*|0x14|*/ class WowClientDB<StringLookupsRec> g_stringLookupsDB
+
+global /*<rva 0x40aa14>*/ /*|0x38|*/ char* g_spellScriptHooks[14]
+
+global /*<rva 0xa16db0>*/ /*|0x8|*/ unsigned int s_tradeStateIndex[2]
+
+global /*<rva 0xcbaaf4>*/ /*|0x4|*/ class unreal u_180
+
+global /*<rva 0x41f9d4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicTrack
+
+global /*<rva 0x9e1cdc>*/ /*|0x4|*/ int CGQuestLog::m_collapseFilter
+
+global /*<rva 0x425c28>*/ /*|0x10|*/ struct _GUID IID_IMarshal2
+
+global /*<rva 0x4c3a9c>*/ /*|0x4|*/ void  (kernel32_SetFileAttributesW_Ptr*)()
+
+global /*<rva 0x9dd8fc>*/ /*|0x4|*/ struct CVar* s_statusBarCVar
+
+global /*<rva 0x41fcc4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicBuffer
+
+global /*<rva 0xa42d7c>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_pixelShaders
+
+global /*<rva 0x40b4b8>*/ /*|0x20|*/ enum EGxTexFormat CGxDeviceD3d::s_tolerableTexFmtMapping[8]
+
+global /*<rva 0x425c38>*/ /*|0x10|*/ struct _GUID IID_IMarshal
+
+global /*<rva 0x9dd8f0>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorVirtualDisplay
+
+global /*<rva 0x41fc94>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPortDownload
+
+global /*<rva 0xa18cf8>*/ /*|0x8|*/ unsigned __int64 CGUnit_C::m_activeMover
+
+global /*<rva 0xcb9694>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleButton::s_scriptMethods
+
+global /*<rva 0x9c6dd4>*/ /*|0x8|*/ class NTempest::CRndSeed s_rndSeed
+
+global /*<rva 0x467600>*/ /*|0x4bb4|*/ struct _PCI_VENTABLE PciVenTable[1615]
+
+global /*<rva 0x9d6778>*/ /*|0x4|*/ class CSimpleModel* CCharSelectInfo::m_modelFrame
+
+global /*<rva 0x434924>*/ /*|0x5|*/ char TSFixedArray_<unsigned char,1229811556,277>::s_name[5]
+
+global /*<rva 0x9d6598>*/ /*|0x10|*/ class TSFixedArray<unsigned int> CCharCreateInfo::m_raceIndex
+
+global /*<rva 0xa690b4>*/ /*|0xc|*/ class TSExplicitList<CMapBaseObjLink,8> CMapLight::dirLightLinkList
+
+global /*<rva 0x4c3b64>*/ /*|0x8|*/ class NTempest::CRndSeed g_rndSeed
+
+global /*<rva 0xcbabf4>*/ /*|0x4|*/ class unreal u_1ovln2
+
+global /*<rva 0xa13da4>*/ /*|0x4|*/ class ClientConnection* g_clientConnection
+
+global /*<rva 0x9d63e0>*/ /*|0x40|*/ char CGlueMgr::m_currentScreen[64]
+
+global /*<rva 0x9e7f68>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CGMinimapFrame::s_scriptMethods
+
+global /*<rva 0xa37588>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_lzwcrit
+
+global /*<rva 0x425b38>*/ /*|0x10|*/ struct _GUID IID_IMoniker
+
+global /*<rva 0xa60e60>*/ /*|0x4|*/ unsigned long CMap::version
+
+global /*<rva 0x45c440>*/ /*|0x4|*/ int  (GxuLightEnable*)(unsigned long)
+
+global /*<rva 0xa128e4>*/ /*|0x14|*/ class WowClientDB<GroundEffectTextureRec> g_groundEffectTextureDB
+
+global /*<rva 0xa41748>*/ /*|0x90|*/ class NTempest::C4Vector CWorldScene::clipVertexBuffer[9]
+
+global /*<rva 0x41f584>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicSegmentState
+
+global /*<rva 0xa127e0>*/ /*|0x14|*/ class WowClientDB<CinematicSequencesRec> g_cinematicSequencesDB
+
+global /*<rva 0x459c40>*/ /*|0x14|*/ unsigned int CGxDeviceOpenGl::s_convertMagFilterToOgl[5]
+
+global /*<rva 0x425868>*/ /*|0x10|*/ struct _GUID IID_ISynchronizeContainer
+
+global /*<rva 0xa3a448>*/ /*|0x10|*/ class NTempest::CiRect CWorld::gbChunkRect
+
+global /*<rva 0xa12b7c>*/ /*|0x4|*/ enum WOW_LOCALE CURRENT_LANGUAGE
+
+global /*<rva 0x4c3aa4>*/ /*|0x4|*/ void  (user32_CallWindowProcA_Ptr*)()
+
+global /*<rva 0x9e4f38>*/ /*|0x4|*/ unsigned int CGCraftInfo::m_numSkillLines
+
+global /*<rva 0xa128f8>*/ /*|0x40|*/ class DBCache<CGPetition,int,HASHKEY_INT> g_petitionCache
+
+global /*<rva 0x9e1cd8>*/ /*|0x4|*/ int CGQuestLog::m_abandonQuest
+
+global /*<rva 0xa12018>*/ /*|0x4|*/ int NetClient::s_clientCount
+
+global /*<rva 0x9e51f8>*/ /*|0x4|*/ unsigned int CGTradeInfo::m_playerMoney
+
+global /*<rva 0xa40520>*/ /*|0x4|*/ float CWorld::texLodBias
+
+global /*<rva 0x40a8e0>*/ /*|0xc|*/ char* g_sexString[3]
+
+global /*<rva 0x41f4c4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicSegmentState8
+
+global /*<rva 0x9dbcc0>*/ /*|0x4|*/ int CGGameUI::m_hasControl
+
+global /*<rva 0x41f664>*/ /*|0x10|*/ struct _GUID GUID_PerfMasterVolume
+
+global /*<rva 0x4368b0>*/ /*|0x4|*/ char* OsNet::OSNETERR_THREADFAILED
+
+global /*<rva 0x8c4dcc>*/ /*|0x4|*/ int OsNet::TCPNET::s_pumpShutdown
+
+global /*<rva 0x41f5a4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicObject
+
+global /*<rva 0xa60e10>*/ /*|0x4|*/ class CGxShaderParam* CMap::psSpecTerrain_LayerMask
+
+global /*<rva 0x45acc8>*/ /*|0x10|*/ unsigned char CBLPFile::s_eightBitAlphaLookup[16]
+
+global /*<rva 0x425aa8>*/ /*|0x10|*/ struct _GUID IID_ILockBytes
+
+global /*<rva 0xa6e428>*/ /*|0x2c|*/ class TSHashTable<CMapDoodadDef,HASHKEY_DWORD> CMap::doodadDefHash
+
+global /*<rva 0xcbac4c>*/ /*|0x4|*/ void  (Unicows_RemoveDirectoryW*)()
+
+global /*<rva 0xa13360>*/ /*|0x4|*/ void  (glMultiTexCoord3sARB*)(unsigned int, short, short, short)
+
+global /*<rva 0x41ff04>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundNotify
+
+global /*<rva 0xa12358>*/ /*|0x14|*/ class WowClientDB<SheatheSoundLookupsRec> g_sheatheSoundLookupsDB
+
+global /*<rva 0xa13368>*/ /*|0x4|*/ void  (glMultiTexCoord3iARB*)(unsigned int, int, int, int)
+
+global /*<rva 0xcbaa64>*/ /*|0x4|*/ class unreal u_1ov4
+
+global /*<rva 0xa4c8d0>*/ /*|0x4|*/ float WaveTrain::DEPTH_RANGE_SCALE
+
+global /*<rva 0x41f6b4>*/ /*|0x10|*/ struct _GUID GUID_SeedVariations
+
+global /*<rva 0x9e2060>*/ /*|0x4|*/ unsigned int CGTaxiMap::m_startNode
+
+global /*<rva 0x41fe04>*/ /*|0x10|*/ struct _GUID DS3DALG_HRTF_LIGHT
+
+global /*<rva 0xa13378>*/ /*|0x4|*/ void  (glMultiTexCoord3dARB*)(unsigned int, double, double, double)
+
+global /*<rva 0xa13370>*/ /*|0x4|*/ void  (glMultiTexCoord3fARB*)(unsigned int, float, float, float)
+
+global /*<rva 0x41f514>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPerformance2
+
+global /*<rva 0xa12938>*/ /*|0x40|*/ class DBCache<PetNameCache,int,HASHKEY_INT> g_petNameCache
+
+global /*<rva 0x40a234>*/ /*|0x30|*/ char* g_aiGroupUnits[12]
+
+global /*<rva 0x41ff44>*/ /*|0x10|*/ struct _GUID IID_IDirectSound3DBuffer
+
+global /*<rva 0x4225d8>*/ /*|0x30|*/ struct T1_Parser_Funcs_ t1_parser_funcs
+
+global /*<rva 0x41fad4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSysExTrack
+
+global /*<rva 0x41f784>*/ /*|0x10|*/ struct _GUID GUID_IDirectMusicChordMap
+
+global /*<rva 0x8c4808>*/ /*|0x14|*/ unsigned long OsNet::TCPNET::s_initCount[5]
+
+global /*<rva 0x4200a4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_CDCHANGER
+
+global /*<rva 0x423868>*/ /*|0x10|*/ struct FT_AutoHinter_Interface autohinter_interface
+
+global /*<rva 0x9e188c>*/ /*|0x4|*/ int CGClassTrainer::m_serviceTypeFilter
+
+global /*<rva 0xa4ca20>*/ /*|0x4|*/ class CMapLight* CMap::sunLight
+
+global /*<rva 0xa132e8>*/ /*|0x4|*/ void  (glProgramStringARB*)(unsigned int, unsigned int, int, void*)
+
+global /*<rva 0x410b0c>*/ /*|0x4|*/ unsigned int CWorld::MAX_SOUND_EXT_LEVEL
+
+global /*<rva 0x9e15d0>*/ /*|0x8|*/ unsigned __int64 CGPetInfo::m_pet
+
+global /*<rva 0x41f564>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicGraph
+
+global /*<rva 0x9e7968>*/ /*|0x4|*/ enum QUEST_STATE CGQuestInfo::m_state
+
+global /*<rva 0x461d08>*/ /*|0x0|*/ char* g_animationNames[0]
+
+global /*<rva 0x461d08>*/ /*|0x268|*/ char* g_animationNames[154]
+
+global /*<rva 0x461d08>*/ /*|0x0|*/ char* g_animationNames[0]
+
+global /*<rva 0xcbaa98>*/ /*|0x4|*/ class unreal u_3ov4
+
+global /*<rva 0xa37510>*/ /*|0x4|*/ struct IDirectSound* Storm::SFile::s_directsound
+
+global /*<rva 0x9dbb9c>*/ /*|0x14|*/ class TSGrowableArray<unsigned short> g_debugBoxIndices
+
+global /*<rva 0x41f764>*/ /*|0x10|*/ struct _GUID GUID_Download
+
+global /*<rva 0xa122e0>*/ /*|0x14|*/ class WowClientDB<ItemClassRec> g_itemClassDB
+
+global /*<rva 0x425778>*/ /*|0x10|*/ struct _GUID IID_AsyncIPipeLong
+
+global /*<rva 0xa12100>*/ /*|0x14|*/ class WowClientDB<QuestSortRec> g_questSortDB
+
+global /*<rva 0xa133c4>*/ /*|0x4|*/ int glExtMultiTextureCount
+
+global /*<rva 0xa15e64>*/ /*|0x4|*/ unsigned char  (WowConnection::m_verifyAddr*)(union NETADDR*)
+
+global /*<rva 0x41f624>*/ /*|0x10|*/ struct _GUID GUID_Synth_Default
+
+global /*<rva 0xa375e8>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_cdlock
+
+global /*<rva 0x41195c>*/ /*|0x1c|*/ float DNSky::m_stripSizes[7]
+
+global /*<rva 0x49e3cc>*/ /*|0x4|*/ float CWorldScene::cullSmallThreshold
+
+global /*<rva 0xa4ca04>*/ /*|0x14|*/ class TSGrowableArray<unsigned short> CMap::testQueryIndices
+
+global /*<rva 0x4368d8>*/ /*|0x4|*/ char* OsNet::OSNETERR_ACCEPTEXFAILED
+
+global /*<rva 0xa6e5b4>*/ /*|0x4|*/ void  (CMapChunk::soundEmitterCreateHandler*)(class CWSoundEmitter&)
+
+global /*<rva 0xcbabc8>*/ /*|0x4|*/ class unreal u_npi
+
+global /*<rva 0x4258c8>*/ /*|0x10|*/ struct _GUID IID_ISurrogate
+
+global /*<rva 0xcbac0c>*/ /*|0x4|*/ class unreal u_n0_01
+
+global /*<rva 0xa12754>*/ /*|0x14|*/ class WowClientDB<PaperDollItemFrameRec> g_paperDollItemFrameDB
+
+global /*<rva 0xa43618>*/ /*|0x10|*/ class TSFixedArray<NTempest::CImVector> CMap::skyTexels
+
+global /*<rva 0x9e4800>*/ /*|0x4|*/ unsigned int CGCharacterInfo::m_racialOffset
+
+global /*<rva 0xcbab70>*/ /*|0x4|*/ class unreal u_1ovln10
+
+global /*<rva 0xa133cc>*/ /*|0x4|*/ unsigned long glVersion
+
+global /*<rva 0xa123f8>*/ /*|0x14|*/ class WowClientDB<HelmetGeosetVisDataRec> g_helmetGeosetVisDataDB
+
+global /*<rva 0xa37514>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_filelock
+
+global /*<rva 0xcbac3c>*/ /*|0x4|*/ void  (Unicows_FindFirstFileW*)()
+
+global /*<rva 0xa76540>*/ /*|0x1220|*/ class NTempest::C2Vector CMapChunk::rmTexCoordList2[4][145]
+
+global /*<rva 0x40a498>*/ /*|0x24|*/ enum CHARACTER_GEOSET_SECTIONS g_clothingGeosetRanges[9]
+
+global /*<rva 0x9e7960>*/ /*|0x8|*/ unsigned __int64 CGQuestInfo::m_npc
+
+global /*<rva 0xa40494>*/ /*|0x4|*/ int CWorld::bShowSimpleDoodads
+
+global /*<rva 0xa446e0>*/ /*|0x4|*/ class CGxTex* CMap::oceanDiffTexid
+
+global /*<rva 0xa120d8>*/ /*|0x14|*/ class WowClientDB<NamesProfanityRec> g_namesProfanityDB
+
+global /*<rva 0xa2fca0>*/ /*|0x20|*/ struct _STORMOPTIONS g_opt
+
+global /*<rva 0xa12448>*/ /*|0x14|*/ class WowClientDB<CharacterFacialHairStylesRec> g_characterFacialHairStylesDB
+
+global /*<rva 0x41f7b4>*/ /*|0x10|*/ struct _GUID GUID_Play_Marker
+
+global /*<rva 0x4c4070>*/ /*|0x20|*/ class CStringRep CStringRep::s_nullRep
+
+global /*<rva 0x44ed60>*/ /*|0x4|*/ int CGCamera::s_clipCamera
+
+global /*<rva 0xa12178>*/ /*|0x14|*/ class WowClientDB<CharTextureVariationsV2Rec> g_charTextureVariationsV2DB
+
+global /*<rva 0x4200e4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_WRITEONCEDISK
+
+global /*<rva 0x422648>*/ /*|0x4|*/ struct FT_Module_Class_* psaux_module_class
+
+global /*<rva 0x422648>*/ /*|0x24|*/ struct FT_Module_Class_ psaux_module_class
+
+global /*<rva 0xa12290>*/ /*|0x14|*/ class WowClientDB<UnitBloodLevelsRec> g_unitBloodLevelsDB
+
+global /*<rva 0x425ac8>*/ /*|0x10|*/ struct _GUID IID_IPersistFile
+
+global /*<rva 0x41fc14>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_GS_Hardware
+
+global /*<rva 0x9dd91c>*/ /*|0x4|*/ char* CGGameUI::m_minimapZoneText
+
+global /*<rva 0xa132a0>*/ /*|0x4|*/ int glExtTextureLodBias
+
+global /*<rva 0x478488>*/ /*|0x710|*/ struct _PCI_CLASSCODETABLE PciClassCodeTable[113]
+
+global /*<rva 0x41f864>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_COMMAND
+
+global /*<rva 0x41fc24>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_GM_Hardware
+
+global /*<rva 0xa2ae68>*/ /*|0x2c|*/ class TSHashTable<CONSOLECOMMAND,HASHKEY_CONSTSTRI> g_consoleCommandHash
+
+global /*<rva 0x40b08c>*/ /*|0x4|*/ unsigned int CGxBuf::BASE_NONE
+
+global /*<rva 0x425748>*/ /*|0x10|*/ struct _GUID IID_IThumbnailExtractor
+
+global /*<rva 0xa41728>*/ /*|0x18|*/ class NTempest::CAaBox CWorldScene::camFrustumBounds
+
+global /*<rva 0xcbac2c>*/ /*|0x4|*/ struct HINSTANCE__*  (_PfnLoadUnicows*)()
+
+global /*<rva 0x41f9b4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicTool8
+
+global /*<rva 0xa12254>*/ /*|0x14|*/ class WowClientDB<EmoteAnimsRec> g_emoteAnimsDB
+
+global /*<rva 0x4200b4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_FLOPPY
+
+global /*<rva 0x43c858>*/ /*|0x4|*/ int CCharSelectInfo::m_selectionIndex
+
+global /*<rva 0x9d65d8>*/ /*|0x134|*/ struct CHARCREATEINFO CCharCreateInfo::m_charInfo
+
+global /*<rva 0x9e4908>*/ /*|0x4|*/ unsigned int CGPetitionInfo::m_pendingNames
+
+global /*<rva 0xa31168>*/ /*|0x20|*/ class CInitCritSect S_Thread::s_threadCrit
+
+global /*<rva 0x40aa4c>*/ /*|0x24|*/ char* g_spellArgs[9]
+
+global /*<rva 0x422608>*/ /*|0x20|*/ struct T1_Builder_Funcs_ t1_builder_funcs
+
+global /*<rva 0xa124fc>*/ /*|0x14|*/ class WowClientDB<WeaponSwingSounds2Rec> g_weaponSwingSounds2DB
+
+global /*<rva 0xa13328>*/ /*|0x4|*/ void  (glDrawRangeElementsEXT*)(unsigned int, unsigned int, unsigned int, int, unsigned int, void*)
+
+global /*<rva 0xa75c18>*/ /*|0x488|*/ class NTempest::C2Vector CMapChunk::texCoordList2[145]
+
+global /*<rva 0x41f9c4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicTool
+
+global /*<rva 0xa16b2c>*/ /*|0xc|*/ class TSList<CGxString,TSGetLink<CGxString> > g_strings
+
+global /*<rva 0x8c4824>*/ /*|0x4|*/ struct HSLOG__* OsNet::TCPNET::s_log
+
+global /*<rva 0xa64e88>*/ /*|0x1|*/ unsigned char CMap::enablePixelShaders
+
+global /*<rva 0xa121c8>*/ /*|0x14|*/ class WowClientDB<WMOAreaTableRec> g_wMOAreaTableDB
+
+global /*<rva 0xa41c80>*/ /*|0xc|*/ class NTempest::C3Vector CWorldScene::camTarg
+
+global /*<rva 0x4c3a78>*/ /*|0x4|*/ void  (kernel32_FindResourceW_Ptr*)()
+
+global /*<rva 0x41fd84>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_I3DL2REVERB
+
+global /*<rva 0xa40638>*/ /*|0x4|*/ unsigned int CWorld::detailDoodadDensity
+
+global /*<rva 0x41fbb4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_INSTRUMENT2
+
+global /*<rva 0x49c5c0>*/ /*|0x5|*/ char TSGrowableArray_<unsigned char,1396853063,102>::s_name[5]
+
+global /*<rva 0x41f944>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicChordMap
+
+global /*<rva 0xa6e3b4>*/ /*|0xc|*/ class TSExplicitList<CMapSoundEmitter,76> CMap::soundEmitterFreeList
+
+global /*<rva 0x9d6488>*/ /*|0x4|*/ int CGlueMgr::m_reconnect
+
+global /*<rva 0x41fbf4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_XG_Capable
+
+global /*<rva 0x40a1e4>*/ /*|0x1c|*/ char* g_aiFormations[7]
+
+global /*<rva 0x41fb14>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_LegacyCaps
+
+global /*<rva 0x9d647c>*/ /*|0x4|*/ int CGlueMgr::m_initialized
+
+global /*<rva 0xa13380>*/ /*|0x4|*/ void  (glMultiTexCoord2sARB*)(unsigned int, short, short)
+
+global /*<rva 0x41f5f4>*/ /*|0x10|*/ struct _GUID GUID_Buffer_Stereo
+
+global /*<rva 0x40a210>*/ /*|0x10|*/ char* g_actionPriorities[4]
+
+global /*<rva 0xa13388>*/ /*|0x4|*/ void  (glMultiTexCoord2iARB*)(unsigned int, int, int)
+
+global /*<rva 0xcbaa58>*/ /*|0x4|*/ class unreal u_1ov5
+
+global /*<rva 0x45d214>*/ /*|0x5|*/ char TSGrowableArray_<NTempest::CImVector,1199076678,60>::s_name[5]
+
+global /*<rva 0x4c3b9c>*/ /*|0x4|*/ struct CVar* g_realmAddressVar
+
+global /*<rva 0x9e51f4>*/ /*|0x4|*/ int CGTradeInfo::m_targetAccepted
+
+global /*<rva 0x45d204>*/ /*|0x5|*/ char TSGrowableArray_<VERT,1199076678,58>::s_name[5]
+
+global /*<rva 0xa12510>*/ /*|0x14|*/ class WowClientDB<SoundEntriesRec> g_soundEntriesDB
+
+global /*<rva 0xa41b40>*/ /*|0xc|*/ class NTempest::C3Vector CWorldScene::vpMinPos
+
+global /*<rva 0x9def68>*/ /*|0x1000|*/ int CGSpellBook::m_knownSpells[1024]
+
+global /*<rva 0xa13398>*/ /*|0x4|*/ void  (glMultiTexCoord2dARB*)(unsigned int, double, double)
+
+global /*<rva 0xa13390>*/ /*|0x4|*/ void  (glMultiTexCoord2fARB*)(unsigned int, float, float)
+
+global /*<rva 0x9c620c>*/ /*|0x30|*/ class NTempest::C3Vector CParticleEmitter2::s_quadVectors[4]
+
+global /*<rva 0xa39758>*/ /*|0x4|*/ int CWorld::bLoadSimpleDoodads
+
+global /*<rva 0x9d6478>*/ /*|0x4|*/ int CGlueMgr::m_reload
+
+global /*<rva 0xa132c0>*/ /*|0x4|*/ struct HPBUFFERARB__*  (wglCreatePbufferARB*)(struct HDC__*, int, int, int, int*)
+
+global /*<rva 0xa12240>*/ /*|0x14|*/ class WowClientDB<EmotesRec> g_emotesDB
+
+global /*<rva 0xae2624>*/ /*|0x14|*/ class TSGrowableArray<CDetailDoodadData *> CDetailDoodad::doodadList
+
+global /*<rva 0x41fba4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_SynthSink_DSOUND
+
+global /*<rva 0xcbaa78>*/ /*|0x4|*/ class unreal u_2ov5
+
+global /*<rva 0xcb9f94>*/ /*|0x4|*/ unsigned char  (Sound::m_positionUpdateCallback*)(__int64, class NTempest::C3Vector&)
+
+global /*<rva 0x9e505c>*/ /*|0x20|*/ int CGTradeInfo::m_targetItems[8]
+
+global /*<rva 0x9e1888>*/ /*|0x4|*/ unsigned int CGClassTrainer::m_filteredServices
+
+global /*<rva 0x45c438>*/ /*|0x4|*/ void  (GxuLightUnlock*)(unsigned long)
+
+global /*<rva 0xa4ca80>*/ /*|0x4|*/ unsigned int CMap::scCollideCnt
+
+global /*<rva 0xa1263c>*/ /*|0x14|*/ class WowClientDB<MaterialRec> g_materialDB
+
+global /*<rva 0x9ddda0>*/ /*|0x20|*/ unsigned __int64 CGPartyInfo::m_members[4]
+
+global /*<rva 0x41f4b4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicStyle8
+
+global /*<rva 0x41ffd4>*/ /*|0x10|*/ struct _GUID DSDEVID_DefaultVoicePlayback
+
+global /*<rva 0xa13314>*/ /*|0x4|*/ void  (glFinishFenceNV*)(unsigned int)
+
+global /*<rva 0x425a98>*/ /*|0x10|*/ struct _GUID IID_IEnumFORMATETC
+
+global /*<rva 0xa121a0>*/ /*|0x14|*/ class WowClientDB<TransportAnimationRec> g_transportAnimationDB
+
+global /*<rva 0x9e797c>*/ /*|0x4|*/ int CGQuestInfo::m_rewardMoney
+
+global /*<rva 0xcbaa9c>*/ /*|0x4|*/ class unreal u_3ov5
+
+global /*<rva 0x9e4804>*/ /*|0x4|*/ unsigned int CGCharacterInfo::m_secondaryOffset
+
+global /*<rva 0xa6e3a4>*/ /*|0xc|*/ class TSExplicitList<CMapChunk,8> CMap::chunkList
+
+global /*<rva 0x41fd64>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_CLASS_AEC
+
+global /*<rva 0xa60dd4>*/ /*|0x14|*/ class TSGrowableArray<char> CMap::mapObjNames
+
+global /*<rva 0x41f8f4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicScript
+
+global /*<rva 0x4368a0>*/ /*|0x4|*/ char* OsNet::OSNETERR_INTERNAL
+
+global /*<rva 0x41fef4>*/ /*|0x10|*/ struct _GUID IID_IKsPropertySet
+
+global /*<rva 0x41fb24>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_Effects
+
+global /*<rva 0x425918>*/ /*|0x10|*/ struct _GUID IID_IProgressNotify
+
+global /*<rva 0xa1329c>*/ /*|0x4|*/ int glExtTextureCompression
+
+global /*<rva 0x464218>*/ /*|0x28|*/ struct __unnamed_fb_ s_affMappingCVarsNames[5]
+
+global /*<rva 0x9ddba8>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorPetAction
+
+global /*<rva 0xcb31e4>*/ /*|0xc|*/ class TSList<BlizzardObject::Shard,TSGetLink<BlizzardObject::Shard> > BlizzardObject::shardPool
+
+global /*<rva 0x41f824>*/ /*|0x10|*/ struct _GUID GUID_CommandParamNext
+
+global /*<rva 0x40d38c>*/ /*|0x4|*/ float MISSILENODE::MIN_HEIGHT
+
+global /*<rva 0x9e1890>*/ /*|0x4|*/ int CGClassTrainer::m_skillLineFilter
+
+global /*<rva 0x425a68>*/ /*|0x10|*/ struct _GUID IID_IAdviseSink
+
+global /*<rva 0x425a88>*/ /*|0x10|*/ struct _GUID IID_IEnumSTATDATA
+
+global /*<rva 0xa3a398>*/ /*|0x4|*/ int CWorld::detailDoodadTest
+
+global /*<rva 0xcbac6c>*/ /*|0x4|*/ void  (Unicows_MultiByteToWideChar*)()
+
+global /*<rva 0x9e5130>*/ /*|0x40|*/ unsigned __int64 CGTradeInfo::m_targetItemCreator[8]
+
+global /*<rva 0x9dbc1c>*/ /*|0x14|*/ class TSGrowableArray<unsigned short> g_debugNormalIndices
+
+global /*<rva 0xa12628>*/ /*|0x14|*/ class WowClientDB<WeaponImpactSoundsRec> g_weaponImpactSoundsDB
+
+global /*<rva 0x4525e4>*/ /*|0xc|*/ char* g_emoteSpecProcNames[3]
+
+global /*<rva 0xcbac34>*/ /*|0x4|*/ void  (Unicows_GetProcAddress*)()
+
+global /*<rva 0x9e4c60>*/ /*|0x100|*/ int CGReputationInfo::m_factionBase[64]
+
+global /*<rva 0x40a7c0>*/ /*|0x40|*/ struct VARIATIONSECTIONS g_variationSectionIDs[4]
+
+global /*<rva 0xa12330>*/ /*|0x14|*/ class WowClientDB<TaxiPathNodeRec> g_taxiPathNodeDB
+
+global /*<rva 0x8c482c>*/ /*|0x4|*/ void  (OsNet::TCPNET::s_GetAcceptExSockaddrs*)(void*, unsigned long, unsigned long, unsigned long, struct sockaddr**, int*, struct sockaddr**, int*)
+
+global /*<rva 0x9ddb80>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_currentObjectTrack
+
+global /*<rva 0x45acdc>*/ /*|0x4|*/ unsigned short CBLPFile::s_oneBitAlphaShort[2]
+
+global /*<rva 0xa12420>*/ /*|0x14|*/ class WowClientDB<ZoneMusicRec> g_zoneMusicDB
+
+global /*<rva 0xcbabd0>*/ /*|0x4|*/ class unreal u_n1
+
+global /*<rva 0x40a568>*/ /*|0x10|*/ char* g_spellDefenseTypes[4]
+
+global /*<rva 0x410cf0>*/ /*|0x4|*/ float WaterRadWave::PERTURB
+
+global /*<rva 0xa12218>*/ /*|0x14|*/ class WowClientDB<EmotesTextDataRec> g_emotesTextDataDB
+
+global /*<rva 0x41ff54>*/ /*|0x10|*/ struct _GUID IID_IDirectSound3DListener
+
+global /*<rva 0x41ff14>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundCaptureBuffer8
+
+global /*<rva 0x41f674>*/ /*|0x10|*/ struct _GUID GUID_PerfMasterTempo
+
+global /*<rva 0xcbc3c0>*/ /*|0x4|*/ unsigned long CDebugLock<CDebugSRWLock>::s_freeEntries
+
+global /*<rva 0x40a630>*/ /*|0x8|*/ char* s_areaTableFlags[2]
+
+global /*<rva 0x4216a0>*/ /*|0x4|*/ struct FT_Module_Class_* sfnt_module_class
+
+global /*<rva 0x4216a0>*/ /*|0x24|*/ struct FT_Module_Class_ sfnt_module_class
+
+global /*<rva 0xab3984>*/ /*|0x4|*/ unsigned int CMapObj::maxRLevel
+
+global /*<rva 0xa4ca84>*/ /*|0x4|*/ void* CMap::entityHandlerParam
+
+global /*<rva 0x41fb44>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_MemorySize
+
+global /*<rva 0x9c5f20>*/ /*|0x4|*/ float ParticleSystemManager::sm_projectDistance
+
+global /*<rva 0xa1213c>*/ /*|0x14|*/ class WowClientDB<WorldMapContinentRec> g_worldMapContinentDB
+
+global /*<rva 0x410d2c>*/ /*|0x4|*/ float WaveTrain::PHASE_GRID_SIZE
+
+global /*<rva 0xa124d4>*/ /*|0x14|*/ class WowClientDB<LanguagesRec> g_languagesDB
+
+global /*<rva 0x4257b8>*/ /*|0x10|*/ struct _GUID IID_IAddrExclusionControl
+
+global /*<rva 0xa42d3c>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_lod
+
+global /*<rva 0x4048f0>*/ /*|0x4|*/ float CParticleEmitter2::VEL_UPDATE_TIME
+
+global /*<rva 0x4c40d8>*/ /*|0x4|*/ int s_watchdogActive
+
+global /*<rva 0xcbaca0>*/ /*|0xe0|*/ class TInstanceIdTable<EvtContext,8> TSingletonInstanceId<EvtContext,8>::s_idTable
+
+global /*<rva 0x9e480c>*/ /*|0x4|*/ int s_qsortLevel
+
+global /*<rva 0x425a78>*/ /*|0x10|*/ struct _GUID IID_IRootStorage
+
+global /*<rva 0xa16da8>*/ /*|0x8|*/ unsigned int s_tradeGold[2]
+
+global /*<rva 0x41fed4>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXChorus
+
+global /*<rva 0xa6e5ac>*/ /*|0x4|*/ struct CGxBuf* CMapChunk::gxBufDyn
+
+global /*<rva 0xcbaa84>*/ /*|0x4|*/ class unreal u_1ov20
+
+global /*<rva 0x4c3a90>*/ /*|0x4|*/ void  (kernel32_MultiByteToWideChar_Ptr*)()
+
+global /*<rva 0x41f854>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_RECOMPOSE
+
+global /*<rva 0xcbaa8c>*/ /*|0x4|*/ class unreal u_1ov25
+
+global /*<rva 0x4c40a4>*/ /*|0x4|*/ class CStringManager* CStringManager::s_stringManager
+
+global /*<rva 0xcbaa50>*/ /*|0x4|*/ class unreal u_sqrt2
+
+global /*<rva 0x40a588>*/ /*|0x28|*/ char* g_auraCancelsFlags[10]
+
+global /*<rva 0x425a58>*/ /*|0x10|*/ struct _GUID IID_AsyncIAdviseSink
+
+global /*<rva 0xa4064c>*/ /*|0x4|*/ unsigned int CWorld::pnct0EstimateVertex
+
+global /*<rva 0xa132cc>*/ /*|0x4|*/ int  (wglGetPixelFormatAttribivARB*)(struct HDC__*, int, int, unsigned int, int*, int*)
+
+global /*<rva 0xa13308>*/ /*|0x4|*/ void*  (wglAllocateMemoryNV*)(int, float, float, float)
+
+global /*<rva 0xcbaa54>*/ /*|0x4|*/ class unreal u_1ov2
+
+global /*<rva 0x425a38>*/ /*|0x10|*/ struct _GUID IID_AsyncIAdviseSink2
+
+global /*<rva 0x9e71d0>*/ /*|0x400|*/ char CGQuestInfo::m_rewardText[1024]
+
+global /*<rva 0x9ddb88>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_interactTarget
+
+global /*<rva 0x45258c>*/ /*|0x20|*/ char* g_localeID[8]
+
+global /*<rva 0xa12380>*/ /*|0x14|*/ class WowClientDB<ResistancesRec> g_resistancesDB
+
+global /*<rva 0x4212a8>*/ /*|0x4|*/ struct FT_Module_Class_* t1_driver_class
+
+global /*<rva 0x4212a8>*/ /*|0x64|*/ struct FT_Driver_Class_ t1_driver_class
+
+global /*<rva 0xa6e300>*/ /*|0x2c|*/ int CMap::freeCounts[11]
+
+global /*<rva 0x9ddde8>*/ /*|0xd0|*/ struct CGPartyInfo::RemoteStats CGPartyInfo::m_remoteStats[4]
+
+global /*<rva 0xcbaa74>*/ /*|0x4|*/ class unreal u_0_00001
+
+global /*<rva 0xcbab74>*/ /*|0x4|*/ class unreal u_0_02
+
+global /*<rva 0xa39754>*/ /*|0x4|*/ unsigned int CWorld::nPrimsRender
+
+global /*<rva 0x40a61c>*/ /*|0x14|*/ char* unitAttributes[5]
+
+global /*<rva 0xa376a8>*/ /*|0x4|*/ unsigned long CWorld::enableLayerCnt
+
+global /*<rva 0x4c3a70>*/ /*|0x4|*/ void  (kernel32_FindFirstFileW_Ptr*)()
+
+global /*<rva 0xa13294>*/ /*|0x4|*/ int glExtTextureFilterAnisotropic
+
+global /*<rva 0xcbaa6c>*/ /*|0x4|*/ class unreal u_piov180
+
+global /*<rva 0x9d648c>*/ /*|0x4|*/ enum CGlueMgr::GLUE_IDLE_STATE CGlueMgr::m_idleState
+
+global /*<rva 0xcbaaec>*/ /*|0x4|*/ class unreal u_epsilon8
+
+global /*<rva 0xa1331c>*/ /*|0x4|*/ void  (glGenFencesNV*)(int, unsigned int*)
+
+global /*<rva 0x41f4d4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicSegment8
+
+global /*<rva 0x41fb64>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_WriteLatency
+
+global /*<rva 0xae2844>*/ /*|0x2c|*/ class TSHashTable<CSimpleDoodad,HASHKEY_NONE> CSimpleDoodad::simpleDoodadHash
+
+global /*<rva 0xa1236c>*/ /*|0x14|*/ class WowClientDB<TaxiNodesRec> g_taxiNodesDB
+
+global /*<rva 0xcbabb8>*/ /*|0x4|*/ class unreal u_1_02
+
+global /*<rva 0x9e6898>*/ /*|0xd8|*/ class QuestItemInfo CGQuestInfo::m_questItems[6]
+
+global /*<rva 0x9e47fc>*/ /*|0x4|*/ unsigned int CGCharacterInfo::m_specialOffset
+
+global /*<rva 0x44b56c>*/ /*|0x4|*/ int CGTradeInfo::m_targetEnchantSlot
+
+global /*<rva 0xa41ce0>*/ /*|0x40|*/ class NTempest::C44Matrix CWorldScene::mp
+
+global /*<rva 0xa41bf8>*/ /*|0x40|*/ class NTempest::C44Matrix CWorldScene::mv
+
+global /*<rva 0xa6e348>*/ /*|0xc|*/ class TSExplicitList<CMapArea,8> CMap::areaList
+
+global /*<rva 0x4258f8>*/ /*|0x10|*/ struct _GUID IID_IBlockingLock
+
+global /*<rva 0x41f8b4>*/ /*|0x10|*/ struct _GUID GUID_DirectMusicAllTypes
+
+global /*<rva 0x9dbcc9>*/ /*|0x1|*/ unsigned char CGGameUI::m_reloadUI
+
+global /*<rva 0x9dd918>*/ /*|0x4|*/ int CGGameUI::m_cursorHasAction
+
+global /*<rva 0xa2f630>*/ /*|0x4|*/ char* STypeCache::s_lastSearchKey
+
+global /*<rva 0x9e48f8>*/ /*|0x8|*/ unsigned __int64 CGPetitionInfo::m_petitionGUID
+
+global /*<rva 0x41fce4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSynth
+
+global /*<rva 0x41f734>*/ /*|0x10|*/ struct _GUID GUID_Enable_Auto_Download
+
+global /*<rva 0x459cb4>*/ /*|0x20|*/ int CGxDeviceOpenGl::s_convertDataType[8]
+
+global /*<rva 0xcbac1c>*/ /*|0x4|*/ class unreal u_180ovpi
+
+global /*<rva 0x9d643c>*/ /*|0xc|*/ unsigned int CGlueMgr::m_queuePosition[3]
+
+global /*<rva 0xa37740>*/ /*|0x2000|*/ unsigned short CWTriData::triIndices[4096]
+
+global /*<rva 0xa1259c>*/ /*|0x14|*/ class WowClientDB<SpellVisualAnimNameRec> g_spellVisualAnimNameDB
+
+global /*<rva 0x41fe14>*/ /*|0x10|*/ struct _GUID DS3DALG_HRTF_FULL
+
+global /*<rva 0xa2f610>*/ /*|0x4|*/ int STypeCache::s_namesFree
+
+global /*<rva 0xa6e37c>*/ /*|0xc|*/ class TSExplicitList<CChunkLiquid,816> CMap::chunkLiquidList
+
+global /*<rva 0xa12894>*/ /*|0x14|*/ class WowClientDB<CreatureDisplayInfoExtraRec> g_creatureDisplayInfoExtraDB
+
+global /*<rva 0x9e7a68>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CGCharacterModelBase::s_scriptMethods
+
+global /*<rva 0x4c3a64>*/ /*|0x4|*/ void  (kernel32_CreateFileW_Ptr*)()
+
+global /*<rva 0xa13288>*/ /*|0x4|*/ int glSGISTextureLod
+
+global /*<rva 0xa40654>*/ /*|0x4|*/ float CWorld::farClip
+
+global /*<rva 0xae1cc0>*/ /*|0x4|*/ int CMapObj::bIntRender
+
+global /*<rva 0xa446e8>*/ /*|0x1a0|*/ class NTempest::C2Vector Particulate::s_tc[13][4]
+
+global /*<rva 0x425998>*/ /*|0x10|*/ struct _GUID IID_IRpcStubBuffer
+
+global /*<rva 0xcb95c8>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleHTML::s_scriptMethods
+
+global /*<rva 0x8c4dd0>*/ /*|0x4|*/ int  (OsNet::TCPNET::s_WSASend*)(unsigned int, struct _WSABUF*, unsigned long, unsigned long*, unsigned long, struct _OVERLAPPED*, void  (*)(unsigned long, unsigned long, struct _OVERLAPPED*, unsigned long))
+
+global /*<rva 0x9d69d4>*/ /*|0x18|*/ struct TEXTUREINFO CTexturePiece::m_destTextureInfo
+
+global /*<rva 0xa13304>*/ /*|0x4|*/ void  (wglFreeMemoryNV*)(void*)
+
+global /*<rva 0xa4046c>*/ /*|0x4|*/ unsigned long CWorld::enables
+
+global /*<rva 0xa132b8>*/ /*|0x4|*/ int  (wglReleasePbufferDCARB*)(struct HPBUFFERARB__*, struct HDC__*)
+
+global /*<rva 0x45c430>*/ /*|0x4|*/ void  (GxuLightDestroy*)(unsigned long)
+
+global /*<rva 0xa129b8>*/ /*|0x40|*/ class DBCache<QuestCache,int,HASHKEY_INT> g_questDBCache
+
+global /*<rva 0xa13324>*/ /*|0x4|*/ void  (glVertexArrayRangeNV*)(int, void*)
+
+global /*<rva 0x41f464>*/ /*|0x10|*/ struct _GUID GUID_NULL
+
+global /*<rva 0x49efe0>*/ /*|0x4|*/ int CMapArea::ccWaterLOD
+
+global /*<rva 0xa40528>*/ /*|0x100|*/ unsigned int CWorld::shadowModColor[64]
+
+global /*<rva 0x41f524>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicBand
+
+global /*<rva 0xa121f0>*/ /*|0x14|*/ class WowClientDB<SpellVisualPrecastTransitionsRec> g_spellVisualPrecastTransitionsDB
+
+global /*<rva 0xcbac60>*/ /*|0x4|*/ void  (Unicows_SetFileAttributesW*)()
+
+global /*<rva 0x49f484>*/ /*|0x4|*/ int CMap::bPreload
+
+global /*<rva 0x9d6470>*/ /*|0x4|*/ class CSimpleTop* CGlueMgr::m_simpleTop
+
+global /*<rva 0x4bec9c>*/ /*|0x5|*/ char TSFixedArray_<unsigned short,1281976168,41>::s_name[5]
+
+global /*<rva 0x49efec>*/ /*|0x4|*/ int CMapArea::ccWaterSpecular
+
+global /*<rva 0xa37538>*/ /*|0x4|*/ void* Storm::SFile::s_cdthread
+
+global /*<rva 0x9e1ce4>*/ /*|0x4|*/ int CGQuestLog::m_expiredQuests
+
+global /*<rva 0xa127cc>*/ /*|0x14|*/ class WowClientDB<FactionRec> g_factionDB
+
+global /*<rva 0xa4051c>*/ /*|0x4|*/ unsigned int CWTriData::nVertexIndices
+
+global /*<rva 0x41fa94>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicStyleTrack
+
+global /*<rva 0x40a688>*/ /*|0x14|*/ char* s_sheathing[5]
+
+global /*<rva 0x45c44c>*/ /*|0x4|*/ float  (GxuLightBucketSize*)()
+
+global /*<rva 0x425948>*/ /*|0x10|*/ struct _GUID IID_IClassActivator
+
+global /*<rva 0xcbac64>*/ /*|0x4|*/ void  (Unicows_GetFileAttributesW*)()
+
+global /*<rva 0x41fa24>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicMarkerTrack
+
+global /*<rva 0xa122f4>*/ /*|0x14|*/ class WowClientDB<DeathThudLookupsRec> g_deathThudLookupsDB
+
+global /*<rva 0x40a644>*/ /*|0x14|*/ char* s_lockOpenActionStrings[5]
+
+global /*<rva 0xa133a4>*/ /*|0x4|*/ void  (glMultiTexCoord1ivARB*)(unsigned int, int*)
+
+global /*<rva 0xa408c8>*/ /*|0x4|*/ unsigned int CWorldScene::nChunksRendered
+
+global /*<rva 0xa1227c>*/ /*|0x14|*/ class WowClientDB<SoundWaterTypeRec> g_soundWaterTypeDB
+
+global /*<rva 0xa133b4>*/ /*|0x4|*/ void  (glMultiTexCoord1dvARB*)(unsigned int, double*)
+
+global /*<rva 0xcbaaa0>*/ /*|0x4|*/ class unreal u_npiov2
+
+global /*<rva 0xa133ac>*/ /*|0x4|*/ void  (glMultiTexCoord1fvARB*)(unsigned int, float*)
+
+global /*<rva 0xcbaa7c>*/ /*|0x4|*/ class unreal u_root2ov2
+
+global /*<rva 0x9ddbac>*/ /*|0x4|*/ int CGGameUI::m_screenWidth
+
+global /*<rva 0x40a4e0>*/ /*|0x20|*/ char* g_triggerTypes[8]
+
+global /*<rva 0xa1339c>*/ /*|0x4|*/ void  (glMultiTexCoord1svARB*)(unsigned int, short*)
+
+global /*<rva 0xcbaa94>*/ /*|0x4|*/ class unreal u_1ov32
+
+global /*<rva 0xa125d8>*/ /*|0x14|*/ class WowClientDB<SpellAuraNamesRec> g_spellAuraNamesDB
+
+global /*<rva 0xcbaa90>*/ /*|0x4|*/ class unreal u_1ov30
+
+global /*<rva 0xa13340>*/ /*|0x4|*/ void  (glMultiTexCoord4sARB*)(unsigned int, short, short, short, short)
+
+global /*<rva 0x9ddef0>*/ /*|0x8|*/ unsigned __int64 CGPartyInfo::m_lootMaster
+
+global /*<rva 0x41fe74>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXI3DL2Reverb
+
+global /*<rva 0xcbd800>*/ /*|0x4|*/ unsigned long CDebugLock<CDebugSCritSect>::s_freeEntries
+
+global /*<rva 0x9e51fc>*/ /*|0x4|*/ unsigned int CGTradeInfo::m_targetMoney
+
+global /*<rva 0xa13348>*/ /*|0x4|*/ void  (glMultiTexCoord4iARB*)(unsigned int, int, int, int, int)
+
+global /*<rva 0xa41cd0>*/ /*|0xc|*/ class NTempest::C3Vector CWorldScene::vpMaxPos
+
+global /*<rva 0xcbaa60>*/ /*|0x4|*/ class unreal u_1ov3
+
+global /*<rva 0xa12164>*/ /*|0x14|*/ class WowClientDB<CharHairGeosetsRec> g_charHairGeosetsDB
+
+global /*<rva 0xa131e8>*/ /*|0x4|*/ class CGxDevice* g_theGxDevicePtr
+
+global /*<rva 0xa132d4>*/ /*|0x4|*/ unsigned char  (glIsProgramARB*)(unsigned int)
+
+global /*<rva 0x40aa00>*/ /*|0x14|*/ char* g_pointOfInterestFlags[5]
+
+global /*<rva 0xa64e6c>*/ /*|0x4|*/ unsigned int CMap::uniqueId
+
+global /*<rva 0x9e1870>*/ /*|0x8|*/ unsigned __int64 CGClassTrainer::m_trainer
+
+global /*<rva 0xa4c8d8>*/ /*|0xc|*/ class TSList<WaterRadWave,TSGetLink<WaterRadWave> > CMap::waterRipplesActive
+
+global /*<rva 0xa13358>*/ /*|0x4|*/ void  (glMultiTexCoord4dARB*)(unsigned int, double, double, double, double)
+
+global /*<rva 0xa13350>*/ /*|0x4|*/ void  (glMultiTexCoord4fARB*)(unsigned int, float, float, float, float)
+
+global /*<rva 0x41145c>*/ /*|0x4|*/ float CMapChunk::TERRAIN_SPEC_EXP
+
+global /*<rva 0x434adc>*/ /*|0x5|*/ char TSFixedArray_<CPrimitive,1229811556,280>::s_name[5]
+
+global /*<rva 0xcbabd8>*/ /*|0x4|*/ class unreal u_0_0001
+
+global /*<rva 0x4525f0>*/ /*|0x3c|*/ char* g_emoteFlagNames[15]
+
+global /*<rva 0x41fb94>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_SynthSink_WAVE
+
+global /*<rva 0xa42d58>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_fov
+
+global /*<rva 0xa18338>*/ /*|0x4|*/ struct CVar* g_combatModeMaxDistance
+
+global /*<rva 0xa114f4>*/ /*|0x4|*/ class CGInputControl* CGInputControl::s_inputControl
+
+global /*<rva 0xa1328c>*/ /*|0x4|*/ int glSGISGenerateMipmap
+
+global /*<rva 0xa6e4f4>*/ /*|0x2c|*/ class TSHashTable<CMapObj,HASHKEY_NONE> CMapObj::mapObjHash
+
+global /*<rva 0x425ae8>*/ /*|0x10|*/ struct _GUID IID_IEnumSTATSTG
+
+global /*<rva 0xcb2010>*/ /*|0x64|*/ class DNMoonGlare s_moonGlare
+
+global /*<rva 0xa3a440>*/ /*|0x4|*/ unsigned int CWorld::alphaMipLevel
+
+global /*<rva 0xcbc3c4>*/ /*|0x4|*/ struct CDebugLockData* CDebugLock<CDebugSRWLock>::s_locks
+
+global /*<rva 0x41fff4>*/ /*|0x10|*/ struct _GUID DSDEVID_DefaultPlayback
+
+global /*<rva 0xa12858>*/ /*|0x14|*/ class WowClientDB<CreatureSoundDataRec> g_creatureSoundDataDB
+
+global /*<rva 0x425738>*/ /*|0x10|*/ struct _GUID IID_IDummyHICONIncluder
+
+global /*<rva 0x4a48e8>*/ /*|0x14|*/ unsigned long DNClouds::m_tmShiftTable[5]
+
+global /*<rva 0xa13284>*/ /*|0x4|*/ int glNVVertexArrayRange
+
+global /*<rva 0x9e1820>*/ /*|0x14|*/ class TSGrowableArray<TrainerSkillLineInfo *> CGClassTrainer::m_skillLines
+
+global /*<rva 0xa15e6c>*/ /*|0x4|*/ unsigned int WowConnectionInitializer::count
+
+global /*<rva 0x49d890>*/ /*|0x4|*/ float CWorld::lodDist
+
+global /*<rva 0xae1cc8>*/ /*|0x4|*/ void* CMapObj::gRenderUserParam
+
+global /*<rva 0x410d24>*/ /*|0x4|*/ float CMap::WATER_SPEC_EXP
+
+global /*<rva 0x41f684>*/ /*|0x10|*/ struct _GUID GUID_UnloadFromAudioPath
+
+global /*<rva 0xa132bc>*/ /*|0x4|*/ struct HDC__*  (wglGetPbufferDCARB*)(struct HPBUFFERARB__*)
+
+global /*<rva 0x425bc8>*/ /*|0x10|*/ struct _GUID IID_AsyncIMultiQI
+
+global /*<rva 0xa13280>*/ /*|0x4|*/ int glNVVertexArrayRange2
+
+global /*<rva 0x9e20d8>*/ /*|0x200|*/ char CGItemText::m_text[512]
+
+global /*<rva 0xa127a4>*/ /*|0x14|*/ class WowClientDB<FactionTemplateRec> g_factionTemplateDB
+
+global /*<rva 0x4123cc>*/ /*|0x8|*/ struct _UNICODE_STRING RtlNtPathSeperatorString
+
+global /*<rva 0x4a0608>*/ /*|0x4|*/ unsigned int CMapObj::MAX_SOUND_RLEVEL
+
+global /*<rva 0x41fc64>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicInstrument
+
+global /*<rva 0x9e0fc0>*/ /*|0x4|*/ int CGSpellBook::m_knowsPetSpells
+
+global /*<rva 0x4c3a84>*/ /*|0x4|*/ void  (kernel32_GetFileAttributesW_Ptr*)()
+
+global /*<rva 0x4becb0>*/ /*|0x10|*/ unsigned char NTempest::CImVector::s_a4Table[16]
+
+global /*<rva 0x41fe64>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXWavesReverb
+
+global /*<rva 0x4becac>*/ /*|0x2|*/ unsigned char NTempest::CImVector::s_a1Table[2]
+
+global /*<rva 0xcbaa4c>*/ /*|0x4|*/ class unreal u_n2_5
+
+global /*<rva 0x41fb04>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_Volume
+
+global /*<rva 0xa3a394>*/ /*|0x4|*/ unsigned int CWTriData::nMatrices
+
+global /*<rva 0x422cf8>*/ /*|0x4|*/ struct FT_Module_Class_* t1cid_driver_class
+
+global /*<rva 0x422cf8>*/ /*|0x64|*/ struct FT_Driver_Class_ t1cid_driver_class
+
+global /*<rva 0xcb5fb0>*/ /*|0x4|*/ int  (s_AnimBoneProjectCallback*)(class NTempest::C3Segment&, float&)
+
+global /*<rva 0xa132c4>*/ /*|0x4|*/ int  (wglChoosePixelFormatARB*)(struct HDC__*, int*, float*, unsigned int, int*, unsigned int*)
+
+global /*<rva 0x9e4ef4>*/ /*|0x14|*/ class TSGrowableArray<CraftSkillLineInfo *> CGCraftInfo::m_skillLines
+
+global /*<rva 0xcb94b8>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleSlider::s_scriptMethods
+
+global /*<rva 0xa6da40>*/ /*|0x4|*/ unsigned int CMapObjGroup::rDrawSharedLiquidFirst
+
+global /*<rva 0x8c4828>*/ /*|0x4|*/ int  (OsNet::TCPNET::s_AcceptEx*)(unsigned int, unsigned int, void*, unsigned long, unsigned long, unsigned long, unsigned long*, struct _OVERLAPPED*)
+
+global /*<rva 0x9def10>*/ /*|0x4|*/ int CGSpellBook::m_stuckSpell
+
+global /*<rva 0xcb6220>*/ /*|0x4|*/ class CSimpleTop* CSimpleTop::s_instance
+
+global /*<rva 0xa41c90>*/ /*|0x40|*/ class NTempest::C44Matrix CWorldScene::gxViewMat
+
+global /*<rva 0xa43e58>*/ /*|0x1|*/ unsigned char CMap::riverDiffTexUpdated
+
+global /*<rva 0x4477e0>*/ /*|0x4|*/ int CGWorldMap::m_currentContinent
+
+global /*<rva 0x49fea8>*/ /*|0x4|*/ unsigned int CMapLight::maxLights
+
+global /*<rva 0x9e76d8>*/ /*|0x260|*/ class QuestInfo CGQuestInfo::m_quests[8]
+
+global /*<rva 0x9e7974>*/ /*|0x4|*/ int CGQuestInfo::m_autoLaunched
+
+global /*<rva 0x445f60>*/ /*|0x4|*/ int CGChat::m_paused
+
+global /*<rva 0xa124c0>*/ /*|0x14|*/ class WowClientDB<LanguageWordsRec> g_languageWordsDB
+
+global /*<rva 0xa39b90>*/ /*|0x800|*/ class NTempest::C44Matrix CWTriData::matrices[32]
+
+global /*<rva 0x9c6cfc>*/ /*|0x2c|*/ class TSHashTable<UISOUNDLOOKUP,HASHKEY_STRI> g_uiSoundLookups
+
+global /*<rva 0xa60ba4>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> CMap::doodadNamesIndex
+
+global /*<rva 0xcb14c8>*/ /*|0x10|*/ class TSFixedArray<regex_t> g_profanityTokens
+
+global /*<rva 0x4630c4>*/ /*|0x30|*/ enum GEOCOMPONENTLINKS g_attachmentPoints[12]
+
+global /*<rva 0xa72090>*/ /*|0x14|*/ class TSGrowableArray<CGxBuf *> CMapChunk::gxBufFreeList
+
+global /*<rva 0xa1231c>*/ /*|0x14|*/ class WowClientDB<SoundProviderPreferencesRec> g_soundProviderPreferencesDB
+
+global /*<rva 0xa13384>*/ /*|0x4|*/ void  (glMultiTexCoord2ivARB*)(unsigned int, int*)
+
+global /*<rva 0xa13338>*/ /*|0x4|*/ void  (glActiveTextureARB*)(unsigned int)
+
+global /*<rva 0xa12af8>*/ /*|0x40|*/ class DBCache<GameObjectStats_C,int,HASHKEY_INT> g_gameObjectDBCache
+
+global /*<rva 0x41f8c4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicAudioPathConfig
+
+global /*<rva 0xa13394>*/ /*|0x4|*/ void  (glMultiTexCoord2dvARB*)(unsigned int, double*)
+
+global /*<rva 0x452564>*/ /*|0x28|*/ enum INVENTORY_SLOTS g_NPCItemDisplayInvSlots[10]
+
+global /*<rva 0xa1338c>*/ /*|0x4|*/ void  (glMultiTexCoord2fvARB*)(unsigned int, float*)
+
+global /*<rva 0xa30134>*/ /*|0x1|*/ unsigned char s_findFileHashInitialized
+
+global /*<rva 0xcbabbc>*/ /*|0x4|*/ class unreal u_2_5
+
+global /*<rva 0x425a08>*/ /*|0x10|*/ struct _GUID IID_IMessageFilter
+
+global /*<rva 0xa16064>*/ /*|0xc|*/ class TSList<CGxuLight,TSGetLink<CGxuLight> > CGxuLight::s_lightsFreeList
+
+global /*<rva 0xa1337c>*/ /*|0x4|*/ void  (glMultiTexCoord2svARB*)(unsigned int, short*)
+
+global /*<rva 0xa127f4>*/ /*|0x14|*/ class WowClientDB<CinematicCameraRec> g_cinematicCameraDB
+
+global /*<rva 0x4c3a8c>*/ /*|0x4|*/ void  (kernel32_MoveFileW_Ptr*)()
+
+global /*<rva 0xa60ba0>*/ /*|0x4|*/ class CGxPixelShader* CMap::psTerrain
+
+global /*<rva 0xa68f10>*/ /*|0x4|*/ class CGxShaderParam* CMap::psUTerrain_LayerMask
+
+global /*<rva 0x4660e8>*/ /*|0x10|*/ unsigned char g_gameobjectActionsAllowed[16]
+
+global /*<rva 0x425b68>*/ /*|0x10|*/ struct _GUID IID_IRunningObjectTable
+
+global /*<rva 0xa12a78>*/ /*|0x40|*/ class DBCache<NPCText,int,HASHKEY_INT> g_npcTextDBCache
+
+global /*<rva 0xa2f600>*/ /*|0x4|*/ int STypeCache::s_tableSize
+
+global /*<rva 0x9e4fc0>*/ /*|0x50|*/ unsigned __int64 CGContainerInfo::m_containers[10]
+
+global /*<rva 0x409d20>*/ /*|0x14|*/ char* g_skillTypeStrings[5]
+
+global /*<rva 0xa1272c>*/ /*|0x14|*/ class WowClientDB<ItemSubClassRec> g_itemSubClassDB
+
+global /*<rva 0xa125b0>*/ /*|0x14|*/ class WowClientDB<AreaTriggerRec> g_areaTriggerDB
+
+global /*<rva 0x44ac38>*/ /*|0x4|*/ int CGCraftInfo::m_collapseFilter
+
+global /*<rva 0x420024>*/ /*|0x10|*/ struct _GUID CLSID_DirectSoundCapture
+
+global /*<rva 0xcbabec>*/ /*|0x4|*/ class unreal u_0_001
+
+global /*<rva 0x420114>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_CDROM
+
+global /*<rva 0x40a29c>*/ /*|0x1c|*/ int g_killReactionModifierNeg[7]
+
+global /*<rva 0x404ae0>*/ /*|0x100|*/ unsigned long NTempest::gnoise32_[64]
+
+global /*<rva 0x425878>*/ /*|0x10|*/ struct _GUID IID_ISynchronizeEvent
+
+global /*<rva 0xcbab98>*/ /*|0x4|*/ class unreal u_0_5
+
+global /*<rva 0xcbab94>*/ /*|0x4|*/ class unreal u_0_4
+
+global /*<rva 0xcbaba0>*/ /*|0x4|*/ class unreal u_0_7
+
+global /*<rva 0xa6e4a4>*/ /*|0xc|*/ class TSExplicitList<CMapObj,420> CMap::mapObjFreeList
+
+global /*<rva 0xcbab9c>*/ /*|0x4|*/ class unreal u_0_6
+
+global /*<rva 0xcbab88>*/ /*|0x4|*/ class unreal u_0_1
+
+global /*<rva 0xcbab90>*/ /*|0x4|*/ class unreal u_0_3
+
+global /*<rva 0x43bd14>*/ /*|0x8|*/ char* g_glueBgObjNames[2]
+
+global /*<rva 0xcbab8c>*/ /*|0x4|*/ class unreal u_0_2
+
+global /*<rva 0x9e14cc>*/ /*|0x10|*/ class TSFixedArray<WorldMapLandmarkInfo> CGWorldMap::m_landmarks
+
+global /*<rva 0xcbaba8>*/ /*|0x4|*/ class unreal u_0_9
+
+global /*<rva 0x420014>*/ /*|0x10|*/ struct _GUID CLSID_DirectSoundCapture8
+
+global /*<rva 0x4a10d8>*/ /*|0x10|*/ unsigned int CMapChunk::cornerVertexIndex[4]
+
+global /*<rva 0xcbaba4>*/ /*|0x4|*/ class unreal u_0_8
+
+global /*<rva 0xa40b9c>*/ /*|0x4|*/ unsigned int CWorldScene::bspStateBits
+
+global /*<rva 0xa42d20>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_anisotropic
+
+global /*<rva 0xa40490>*/ /*|0x4|*/ unsigned int CWorld::curTimeMs
+
+global /*<rva 0xa6e5b0>*/ /*|0x4|*/ void  (CMapChunk::soundEmitterDestroyHandler*)(unsigned long)
+
+global /*<rva 0xa18360>*/ /*|0x8|*/ unsigned __int64 s_giftWrapItem
+
+global /*<rva 0xcb1554>*/ /*|0x4|*/ int GlareBase::m_masterEnable
+
+global /*<rva 0xa42d44>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_distCull
+
+global /*<rva 0xa75c00>*/ /*|0x4|*/ unsigned short* CMapChunk::primPtr
+
+global /*<rva 0x9e1568>*/ /*|0x28|*/ class PetAction CGPetInfo::m_actions[10]
+
+global /*<rva 0x4213a4>*/ /*|0x4|*/ struct FT_Module_Class_* ft_smooth_renderer_class
+
+global /*<rva 0x4213a4>*/ /*|0x3c|*/ struct FT_Renderer_Class_ ft_smooth_renderer_class
+
+global /*<rva 0xa406e4>*/ /*|0x4|*/ unsigned int CWorldScene::nDoodadsRendered
+
+global /*<rva 0xcbabb0>*/ /*|0x4|*/ class unreal u_1_5
+
+global /*<rva 0xcbab7c>*/ /*|0x4|*/ class unreal u_1ovpi
+
+global /*<rva 0x452278>*/ /*|0x288|*/ struct GEOCOMPONENTINFO g_geometryComponentLookups[27]
+
+global /*<rva 0xcbabac>*/ /*|0x4|*/ class unreal u_1_2
+
+global /*<rva 0xa37578>*/ /*|0xc|*/ class TSList<REQUEST,TSGetLink<REQUEST> > Storm::SFile::s_cdreqlist
+
+global /*<rva 0xa6e3d0>*/ /*|0xc|*/ class TSExplicitList<CMapLight,8> CMap::lightList
+
+global /*<rva 0x9e1cd4>*/ /*|0x4|*/ int CGQuestLog::m_selectedQuest
+
+global /*<rva 0xa132b4>*/ /*|0x4|*/ int  (wglDestroyPbufferARB*)(struct HPBUFFERARB__*)
+
+global /*<rva 0xa12484>*/ /*|0x14|*/ class WowClientDB<VocalUISoundsRec> g_vocalUISoundsDB
+
+global /*<rva 0xa6e25c>*/ /*|0x4|*/ unsigned int BspQuery::hitFaceSub
+
+global /*<rva 0x40a980>*/ /*|0x1c|*/ char* g_creatureAges[7]
+
+global /*<rva 0xa115f8>*/ /*|0x5dc|*/ char* g_scriptEvents[375]
+
+global /*<rva 0x40a5b0>*/ /*|0x6c|*/ int g_ITEMTYPEARRAY[27]
+
+global /*<rva 0xab3988>*/ /*|0xe004|*/ class TSCArray<SPortalExt,2048> CMapObj::portalExtList
+
+global /*<rva 0xcb96d8>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleFontString::s_scriptMethods
+
+global /*<rva 0xcbac20>*/ /*|0x4|*/ class unreal u_n1_5
+
+global /*<rva 0x435cb8>*/ /*|0x50|*/ char* ControlClassName[20]
+
+global /*<rva 0x4a4a00>*/ /*|0x8|*/ unsigned short GlareBase::m_idx[4]
+
+global /*<rva 0xcb953c>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleMessageScrollFrame::s_scriptMethods
+
+global /*<rva 0xa6e45c>*/ /*|0xc|*/ class TSExplicitList<CMapObjDefGroup,8> CMap::mapObjDefGroupList
+
+global /*<rva 0x4123b0>*/ /*|0x8|*/ struct _UNICODE_STRING RtlAlternateDosPathSeperatorString
+
+global /*<rva 0xcb0ac4>*/ /*|0x4|*/ class WTOBJECT* WTOBJECTPTR
+
+global /*<rva 0x9c6c6c>*/ /*|0x4|*/ unsigned int g_sndInterfaceFlags
+
+global /*<rva 0x411010>*/ /*|0x4|*/ float CMapEntity::ambLightScaleRate
+
+global /*<rva 0x409eb0>*/ /*|0x174|*/ char* g_groupActionsAbbr[93]
+
+global /*<rva 0x40b260>*/ /*|0x10|*/ struct _GUID IID_IUnknown
+
+global /*<rva 0xa6da48>*/ /*|0x804|*/ class TSCArray<CGxBuf *,512> CMapObjGroup::intGxBufFreeList
+
+global /*<rva 0xa13264>*/ /*|0x4|*/ int glARBFragmentProgram
+
+global /*<rva 0x425898>*/ /*|0x10|*/ struct _GUID IID_ISynchronize
+
+global /*<rva 0xa2f604>*/ /*|0x4|*/ char* STypeCache::s_namesBase
+
+global /*<rva 0xa2f618>*/ /*|0x4|*/ int STypeCache::s_numEntries
+
+global /*<rva 0x9e1428>*/ /*|0x14|*/ class FBitField CGTutorial::m_tutorialFlags
+
+global /*<rva 0x425978>*/ /*|0x10|*/ struct _GUID IID_IChannelHook
+
+global /*<rva 0x9e13c8>*/ /*|0x4|*/ int CGLootInfo::m_coins
+
+global /*<rva 0xa43e90>*/ /*|0x438|*/ struct HTEXTURE__* CMap::liquidTex[9][30]
+
+global /*<rva 0xa12150>*/ /*|0x14|*/ class WowClientDB<WorldMapAreaRec> g_worldMapAreaDB
+
+global /*<rva 0xae25fc>*/ /*|0x14|*/ class TSGrowableArray<CGxBuf *> CDetailDoodad::gxBufFreeList
+
+global /*<rva 0xa4c900>*/ /*|0x100|*/ char CMap::wobFilename[256]
+
+global /*<rva 0x41fdd4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_FLANGER
+
+global /*<rva 0x9c6008>*/ /*|0x200|*/ float CParticleEmitter2::m_rndTable[128]
+
+global /*<rva 0xa40b38>*/ /*|0x60|*/ class NTempest::C3Vector CWorldScene::camFrustumCorners[8]
+
+global /*<rva 0xa13248>*/ /*|0x4|*/ struct HSLOG__* CGxDevice::m_log
+
+global /*<rva 0x4215d8>*/ /*|0x50|*/ struct FT_Frame_Field_ sbit_metrics_fields[10]
+
+global /*<rva 0xa12128>*/ /*|0x14|*/ class WowClientDB<SoundCharacterMacroLinesRec> g_soundCharacterMacroLinesDB
+
+global /*<rva 0x425b18>*/ /*|0x10|*/ struct _GUID IID_IEnumString
+
+global /*<rva 0xa40640>*/ /*|0x4|*/ unsigned int CWorld::pnEstimateIndex
+
+global /*<rva 0x4c3a88>*/ /*|0x4|*/ void  (kernel32_GetProcAddress_Ptr*)()
+
+global /*<rva 0x40a500>*/ /*|0x24|*/ char* g_spellVisualAttach[9]
+
+global /*<rva 0x4257e8>*/ /*|0x10|*/ struct _GUID IID_IUrlMon
+
+global /*<rva 0x9e79b8>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CGTabardModelFrame::s_scriptMethods
+
+global /*<rva 0x41f654>*/ /*|0x10|*/ struct _GUID GUID_PerfMasterGrooveLevel
+
+global /*<rva 0xa12844>*/ /*|0x14|*/ class WowClientDB<CreatureTypeRec> g_creatureTypeDB
+
+global /*<rva 0x41f594>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicSegment
+
+global /*<rva 0x41f974>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSegmentState
+
+global /*<rva 0x45f420>*/ /*|0x738|*/ struct SEQFINISHINFO g_seqInformation[154]
+
+global /*<rva 0x45f420>*/ /*|0x654|*/ struct SEQFINISHINFO g_seqInformation[135]
+
+global /*<rva 0x8c4c10>*/ /*|0x190|*/ struct WSAData OsNet::TCPNET::s_wsaData
+
+global /*<rva 0xa123bc>*/ /*|0x14|*/ class WowClientDB<PageTextMaterialRec> g_pageTextMaterialDB
+
+global /*<rva 0x9dbc04>*/ /*|0x14|*/ class TSGrowableArray<NTempest::C3Vector> g_debugVerts
+
+global /*<rva 0xa12114>*/ /*|0x14|*/ class WowClientDB<WorldSafeLocsRec> g_worldSafeLocsDB
+
+global /*<rva 0x409cd0>*/ /*|0x10|*/ char* geoSetLayerFields[4]
+
+global /*<rva 0xa60e08>*/ /*|0x4|*/ class SFile* CMap::wdtFile
+
+global /*<rva 0xa39b68>*/ /*|0x4|*/ unsigned int CWorld::nDoodadsRender
+
+global /*<rva 0xa13364>*/ /*|0x4|*/ void  (glMultiTexCoord3ivARB*)(unsigned int, int*)
+
+global /*<rva 0x41f534>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicComposer
+
+global /*<rva 0x49efe4>*/ /*|0x4|*/ int CMapArea::ccWaterMaxLOD
+
+global /*<rva 0xa13374>*/ /*|0x4|*/ void  (glMultiTexCoord3dvARB*)(unsigned int, double*)
+
+global /*<rva 0x9d6a30>*/ /*|0x4|*/ struct MipBits* CTexturePiece::m_destImage
+
+global /*<rva 0x40a1d8>*/ /*|0xc|*/ char* g_aiMoveSpeed[3]
+
+global /*<rva 0xa1336c>*/ /*|0x4|*/ void  (glMultiTexCoord3fvARB*)(unsigned int, float*)
+
+global /*<rva 0x8c4820>*/ /*|0x4|*/ int  (OsNet::TCPNET::s_WSARecv*)(unsigned int, struct _WSABUF*, unsigned long, unsigned long*, unsigned long*, struct _OVERLAPPED*, void  (*)(unsigned long, unsigned long, struct _OVERLAPPED*, unsigned long))
+
+global /*<rva 0x40a578>*/ /*|0x10|*/ char* g_spellCastUITypes[4]
+
+global /*<rva 0xa122cc>*/ /*|0x14|*/ class WowClientDB<NPCSoundsRec> g_nPCSoundsDB
+
+global /*<rva 0xa1335c>*/ /*|0x4|*/ void  (glMultiTexCoord3svARB*)(unsigned int, short*)
+
+global /*<rva 0xcbaa80>*/ /*|0x4|*/ class unreal u_1ov12
+
+global /*<rva 0xa121dc>*/ /*|0x14|*/ class WowClientDB<SpellShapeshiftFormRec> g_spellShapeshiftFormDB
+
+global /*<rva 0x425b78>*/ /*|0x10|*/ struct _GUID IID_IRunnableObject
+
+global /*<rva 0xcbaa88>*/ /*|0x4|*/ class unreal u_1ov16
+
+global /*<rva 0xa39b74>*/ /*|0x10|*/ class NTempest::CiRect CWorld::areaRect
+
+global /*<rva 0xa132d8>*/ /*|0x4|*/ void  (glProgramLocalParameter4fvARB*)(unsigned int, unsigned int, float*)
+
+global /*<rva 0x41f814>*/ /*|0x10|*/ struct _GUID GUID_ChordParam
+
+global /*<rva 0xa292a0>*/ /*|0xac|*/ unsigned int g_specialSpellIDs[43]
+
+global /*<rva 0x49d894>*/ /*|0x4|*/ unsigned int CWorld::lodMax
+
+global /*<rva 0x9e2090>*/ /*|0x8|*/ unsigned __int64 CGItemText::m_itemGUID
+
+global /*<rva 0xcb9580>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleMessageFrame::s_scriptMethods
+
+global /*<rva 0xa4ca3c>*/ /*|0xc|*/ class TSExplicitList<CMapBaseObjLink,8> CMap::mapObjDefLinkList
+
+global /*<rva 0x9c6c88>*/ /*|0x2c|*/ class TSHashTable<SHEATHSOUNDHASH,HASHKEY_NONE> g_sheathSoundList
+
+global /*<rva 0xa60e5c>*/ /*|0x4|*/ unsigned int CMap::nChunksPrepared
+
+global /*<rva 0x425b58>*/ /*|0x10|*/ struct _GUID IID_IPersist
+
+global /*<rva 0x41fa54>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicChordMapTrack
+
+global /*<rva 0xcbac5c>*/ /*|0x4|*/ void  (Unicows_MoveFileW*)()
+
+global /*<rva 0x45c424>*/ /*|0x4|*/ void  (GxuLightInitialize*)()
+
+global /*<rva 0xa13ddc>*/ /*|0x38|*/ struct WhoSortType s_whoSortCriteria[7]
+
+global /*<rva 0x41f5b4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicGetLoader
+
+global /*<rva 0x425768>*/ /*|0x10|*/ struct _GUID IID_IPipeDouble
+
+global /*<rva 0x9e1ce8>*/ /*|0x4|*/ int CGQuestLog::m_serverTimeOffset
+
+global /*<rva 0x434ad4>*/ /*|0x5|*/ char TSFixedArray_<TSFixedArray_<NTempest::C2Vector,1229811556,266>,1229811556,279>::s_name[5]
+
+global /*<rva 0xcbae90>*/ /*|0xc|*/ struct ItemEnchantment empty
+
+global /*<rva 0xa126c8>*/ /*|0x14|*/ class WowClientDB<SpellRangeRec> g_spellRangeDB
+
+global /*<rva 0xcbab78>*/ /*|0x4|*/ class unreal u_0_01
+
+global /*<rva 0xa44888>*/ /*|0xc|*/ class TSList<WaterRadWave,TSGetLink<WaterRadWave> > CMap::waterRipplesFree
+
+global /*<rva 0xa139d8>*/ /*|0x180|*/ struct DxtColorBlock::Tables DxtColorBlock::tables
+
+global /*<rva 0xa42d70>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_doodadAnim
+
+global /*<rva 0x9dbce8>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorVirtualSlot
+
+global /*<rva 0xa6ba40>*/ /*|0x2000|*/ unsigned short BspQuery::testFaces[4096]
+
+global /*<rva 0x41f644>*/ /*|0x10|*/ struct _GUID GUID_PerfAutoDownload
+
+global /*<rva 0x49efbc>*/ /*|0x24|*/ char* CMap::liquidTexBaseName[9]
+
+global /*<rva 0x9e4b50>*/ /*|0x100|*/ int CGReputationInfo::m_factionSorting[64]
+
+global /*<rva 0x40b06c>*/ /*|0x20|*/ unsigned int CGxDevice::s_texFormatBitDepth[8]
+
+global /*<rva 0x40b06c>*/ /*|0x0|*/ unsigned int CGxDevice::s_texFormatBitDepth[0]
+
+global /*<rva 0x420044>*/ /*|0x10|*/ struct _GUID CLSID_DirectSound
+
+global /*<rva 0xa2f628>*/ /*|0x4|*/ long STypeCache::s_interlock
+
+global /*<rva 0xcbabe0>*/ /*|0x4|*/ class unreal u_3ov16
+
+global /*<rva 0x41f724>*/ /*|0x10|*/ struct _GUID GUID_Disable_Auto_Download
+
+global /*<rva 0x9e4f2c>*/ /*|0x4|*/ enum SPELL_CAST_UI_TYPE CGCraftInfo::m_craftType
+
+global /*<rva 0xcbac08>*/ /*|0x4|*/ class unreal u_1ov2pi
+
+global /*<rva 0xa43628>*/ /*|0x830|*/ class WaveTrain train
+
+global /*<rva 0x9d6500>*/ /*|0x2c|*/ char* g_glueScriptEvents[11]
+
+global /*<rva 0xcb1ff8>*/ /*|0x14|*/ class DNStars s_stars
+
+global /*<rva 0x4257c8>*/ /*|0x10|*/ struct _GUID IID_IAddrTrackingControl
+
+global /*<rva 0x9d6498>*/ /*|0x40|*/ char CGlueMgr::m_accountName[64]
+
+global /*<rva 0xa42d14>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_textureLodDist
+
+global /*<rva 0x4225c8>*/ /*|0x10|*/ struct PS_Table_Funcs_ ps_table_funcs
+
+global /*<rva 0xa39b70>*/ /*|0x4|*/ unsigned int CWorld::chunkCnt
+
+global /*<rva 0x420d20>*/ /*|0x4|*/ struct FT_Module_Class_* winfnt_driver_class
+
+global /*<rva 0x420d20>*/ /*|0x64|*/ struct FT_Driver_Class_ winfnt_driver_class
+
+global /*<rva 0x9e5188>*/ /*|0x40|*/ unsigned __int64 CGTradeInfo::m_playerItems[8]
+
+global /*<rva 0x40a658>*/ /*|0x1c|*/ char* s_itemBindStrings[7]
+
+global /*<rva 0x41fa84>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicMotifTrack
+
+global /*<rva 0xcbac18>*/ /*|0x4|*/ class unreal u_n0_5
+
+global /*<rva 0xa4ca28>*/ /*|0x1|*/ class HASHKEY_NONE CMap::nullHashKey
+
+global /*<rva 0xa2f608>*/ /*|0x4|*/ char** STypeCache::s_table
+
+global /*<rva 0xa42d40>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_mapShadows
+
+global /*<rva 0xa12664>*/ /*|0x14|*/ class WowClientDB<CharBaseInfoRec> g_charBaseInfoDB
+
+global /*<rva 0x41ffe4>*/ /*|0x10|*/ struct _GUID DSDEVID_DefaultCapture
+
+global /*<rva 0x45c454>*/ /*|0x4|*/ void  (GxuLightResetCache*)()
+
+global /*<rva 0xa124e8>*/ /*|0x14|*/ class WowClientDB<UISoundLookupsRec> g_uISoundLookupsDB
+
+global /*<rva 0x425798>*/ /*|0x10|*/ struct _GUID IID_AsyncIPipeByte
+
+global /*<rva 0xa13320>*/ /*|0x4|*/ void  (glFlushVertexArrayRangeNV*)()
+
+global /*<rva 0x41f894>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_PERFORMANCE
+
+global /*<rva 0xa12470>*/ /*|0x14|*/ class WowClientDB<MapRec> g_mapDB
+
+global /*<rva 0x9ddb48>*/ /*|0x18|*/ struct CinematicData CGGameUI::m_cinematic
+
+global /*<rva 0x9d6494>*/ /*|0x4|*/ enum WOW_LOCALE CGlueMgr::m_locale
+
+global /*<rva 0x45c7d4>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1199076692,759>::s_name[5]
+
+global /*<rva 0x9dd924>*/ /*|0x4|*/ struct CVar* s_combatLogCVar
+
+global /*<rva 0x9def18>*/ /*|0x10|*/ class TSFixedArray<int> CGSpellBook::m_languageSpells
+
+global /*<rva 0x41f9e4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicWaveTrack
+
+global /*<rva 0x41fd34>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_CLASS_NS
+
+global /*<rva 0x459c94>*/ /*|0x20|*/ int CGxDeviceOpenGl::s_convertDataFmt[8]
+
+global /*<rva 0x8c4df4>*/ /*|0x4|*/ unsigned long s_backgroundSleepMs
+
+global /*<rva 0xa40800>*/ /*|0x4|*/ struct CMapEntity* CWorldScene::camTargEntity
+
+global /*<rva 0xa60e68>*/ /*|0x4000|*/ class CMapArea* CMap::areaTable[4096]
+
+global /*<rva 0x9e6068>*/ /*|0x4|*/ int CGMerchantInfo::m_itemCount
+
+global /*<rva 0x9e27d0>*/ /*|0x1e0|*/ int CGActionBar::m_slotActions[120]
+
+global /*<rva 0xa125c4>*/ /*|0x14|*/ class WowClientDB<SpellDispelTypeRec> g_spellDispelTypeDB
+
+global /*<rva 0x9def28>*/ /*|0x14|*/ class TSGrowableArray<int> CGSpellBook::m_unlockSpells
+
+global /*<rva 0x9d6714>*/ /*|0x4|*/ unsigned int CCharCreateInfo::m_selectedSex
+
+global /*<rva 0xae2894>*/ /*|0x1|*/ class HASHKEY_NONE CSimpleDoodad::nullHashKey
+
+global /*<rva 0x459e30>*/ /*|0x20|*/ enum EGxTexFormat CGxDeviceD3d::s_GxTexFmtToUse[8]
+
+global /*<rva 0x41ff94>*/ /*|0x10|*/ struct _GUID IID_IDirectSound8
+
+global /*<rva 0x9c64d8>*/ /*|0x4|*/ enum AMBIENCE g_currentAmbience
+
+global /*<rva 0xa6e2b4>*/ /*|0xc|*/ class TSExplicitList<CMapObjDef,8> CMap::mapObjDefFreeList
+
+global /*<rva 0x9d6710>*/ /*|0x4|*/ int CCharCreateInfo::m_selectedClass
+
+global /*<rva 0x9e51f0>*/ /*|0x4|*/ int CGTradeInfo::m_playerAccepted
+
+global /*<rva 0xa1268c>*/ /*|0x14|*/ class WowClientDB<SpellVisualEffectNameRec> g_spellVisualEffectNameDB
+
+global /*<rva 0x41ffa4>*/ /*|0x10|*/ struct _GUID IID_IDirectSound
+
+global /*<rva 0x9c5f28>*/ /*|0x4|*/ int  (ParticleSystemManager::sm_projectCallback*)(class NTempest::C3Segment&, float&)
+
+global /*<rva 0x425788>*/ /*|0x10|*/ struct _GUID IID_IPipeLong
+
+global /*<rva 0x41fcd4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusic
+
+global /*<rva 0x425808>*/ /*|0x10|*/ struct _GUID IID_IReleaseMarshalBuffers
+
+global /*<rva 0x40a82c>*/ /*|0x38|*/ char* g_itemStaticFlags[14]
+
+global /*<rva 0xcbabf0>*/ /*|0x4|*/ class unreal u_pi
+
+global /*<rva 0x425b88>*/ /*|0x10|*/ struct _GUID IID_IEnumMoniker
+
+global /*<rva 0xa2f098>*/ /*|0x4|*/ int g_memFullError
+
+global /*<rva 0x4bef78>*/ /*|0x9|*/ unsigned char g_standStateAllowsSheathing[9]
+
+global /*<rva 0x41fc44>*/ /*|0x10|*/ struct _GUID IID_IDirectMusic2
+
+global /*<rva 0x499c5c>*/ /*|0x1|*/ unsigned char s_bSFileCheckDisk
+
+global /*<rva 0x420104>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_PARTITION
+
+global /*<rva 0x9e20b0>*/ /*|0x4|*/ unsigned int CGItemText::m_currentPage
+
+global /*<rva 0x41fc34>*/ /*|0x10|*/ struct _GUID IID_IDirectMusic8
+
+global /*<rva 0x9dd8f8>*/ /*|0x4|*/ enum UICURSORTYPE CGGameUI::m_cursorItemType
+
+global /*<rva 0xcbac68>*/ /*|0x4|*/ void  (Unicows_CreateFileW*)()
+
+global /*<rva 0xa127b8>*/ /*|0x14|*/ class WowClientDB<FactionGroupRec> g_factionGroupDB
+
+global /*<rva 0x4c3abc>*/ /*|0x4|*/ void  (user32_SetPropA_Ptr*)()
+
+global /*<rva 0x410cfc>*/ /*|0x4|*/ float CMap::LIQUID_TEX_PURGE_TIME
+
+global /*<rva 0xcbab4c>*/ /*|0x4|*/ class unreal u_31
+
+global /*<rva 0xa4ca90>*/ /*|0x10000|*/ struct SMAreaInfo CMap::areaInfo[4096]
+
+global /*<rva 0x9e1608>*/ /*|0x14|*/ class TSGrowableArray<TrainerServiceInfo *> CGClassTrainer::m_services
+
+global /*<rva 0x406a58>*/ /*|0x6c|*/ char* g_itemPaths[27]
+
+global /*<rva 0xa42d68>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_nearClip
+
+global /*<rva 0x9d6480>*/ /*|0x4|*/ int CGlueMgr::m_suspended
+
+global /*<rva 0x4368bc>*/ /*|0x4|*/ char* OsNet::OSNETERR_LISTENFAILED
+
+global /*<rva 0xae1dd4>*/ /*|0xc|*/ class TSExplicitList<CDetailDoodadInst,16> CDetailDoodad::instList
+
+global /*<rva 0xa122b8>*/ /*|0x14|*/ class WowClientDB<AreaMIDIAmbiencesRec> g_areaMIDIAmbiencesDB
+
+global /*<rva 0xa1209c>*/ /*|0x14|*/ class WowClientDB<ItemVisualEffectsRec> g_itemVisualEffectsDB
+
+global /*<rva 0xcb933c>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleModel::s_scriptMethods
+
+global /*<rva 0x41f4e4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPerformance8
+
+global /*<rva 0x4257f8>*/ /*|0x10|*/ struct _GUID IID_IWaitMultiple
+
+global /*<rva 0x425848>*/ /*|0x10|*/ struct _GUID IID_ICancelMethodCalls
+
+global /*<rva 0x9d670c>*/ /*|0x4|*/ class CSimpleModel* CCharCreateInfo::m_charCustomizeFrame
+
+global /*<rva 0xa6e3f0>*/ /*|0x2c|*/ class TSHashTable<CMapObjDef,HASHKEY_NONE> CMap::mapObjDefHash
+
+global /*<rva 0xae2800>*/ /*|0x40|*/ class NTempest::C4Vector CMapChunk::psLayerMask[4]
+
+global /*<rva 0x43bcb4>*/ /*|0x5|*/ char TSGrowableArray_<unsigned char,1330464594,71>::s_name[5]
+
+global /*<rva 0x4bec94>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C2Vector,1281976168,40>::s_name[5]
+
+global /*<rva 0xcbab64>*/ /*|0x4|*/ class unreal u_800
+
+global /*<rva 0x41fd74>*/ /*|0x10|*/ struct _GUID GUID_DSFX_WAVES_REVERB
+
+global /*<rva 0xa2f634>*/ /*|0x4|*/ int STypeCache::s_probe1Count
+
+global /*<rva 0x4c3a6c>*/ /*|0x4|*/ void  (kernel32_DeleteFileW_Ptr*)()
+
+global /*<rva 0xa6e4f0>*/ /*|0x4|*/ class CMapObjDef* CMapObj::curMapObjDef
+
+global /*<rva 0x40aa70>*/ /*|0x10|*/ char* g_creatureImpactSound[4]
+
+global /*<rva 0x420064>*/ /*|0x10|*/ struct _GUID IID_IPrintDialogCallback
+
+global /*<rva 0x40d388>*/ /*|0x4|*/ float MISSILENODE::HEIGHT_SCAN_RANGE
+
+global /*<rva 0xcbaae4>*/ /*|0x4|*/ class unreal u_epsilon4
+
+global /*<rva 0x9e4f3c>*/ /*|0x4|*/ unsigned int CGCraftInfo::m_filteredSkills
+
+global /*<rva 0xcbab68>*/ /*|0x4|*/ class unreal u_90
+
+global /*<rva 0x9e2bf8>*/ /*|0x4|*/ unsigned int CGActionBar::m_bonusPage
+
+global /*<rva 0xa42cf8>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_alphaLevel
+
+global /*<rva 0x409cac>*/ /*|0xc|*/ char* damageTypeFields[3]
+
+global /*<rva 0xcbab1c>*/ /*|0x4|*/ class unreal u_11
+
+global /*<rva 0xa6ba04>*/ /*|0x4|*/ unsigned int CMapObjGroup::rDrawSharedLiquidToggle
+
+global /*<rva 0xa16124>*/ /*|0x24|*/ struct CLightList s_dirLightList
+
+global /*<rva 0x9e610c>*/ /*|0x4|*/ unsigned int CGTradeSkillInfo::m_numSubClasses
+
+global /*<rva 0xa6ba38>*/ /*|0x4|*/ unsigned int BspQuery::testFaceSub
+
+global /*<rva 0xcbab6c>*/ /*|0x4|*/ class unreal u_900
+
+global /*<rva 0xcbafa0>*/ /*|0x20|*/ class CInitCritSect CDebugLock<CDebugSRWLock>::s_critsect
+
+global /*<rva 0xcbab84>*/ /*|0x4|*/ class unreal u_9999
+
+global /*<rva 0x9e187c>*/ /*|0x4|*/ int CGClassTrainer::m_currentSelection
+
+global /*<rva 0x41f7d4>*/ /*|0x10|*/ struct _GUID GUID_TempoParam
+
+global /*<rva 0x425b08>*/ /*|0x10|*/ struct _GUID IID_ISequentialStream
+
+global /*<rva 0xa4c8d4>*/ /*|0x4|*/ class CGxPixelShader* CMap::psOcean0
+
+global /*<rva 0xa129f8>*/ /*|0x40|*/ class DBCache<GuildStats_C,int,HASHKEY_INT> g_guildInfoCache
+
+global /*<rva 0xa12204>*/ /*|0x14|*/ class WowClientDB<SpellFocusObjectRec> g_spellFocusObjectDB
+
+global /*<rva 0xa2f614>*/ /*|0x4|*/ int STypeCache::s_tableSizeBits
+
+global /*<rva 0x9e49f8>*/ /*|0x100|*/ int CGReputationInfo::m_factionStandings[64]
+
+global /*<rva 0x41fec4>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXFlanger
+
+global /*<rva 0xa375d0>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_archivelock
+
+global /*<rva 0x9e1620>*/ /*|0x200|*/ char CGClassTrainer::m_greetingText[512]
+
+global /*<rva 0x9ddba4>*/ /*|0x4|*/ int CGGameUI::m_cursorSpell
+
+global /*<rva 0xa375a0>*/ /*|0xc|*/ class TSList<Storm::SFile::ARCHIVEREC,TSGetLink<Storm::SFile::ARCHIVEREC> > Storm::SFile::s_archivelist
+
+global /*<rva 0x425988>*/ /*|0x10|*/ struct _GUID IID_IPSFactoryBuffer
+
+global /*<rva 0xa376ac>*/ /*|0x4|*/ unsigned int CWorld::shadowMipLevel
+
+global /*<rva 0x40a028>*/ /*|0x174|*/ unsigned long g_groupActionsFields[93]
+
+global /*<rva 0x49d88c>*/ /*|0x4|*/ float CWorld::textureLodDist
+
+global /*<rva 0x41f804>*/ /*|0x10|*/ struct _GUID GUID_RhythmParam
+
+global /*<rva 0x9e1d28>*/ /*|0x8|*/ unsigned __int64 CGTaxiMap::m_unit
+
+global /*<rva 0x4225a0>*/ /*|0x4|*/ struct FT_Module_Class_* psnames_module_class
+
+global /*<rva 0x4225a0>*/ /*|0x24|*/ struct FT_Module_Class_ psnames_module_class
+
+global /*<rva 0x8c4c04>*/ /*|0x4|*/ struct HINSTANCE__* OsNet::TCPNET::s_ws2Module
+
+global /*<rva 0xa3a430>*/ /*|0x4|*/ int CWorld::prepareAll
+
+global /*<rva 0xa60cb8>*/ /*|0x100|*/ char CMap::mapName[256]
+
+global /*<rva 0xa13274>*/ /*|0x4|*/ int glNVTextureShader
+
+global /*<rva 0x4368a8>*/ /*|0x4|*/ char* OsNet::OSNETERR_WINSOCKVERSION
+
+global /*<rva 0x9c6950>*/ /*|0x318|*/ struct VOCALUISOUND g_vocalUISounds[66]
+
+global /*<rva 0x41faa4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicCommandTrack
+
+global /*<rva 0x4becc0>*/ /*|0x2|*/ unsigned char NTempest::CArgb4444::s_a1Table[2]
+
+global /*<rva 0xa4192c>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> CWorldScene::viewerMapObjGroups
+
+global /*<rva 0x4259e8>*/ /*|0x10|*/ struct _GUID IID_IRpcChannelBuffer2
+
+global /*<rva 0x425bb8>*/ /*|0x10|*/ struct _GUID IID_IInternalUnknown
+
+global /*<rva 0x410b10>*/ /*|0x4|*/ unsigned int CWorld::MIN_SOUND_EXT_LEVEL
+
+global /*<rva 0x425bf8>*/ /*|0x10|*/ struct _GUID IID_IStdMarshalInfo
+
+global /*<rva 0x9e2300>*/ /*|0xe0|*/ unsigned int CGBuffBar::m_durations[56]
+
+global /*<rva 0x425a48>*/ /*|0x10|*/ struct _GUID IID_IAdviseSink2
+
+global /*<rva 0xa6e3c4>*/ /*|0xc|*/ class TSExplicitList<CMapChunk,8> CMap::chunkFreeList
+
+global /*<rva 0xa6e480>*/ /*|0xc|*/ class TSExplicitList<CMapBaseObjLink,16> CMap::baseObjLinkFreeList
+
+global /*<rva 0xa42d30>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_farClip
+
+global /*<rva 0xa4ca4c>*/ /*|0x4|*/ unsigned int CMap::cCount
+
+global /*<rva 0xa16108>*/ /*|0xc|*/ class TSList<CGxuLight,TSGetLink<CGxuLight> > CGxuLight::s_lights
+
+global /*<rva 0x425be8>*/ /*|0x10|*/ struct _GUID IID_IExternalConnection
+
+global /*<rva 0x9c6cdc>*/ /*|0x18|*/ struct WEAPONSOUNDS g_weaponSwingSounds[3]
+
+global /*<rva 0xa40500>*/ /*|0x18|*/ class NTempest::CAaBox CWorld::objectAoi
+
+global /*<rva 0x9e60fc>*/ /*|0x4|*/ int CGTradeSkillInfo::m_skillLine
+
+global /*<rva 0xa41c40>*/ /*|0x40|*/ class NTempest::C4Plane CWorldScene::vpPlanes[4]
+
+global /*<rva 0x41f574>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPerformance
+
+global /*<rva 0x9e23f8>*/ /*|0x380|*/ class CGBuffDesc CGBuffBar::m_buffs[56]
+
+global /*<rva 0x41f604>*/ /*|0x10|*/ struct _GUID GUID_Buffer_EnvReverb
+
+global /*<rva 0xcb72c0>*/ /*|0xc|*/ class NTempest::C3Vector CSimpleRender::s_normal
+
+global /*<rva 0x9e60ac>*/ /*|0x14|*/ class TSGrowableArray<TradeSkillSubClassInfo *> CGTradeSkillInfo::m_subClasses
+
+global /*<rva 0x41f774>*/ /*|0x10|*/ struct _GUID GUID_MuteParam
+
+global /*<rva 0x9ddb90>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_lockedTarget
+
+global /*<rva 0xa12880>*/ /*|0x14|*/ class WowClientDB<CreatureFamilyRec> g_creatureFamilyDB
+
+global /*<rva 0x41fb84>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_SampleMemorySize
+
+global /*<rva 0x41fe24>*/ /*|0x10|*/ struct _GUID DS3DALG_NO_VIRTUALIZATION
+
+global /*<rva 0x40b284>*/ /*|0x4|*/ unsigned int CGxDeviceOpenGl::kNullTmu
+
+global /*<rva 0x459c74>*/ /*|0x20|*/ unsigned int CGxDeviceOpenGl::s_dataFormatSize[8]
+
+global /*<rva 0x412398>*/ /*|0x18|*/ char c_szPath[24]
+
+global /*<rva 0x41fd14>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_SYSTEM_NS
+
+global /*<rva 0xcbab0c>*/ /*|0x4|*/ class unreal u_512
+
+global /*<rva 0x9c5ff8>*/ /*|0x4|*/ unsigned int CParticleEmitter2::s_renderedParticles
+
+global /*<rva 0xa3a39c>*/ /*|0x10|*/ class NTempest::CiRect CWorld::chunkRectHi
+
+global /*<rva 0x402338>*/ /*|0x4|*/ int _imp____mb_cur_max
+
+global /*<rva 0xa404c0>*/ /*|0x40|*/ class NTempest::C44Matrix CWorld::idMat
+
+global /*<rva 0xa16b60>*/ /*|0x4|*/ unsigned int g_widthPixels
+
+global /*<rva 0x41fe84>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXParamEq
+
+global /*<rva 0x4368cc>*/ /*|0x4|*/ char* OsNet::OSNETERR_PORTFAILED
+
+global /*<rva 0xae2638>*/ /*|0xc|*/ class TSExplicitList<CDetailDoodadGeom,104> CDetailDoodad::geomList
+
+global /*<rva 0xa6e4c0>*/ /*|0x4|*/ unsigned int CMapObj::sMinimapTag
+
+global /*<rva 0xa132d0>*/ /*|0x4|*/ char*  (wglGetExtensionsStringARB*)(struct HDC__*)
+
+global /*<rva 0xcbab28>*/ /*|0x4|*/ class unreal u_20
+
+global /*<rva 0x4c3a68>*/ /*|0x4|*/ void  (kernel32_CreateProcessW_Ptr*)()
+
+global /*<rva 0x9e0fb8>*/ /*|0x4|*/ enum UI_SPELL_TYPE CGSpellBook::m_selectedType
+
+global /*<rva 0x4259b8>*/ /*|0x10|*/ struct _GUID IID_IRpcSyntaxNegotiate
+
+global /*<rva 0x4c3ab8>*/ /*|0x4|*/ void  (user32_RemovePropA_Ptr*)()
+
+global /*<rva 0xcbac00>*/ /*|0x4|*/ class unreal u_2000
+
+global /*<rva 0x40a800>*/ /*|0x2c|*/ enum CHARTEXTUREVARIATIONS g_charTextureSectionMapping[11]
+
+global /*<rva 0xcbaad4>*/ /*|0x4|*/ class unreal u_200
+
+global /*<rva 0xa2a468>*/ /*|0xa00|*/ char g_commandHistory[32][80]
+
+global /*<rva 0x41fae4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSeqTrack
+
+global /*<rva 0xa376bc>*/ /*|0x4|*/ unsigned int CWTriData::nBatches
+
+global /*<rva 0xa60dc0>*/ /*|0x14|*/ class TSGrowableArray<char> CMap::doodadNames
+
+global /*<rva 0x40a8ec>*/ /*|0x8|*/ char* g_itemDisplayInfoFlags[2]
+
+global /*<rva 0xcb2308>*/ /*|0x40|*/ class NTempest::C2Vector DNClouds::m_bumpFadeTable[8]
+
+global /*<rva 0xcbab3c>*/ /*|0x4|*/ class unreal u_30
+
+global /*<rva 0x4c3a60>*/ /*|0x4|*/ void  (kernel32_CreateDirectoryW_Ptr*)()
+
+global /*<rva 0xa6e33c>*/ /*|0xc|*/ class TSExplicitList<CMapObjDefGroup,8> CMap::mapObjDefGroupFreeList
+
+global /*<rva 0x4368c0>*/ /*|0x4|*/ char* OsNet::OSNETERR_SOCKETFAILED
+
+global /*<rva 0x4216dc>*/ /*|0x4|*/ struct FT_Module_Class_* ft_raster1_renderer_class
+
+global /*<rva 0x4216dc>*/ /*|0x3c|*/ struct FT_Renderer_Class_ ft_raster1_renderer_class
+
+global /*<rva 0x41fa74>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSignPostTrack
+
+global /*<rva 0x9e6114>*/ /*|0x4|*/ int CGTradeSkillInfo::m_availableSlots
+
+global /*<rva 0x4c3aa0>*/ /*|0x4|*/ void  (kernel32_WideCharToMultiByte_Ptr*)()
+
+global /*<rva 0xcbaaf0>*/ /*|0x4|*/ class unreal u_300
+
+global /*<rva 0x9c6550>*/ /*|0x1|*/ unsigned char g_underWater
+
+global /*<rva 0xa16b3c>*/ /*|0x4|*/ unsigned int g_heightPixels
+
+global /*<rva 0xcbac40>*/ /*|0x4|*/ void  (Unicows_FindNextFileW*)()
+
+global /*<rva 0x41fcb4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPort
+
+global /*<rva 0xa2ae98>*/ /*|0x2000|*/ char g_ExecBuffer[8192]
+
+global /*<rva 0xa1222c>*/ /*|0x14|*/ class WowClientDB<EmotesTextRec> g_emotesTextDB
+
+global /*<rva 0x4200d4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_VOLUME
+
+global /*<rva 0x41f6c4>*/ /*|0x10|*/ struct _GUID GUID_EnableTempo
+
+global /*<rva 0xcbabcc>*/ /*|0x4|*/ class unreal u_2pi
+
+global /*<rva 0x438190>*/ /*|0x50|*/ char* s_perfPrompts[20]
+
+global /*<rva 0xcb964c>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleCheckbox::s_scriptMethods
+
+global /*<rva 0xa6e4d0>*/ /*|0xc|*/ class NTempest::C3Vector CMapObj::localCamPos
+
+global /*<rva 0x9e7980>*/ /*|0x4|*/ unsigned int CGQuestInfo::m_numQuests
+
+global /*<rva 0xa68f14>*/ /*|0x4|*/ int CMap::bActive
+
+global /*<rva 0x41f5c4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicLoader
+
+global /*<rva 0x9d6474>*/ /*|0x4|*/ struct HMODEL__* CGlueMgr::m_cursorModel
+
+global /*<rva 0xa12268>*/ /*|0x14|*/ class WowClientDB<SpellItemEnchantmentRec> g_spellItemEnchantmentDB
+
+global /*<rva 0xcbab18>*/ /*|0x4|*/ class unreal u_10
+
+global /*<rva 0x4257d8>*/ /*|0x10|*/ struct _GUID IID_IForegroundTransfer
+
+global /*<rva 0x406dc0>*/ /*|0x438|*/ struct LAYERIDS g_sectionLayers[27]
+
+global /*<rva 0x49e3d0>*/ /*|0x4|*/ float CWorldScene::cullDistance
+
+global /*<rva 0x8c4dc4>*/ /*|0x4|*/ int OsNet::TCPNET::s_qpcexists
+
+global /*<rva 0x9e1880>*/ /*|0x4|*/ unsigned int CGClassTrainer::m_numServices
+
+global /*<rva 0x41f4f4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicLoader8
+
+global /*<rva 0xa3a3ac>*/ /*|0x4|*/ unsigned int CWorld::tickTimeMs
+
+global /*<rva 0x9dbccc>*/ /*|0x4|*/ char* CGGameUI::m_zoneText
+
+global /*<rva 0x41f9a4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicTrack8
+
+global /*<rva 0xcbaad0>*/ /*|0x4|*/ class unreal u_100
+
+global /*<rva 0xcbabf8>*/ /*|0x4|*/ class unreal u_1000
+
+global /*<rva 0xcbac10>*/ /*|0x4|*/ class unreal u_hugeval
+
+global /*<rva 0x4259d8>*/ /*|0x10|*/ struct _GUID IID_IAsyncRpcChannelBuffer
+
+global /*<rva 0xcbab60>*/ /*|0x4|*/ class unreal u_60
+
+global /*<rva 0x9dbcb8>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_cursorItemContainer
+
+global /*<rva 0x410cf8>*/ /*|0x4|*/ unsigned int CMap::WATERTEX_HEIGHT
+
+global /*<rva 0x9e796c>*/ /*|0x4|*/ int CGQuestInfo::m_currentQuest
+
+global /*<rva 0x4258e8>*/ /*|0x10|*/ struct _GUID IID_ITimeAndNoticeControl
+
+global /*<rva 0x9e7d08>*/ /*|0x8|*/ class NTempest::C2Vector CGMinimapFrame::m_pingPosition
+
+global /*<rva 0xa16c08>*/ /*|0x180|*/ struct TradeItemData s_tradeItems[2][8]
+
+global /*<rva 0xcbab10>*/ /*|0x4|*/ class unreal u_600
+
+global /*<rva 0x4a13d4>*/ /*|0x4|*/ unsigned int CMapObj::DEFAULT_RLEVEL
+
+global /*<rva 0xa60e28>*/ /*|0x4|*/ class CGxShaderParam* CMap::psTerrain_LayerMask
+
+global /*<rva 0xa132f0>*/ /*|0x4|*/ void  (glCombinerParameterfvNV*)(unsigned int, float*)
+
+global /*<rva 0xa376a4>*/ /*|0x4|*/ unsigned int CWorld::maxLights
+
+global /*<rva 0x4259c8>*/ /*|0x10|*/ struct _GUID IID_IRpcChannelBuffer3
+
+global /*<rva 0xcbab48>*/ /*|0x4|*/ class unreal u_700
+
+global /*<rva 0x49eff0>*/ /*|0x4|*/ int CMapArea::ccWaterRipples
+
+global /*<rva 0xa375ac>*/ /*|0xc|*/ class TSList<Storm::SFile::FILEREC,TSGetLink<Storm::SFile::FILEREC> > Storm::SFile::s_filelist
+
+global /*<rva 0x41f704>*/ /*|0x10|*/ struct _GUID GUID_StandardMIDIFile
+
+global /*<rva 0xcbac88>*/ /*|0x4|*/ void  (Unicows_SetPropA*)()
+
+global /*<rva 0x40a868>*/ /*|0x54|*/ char* g_creatureStaticFlags[21]
+
+global /*<rva 0xcbac24>*/ /*|0x4|*/ void  (Unicows_FindResourceW*)()
+
+global /*<rva 0x40a900>*/ /*|0x8|*/ char* g_regionFlags[2]
+
+global /*<rva 0x409c00>*/ /*|0x6c|*/ char* s_inventoryTypeNames[27]
+
+global /*<rva 0xcbac8c>*/ /*|0x4|*/ void  (Unicows_GetPropA*)()
+
+global /*<rva 0xcbab04>*/ /*|0x4|*/ class unreal u_400
+
+global /*<rva 0x4259a8>*/ /*|0x10|*/ struct _GUID IID_IRpcProxyBuffer
+
+global /*<rva 0xa132f8>*/ /*|0x4|*/ void  (glCombinerStageParameterfvNV*)(unsigned int, unsigned int, float*)
+
+global /*<rva 0xa68e90>*/ /*|0x80|*/ struct SMMapHeader CMap::header
+
+global /*<rva 0xa3756c>*/ /*|0xc|*/ class TSList<Storm::SFile::AUDIOSTREAM,TSGetLink<Storm::SFile::AUDIOSTREAM> > Storm::SFile::s_streamlist
+
+global /*<rva 0x459c2c>*/ /*|0x14|*/ unsigned int CGxDeviceOpenGl::s_convertMinFilterToOgl[5]
+
+global /*<rva 0x42138c>*/ /*|0x18|*/ struct FT_Raster_Funcs_ ft_grays_raster
+
+global /*<rva 0x9e50c0>*/ /*|0x40|*/ unsigned __int64 CGTradeInfo::m_playerItemBag[8]
+
+global /*<rva 0x40a638>*/ /*|0xc|*/ char* s_lockTypeStrings[3]
+
+global /*<rva 0xcbab5c>*/ /*|0x4|*/ class unreal u_50
+
+global /*<rva 0x420084>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_COMPORT
+
+global /*<rva 0xcbac7c>*/ /*|0x4|*/ void  (Unicows_GetWindowLongA*)()
+
+global /*<rva 0x9e491c>*/ /*|0x14|*/ struct PetitionVendorItem CGGuildRegistrar::m_petition
+
+global /*<rva 0x4c3b70>*/ /*|0x4|*/ struct HEVENTCONTEXT__* g_clientEventContext
+
+global /*<rva 0xcbab08>*/ /*|0x4|*/ class unreal u_500
+
+global /*<rva 0xcbac78>*/ /*|0x4|*/ void  (Unicows_SetWindowLongA*)()
+
+global /*<rva 0xa12808>*/ /*|0x14|*/ class WowClientDB<ChrClassesRec> g_chrClassesDB
+
+global /*<rva 0xcbac70>*/ /*|0x4|*/ void  (Unicows_GetClipboardData*)()
+
+global /*<rva 0xa18368>*/ /*|0x8|*/ unsigned __int64 s_lastTrainerRequest
+
+global /*<rva 0x9e1878>*/ /*|0x4|*/ enum TRAINER_TYPE CGClassTrainer::m_trainerType
+
+global /*<rva 0xcbac54>*/ /*|0x4|*/ void  (Unicows_DeleteFileW*)()
+
+global /*<rva 0xa2cea0>*/ /*|0x4|*/ int  (g_defaultCommand*)(char*, char*)
+
+global /*<rva 0xa43e64>*/ /*|0x24|*/ float CMap::liquidLastShown[9]
+
+global /*<rva 0x452128>*/ /*|0x150|*/ enum AI_GROUP_ACTION g_groupActionsList[84]
+
+global /*<rva 0xcbabc4>*/ /*|0x4|*/ class unreal u_root2
+
+global /*<rva 0xa1325c>*/ /*|0x4|*/ int wglARBPbuffer
+
+global /*<rva 0xa16078>*/ /*|0x48|*/ class TSHashTableReuse<CLightList,HASHKEY_DWORD,1> CLightList::s_lightHashTable
+
+global /*<rva 0xcb9754>*/ /*|0x4|*/ float CFramePoint::UNDEFINED
+
+global /*<rva 0xcb237c>*/ /*|0x30|*/ class NTempest::C2Vector DNSky::m_darkTable[6]
+
+global /*<rva 0xa42d64>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_lodDist
+
+global /*<rva 0xcbac50>*/ /*|0x4|*/ void  (Unicows_CreateDirectoryW*)()
+
+global /*<rva 0x45d20c>*/ /*|0x5|*/ char TSGrowableArray_<NTempest::CImVector,1199076678,59>::s_name[5]
+
+global /*<rva 0x445f64>*/ /*|0x4|*/ int CGChat::m_filterChat
+
+global /*<rva 0xa1240c>*/ /*|0x14|*/ class WowClientDB<SpellEffectCameraShakesRec> g_spellEffectCameraShakesDB
+
+global /*<rva 0x425908>*/ /*|0x10|*/ struct _GUID IID_ILayoutStorage
+
+global /*<rva 0x40a8bc>*/ /*|0x10|*/ char* g_trainerTypes[4]
+
+global /*<rva 0xa39b88>*/ /*|0x4|*/ unsigned int CWorld::texMaxAnisotropy
+
+global /*<rva 0x41f4a4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicPatternTrack
+
+global /*<rva 0xa42ce4>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_unitDrawDist
+
+global /*<rva 0x43ca88>*/ /*|0x3c|*/ unsigned int g_defaultGeosetIDOffsets[15]
+
+global /*<rva 0x9e6630>*/ /*|0x260|*/ class QuestInfo CGQuestInfo::m_inProgress[8]
+
+global /*<rva 0x41f614>*/ /*|0x10|*/ struct _GUID GUID_Buffer_Reverb
+
+global /*<rva 0x9e7178>*/ /*|0x40|*/ char CGQuestInfo::m_questTitle[64]
+
+global /*<rva 0xa132e0>*/ /*|0x4|*/ void  (glDeleteProgramsARB*)(int, unsigned int*)
+
+global /*<rva 0x41fb34>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_WavesReverb
+
+global /*<rva 0xa2f620>*/ /*|0x4|*/ int STypeCache::s_probe3Count
+
+global /*<rva 0xa404a0>*/ /*|0x4|*/ unsigned int CWorld::nChunksRender
+
+global /*<rva 0xa13330>*/ /*|0x4|*/ void  (glCompressedTexImage2DARB*)(unsigned int, int, unsigned int, int, int, int, int, void*)
+
+global /*<rva 0x41f8a4>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_SEGMENT
+
+global /*<rva 0xa41b5c>*/ /*|0xc|*/ class NTempest::C3Vector CWorldScene::camVec
+
+global /*<rva 0x412388>*/ /*|0xf|*/ char c_szVal[15]
+
+global /*<rva 0x41f8e4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicContainer
+
+global /*<rva 0xa133bc>*/ /*|0x4|*/ void  (glUnlockArraysEXT*)()
+
+global /*<rva 0x41fd24>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_MS_NS
+
+global /*<rva 0x40a264>*/ /*|0x1c|*/ char* g_unitReactions[7]
+
+global /*<rva 0x9e4980>*/ /*|0x8|*/ unsigned __int64 CGGuildRegistrar::m_registrar
+
+global /*<rva 0xcbab24>*/ /*|0x4|*/ class unreal u_13
+
+global /*<rva 0x422d60>*/ /*|0x4|*/ struct FT_Module_Class_* cff_driver_class
+
+global /*<rva 0x422d60>*/ /*|0x64|*/ struct FT_Driver_Class_ cff_driver_class
+
+global /*<rva 0x41fcf4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicCollection
+
+global /*<rva 0xa760b0>*/ /*|0x488|*/ class NTempest::C2Vector CMapChunk::texCoordList[145]
+
+global /*<rva 0xa404ac>*/ /*|0x4|*/ unsigned int CWorld::detailDoodadAlphaRef
+
+global /*<rva 0x9c5f34>*/ /*|0x4|*/ class RibbonManager* RibbonManager::manager
+
+global /*<rva 0xcbac80>*/ /*|0x4|*/ void  (Unicows_EnableWindow*)()
+
+global /*<rva 0xa75c04>*/ /*|0x14|*/ class TSGrowableArray<CGxTex *> CMapChunk::gxShadowTexFreeList
+
+global /*<rva 0xa12434>*/ /*|0x14|*/ class WowClientDB<CharacterCreateCamerasRec> g_characterCreateCamerasDB
+
+global /*<rva 0xa68f18>*/ /*|0x4|*/ int CMap::bDungeon
+
+global /*<rva 0x4c3ac0>*/ /*|0x4|*/ void  (user32_SetWindowLongA_Ptr*)()
+
+global /*<rva 0x41106c>*/ /*|0x4|*/ enum EGxTexFormat CMapObjGroup::LIGHTMAP_FORMAT
+
+global /*<rva 0xa12498>*/ /*|0x14|*/ class WowClientDB<LockTypeRec> g_lockTypeDB
+
+global /*<rva 0x4c3aa8>*/ /*|0x4|*/ void  (user32_EnableWindow_Ptr*)()
+
+global /*<rva 0xa13290>*/ /*|0x4|*/ int glExtDrawRangeElements
+
+global /*<rva 0x4368d4>*/ /*|0x4|*/ char* OsNet::OSNETERR_LISTENCLOSED
+
+global /*<rva 0xa64e68>*/ /*|0x1|*/ unsigned char CMap::enableSpecularTerrain
+
+global /*<rva 0xa13270>*/ /*|0x4|*/ int glNVTextureShader2
+
+global /*<rva 0xa11e78>*/ /*|0xc|*/ class TSList<DIRTYFACE,TSGetLink<DIRTYFACE> > s_dirtyList
+
+global /*<rva 0x425758>*/ /*|0x10|*/ struct _GUID IID_AsyncIPipeDouble
+
+global /*<rva 0x9e14f4>*/ /*|0x10|*/ class TSFixedArray<WorldMapContinentInfo> CGWorldMap::m_continents
+
+global /*<rva 0x4368b4>*/ /*|0x4|*/ char* OsNet::OSNETERR_EVENTFAILED
+
+global /*<rva 0xcbafc0>*/ /*|0x1400|*/ struct CDebugLockEntry CDebugLock<CDebugSRWLock>::s_entries[256]
+
+global /*<rva 0x9c6cbc>*/ /*|0x10|*/ class TSFixedArray<IMPACTSOUNDARRAY> g_impactSounds
+
+global /*<rva 0x4259f8>*/ /*|0x10|*/ struct _GUID IID_IRpcChannelBuffer
+
+global /*<rva 0x9dbc58>*/ /*|0x14|*/ class TSGrowableArray<NTempest::C3Vector> g_debugBoxVerts
+
+global /*<rva 0x4a1530>*/ /*|0x14|*/ char detailDoodadPath[20]
+
+global /*<rva 0xa7207c>*/ /*|0x14|*/ class TSGrowableArray<CGxTex *> CMapChunk::gxAlphaTexFreeList
+
+global /*<rva 0x41f744>*/ /*|0x10|*/ struct _GUID GUID_ConnectToDLSCollection
+
+global /*<rva 0xa16ba8>*/ /*|0xc|*/ class TSList<TEXTLINETEXTURE,TSGetLink<TEXTLINETEXTURE> > g_freeTextLineTextures
+
+global /*<rva 0x41fd04>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusic
+
+global /*<rva 0x41fa64>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicBandTrack
+
+global /*<rva 0x438958>*/ /*|0x1c|*/ char* s_textureLogString[7]
+
+global /*<rva 0x45d21c>*/ /*|0x5|*/ char TSGrowableArray_<unsigned short,1199076678,61>::s_name[5]
+
+global /*<rva 0x434b0c>*/ /*|0x5|*/ char TSFixedArray_<unsigned char,1296321606,484>::s_name[5]
+
+global /*<rva 0xa126b4>*/ /*|0x14|*/ class WowClientDB<SpellRadiusRec> g_spellRadiusDB
+
+global /*<rva 0x9e1ce0>*/ /*|0x4|*/ int CGQuestLog::m_numShownQuests
+
+global /*<rva 0xa16b20>*/ /*|0xc|*/ class TSList<IGXUTEXTLINE,TSGetLink<IGXUTEXTLINE> > g_freeTextLines
+
+global /*<rva 0x9e6110>*/ /*|0x4|*/ unsigned int CGTradeSkillInfo::m_filteredSkills
+
+global /*<rva 0xa37584>*/ /*|0x4|*/ unsigned long* Storm::SFile::s_hashsource
+
+global /*<rva 0xcb9714>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleTexture::s_scriptMethods
+
+global /*<rva 0x4123bc>*/ /*|0x8|*/ struct _UNICODE_STRING RtlDosPathSeperatorsString
+
+global /*<rva 0xa40470>*/ /*|0x18|*/ class NTempest::CAaBox CWorld::groupAoi
+
+global /*<rva 0xa60de8>*/ /*|0x4|*/ class CGxPixelShader* CMap::psUTerrain
+
+global /*<rva 0xcbd804>*/ /*|0x4|*/ struct CDebugLockData* CDebugLock<CDebugSCritSect>::s_locks
+
+global /*<rva 0x40a200>*/ /*|0x10|*/ char* g_aiWanderFacing[4]
+
+global /*<rva 0xa2ce9c>*/ /*|0x4|*/ unsigned int g_commandHistoryIndex
+
+global /*<rva 0x41f7e4>*/ /*|0x10|*/ struct _GUID GUID_TimeSignature
+
+global /*<rva 0x41ff34>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundCapture
+
+global /*<rva 0xa13260>*/ /*|0x4|*/ int wglARBPixelFormat
+
+global /*<rva 0xa375b8>*/ /*|0x18|*/ class CCritSect Storm::SFile::s_globcritsect
+
+global /*<rva 0xa42dc4>*/ /*|0x4|*/ class CGxTex* CMap::skyTexid
+
+global /*<rva 0xa40ba0>*/ /*|0xb88|*/ class CSortTable CWorldScene::sortTable
+
+global /*<rva 0x40a8d4>*/ /*|0xc|*/ char* g_cameraDirections[3]
+
+global /*<rva 0xa3a390>*/ /*|0x4|*/ class Particulate* CWorld::particulate
+
+global /*<rva 0x40a93c>*/ /*|0x34|*/ char* g_siflagStrings[13]
+
+global /*<rva 0xa128d0>*/ /*|0x14|*/ class WowClientDB<GroundEffectDoodadRec> g_groundEffectDoodadDB
+
+global /*<rva 0xcbab34>*/ /*|0x4|*/ class unreal u_22
+
+global /*<rva 0x4258a8>*/ /*|0x10|*/ struct _GUID IID_IDirectWriterLock
+
+global /*<rva 0x49add0>*/ /*|0x12c|*/ struct Storm::SFile::StormGlobals Storm::SFile::s_g
+
+global /*<rva 0x41f924>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicLoader
+
+global /*<rva 0x41f5d4>*/ /*|0x10|*/ struct _GUID GUID_Buffer_Mono
+
+global /*<rva 0xcbac30>*/ /*|0x4|*/ void  (Unicows_CreateProcessW*)()
+
+global /*<rva 0x40232c>*/ /*|0x0|*/ struct _iobuf _imp___iob[0]
+
+global /*<rva 0xa6e48c>*/ /*|0xc|*/ class TSList<CChunkLayer,TSGetLink<CChunkLayer> > CMap::chunkLayerFreeList
+
+global /*<rva 0x425bd8>*/ /*|0x10|*/ struct _GUID IID_IMultiQI
+
+global /*<rva 0x41feb4>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXEcho
+
+global /*<rva 0xab3368>*/ /*|0x600|*/ unsigned short CMapChunk::primList[768]
+
+global /*<rva 0x45c448>*/ /*|0x4|*/ void  (GxuLightSetMaxLights*)(unsigned int)
+
+global /*<rva 0x41fd94>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_PARAMEQ
+
+global /*<rva 0xa132c8>*/ /*|0x4|*/ int  (wglGetPixelFormatAttribfvARB*)(struct HDC__*, int, int, unsigned int, int*, float*)
+
+global /*<rva 0xcbab50>*/ /*|0x4|*/ class unreal u_32
+
+global /*<rva 0xa40b24>*/ /*|0x10|*/ class NTempest::C4Vector CWorldScene::mvpCol3
+
+global /*<rva 0xa60e14>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> CMap::scCollideList
+
+global /*<rva 0x406c60>*/ /*|0x28|*/ char* s_sectionDirectorynames[10]
+
+global /*<rva 0x41f714>*/ /*|0x10|*/ struct _GUID GUID_Clear_All_Bands
+
+global /*<rva 0x4368c8>*/ /*|0x4|*/ char* OsNet::OSNETERR_ACCEPTFAILED
+
+global /*<rva 0xa408d0>*/ /*|0x4|*/ unsigned int CWorldScene::nObjectsRendered
+
+global /*<rva 0xa40468>*/ /*|0x4|*/ float CWorld::curTimeSec
+
+global /*<rva 0xa6e364>*/ /*|0xc|*/ class TSExplicitList<CMapArea,8> CMap::areaFreeList
+
+global /*<rva 0xcbaac8>*/ /*|0x4|*/ class unreal u_8
+
+global /*<rva 0xcbaacc>*/ /*|0x4|*/ class unreal u_9
+
+global /*<rva 0xcbaac0>*/ /*|0x4|*/ class unreal u_6
+
+global /*<rva 0xcbaac4>*/ /*|0x4|*/ class unreal u_7
+
+global /*<rva 0x9e7988>*/ /*|0x4|*/ int CGQuestInfo::m_pendingQuest
+
+global /*<rva 0xcbaab8>*/ /*|0x4|*/ class unreal u_4
+
+global /*<rva 0xcbaabc>*/ /*|0x4|*/ class unreal u_5
+
+global /*<rva 0xa41940>*/ /*|0xc|*/ class TSExplicitList<CWFrustum,244> CWorldScene::frustumFreeList
+
+global /*<rva 0xcbaab0>*/ /*|0x4|*/ class unreal u_2
+
+global /*<rva 0xcbaab4>*/ /*|0x4|*/ class unreal u_3
+
+global /*<rva 0xa13334>*/ /*|0x4|*/ void  (glClientActiveTextureARB*)(unsigned int)
+
+global /*<rva 0xcbaaa8>*/ /*|0x4|*/ class unreal u_0
+
+global /*<rva 0xcbaaac>*/ /*|0x4|*/ class unreal u_1
+
+global /*<rva 0x9e7984>*/ /*|0x4|*/ unsigned int CGQuestInfo::m_numInProgress
+
+global /*<rva 0x9e51e8>*/ /*|0x8|*/ unsigned __int64 CGTradeInfo::m_tradingPlayer
+
+global /*<rva 0xa1254c>*/ /*|0x14|*/ class WowClientDB<AreaTableRec> g_areaTableDB
+
+global /*<rva 0xa2f62c>*/ /*|0x4|*/ int STypeCache::s_probe2Count
+
+global /*<rva 0x9e4f34>*/ /*|0x4|*/ unsigned int CGCraftInfo::m_numSkills
+
+global /*<rva 0xa12650>*/ /*|0x14|*/ class WowClientDB<ChrProficiencyRec> g_chrProficiencyDB
+
+global /*<rva 0x4c3a74>*/ /*|0x4|*/ void  (kernel32_FindNextFileW_Ptr*)()
+
+global /*<rva 0xa18530>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> g_unitSeqEndList
+
+global /*<rva 0xa60e3c>*/ /*|0x14|*/ class TSGrowableArray<CGxVertexPC> CMap::testQueryVerts
+
+global /*<rva 0xcbab20>*/ /*|0x4|*/ class unreal u_12
+
+global /*<rva 0x41f994>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicPerformance
+
+global /*<rva 0x41f554>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicStyle
+
+global /*<rva 0xcb93f0>*/ /*|0x4|*/ class CSimpleEditBox* CSimpleEditBox::s_currentFocus
+
+global /*<rva 0xa60b9c>*/ /*|0x4|*/ struct CGxBuf* CMap::gxBufDynLowDetail
+
+global /*<rva 0xcbaad8>*/ /*|0x4|*/ class unreal u_128
+
+global /*<rva 0x40a8cc>*/ /*|0x8|*/ char* g_cameraShakeTypes[2]
+
+global /*<rva 0xa6e3e4>*/ /*|0xc|*/ class TSList<CChunkTex,TSGetLink<CChunkTex> > CMap::chunkTexFreeList
+
+global /*<rva 0xcbabfc>*/ /*|0x4|*/ class unreal u_1200
+
+global /*<rva 0x49ff84>*/ /*|0x20|*/ unsigned long g_1bitSplatShft[8]
+
+global /*<rva 0x41fa14>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSegmentTriggerTrack
+
+global /*<rva 0x4368d0>*/ /*|0x4|*/ char* OsNet::OSNETERR_OVERLAPTYPE
+
+global /*<rva 0xa720a8>*/ /*|0xa0|*/ struct CGxBatch CMapChunk::rmGxBatchList[4][2]
+
+global /*<rva 0xcbac58>*/ /*|0x4|*/ void  (Unicows_CopyFileW*)()
+
+global /*<rva 0x9dbce4>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorVirtualID
+
+global /*<rva 0xa64e90>*/ /*|0x4000|*/ unsigned long CMap::areaLowOffsets[4096]
+
+global /*<rva 0xa6e2d0>*/ /*|0x2c|*/ int CMap::counts[11]
+
+global /*<rva 0x9dff90>*/ /*|0x1000|*/ int CGSpellBook::m_knownAbilities[1024]
+
+global /*<rva 0x410d34>*/ /*|0x4|*/ float Particulate::PTSIZE
+
+global /*<rva 0x45c450>*/ /*|0x4|*/ void  (GxuLightBucketSizeSet*)(float)
+
+global /*<rva 0x4c3a7c>*/ /*|0x4|*/ void  (kernel32_GetCurrentDirectoryW_Ptr*)()
+
+global /*<rva 0x46c1b8>*/ /*|0xc2d0|*/ struct _PCI_DEVTABLE PciDevTable[4156]
+
+global /*<rva 0x40a55c>*/ /*|0xc|*/ char* g_spellAcquireStrings[3]
+
+global /*<rva 0x9ddee8>*/ /*|0x4|*/ enum LOOT_METHOD CGPartyInfo::m_lootMethod
+
+global /*<rva 0xa12394>*/ /*|0x14|*/ class WowClientDB<FootstepTerrainLookupRec> g_footstepTerrainLookupDB
+
+global /*<rva 0xa1326c>*/ /*|0x4|*/ int glNVTextureShader3
+
+global /*<rva 0x9e4808>*/ /*|0x4|*/ unsigned int CGCharacterInfo::m_numSkills
+
+global /*<rva 0x9e6118>*/ /*|0x100|*/ char CGQuestInfo::m_greetingText[256]
+
+global /*<rva 0x40b398>*/ /*|0x20|*/ enum _D3DFORMAT CGxDeviceD3d::s_GxFormatToD3dFormat[8]
+
+global /*<rva 0x409c6c>*/ /*|0x14|*/ char* itemSpellTriggers[5]
+
+global /*<rva 0x434afc>*/ /*|0x5|*/ char TSFixedArray_<unsigned int,1229811556,284>::s_name[5]
+
+global /*<rva 0xa1330c>*/ /*|0x4|*/ unsigned char  (glTestFenceNV*)(unsigned int)
+
+global /*<rva 0x9c6248>*/ /*|0x40|*/ class NTempest::C44Matrix CParticleEmitter2::s_particleToView
+
+global /*<rva 0x434b04>*/ /*|0x5|*/ char TSFixedArray_<unsigned int,1229811556,285>::s_name[5]
+
+global /*<rva 0x9e51c8>*/ /*|0x20|*/ int CGTradeInfo::m_targetItemCount[8]
+
+global /*<rva 0x434aec>*/ /*|0x5|*/ char TSFixedArray_<unsigned int,1229811556,282>::s_name[5]
+
+global /*<rva 0x434af4>*/ /*|0x5|*/ char TSFixedArray_<unsigned int,1229811556,283>::s_name[5]
+
+global /*<rva 0xcb25bc>*/ /*|0x1c|*/ float DNSky::m_darkAngle[7]
+
+global /*<rva 0x9dd904>*/ /*|0x4|*/ struct CVar* s_minimapInsideZoomCVar
+
+global /*<rva 0xa1281c>*/ /*|0x14|*/ class WowClientDB<ChrRacesRec> g_chrRacesDB
+
+global /*<rva 0x8c4c08>*/ /*|0x4|*/ struct HINSTANCE__* OsNet::TCPNET::s_mswsockModule
+
+global /*<rva 0x41ff24>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundCaptureBuffer
+
+global /*<rva 0x9e5094>*/ /*|0x20|*/ int CGTradeInfo::m_targetItemEnchantment[8]
+
+global /*<rva 0x49ff54>*/ /*|0x20|*/ unsigned long g_2bitSplatShft[8]
+
+global /*<rva 0xac1a48>*/ /*|0x104|*/ class TSCArray<NTempest::CRect,16> CMapObj::extViewList
+
+global /*<rva 0xae2898>*/ /*|0xc|*/ class TSExplicitList<CSimpleDoodad,536> simpleDoodadScene
+
+global /*<rva 0x466098>*/ /*|0x40|*/ char* g_gameobjectActions[16]
+
+global /*<rva 0x41fb54>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_WritePeriod
+
+global /*<rva 0x4200f4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_TAPE
+
+global /*<rva 0xa18478>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> g_mountSeqEndList
+
+global /*<rva 0x4426c0>*/ /*|0x6c|*/ char* g_invTypeTokens[27]
+
+global /*<rva 0x49f488>*/ /*|0x40|*/ unsigned int g_holeMask[4][4]
+
+global /*<rva 0x4258d8>*/ /*|0x10|*/ struct _GUID IID_IOplockStorage
+
+global /*<rva 0x9e1540>*/ /*|0x4|*/ unsigned int CGWorldMap::m_numLandmarks
+
+global /*<rva 0xa3a434>*/ /*|0x4|*/ unsigned int CWTriData::nTriIndices
+
+global /*<rva 0xcb1558>*/ /*|0x20|*/ class NTempest::C2Vector GlareBase::m_texv[4]
+
+global /*<rva 0x9e13e0>*/ /*|0x4|*/ enum LOOT_ACQUIRE CGLootInfo::m_lootType
+
+global /*<rva 0xa446d8>*/ /*|0x1|*/ unsigned char CMap::oceanDiffTexUpdated
+
+global /*<rva 0x41fbe4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_GS_Capable
+
+global /*<rva 0x9c5f5c>*/ /*|0x28|*/ class NTempest::CPriorityQ<CSortableParticleRecord,CSortableParticleRecord> CParticleEmitter2::m_pq
+
+global /*<rva 0xa124ac>*/ /*|0x14|*/ class WowClientDB<LockRec> g_lockDB
+
+global /*<rva 0xcbaafc>*/ /*|0x4|*/ class unreal u_256
+
+global /*<rva 0x425938>*/ /*|0x10|*/ struct _GUID IID_IRpcOptions
+
+global /*<rva 0xa13318>*/ /*|0x4|*/ void  (glDeleteFencesNV*)(int, unsigned int*)
+
+global /*<rva 0x41f494>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicScript
+
+global /*<rva 0xa40498>*/ /*|0x4|*/ unsigned int CWorld::frameCnt
+
+global /*<rva 0xcbaaf8>*/ /*|0x4|*/ class unreal u_250
+
+global /*<rva 0x4200c4>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_MEDIUMCHANGER
+
+global /*<rva 0x4c3ab0>*/ /*|0x4|*/ void  (user32_GetPropA_Ptr*)()
+
+global /*<rva 0x41f884>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_MEASUREANDBEAT
+
+global /*<rva 0x45253c>*/ /*|0x28|*/ enum INVENTORY_TYPES g_NPCItemDisplayInvTypes[10]
+
+global /*<rva 0x41fe34>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFullDuplex
+
+global /*<rva 0xa122a4>*/ /*|0x14|*/ class WowClientDB<UnitBloodRec> g_unitBloodDB
+
+global /*<rva 0x420004>*/ /*|0x10|*/ struct _GUID CLSID_DirectSoundFullDuplex
+
+global /*<rva 0x9dbd04>*/ /*|0x4|*/ class CSimpleFrame* CGGameUI::m_UISimpleParent
+
+global /*<rva 0x40c90c>*/ /*|0x8|*/ enum VIRTUAL_MONSTER_SLOT g_monsterHands[2]
+
+global /*<rva 0xa12600>*/ /*|0x14|*/ class WowClientDB<SpellDurationRec> g_spellDurationDB
+
+global /*<rva 0x9d6430>*/ /*|0xc|*/ unsigned long CGlueMgr::m_queueTime[3]
+
+global /*<rva 0xa132fc>*/ /*|0x4|*/ void  (glCombinerOutputNV*)(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char)
+
+global /*<rva 0xa42d88>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_maxLights
+
+global /*<rva 0xa2f624>*/ /*|0x4|*/ char* STypeCache::s_lastSearchValue
+
+global /*<rva 0x41fc74>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicCollection
+
+global /*<rva 0xcbabc0>*/ /*|0x4|*/ class unreal u_epsilon
+
+global /*<rva 0x423878>*/ /*|0x4|*/ struct FT_Module_Class_* autohint_module_class
+
+global /*<rva 0x423878>*/ /*|0x24|*/ struct FT_Module_Class_ autohint_module_class
+
+global /*<rva 0xa3752c>*/ /*|0xc|*/ class TSList<EVENTREC,TSGetLink<EVENTREC> > Storm::SFile::s_signalList
+
+global /*<rva 0xa6e41c>*/ /*|0xc|*/ class TSExplicitList<CMapCacheLight,72> CMap::cacheLightFreeList
+
+global /*<rva 0xcbab30>*/ /*|0x4|*/ class unreal u_15
+
+global /*<rva 0x434acc>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C2Vector,1229811556,266>::s_name[5]
+
+global /*<rva 0x43491c>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1229811556,276>::s_name[5]
+
+global /*<rva 0x4348fc>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1229811556,376>::s_name[5]
+
+global /*<rva 0xcbac28>*/ /*|0x4|*/ void  (Unicows_WideCharToMultiByte*)()
+
+global /*<rva 0x425858>*/ /*|0x10|*/ struct _GUID IID_ISynchronizeMutex
+
+global /*<rva 0xcbaadc>*/ /*|0x4|*/ class unreal u_150
+
+global /*<rva 0xa40644>*/ /*|0x4|*/ unsigned int CWorld::pnt0EstimateVertex
+
+global /*<rva 0xa4c8b8>*/ /*|0x4|*/ class CGxTex* CMap::riverDiffTexid
+
+global /*<rva 0xcbabb4>*/ /*|0x4|*/ class unreal u_ln2
+
+global /*<rva 0x4368b8>*/ /*|0x4|*/ char* OsNet::OSNETERR_BINDFAILED
+
+global /*<rva 0x8c4804>*/ /*|0x4|*/ int OsNet::TCPNET::s_baseShutdown
+
+global /*<rva 0x4216c4>*/ /*|0x18|*/ struct FT_Raster_Funcs_ ft_standard_raster
+
+global /*<rva 0x8c4c00>*/ /*|0x4|*/ struct OsNet::TCPNET* OsNet::TCPNET::s_pnet
+
+global /*<rva 0x9e7970>*/ /*|0x4|*/ int CGQuestInfo::m_completable
+
+global /*<rva 0xa41b4c>*/ /*|0x4|*/ unsigned int CWorldScene::nPrimsRendered
+
+global /*<rva 0xa12588>*/ /*|0x14|*/ class WowClientDB<TerrainTypeRec> g_terrainTypeDB
+
+global /*<rva 0x41f6a4>*/ /*|0x10|*/ struct _GUID GUID_Variations
+
+global /*<rva 0xa406e0>*/ /*|0x4|*/ class CMapObjDef* CWorldScene::camMapObjDef
+
+global /*<rva 0xa4049c>*/ /*|0x4|*/ float CWorld::unitDrawDist
+
+global /*<rva 0xa1286c>*/ /*|0x14|*/ class WowClientDB<CreatureModelDataRec> g_creatureModelDataDB
+
+global /*<rva 0x425c18>*/ /*|0x10|*/ struct _GUID IID_IMalloc
+
+global /*<rva 0xa40648>*/ /*|0x4|*/ unsigned int CWorld::pnt0EstimateIndex
+
+global /*<rva 0xa112cc>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CGTooltip::s_scriptMethods
+
+global /*<rva 0xae287c>*/ /*|0x4|*/ struct CGxBuf* CSimpleDoodad::gxBufDyn
+
+global /*<rva 0x9d64dc>*/ /*|0x4|*/ struct CHARACTER_INFO* CGlueMgr::m_characterInfo
+
+global /*<rva 0x41f874>*/ /*|0x10|*/ struct _GUID GUID_NOTIFICATION_CHORD
+
+global /*<rva 0x9d64d8>*/ /*|0x4|*/ int CGlueMgr::m_estimatedWaitTime
+
+global /*<rva 0x9ddef8>*/ /*|0x4|*/ int CGPartyInfo::m_lookingForGroup
+
+global /*<rva 0x49feac>*/ /*|0x4|*/ float CMapLight::bucketSize
+
+global /*<rva 0xa30168>*/ /*|0x1000|*/ struct S_Thread::SThreadTrack S_Thread::s_threads[128]
+
+global /*<rva 0x9ddf10>*/ /*|0x1000|*/ int CGSpellBook::m_petSpells[1024]
+
+global /*<rva 0x425828>*/ /*|0x10|*/ struct _GUID IID_ICallFactory
+
+global /*<rva 0x4368c4>*/ /*|0x4|*/ char* OsNet::OSNETERR_SELECTFAILED
+
+global /*<rva 0x41fe44>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundCaptureFXNoiseSuppress
+
+global /*<rva 0x9e4904>*/ /*|0x4|*/ unsigned int CGPetitionInfo::m_numSignatures
+
+global /*<rva 0x45c434>*/ /*|0x4|*/ class CGxLight*  (GxuLightLock*)(unsigned long)
+
+global /*<rva 0xa13268>*/ /*|0x4|*/ int glATIFragmentShader
+
+global /*<rva 0x9e4f30>*/ /*|0x4|*/ int CGCraftInfo::m_currentSelection
+
+global /*<rva 0x4113a0>*/ /*|0x4|*/ float CMapStaticEntity::dirLightScaleAmount
+
+global /*<rva 0x41fdf4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_GARGLE
+
+global /*<rva 0x9dbcd4>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorItemSlot
+
+global /*<rva 0xa41d20>*/ /*|0xfc0|*/ class CWFrustum CWorldScene::frustumStack[16]
+
+global /*<rva 0xa1245c>*/ /*|0x14|*/ class WowClientDB<FootprintTexturesRec> g_footprintTexturesDB
+
+global /*<rva 0xa132ac>*/ /*|0x4|*/ int  (wglSwapIntervalEXT*)(int)
+
+global /*<rva 0xcbac84>*/ /*|0x4|*/ void  (Unicows_RemovePropA*)()
+
+global /*<rva 0x425a28>*/ /*|0x10|*/ struct _GUID IID_IDataObject
+
+global /*<rva 0xa2f60c>*/ /*|0x4|*/ int STypeCache::s_reprobeCount
+
+global /*<rva 0xa13298>*/ /*|0x4|*/ int glExtTextureCompressionS3tc
+
+global /*<rva 0xa4c8e8>*/ /*|0x9|*/ unsigned char CMap::liquidTexLoaded[9]
+
+global /*<rva 0x40a4bc>*/ /*|0x24|*/ int g_defaultGeosets[9]
+
+global /*<rva 0xa13310>*/ /*|0x4|*/ void  (glSetFenceNV*)(unsigned int, unsigned int)
+
+global /*<rva 0x40a9e4>*/ /*|0x1c|*/ char* g_itemSize[7]
+
+global /*<rva 0x9d6574>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> CCharCreateInfo::m_classIndex
+
+global /*<rva 0xcbab40>*/ /*|0x4|*/ class unreal u_24
+
+global /*<rva 0x9e1b10>*/ /*|0x180|*/ struct QuestLogInfo CGQuestLog::m_quests[32]
+
+global /*<rva 0x41f844>*/ /*|0x10|*/ struct _GUID GUID_CommandParam
+
+global /*<rva 0x4477e4>*/ /*|0x4|*/ int CGWorldMap::m_currentZone
+
+global /*<rva 0x452500>*/ /*|0x3c|*/ int g_charGeosetIsOverlay[15]
+
+global /*<rva 0x41f934>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicComposer
+
+global /*<rva 0x40a2b8>*/ /*|0x2c|*/ char* g_factionFlags[11]
+
+global /*<rva 0x9e1314>*/ /*|0x4|*/ unsigned int CGLootInfo::m_itemsPending
+
+global /*<rva 0xa6e4e8>*/ /*|0x4|*/ unsigned int CMapObj::gRenderCount
+
+global /*<rva 0x41f634>*/ /*|0x10|*/ struct _GUID GUID_DefaultGMCollection
+
+global /*<rva 0x40a914>*/ /*|0x28|*/ char* g_questDifficultyRatings[10]
+
+global /*<rva 0xcb3220>*/ /*|0x14|*/ struct EclipseObject EclipseObject_HuhHuhHuh_Huh
+
+global /*<rva 0x9e1318>*/ /*|0x8|*/ unsigned __int64 CGLootInfo::m_object
+
+global /*<rva 0x439188>*/ /*|0x4|*/ float ParticleSystemManager::scaler
+
+global /*<rva 0xa16b08>*/ /*|0xc|*/ class TSList<CGxString,TSGetLink<CGxString> > g_freeStrings
+
+global /*<rva 0x421718>*/ /*|0x3c|*/ struct FT_Renderer_Class_ ft_raster5_renderer_class
+
+global /*<rva 0xa42ce0>*/ /*|0x4|*/ unsigned int CWorldScene::camLiquid
+
+global /*<rva 0x9e4ea0>*/ /*|0x4|*/ unsigned int CGReputationInfo::m_numFactions
+
+global /*<rva 0x9ddb60>*/ /*|0x4|*/ char* CGGameUI::m_subZoneText
+
+global /*<rva 0xa12574>*/ /*|0x14|*/ class WowClientDB<TerrainTypeSoundsRec> g_terrainTypeSoundsDB
+
+global /*<rva 0xa3a468>*/ /*|0x6000|*/ unsigned short CWTriData::vertexIndices[12288]
+
+global /*<rva 0x9ddba0>*/ /*|0x4|*/ unsigned int CGGameUI::m_cursorMoney
+
+global /*<rva 0x4beca4>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1281976168,74>::s_name[5]
+
+global /*<rva 0x9e6104>*/ /*|0x4|*/ unsigned int CGTradeSkillInfo::m_itemsPending
+
+global /*<rva 0x41fa44>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicMuteTrack
+
+global /*<rva 0x4258b8>*/ /*|0x10|*/ struct _GUID IID_IGlobalInterfaceTable
+
+global /*<rva 0xa37568>*/ /*|0x4|*/ int Storm::SFile::s_closingDirectSound
+
+global /*<rva 0x4c3ad8>*/ /*|0x6c|*/ struct LoginData s_loginData
+
+global /*<rva 0x425718>*/ /*|0x10|*/ struct _GUID IID_IProcessInitControl
+
+global /*<rva 0x45c43c>*/ /*|0x4|*/ void  (GxuLightSelect*)(class NTempest::C3Vector, class NTempest::C3Vector&, unsigned int)
+
+global /*<rva 0xa41b28>*/ /*|0x10|*/ class NTempest::C4Plane CWorldScene::camPlaneXY
+
+global /*<rva 0xa12a38>*/ /*|0x40|*/ class DBCache<NameCache,unsigned __int64,CHashKeyGUID> g_nameDBCache
+
+global /*<rva 0xa12524>*/ /*|0x14|*/ class WowClientDB<AttackAnimTypesRec> g_attackAnimTypesDB
+
+global /*<rva 0x40a2e8>*/ /*|0x1b0|*/ struct ITEMGEOSETGROUPS g_geosetGroupsPerItem[27]
+
+global /*<rva 0x44b9e8>*/ /*|0x4|*/ int CGTradeSkillInfo::m_subClassFilter
+
+global /*<rva 0xcbab2c>*/ /*|0x4|*/ class unreal u_14
+
+global /*<rva 0xa4ca54>*/ /*|0xc|*/ class TSExplicitList<CMapBaseObjLink,8> CMap::doodadDefLinkList
+
+global /*<rva 0x41fda4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_COMPRESSOR
+
+global /*<rva 0x9e11c0>*/ /*|0x140|*/ struct CGLootSlot CGLootInfo::m_loot[16]
+
+global /*<rva 0x9e6060>*/ /*|0x8|*/ unsigned __int64 CGMerchantInfo::m_merchant
+
+global /*<rva 0x9e490c>*/ /*|0x4|*/ class CGPetition* CGPetitionInfo::m_petition
+
+global /*<rva 0x41fee4>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXGargle
+
+global /*<rva 0x4368a4>*/ /*|0x4|*/ char* OsNet::OSNETERR_WINSOCKSTARTUP
+
+global /*<rva 0x9c5f30>*/ /*|0x4|*/ class ParticleSystemManager* ParticleSystemManager::manager
+
+global /*<rva 0x40a7b4>*/ /*|0x8|*/ char* s_hairTextureSet[2]
+
+global /*<rva 0xa60e34>*/ /*|0x4|*/ class CGxShaderParam* CMap::psSpecUTerrain_LayerMask
+
+global /*<rva 0xcba5a0>*/ /*|0x14|*/ class TSGrowableArray<MACRODESC> s_macroRaceDescs
+
+global /*<rva 0xa60e38>*/ /*|0x4|*/ class CGxPixelShader* CMap::psSpecTerrain
+
+global /*<rva 0x4c3aac>*/ /*|0x4|*/ void  (user32_GetClipboardData_Ptr*)()
+
+global /*<rva 0x9e1d30>*/ /*|0x304|*/ class TSCArray<TaxiNode,64> CGTaxiMap::m_nodes
+
+global /*<rva 0x43c340>*/ /*|0x4|*/ int CCharCreateInfo::m_selectedRace
+
+global /*<rva 0x40a908>*/ /*|0xc|*/ char* g_charActionBar[3]
+
+global /*<rva 0x9ddee0>*/ /*|0x8|*/ unsigned __int64 CGPartyInfo::m_leader
+
+global /*<rva 0xa12538>*/ /*|0x14|*/ class WowClientDB<AttackAnimKitsRec> g_attackAnimKitsDB
+
+global /*<rva 0xa5cb98>*/ /*|0x4000|*/ class CMapAreaLow* CMap::areaLowTable[4096]
+
+global /*<rva 0x41fdb4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_DISTORTION
+
+global /*<rva 0xa6e388>*/ /*|0xc|*/ class TSExplicitList<CMapDoodadDef,8> CMap::doodadDefFreeList
+
+global /*<rva 0x8c4dc0>*/ /*|0x4|*/ float OsNet::TCPNET::s_qpctoms
+
+global /*<rva 0x43492c>*/ /*|0x5|*/ char TSFixedArray_<NTempest::C3Vector,1229811556,278>::s_name[5]
+
+global /*<rva 0x40a7a8>*/ /*|0xc|*/ char* s_instanceType[3]
+
+global /*<rva 0x41fd54>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_MS_AEC
+
+global /*<rva 0xa6e474>*/ /*|0xc|*/ class TSExplicitList<CMapLight,8> CMap::lightFreeList
+
+global /*<rva 0x41f7c4>*/ /*|0x10|*/ struct _GUID GUID_Valid_Start_Time
+
+global /*<rva 0x410d00>*/ /*|0x24|*/ float CMap::liquidTexLoopTime[9]
+
+global /*<rva 0xa40ae0>*/ /*|0x40|*/ char CWorldScene::currentChunkName[64]
+
+global /*<rva 0xa120b0>*/ /*|0x14|*/ class WowClientDB<ItemVisualsRec> g_itemVisualsDB
+
+global /*<rva 0x40a99c>*/ /*|0x1c|*/ char* g_creatureRanking[7]
+
+global /*<rva 0x4660d8>*/ /*|0x10|*/ unsigned char g_gameobjectActionsTriggered[16]
+
+global /*<rva 0x40a6a0>*/ /*|0x108|*/ char* s_vocalSounds[66]
+
+global /*<rva 0xa60bb8>*/ /*|0x100|*/ char CMap::wdtFilename[256]
+
+global /*<rva 0xa1327c>*/ /*|0x4|*/ int glNVRegisterCombiners
+
+global /*<rva 0x41fc04>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_XG_Hardware
+
+global /*<rva 0x420094>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_STORAGEPORT
+
+global /*<rva 0xa2f61c>*/ /*|0x4|*/ char* STypeCache::s_names
+
+global /*<rva 0xa16114>*/ /*|0xc|*/ class TSExplicitList<CGxuLightLink,12> CGxuLight::s_linksFreeList
+
+global /*<rva 0xa42cf0>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_lightMaps
+
+global /*<rva 0x411978>*/ /*|0x4|*/ float DNClouds::BUMPFADETIME
+
+global /*<rva 0x45c428>*/ /*|0x4|*/ void  (GxuLightShutdown*)()
+
+global /*<rva 0xa690a4>*/ /*|0x4|*/ struct HTEXTURE__* CMapLight::s_hPointAttenTex
+
+global /*<rva 0xa121b4>*/ /*|0x14|*/ class WowClientDB<BankBagSlotPricesRec> g_bankBagSlotPricesDB
+
+global /*<rva 0xa1277c>*/ /*|0x14|*/ class WowClientDB<TabardBackgroundTexturesRec> g_tabardBackgroundTexturesDB
+
+global /*<rva 0x41f754>*/ /*|0x10|*/ struct _GUID GUID_Unload
+
+global /*<rva 0xa6e4b0>*/ /*|0xc|*/ class TSExplicitList<CChunkLiquid,816> CMap::chunkLiquidFreeList
+
+global /*<rva 0xa72168>*/ /*|0x3a98|*/ unsigned char CMapChunk::syncLoadBuffer[15000]
+
+global /*<rva 0x4c3a5c>*/ /*|0x4|*/ void  (kernel32_CopyFileW_Ptr*)()
+
+global /*<rva 0x40a524>*/ /*|0x30|*/ char* g_spellProcEvents[12]
+
+global /*<rva 0x9e1884>*/ /*|0x4|*/ unsigned int CGClassTrainer::m_numSkillLines
+
+global /*<rva 0xcbac74>*/ /*|0x4|*/ void  (Unicows_CallWindowProcA*)()
+
+global /*<rva 0x9e49b0>*/ /*|0x8|*/ unsigned __int64 CGTabardCreationFrame::m_vendor
+
+global /*<rva 0x4c3b6c>*/ /*|0x4|*/ struct CVar* g_realmNameVar
+
+global /*<rva 0xae1de0>*/ /*|0x4|*/ class CGxTex* CDetailDoodad::alphaRampTexture
+
+global /*<rva 0x436e5c>*/ /*|0x4|*/ int s_sleepInBackground
+
+global /*<rva 0xcb22a8>*/ /*|0x40|*/ class NTempest::C2Vector DNPlanet::m_scaleTable[8]
+
+global /*<rva 0x9e6100>*/ /*|0x4|*/ int CGTradeSkillInfo::m_currentSelection
+
+global /*<rva 0xcbab00>*/ /*|0x4|*/ class unreal u_270
+
+global /*<rva 0x9ddc54>*/ /*|0x2c|*/ class TSHashTable<WORDLIST,HASHKEY_LANGUAGE> s_wordList
+
+global /*<rva 0x9d6490>*/ /*|0x4|*/ int CGlueMgr::m_region
+
+global /*<rva 0xcb2348>*/ /*|0x30|*/ class NTempest::C2Vector DNSky::m_fadeTable[6]
+
+global /*<rva 0xa12678>*/ /*|0x14|*/ class WowClientDB<SpellVisualKitRec> g_spellVisualKitDB
+
+global /*<rva 0xa42d04>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_waterLod
+
+global /*<rva 0xcbaa68>*/ /*|0x4|*/ class unreal u_1ov8
+
+global /*<rva 0x40b4d8>*/ /*|0x20|*/ enum _D3DFORMAT CGxDeviceD3d::s_GxTexFmtToD3dFmt[8]
+
+global /*<rva 0x423468>*/ /*|0x400|*/ int ah_arctan[256]
+
+global /*<rva 0x9e0fbc>*/ /*|0x4|*/ int CGSpellBook::m_knowsSpells
+
+global /*<rva 0x425b98>*/ /*|0x10|*/ struct _GUID IID_IBindCtx
+
+global /*<rva 0xa12704>*/ /*|0x14|*/ class WowClientDB<SkillLineAbilityRec> g_skillLineAbilityDB
+
+global /*<rva 0xa126a0>*/ /*|0x14|*/ class WowClientDB<SpellVisualRec> g_spellVisualDB
+
+global /*<rva 0x41f8d4>*/ /*|0x10|*/ struct _GUID CLSID_DirectSoundWave
+
+global /*<rva 0x41fde4>*/ /*|0x10|*/ struct _GUID GUID_DSFX_STANDARD_CHORUS
+
+global /*<rva 0x9e48a4>*/ /*|0x14|*/ class TSGrowableArray<PetitionSignerInfo> CGPetitionInfo::m_signatures
+
+global /*<rva 0x45c42c>*/ /*|0x4|*/ unsigned long  (GxuLightCreate*)()
+
+global /*<rva 0xcbabdc>*/ /*|0x4|*/ class unreal u_piov2
+
+global /*<rva 0xcbabe4>*/ /*|0x4|*/ class unreal u_piov6
+
+global /*<rva 0x9e4b00>*/ /*|0x40|*/ unsigned char CGReputationInfo::m_factionFlags[64]
+
+global /*<rva 0x9d6484>*/ /*|0x4|*/ int CGlueMgr::m_disconnectPending
+
+global /*<rva 0xcb92e8>*/ /*|0x2c|*/ class TSHashTable<FrameScriptObject_Variable,HASHKEY_STR> CSimpleFrame::s_scriptMethods
+
+global /*<rva 0xcbabe8>*/ /*|0x4|*/ class unreal u_piov4
+
+global /*<rva 0x4525ac>*/ /*|0x38|*/ unsigned int g_spellArgsNeeded[14]
+
+global /*<rva 0xcbaae8>*/ /*|0x4|*/ class unreal u_epsilon2
+
+global /*<rva 0x9dbcdc>*/ /*|0x4|*/ struct CVar* s_minimapZoomCVar
+
+global /*<rva 0x478bd8>*/ /*|0x40|*/ char* PciStatusFlags[16]
+
+global /*<rva 0x41f7f4>*/ /*|0x10|*/ struct _GUID GUID_IDirectMusicStyle
+
+global /*<rva 0x41ff74>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundBuffer8
+
+global /*<rva 0x41f504>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicSegment2
+
+global /*<rva 0xcb5fa4>*/ /*|0x4|*/ float s_animBoneProjectDistance
+
+global /*<rva 0x41235c>*/ /*|0x2a|*/ char c_szReg[42]
+
+global /*<rva 0xa64e8c>*/ /*|0x4|*/ unsigned int CMap::mapGetFacetsCount
+
+global /*<rva 0xa691e0>*/ /*|0x2000|*/ unsigned short BspQuery::hitFaces[4096]
+
+global /*<rva 0x41ff84>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundBuffer
+
+global /*<rva 0xa42d28>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_baseMip
+
+global /*<rva 0x9e6d78>*/ /*|0x400|*/ char CGQuestInfo::m_questLogText[1024]
+
+global /*<rva 0xa13dc8>*/ /*|0x4|*/ class FriendList* g_friendList
+
+global /*<rva 0x9e2c20>*/ /*|0x1b9c|*/ struct SkillInfo CGCharacterInfo::m_skillInfoList[93]
+
+global /*<rva 0x478c18>*/ /*|0x10|*/ char* PciDevSelFlags[4]
+
+global /*<rva 0x9d6390>*/ /*|0x4|*/ int s_localPlayerUpdates
+
+global /*<rva 0x4c3ab4>*/ /*|0x4|*/ void  (user32_GetWindowLongA_Ptr*)()
+
+global /*<rva 0x422628>*/ /*|0xc|*/ struct T1_Decoder_Funcs_ t1_decoder_funcs
+
+global /*<rva 0xa60dbc>*/ /*|0x4|*/ int  (CMap::entityHandler*)(void*, unsigned long, unsigned __int64, unsigned long)
+
+global /*<rva 0x41fac4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicTimeSigTrack
+
+global /*<rva 0xa128bc>*/ /*|0x14|*/ class WowClientDB<CameraShakesRec> g_cameraShakesDB
+
+global /*<rva 0xa123d0>*/ /*|0x14|*/ class WowClientDB<GameObjectDisplayInfoRec> g_gameObjectDisplayInfoDB
+
+global /*<rva 0xa12614>*/ /*|0x14|*/ class WowClientDB<SpellCastTimesRec> g_spellCastTimesDB
+
+global /*<rva 0x40a220>*/ /*|0x14|*/ char* g_eventTypes[5]
+
+global /*<rva 0x425c08>*/ /*|0x10|*/ struct _GUID IID_IMallocSpy
+
+global /*<rva 0x409d38>*/ /*|0x174|*/ char* g_groupActions[93]
+
+global /*<rva 0xa11e40>*/ /*|0x4|*/ class CGCursor* g_cursor
+
+global /*<rva 0xa133c0>*/ /*|0x4|*/ void  (glLockArraysEXT*)(int, int)
+
+global /*<rva 0x9ddb30>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_cursorItem
+
+global /*<rva 0x41f984>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicSegment
+
+global /*<rva 0x41f914>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicBand
+
+global /*<rva 0xa42d2c>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_texLodBias
+
+global /*<rva 0xcbc400>*/ /*|0x1400|*/ struct CDebugLockEntry CDebugLock<CDebugSCritSect>::s_entries[256]
+
+global /*<rva 0x4a8348>*/ /*|0x98|*/ struct DLLMap m_rgDLLMap[19]
+
+global /*<rva 0x45acd8>*/ /*|0x2|*/ unsigned char CBLPFile::s_oneBitAlphaLookup[2]
+
+global /*<rva 0xa4194c>*/ /*|0x4|*/ class CMapObjGroup* CWorldScene::camMapObjGroup
+
+global /*<rva 0x40a8f4>*/ /*|0xc|*/ char* g_soundEmitterType[3]
+
+global /*<rva 0xa41ae8>*/ /*|0x40|*/ class NTempest::C44Matrix CWorldScene::mvp
+
+global /*<rva 0x40a19c>*/ /*|0x3c|*/ char* g_actionTriggers[15]
+
+global /*<rva 0xcbaae0>*/ /*|0x4|*/ class unreal u_5ov8
+
+global /*<rva 0xcb2078>*/ /*|0x64|*/ class DNSunGlare s_sunGlare
+
+global /*<rva 0xa3a45c>*/ /*|0x4|*/ class NTempest::CImVector CWorld::shadowColor
+
+global /*<rva 0x9e5210>*/ /*|0xe00|*/ struct VendorItem CGMerchantInfo::m_items[128]
+
+global /*<rva 0x45c444>*/ /*|0x4|*/ void  (GxuLightEnableSet*)(unsigned long, int)
+
+global /*<rva 0x9e47f8>*/ /*|0x4|*/ unsigned int CGCharacterInfo::m_profOffset
+
+global /*<rva 0x44b9f0>*/ /*|0x4|*/ int CGTradeSkillInfo::m_collapseFilter
+
+global /*<rva 0xa13300>*/ /*|0x4|*/ void  (glCombinerInputNV*)(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+
+global /*<rva 0x9dbbb8>*/ /*|0x14|*/ class TSGrowableArray<NTempest::C3Vector> g_debugBoxNormals
+
+global /*<rva 0x40b4f8>*/ /*|0x18|*/ enum _D3DCUBEMAP_FACES CGxDeviceD3d::s_d3dCubeMapFaces[6]
+
+global /*<rva 0xa120c4>*/ /*|0x14|*/ class WowClientDB<NamesReservedRec> g_namesReservedDB
+
+global /*<rva 0x9dbcd8>*/ /*|0x4|*/ unsigned int CGGameUI::m_stackSplit
+
+global /*<rva 0x41f544>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicChordMap
+
+global /*<rva 0x9e1ccc>*/ /*|0x4|*/ unsigned int CGQuestLog::m_numQuests
+
+global /*<rva 0x4257a8>*/ /*|0x10|*/ struct _GUID IID_IPipeByte
+
+global /*<rva 0x9dd928>*/ /*|0x200|*/ char CGGameUI::s_lastErrorString[512]
+
+global /*<rva 0xa132dc>*/ /*|0x4|*/ void  (glGenProgramsARB*)(int, unsigned int*)
+
+global /*<rva 0xa60b98>*/ /*|0x1|*/ unsigned char CMap::enableSpecular
+
+global /*<rva 0x467164>*/ /*|0x4|*/ enum EXECMODE g_ExecCreateMode
+
+global /*<rva 0x41fe54>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundCaptureFXAec
+
+global /*<rva 0x459c54>*/ /*|0x20|*/ int CGxDeviceOpenGl::s_convertTexFmt[8]
+
+global /*<rva 0x41f904>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicPatternTrack
+
+global /*<rva 0xa376c0>*/ /*|0x80|*/ class NTempest::C4Vector CWorld::texVect[8]
+
+global /*<rva 0xa125ec>*/ /*|0x14|*/ class WowClientDB<SpellEffectNamesRec> g_spellEffectNamesDB
+
+global /*<rva 0xa132ec>*/ /*|0x4|*/ void  (glCombinerParameteriNV*)(unsigned int, int)
+
+global /*<rva 0x40a970>*/ /*|0x10|*/ char* g_powerTypes[4]
+
+global /*<rva 0xcbab14>*/ /*|0x4|*/ class unreal u_3piov2
+
+global /*<rva 0x9e6108>*/ /*|0x4|*/ unsigned int CGTradeSkillInfo::m_numSkills
+
+global /*<rva 0x41f964>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicGraph
+
+global /*<rva 0xa37564>*/ /*|0x4|*/ struct REQUEST* Storm::SFile::s_cdrequest
+
+global /*<rva 0x9dbcb4>*/ /*|0x4|*/ class CGTooltip* CGGameUI::m_gameTooltip
+
+global /*<rva 0xa4ca68>*/ /*|0xc|*/ class TSExplicitList<CMapBaseObjLink,8> CMap::areaLinkList
+
+global /*<rva 0xa4ca74>*/ /*|0x4|*/ unsigned int CMap::bspRecurseCount
+
+global /*<rva 0x9d6558>*/ /*|0x10|*/ class TSFixedArray<unsigned int> CCharCreateInfo::m_factionIndex
+
+global /*<rva 0xa120ec>*/ /*|0x14|*/ class WowClientDB<QuestInfoRec> g_questInfoDB
+
+global /*<rva 0x9dff68>*/ /*|0x14|*/ class FBitField CGSpellBook::m_knownSpellBits
+
+global /*<rva 0xcbab54>*/ /*|0x4|*/ class unreal u_26
+
+global /*<rva 0x9dbbdc>*/ /*|0x14|*/ class TSGrowableArray<unsigned short> g_debugIndices
+
+global /*<rva 0xa12308>*/ /*|0x14|*/ class WowClientDB<SoundSamplePreferencesRec> g_soundSamplePreferencesDB
+
+global /*<rva 0xa37454>*/ /*|0x18|*/ class CCritSect s_decompCrit
+
+global /*<rva 0x41f834>*/ /*|0x10|*/ struct _GUID GUID_CommandParam2
+
+global /*<rva 0xcbc3e0>*/ /*|0x20|*/ class CInitCritSect CDebugLock<CDebugSCritSect>::s_critsect
+
+global /*<rva 0x410cf4>*/ /*|0x4|*/ unsigned int CMap::SKYTEX_HEIGHT
+
+global /*<rva 0xcbac14>*/ /*|0x4|*/ class unreal u_nhugeval
+
+global /*<rva 0x434ae4>*/ /*|0x5|*/ char TSFixedArray_<unsigned short,1229811556,281>::s_name[5]
+
+global /*<rva 0xa39744>*/ /*|0x4|*/ float CWorld::tickTimeSec
+
+global /*<rva 0xa42cec>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_fullAlpha
+
+global /*<rva 0x41f954>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicStyle
+
+global /*<rva 0x402340>*/ /*|0x4|*/ unsigned short* _imp___pctype
+
+global /*<rva 0x4071f8>*/ /*|0x438|*/ struct SECTIONPRIORITIES g_sectionPriorities[27]
+
+global /*<rva 0x9e0fa0>*/ /*|0x4|*/ int CGSpellBook::m_duelSpell
+
+global /*<rva 0xa42d50>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_smallCull
+
+global /*<rva 0x41fbc4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_DLS2
+
+global /*<rva 0x425888>*/ /*|0x10|*/ struct _GUID IID_ISynchronizeHandle
+
+global /*<rva 0x41fbd4>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_DLS1
+
+global /*<rva 0x41fe94>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXCompressor
+
+global /*<rva 0xa132a4>*/ /*|0x4|*/ int glExtClampToEdge
+
+global /*<rva 0x49f050>*/ /*|0x80|*/ unsigned int Particulate::s_tcSub[4][8]
+
+global /*<rva 0x9ddbb0>*/ /*|0x4|*/ int CGGameUI::m_areaID
+
+global /*<rva 0x41fca4>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicThru
+
+global /*<rva 0x478b98>*/ /*|0x40|*/ char* PciCommandFlags[16]
+
+global /*<rva 0x49efe8>*/ /*|0x4|*/ int CMapArea::ccWaterWaves
+
+global /*<rva 0x4022e8>*/ /*|0x8|*/ double _imp___HUGE
+
+global /*<rva 0x9e19b8>*/ /*|0x40|*/ int CGQuestLog::m_sortTypes[16]
+
+global /*<rva 0x41f484>*/ /*|0x10|*/ struct _GUID IID_IDirectMusicContainer
+
+global /*<rva 0xcbab80>*/ /*|0x4|*/ class unreal u_0_49
+
+global /*<rva 0xa42d0c>*/ /*|0x4|*/ struct CVar* CWorldParam::cvar_specular
+
+global /*<rva 0x425a18>*/ /*|0x10|*/ struct _GUID IID_IDataAdviseHolder
+
+global /*<rva 0xa2ceb0>*/ /*|0x14|*/ class WowClientDB<VideoHardwareRec> g_videoHardwareDB
+
+global /*<rva 0xa13254>*/ /*|0x4|*/ class CGxDeviceD3d* CGxDeviceD3d::m_thisDevice
+
+global /*<rva 0x41fd44>*/ /*|0x10|*/ struct _GUID GUID_DSCFX_SYSTEM_AEC
+
+global /*<rva 0xae2688>*/ /*|0xc|*/ class NTempest::C3Vector CMapStaticEntity::interiorSunDir
+
+global /*<rva 0x420054>*/ /*|0x10|*/ struct _GUID IID_IPrintDialogServices
+
+global /*<rva 0x9ddb98>*/ /*|0x8|*/ unsigned __int64 CGGameUI::m_lastEnemyTarget
+
+global /*<rva 0x425818>*/ /*|0x10|*/ struct _GUID IID_IRpcHelper
+
+global /*<rva 0xa6e330>*/ /*|0xc|*/ class TSExplicitList<CMapObjGroup,428> CMap::mapObjGroupFreeList
+
+global /*<rva 0x420034>*/ /*|0x10|*/ struct _GUID CLSID_DirectSound8
+
+global /*<rva 0x8c4da0>*/ /*|0x20|*/ class CInitCritSect OsNet::TCPNET::s_initLock
+
+global /*<rva 0xcbac38>*/ /*|0x4|*/ void  (Unicows_GetDiskFreeSpaceExW*)()
+
+global /*<rva 0xcbab38>*/ /*|0x4|*/ class unreal u_16
+
+global /*<rva 0xa2f638>*/ /*|0x4|*/ int STypeCache::s_stringBytes
+
+global /*<rva 0x41f694>*/ /*|0x10|*/ struct _GUID GUID_DownloadToAudioPath
+
+global /*<rva 0x41ff64>*/ /*|0x10|*/ struct _GUID GUID_All_Objects
+
+global /*<rva 0x41fa34>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicScriptTrack
+
+global /*<rva 0xa126dc>*/ /*|0x14|*/ class WowClientDB<SpellIconRec> g_spellIconDB
+
+global /*<rva 0x425ba8>*/ /*|0x10|*/ struct _GUID IID_IEnumUnknown
+
+global /*<rva 0x9e6970>*/ /*|0x400|*/ char CGQuestInfo::m_progressText[1024]
+
+global /*<rva 0x40b044>*/ /*|0xc|*/ unsigned int CGxShaderParam::TypeCountTable[3]
+
+global /*<rva 0x40b044>*/ /*|0x0|*/ unsigned int CGxShaderParam::TypeCountTable[0]
+
+global /*<rva 0xa132b0>*/ /*|0x4|*/ int  (wglQueryPbufferARB*)(struct HPBUFFERARB__*, int, int*)
+
+global /*<rva 0x41fea4>*/ /*|0x10|*/ struct _GUID IID_IDirectSoundFXDistortion
+
+global /*<rva 0x41f7a4>*/ /*|0x10|*/ struct _GUID GUID_BandParam
+
+global /*<rva 0x40a280>*/ /*|0x1c|*/ int g_killReactionModifierPos[7]
+
+global /*<rva 0x425728>*/ /*|0x10|*/ struct _GUID IID_IComThreadingInfo
+
+global /*<rva 0xa39760>*/ /*|0x400|*/ struct CWTriData::Batch CWTriData::batches[32]
+
+global /*<rva 0x9e6228>*/ /*|0x400|*/ char CGQuestInfo::m_questText[1024]
+
+global /*<rva 0x9e4fa0>*/ /*|0x8|*/ unsigned __int64 CGBankInfo::m_unit
+
+global /*<rva 0xa6e370>*/ /*|0xc|*/ class TSExplicitList<CMapEntity,8> CMap::entityFreeList
+
+global /*<rva 0xa4063c>*/ /*|0x4|*/ unsigned int CWorld::pnEstimateVertex
+
+global /*<rva 0x9e487c>*/ /*|0x4|*/ class CGUIBindings* CGUIBindings::s_bindings
+
+global /*<rva 0x9d6718>*/ /*|0x4|*/ float CCharCreateInfo::m_charFacing
+
+global /*<rva 0x4c3a98>*/ /*|0x4|*/ void  (kernel32_SetCurrentDirectoryW_Ptr*)()
+
+global /*<rva 0x41fb74>*/ /*|0x10|*/ struct _GUID GUID_DMUS_PROP_SamplePlaybackRate
+
+global /*<rva 0xa5ca98>*/ /*|0x100|*/ char CMap::mapPath[256]
+
+global /*<rva 0x9c623c>*/ /*|0x4|*/ unsigned int CParticleEmitter2::s_maxParticles
+
+global /*<rva 0x4c3a80>*/ /*|0x4|*/ void  (kernel32_GetDiskFreeSpaceExW_Ptr*)()
+
+global /*<rva 0x425ab8>*/ /*|0x10|*/ struct _GUID IID_IPersistStorage
+
+global /*<rva 0xbacb98>*/ /*|0x6c|*/ class CGameTime g_clientGameTime
+
+global /*<rva 0x49d888>*/ /*|0x4|*/ float CWorld::detailDoodadDist
+
+global /*<rva 0xa60df0>*/ /*|0x14|*/ class TSGrowableArray<unsigned int> CMap::mapObjNamesIndex
+
+global /*<rva 0xcb25a0>*/ /*|0x1c|*/ float DNSky::m_fadeAngle[7]
+
+global /*<rva 0xa30164>*/ /*|0x4|*/ int S_Thread::s_numthreads
+
+global /*<rva 0x9e7978>*/ /*|0x4|*/ int CGQuestInfo::m_lastChosenItem
+
+global /*<rva 0xa39b84>*/ /*|0x4|*/ unsigned int CWorld::texMaxAnisotropyLog2
+
+global /*<rva 0xa13278>*/ /*|0x4|*/ int glNVRegisterCombiners2
+
+global /*<rva 0x41faf4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicTempoTrack
+
+global /*<rva 0x41f794>*/ /*|0x10|*/ struct _GUID GUID_IDirectMusicBand
+
+global /*<rva 0xa39b6c>*/ /*|0x4|*/ float CWorld::farFog
+
+global /*<rva 0x420124>*/ /*|0x10|*/ struct _GUID GUID_DEVINTERFACE_DISK
+
+global /*<rva 0xa39748>*/ /*|0x4|*/ float CWorld::detailDoodadDistS
+
+global /*<rva 0xa40488>*/ /*|0x8|*/ class NTempest::C2iVector CWorld::chunkAoiSize
+
+global /*<rva 0x425838>*/ /*|0x10|*/ struct _GUID IID_IAsyncManager
+
+global /*<rva 0x9dd8f4>*/ /*|0x4|*/ struct CVar* s_assistAttackCVar
+
+global /*<rva 0xa12978>*/ /*|0x40|*/ class DBCache<PageTextCache_C,int,HASHKEY_INT> g_pageTextCache
+
+global /*<rva 0xa37544>*/ /*|0x4|*/ void* Storm::SFile::s_cdevent
+
+global /*<rva 0xcb20e0>*/ /*|0x80|*/ class DNPlanet s_planets[4]
+
+global /*<rva 0xa40628>*/ /*|0x4|*/ float CWorld::nearClip
+
+global /*<rva 0x41f9f4>*/ /*|0x10|*/ struct _GUID CLSID_DirectMusicParamControlTrack
+
+global /*<rva 0xa6ba00>*/ /*|0x4|*/ struct SMOGxBatch* CMapObjGroup::sLockGxBatch
+
+global /*<rva 0x9e4da0>*/ /*|0x100|*/ int CGReputationInfo::m_factionMap[64]
+
+global /*<rva 0x425b28>*/ /*|0x10|*/ struct _GUID IID_IROTData
+
+global /*<rva 0xcb157c>*/ /*|0x30|*/ class NTempest::C3Vector GlareBase::m_geov[4]
+

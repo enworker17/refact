@@ -1,0 +1,6542 @@
+
+typedef struct HDC__* HDC;
+
+typedef unsigned short wchar_t;
+
+typedef unsigned char* LPBYTE;
+
+typedef __int64* LPREFERENCE_TIME;
+
+typedef unsigned long HCRYPTHASH;
+
+typedef unsigned int  (LPOFNHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct tagMENUITEMINFOW tagMENUITEMINFOW;
+
+typedef struct HKEY__** PHKEY;
+
+typedef struct _OSVERSIONINFOW _OSVERSIONINFOW;
+
+typedef unsigned short PROPVAR_PAD2;
+
+typedef long  (VERIFY_SIGNATURE_FN*)(struct _SecHandle*, struct _SecBufferDesc*, unsigned long, unsigned long*);
+
+typedef unsigned int MDLTOKEN;
+
+typedef struct tagKERNINGPAIR* LPKERNINGPAIR;
+
+typedef long* LPFXPT16DOT16;
+
+typedef struct tagDVTARGETDEVICE tagDVTARGETDEVICE;
+
+typedef unsigned __int64* PDWORDLONG;
+
+typedef struct _IMAGE_EXPORT_DIRECTORY _IMAGE_EXPORT_DIRECTORY;
+
+typedef void* LOCALHANDLE;
+
+typedef int  (FARPROC*)();
+
+typedef struct _IMAGE_EXPORT_DIRECTORY* PIMAGE_EXPORT_DIRECTORY;
+
+typedef struct IAdviseSinkVtbl IAdviseSinkVtbl;
+
+typedef short FT_F2Dot14;
+
+typedef struct _POINTL POINTL;
+
+typedef void* HCERTSTOREPROV;
+
+typedef struct tagGCP_RESULTSW* LPGCP_RESULTSW;
+
+typedef struct tagHELPINFO* LPHELPINFO;
+
+typedef char* PTCH;
+
+typedef unsigned __int64* PUINT64;
+
+typedef struct _NETINFOSTRUCT _NETINFOSTRUCT;
+
+typedef void* HGDIOBJ;
+
+typedef struct tagTEXTMETRICW TEXTMETRICW;
+
+typedef struct ICSETSTATUSPROC ICSETSTATUSPROC;
+
+typedef long  (COMPLETE_AUTH_TOKEN_FN*)(struct _SecHandle*, struct _SecBufferDesc*);
+
+typedef struct tagMIXERLINECONTROLSW tagMIXERLINECONTROLSW;
+
+typedef struct tagOLEUIPASTEENTRYW* LPOLEUIPASTEENTRYW;
+
+typedef unsigned int* PULONG32;
+
+typedef struct _COORD COORD;
+
+typedef struct HMENU__ HMENU__;
+
+typedef int T1_Operator;
+
+typedef struct HCONV__* HCONV;
+
+typedef struct tagLOGCOLORSPACEW* LPLOGCOLORSPACEW;
+
+typedef int* PBOOL;
+
+typedef struct IBindCtx IBindCtx;
+
+typedef struct HICON__* HCURSOR;
+
+typedef struct tagOLEUIGNRLPROPSW tagOLEUIGNRLPROPSW;
+
+typedef float FLOAT;
+
+typedef struct _CHAR_INFO CHAR_INFO;
+
+typedef struct _OUTLINETEXTMETRICW* LPOUTLINETEXTMETRICW;
+
+typedef unsigned char cat_t;
+
+typedef unsigned char uint8;
+
+typedef unsigned char UINT8;
+
+typedef unsigned char uint8;
+
+typedef int nint;
+
+typedef char* PINT8;
+
+typedef float* PFLOAT;
+
+typedef struct IOleContainer IOleContainer;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned int UINT;
+
+typedef unsigned int uint;
+
+typedef unsigned long* PULONG;
+
+typedef unsigned short BAD_TRACK_NUMBER;
+
+typedef int* PINT;
+
+typedef struct tagOLEUIBUSYW* LPOLEUIBUSYW;
+
+typedef struct IBindCtxVtbl IBindCtxVtbl;
+
+typedef struct _GLYPHMETRICS* LPGLYPHMETRICS;
+
+typedef unsigned short GLushort;
+
+typedef struct _SHFILEINFOW SHFILEINFOW;
+
+typedef struct _numberfmtW _numberfmtW;
+
+typedef struct tagRASDEVINFOW tagRASDEVINFOW;
+
+typedef unsigned int FT_UInt;
+
+typedef unsigned long EXECUTION_STATE;
+
+typedef struct _GUID _GUID;
+
+typedef unsigned long RPC_LENGTH;
+
+typedef struct tagOLEUILINKPROPSW* LPOLEUILINKPROPSW;
+
+typedef unsigned long FOURCC;
+
+typedef struct _POINTL _POINTL;
+
+typedef int AH_Blue;
+
+typedef struct IOleUIObjInfoW* LPOLEUIOBJINFOW;
+
+typedef long* LPFXPT2DOT30;
+
+typedef struct HMONITOR__* HMONITOR;
+
+typedef struct HBRUSH__* HBRUSH;
+
+typedef void* IJL_HANDLE;
+
+typedef struct tagMIXERCONTROLW tagMIXERCONTROLW;
+
+typedef long LCSCSTYPE;
+
+typedef struct _DISPLAY_DEVICEW _DISPLAY_DEVICEW;
+
+typedef struct _SHITEMID SHITEMID;
+
+typedef enum _SPTEXT _SPTEXT;
+
+typedef long LCSGAMUTMATCH;
+
+typedef double GLdouble;
+
+typedef long  (HOOKPROC*)(int, unsigned int, long);
+
+typedef struct _DISPLAY_DEVICEW* PDISPLAY_DEVICEW;
+
+typedef struct tagWAVEINCAPSW tagWAVEINCAPSW;
+
+typedef struct _COMMCONFIG* LPCOMMCONFIG;
+
+typedef unsigned short PROPVAR_PAD3;
+
+typedef int AH_Edge_Flags;
+
+typedef struct _KEY_EVENT_RECORD _KEY_EVENT_RECORD;
+
+typedef struct tagSTATSTG tagSTATSTG;
+
+typedef unsigned long* LPSCARDCONTEXT;
+
+typedef unsigned long COLORREF;
+
+typedef unsigned short* PWCHAR;
+
+typedef struct tagBITMAPINFOHEADER tagBITMAPINFOHEADER;
+
+typedef unsigned __int64* PULONGLONG;
+
+typedef struct HRSRC__ HRSRC__;
+
+typedef unsigned short* PUSHORT;
+
+typedef short int16;
+
+typedef short INT16;
+
+typedef short int16;
+
+typedef struct HMIXEROBJ__* HMIXEROBJ;
+
+typedef enum _URLZONEREG _URLZONEREG;
+
+typedef struct tagMENUITEMINFOW* LPCMENUITEMINFOW;
+
+typedef unsigned long* PSECURITY_INFORMATION;
+
+typedef long _off_t;
+
+typedef struct tagRASDIALPARAMSW tagRASDIALPARAMSW;
+
+typedef struct HWND__ HWND__;
+
+typedef struct tagBIND_OPTS BIND_OPTS;
+
+typedef struct _INPUT_RECORD _INPUT_RECORD;
+
+typedef struct _INPUT_RECORD* PINPUT_RECORD;
+
+typedef long LRESULT;
+
+typedef long HRESULT;
+
+typedef unsigned long* PKAFFINITY;
+
+typedef struct IEnumUnknownVtbl IEnumUnknownVtbl;
+
+typedef long GEOID;
+
+typedef int  (CODEPAGE_ENUMPROCW*)(unsigned short*);
+
+typedef unsigned int udword;
+
+typedef unsigned long* PDWORD;
+
+typedef struct LIST_ENTRY32* PLIST_ENTRY32;
+
+typedef struct tagDVTARGETDEVICE DVTARGETDEVICE;
+
+typedef struct tagWNDCLASSEXW tagWNDCLASSEXW;
+
+typedef unsigned long LCTYPE;
+
+typedef struct tagPOLYTEXTW POLYTEXTW;
+
+typedef unsigned int* PDWORD32;
+
+typedef __int64 LONG64;
+
+typedef long PCENT;
+
+typedef long TCENT;
+
+typedef unsigned long RPCOLEDATAREP;
+
+typedef long  (QUERY_SECURITY_PACKAGE_INFO_FN_W*)(unsigned short*, struct _SecPkgInfoW**);
+
+typedef struct tagWNDCLASSEXW WNDCLASSEXW;
+
+typedef long GCENT;
+
+typedef enum tagDOMNodeType tagDOMNodeType;
+
+typedef struct HKEY__ HKEY__;
+
+typedef struct IEnumUnknown IEnumUnknown;
+
+typedef struct IOleClientSite* LPOLECLIENTSITE;
+
+typedef char* va_list;
+
+typedef struct tagOLEUIEDITLINKSW tagOLEUIEDITLINKSW;
+
+typedef struct _cpinfo _cpinfo;
+
+typedef short HALF_PTR;
+
+typedef unsigned long RVA;
+
+typedef struct HACCEL__* HACCEL;
+
+typedef struct _PROPSHEETHEADERW* LPPROPSHEETHEADERW;
+
+typedef struct tagSIZE* LPSIZE;
+
+typedef struct _COMMTIMEOUTS _COMMTIMEOUTS;
+
+typedef void* handle_t;
+
+typedef char* PTCHAR;
+
+typedef struct tagRASSUBENTRYW tagRASSUBENTRYW;
+
+typedef struct _WIN32_FIND_DATAW* LPWIN32_FIND_DATAW;
+
+typedef struct _MENU_EVENT_RECORD MENU_EVENT_RECORD;
+
+typedef struct tagOLEUICHANGESOURCEW* LPOLEUICHANGESOURCEW;
+
+typedef long  (QUERY_CONTEXT_ATTRIBUTES_FN_W*)(struct _SecHandle*, unsigned long, void*);
+
+typedef struct tagMIXERCONTROLW* LPMIXERCONTROLW;
+
+typedef unsigned long SWAIT;
+
+typedef struct tagOLEUIVIEWPROPSW* LPOLEUIVIEWPROPSW;
+
+typedef long  (MAKE_SIGNATURE_FN*)(struct _SecHandle*, unsigned long, struct _SecBufferDesc*, unsigned long);
+
+typedef struct tagOLEUIBUSYW tagOLEUIBUSYW;
+
+typedef struct IDataObject IDataObject;
+
+typedef int FT_Sfnt_Tag;
+
+typedef unsigned long* LPCOLORREF;
+
+typedef void  (MSGBOXCALLBACK*)(struct tagHELPINFO*);
+
+typedef struct _CONNECTDLGSTRUCTW _CONNECTDLGSTRUCTW;
+
+typedef struct _DOCINFOW DOCINFOW;
+
+typedef struct LIST_ENTRY32 LIST_ENTRY32;
+
+typedef long FXPT16DOT16;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char Byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned char byte;
+
+typedef unsigned char BYTE;
+
+typedef unsigned int  (LPPAGEPAINTHOOK*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef int  (PFNPROPSHEETCALLBACK*)(struct HWND__*, unsigned int, long);
+
+typedef enum _GET_FILEEX_INFO_LEVELS GET_FILEEX_INFO_LEVELS;
+
+typedef struct tagDRAWTEXTPARAMS* LPDRAWTEXTPARAMS;
+
+typedef int AH_UV;
+
+typedef int AH_Hinter_Flags;
+
+typedef void* PVOID;
+
+typedef unsigned short OLECHAR;
+
+typedef unsigned long uint32;
+
+typedef unsigned int UINT32;
+
+typedef unsigned long uint32;
+
+typedef unsigned int uint32;
+
+typedef unsigned long uint32;
+
+typedef struct tagMIDIINCAPSW* LPMIDIINCAPSW;
+
+typedef struct _IMAGE_FILE_HEADER IMAGE_FILE_HEADER;
+
+typedef unsigned int BoltID;
+
+typedef int* PINT32;
+
+typedef int sint32;
+
+typedef struct tagBITMAPINFOHEADER* LPBITMAPINFOHEADER;
+
+typedef unsigned long MCIERROR;
+
+typedef struct _SHITEMID _SHITEMID;
+
+typedef struct tagFINDREPLACEW tagFINDREPLACEW;
+
+typedef unsigned long SERVICETYPE;
+
+typedef struct IEnumOLEVERB IEnumOLEVERB;
+
+typedef struct _CONNECTDLGSTRUCTW* LPCONNECTDLGSTRUCTW;
+
+typedef struct tagSIZE SIZEL;
+
+typedef struct HSZ__ HSZ__;
+
+typedef struct HINSTANCE__ HINSTANCE__;
+
+typedef int  (DATEFMT_ENUMPROCW*)(unsigned short*);
+
+typedef unsigned short PROPVAR_PAD1;
+
+typedef struct IStreamVtbl IStreamVtbl;
+
+typedef struct tagOLEUILINKPROPSW tagOLEUILINKPROPSW;
+
+typedef long DISPID;
+
+typedef unsigned char* PUCHAR;
+
+typedef struct _SECURITY_ATTRIBUTES* LPSECURITY_ATTRIBUTES;
+
+typedef unsigned __int64 DWORDLONG;
+
+typedef unsigned long HZIPARCHIVE;
+
+typedef struct tagSIZE SIZE;
+
+typedef struct IEnumOLEVERBVtbl IEnumOLEVERBVtbl;
+
+typedef struct tagSTGMEDIUM uSTGMEDIUM;
+
+typedef struct _FIXED FIXED;
+
+typedef unsigned long INSTANCEID;
+
+typedef long LPARAM;
+
+typedef struct _DOCINFOW _DOCINFOW;
+
+typedef struct tagOLEUIEDITLINKSW* LPOLEUIEDITLINKSW;
+
+typedef void* LPCVOID;
+
+typedef unsigned short* PWCH;
+
+typedef int* LPINT;
+
+typedef unsigned int WPARAM;
+
+typedef long int32;
+
+typedef int INT32;
+
+typedef long int32;
+
+typedef struct _UNICODE_STRING UNICODE_STRING;
+
+typedef struct _NETCONNECTINFOSTRUCT* LPNETCONNECTINFOSTRUCT;
+
+typedef unsigned long GEOCLASS;
+
+typedef struct _SHELLEXECUTEINFOW* LPSHELLEXECUTEINFOW;
+
+typedef unsigned long z_uLong;
+
+typedef unsigned int MMVERSION;
+
+typedef int T2_Operator;
+
+typedef struct tagICEXYZTRIPLE CIEXYZTRIPLE;
+
+typedef struct IEnumSTATDATAVtbl IEnumSTATDATAVtbl;
+
+typedef struct _MENU_EVENT_RECORD _MENU_EVENT_RECORD;
+
+typedef struct _devicemodeW _devicemodeW;
+
+typedef struct tagRASEAPINFO tagRASEAPINFO;
+
+typedef unsigned char* PBOOLEAN;
+
+typedef unsigned long SCARDCONTEXT;
+
+typedef struct IOleUILinkInfoWVtbl IOleUILinkInfoWVtbl;
+
+typedef void* SC_LOCK;
+
+typedef struct tagOLEUIINSERTOBJECTW tagOLEUIINSERTOBJECTW;
+
+typedef struct tagDRAWTEXTPARAMS tagDRAWTEXTPARAMS;
+
+typedef unsigned int GLenum;
+
+typedef unsigned int* LPUINT;
+
+typedef __int64 LONGLONG;
+
+typedef int  (DRAWSTATEPROC*)(struct HDC__*, long, unsigned int, int, int);
+
+typedef unsigned char* PTBYTE;
+
+typedef struct _INPUT_RECORD INPUT_RECORD;
+
+typedef unsigned short* PARAM_OFFSETTABLE;
+
+typedef struct IRunningObjectTableVtbl IRunningObjectTableVtbl;
+
+typedef struct _PSP* HPROPSHEETPAGE;
+
+typedef struct LIST_ENTRY64 LIST_ENTRY64;
+
+typedef struct _FILETIME FILETIME;
+
+typedef struct tagLOGFONTW* LPLOGFONTW;
+
+typedef struct HTASK__ HTASK__;
+
+typedef enum tagTYPEKIND tagTYPEKIND;
+
+typedef __int64* PLONGLONG;
+
+typedef int FT_Open_Flags;
+
+typedef unsigned __int64 ULONGLONG;
+
+typedef struct _SECURITY_QUALITY_OF_SERVICE SECURITY_QUALITY_OF_SERVICE;
+
+typedef struct _PROPSHEETPAGEW _PROPSHEETPAGEW;
+
+typedef long  (QUERY_CREDENTIALS_ATTRIBUTES_FN_W*)(struct _SecHandle*, unsigned long, void*);
+
+typedef unsigned long HANDLE_PTR;
+
+typedef char* LPCH;
+
+typedef int  (CALINFO_ENUMPROCW*)(unsigned short*);
+
+typedef struct tagRASENTRYW tagRASENTRYW;
+
+typedef unsigned long SECURITY_INFORMATION;
+
+typedef struct _WINDOW_BUFFER_SIZE_RECORD _WINDOW_BUFFER_SIZE_RECORD;
+
+typedef struct HENHMETAFILE__ HENHMETAFILE__;
+
+typedef void* HGLOBAL;
+
+typedef void** LPHANDLE;
+
+typedef struct _KEY_EVENT_RECORD KEY_EVENT_RECORD;
+
+typedef void* HCRYPTDEFAULTCONTEXT;
+
+typedef unsigned short wint_t;
+
+typedef struct tagJOYCAPSW tagJOYCAPSW;
+
+typedef struct IEnumStringVtbl IEnumStringVtbl;
+
+typedef unsigned char CGxPrimBone;
+
+typedef unsigned char GLubyte;
+
+typedef int AH_Direction;
+
+typedef enum tagBINDSTATUS tagBINDSTATUS;
+
+typedef struct _SHFILEOPSTRUCTW* LPSHFILEOPSTRUCTW;
+
+typedef void* PVOID64;
+
+typedef struct tagFORMATETC FORMATETC;
+
+typedef struct LIST_ENTRY64* PLIST_ENTRY64;
+
+typedef __int64* PINT64;
+
+typedef unsigned __int64 uint64;
+
+typedef unsigned __int64 UINT64;
+
+typedef unsigned __int64 uint64;
+
+typedef struct IOleUILinkContainerW* LPOLEUILINKCONTAINERW;
+
+typedef void* HPROFILE;
+
+typedef struct _OUTLINETEXTMETRICW _OUTLINETEXTMETRICW;
+
+typedef unsigned short ATOM;
+
+typedef struct HPALETTE__ HPALETTE__;
+
+typedef struct tagWNDCLASSW tagWNDCLASSW;
+
+typedef int T1_Field_Location;
+
+typedef struct tagSIZE tagSIZE;
+
+typedef long  (LPMMIOPROC*)(char*, unsigned int, long, long);
+
+typedef struct IOleUIObjInfoW IOleUIObjInfoW;
+
+typedef void* BigInteger;
+
+typedef unsigned int  (LPSETUPHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct HDROP__* HDROP;
+
+typedef enum _tagPARSEACTION _tagPARSEACTION;
+
+typedef struct tagMSGBOXPARAMSW MSGBOXPARAMSW;
+
+typedef struct tagOLEUIOBJECTPROPSW* LPOLEUIOBJECTPROPSW;
+
+typedef struct tagCONVINFO tagCONVINFO;
+
+typedef struct tagLOGFONTW tagLOGFONTW;
+
+typedef struct _MAT2 _MAT2;
+
+typedef struct tagWAVEOUTCAPSW tagWAVEOUTCAPSW;
+
+typedef struct _SecBuffer _SecBuffer;
+
+typedef float real;
+
+typedef struct _SecHandle* PSecHandle;
+
+typedef struct _SecHandle _SecHandle;
+
+typedef unsigned long* LPSCARDHANDLE;
+
+typedef long* PSCODE;
+
+typedef struct _SecBuffer* PSecBuffer;
+
+typedef struct tagOLEUICHANGESOURCEW tagOLEUICHANGESOURCEW;
+
+typedef short* PSHORT;
+
+typedef unsigned short WORD;
+
+typedef unsigned short USHORT;
+
+typedef unsigned short UShort;
+
+typedef unsigned short USHORT;
+
+typedef int  (LOCALE_ENUMPROCW*)(unsigned short*);
+
+typedef struct tagAUXCAPSW* LPAUXCAPSW;
+
+typedef unsigned short FSHORT;
+
+typedef struct tagOLEUIPASTESPECIALW* LPOLEUIPASTESPECIALW;
+
+typedef enum ReplacesCorHdrNumericDefines ReplacesCorHdrNumericDefines;
+
+typedef struct HICON__ HICON__;
+
+typedef struct _ITEMIDLIST ITEMIDLIST;
+
+typedef void* HCRYPTASYNC;
+
+typedef struct tagSTATDATA tagSTATDATA;
+
+typedef unsigned int* PUINT32;
+
+typedef struct tagRASCONNW tagRASCONNW;
+
+typedef struct tagWAVEINCAPSW* LPWAVEINCAPSW;
+
+typedef struct _OSVERSIONINFOW* LPOSVERSIONINFOW;
+
+typedef struct _IMAGE_DATA_DIRECTORY _IMAGE_DATA_DIRECTORY;
+
+typedef struct IOleClientSite IOleClientSite;
+
+typedef long MEMBERID;
+
+typedef void* LPVOID;
+
+typedef long SHANDLE_PTR;
+
+typedef struct tagMIXERCAPSW* LPMIXERCAPSW;
+
+typedef long off_t;
+
+typedef struct _cpinfo* LPCPINFO;
+
+typedef struct value_entW* PVALENTW;
+
+typedef unsigned short* LPWORD;
+
+typedef struct tagMIXERLINECONTROLSW* LPMIXERLINECONTROLSW;
+
+typedef int GLintptrARB;
+
+typedef struct _COORD _COORD;
+
+typedef struct tagMENUITEMINFOW* LPMENUITEMINFOW;
+
+typedef struct HFONT__* HFONT;
+
+typedef struct tagGCP_RESULTSW tagGCP_RESULTSW;
+
+typedef struct HBRUSH__ HBRUSH__;
+
+typedef enum tagTYSPEC tagTYSPEC;
+
+typedef long LONG;
+
+typedef long Long;
+
+typedef long LONG;
+
+typedef long* LPLONG;
+
+typedef unsigned short* PPARAM_OFFSETTABLE;
+
+typedef unsigned long CALID;
+
+typedef struct HRASCONN__* HRASCONN;
+
+typedef struct tagALTTABINFO tagALTTABINFO;
+
+typedef long  (FREE_CONTEXT_BUFFER_FN*)(void*);
+
+typedef long time_t;
+
+typedef struct tagMENUITEMINFOW MENUITEMINFOW;
+
+typedef struct HHOOK__ HHOOK__;
+
+typedef unsigned short SECURITY_DESCRIPTOR_CONTROL;
+
+typedef enum _tagPSUACTION _tagPSUACTION;
+
+typedef enum tagURLZONE tagURLZONE;
+
+typedef unsigned __int64* PULONG64;
+
+typedef struct tagRASCONNSTATUSW tagRASCONNSTATUSW;
+
+typedef struct tagLOGPALETTE LOGPALETTE;
+
+typedef char CHAR;
+
+typedef struct IOleUIObjInfoWVtbl IOleUIObjInfoWVtbl;
+
+typedef struct tagLOGPALETTE tagLOGPALETTE;
+
+typedef struct _SECURITY_ATTRIBUTES _SECURITY_ATTRIBUTES;
+
+typedef enum PIDMSI_STATUS_VALUE PIDMSI_STATUS_VALUE;
+
+typedef struct tagMIXERLINEW* LPMIXERLINEW;
+
+typedef long PERCENT;
+
+typedef struct tagCONVINFO* PCONVINFO;
+
+typedef long  (PFNrqvea*)(struct HKEY__*, char*, unsigned long*, unsigned long*, unsigned char*, unsigned long*);
+
+typedef unsigned int* PUINT;
+
+typedef enum tagCALLCONV tagCALLCONV;
+
+typedef struct _STARTUPINFOW* LPSTARTUPINFOW;
+
+typedef struct tagLOGFONTW LOGFONTW;
+
+typedef struct _FOCUS_EVENT_RECORD _FOCUS_EVENT_RECORD;
+
+typedef struct tagTEXTMETRICW tagTEXTMETRICW;
+
+typedef __int64 int64;
+
+typedef __int64 INT64;
+
+typedef __int64 int64;
+
+typedef struct tagPANOSE PANOSE;
+
+typedef struct IEnumMoniker IEnumMoniker;
+
+typedef struct _NETINFOSTRUCT* LPNETINFOSTRUCT;
+
+typedef struct tagCHOOSEFONTW* LPCHOOSEFONTW;
+
+typedef struct HCONVLIST__* HCONVLIST;
+
+typedef unsigned short FILEOP_FLAGS;
+
+typedef unsigned short* LPCLIPFORMAT;
+
+typedef struct HACCEL__ HACCEL__;
+
+typedef struct tagSTATDATA STATDATA;
+
+typedef struct _currencyfmtW CURRENCYFMTW;
+
+typedef int  (PROPENUMPROCEXW*)(struct HWND__*, unsigned short*, void*, unsigned long);
+
+typedef struct _ITEMIDLIST* LPCITEMIDLIST;
+
+typedef unsigned short* PUHALF_PTR;
+
+typedef int  (PROPENUMPROCEXA*)(struct HWND__*, char*, void*, unsigned long);
+
+typedef struct _PROCESS_INFORMATION* LPPROCESS_INFORMATION;
+
+typedef int FT_Int;
+
+typedef struct HMMIO__ HMMIO__;
+
+typedef struct _SHFILEOPSTRUCTW _SHFILEOPSTRUCTW;
+
+typedef struct HMETAFILE__* HMETAFILE;
+
+typedef unsigned short uint16;
+
+typedef unsigned short UINT16;
+
+typedef unsigned short uint16;
+
+typedef void* RPC_AUTH_IDENTITY_HANDLE;
+
+typedef short* PINT16;
+
+typedef void* PMIDL_XMIT_TYPE;
+
+typedef int FT_Int32;
+
+typedef unsigned long KSPIN_LOCK;
+
+typedef long  (IMPORT_SECURITY_CONTEXT_FN_W*)(unsigned short*, struct _SecBuffer*, void*, struct _SecHandle*);
+
+typedef void* z_voidpf;
+
+typedef struct _UNICODE_STRING _UNICODE_STRING;
+
+typedef struct IEnumMonikerVtbl IEnumMonikerVtbl;
+
+typedef struct tagHW_PROFILE_INFOW tagHW_PROFILE_INFOW;
+
+typedef struct _MMIOINFO MMIOINFO;
+
+typedef unsigned char FT_Bool;
+
+typedef double DOUBLE;
+
+typedef struct tagFORMATETC* LPFORMATETC;
+
+typedef struct tagMSG MSG;
+
+typedef char* PSZ;
+
+typedef int FT_Error;
+
+typedef struct _DISCDLGSTRUCTW* LPDISCDLGSTRUCTW;
+
+typedef struct _DCB DCB;
+
+typedef char* PCH;
+
+typedef __int64 USN;
+
+typedef unsigned char uch;
+
+typedef struct IStorage* LPSTORAGE;
+
+typedef struct HSZ__* HSZ;
+
+typedef unsigned long HELPPOLY;
+
+typedef struct tagOLEUIGNRLPROPSW* LPOLEUIGNRLPROPSW;
+
+typedef struct HDDEDATA__* HDDEDATA;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef unsigned long SIZE_T;
+
+typedef unsigned int size_t;
+
+typedef struct tMIXERCONTROLDETAILS tMIXERCONTROLDETAILS;
+
+typedef unsigned short* LPPATCHARRAY;
+
+typedef struct HDC__ HDC__;
+
+typedef short TT_ShortMetrics;
+
+typedef unsigned int GLbitfield;
+
+typedef short VARIANT_BOOL;
+
+typedef struct _COMMTIMEOUTS* LPCOMMTIMEOUTS;
+
+typedef struct IOleUILinkInfoW* LPOLEUILINKINFOW;
+
+typedef struct _FILETIME* PFILETIME;
+
+typedef struct IOleClientSiteVtbl IOleClientSiteVtbl;
+
+typedef struct _FILETIME _FILETIME;
+
+typedef struct value_entW value_entW;
+
+typedef int HFILE;
+
+typedef unsigned __int64* PDWORD64;
+
+typedef void* OsGuiTreeItem;
+
+typedef unsigned int* PUINT_PTR;
+
+typedef struct tagPALETTEENTRY PALETTEENTRY;
+
+typedef int  (ICMENUMPROCW*)(unsigned short*, long);
+
+typedef struct _FIXED _FIXED;
+
+typedef unsigned short* PUINT16;
+
+typedef long  (ENCRYPT_MESSAGE_FN*)(struct _SecHandle*, unsigned long, struct _SecBufferDesc*, unsigned long);
+
+typedef unsigned char SECURITY_CONTEXT_TRACKING_MODE;
+
+typedef enum tagDESCKIND tagDESCKIND;
+
+typedef struct tagQOCINFO tagQOCINFO;
+
+typedef struct tagMSG tagMSG;
+
+typedef short SHORT;
+
+typedef short Short;
+
+typedef short SHORT;
+
+typedef struct _SecHandle* PCtxtHandle;
+
+typedef struct tagQOCINFO* LPQOCINFO;
+
+typedef unsigned long REGSAM;
+
+typedef struct DLGTEMPLATE* PROPSHEETPAGE_RESOURCE;
+
+typedef struct tagMIXERLINEW tagMIXERLINEW;
+
+typedef struct _MMIOINFO* LPMMIOINFO;
+
+typedef int  (FONTENUMPROCW*)(struct tagLOGFONTW*, struct tagTEXTMETRICW*, unsigned long, long);
+
+typedef int LONG32;
+
+typedef void* RPC_BINDING_HANDLE;
+
+typedef long  MMIOPROC(char*, unsigned int, long, long);
+
+typedef int OsJoystickID;
+
+typedef void* I_RPC_MUTEX;
+
+typedef struct tagCIEXYZ CIEXYZ;
+
+typedef int T1_EncodingType;
+
+typedef struct ICDECOMPRESSEX ICDECOMPRESSEX;
+
+typedef unsigned __int64 large;
+
+typedef long RPC_STATUS;
+
+typedef int T1_Token_Type;
+
+typedef struct tagOLEUICHANGEICONW* LPOLEUICHANGEICONW;
+
+typedef struct tagSTATSTG STATSTG;
+
+typedef struct _SECURITY_FUNCTION_TABLE_W* PSecurityFunctionTableW;
+
+typedef int  (TIMEFMT_ENUMPROCW*)(unsigned short*);
+
+typedef struct IUnknown IUnknown;
+
+typedef unsigned short* NWPSTR;
+
+typedef unsigned short* LPCOLESTR;
+
+typedef struct HDDEDATA__ HDDEDATA__;
+
+typedef unsigned int UINT_PTR;
+
+typedef int* PINT_PTR;
+
+typedef unsigned long* PDWORD_PTR;
+
+typedef struct IEnumString IEnumString;
+
+typedef struct _CHAR_INFO _CHAR_INFO;
+
+typedef short GLshort;
+
+typedef unsigned short* LPKEYARRAY;
+
+typedef struct IUnknownVtbl IUnknownVtbl;
+
+typedef struct _CHAR_INFO* PCHAR_INFO;
+
+typedef unsigned long* PACCESS_MASK;
+
+typedef struct tagWNDCLASSW* LPWNDCLASSW;
+
+typedef enum tagFUNCKIND tagFUNCKIND;
+
+typedef struct tagWNDCLASSEXW* LPWNDCLASSEXW;
+
+typedef char int8;
+
+typedef char INT8;
+
+typedef char int8;
+
+typedef unsigned long CALTYPE;
+
+typedef struct _IMAGE_NT_HEADERS _IMAGE_NT_HEADERS;
+
+typedef struct IRunningObjectTable IRunningObjectTable;
+
+typedef struct tagMIDIINCAPSW tagMIDIINCAPSW;
+
+typedef struct tagMONITORINFO* LPMONITORINFO;
+
+typedef struct _PROPSHEETHEADERW _PROPSHEETHEADERW;
+
+typedef unsigned long DWORD;
+
+typedef struct _IMAGE_NT_HEADERS* PIMAGE_NT_HEADERS;
+
+typedef struct _SYSTEMTIME SYSTEMTIME;
+
+typedef unsigned long KAFFINITY;
+
+typedef unsigned long OSWAIT;
+
+typedef long  (REVERT_SECURITY_CONTEXT_FN*)(struct _SecHandle*);
+
+typedef unsigned short* PWORD;
+
+typedef long FT_Pos;
+
+typedef struct tagICEXYZTRIPLE tagICEXYZTRIPLE;
+
+typedef unsigned short UWORD;
+
+typedef void* OsGuiHandle;
+
+typedef union _LARGE_INTEGER LARGE_INTEGER;
+
+typedef unsigned long* LPMONTHDAYSTATE;
+
+typedef struct _WIN32_FIND_DATAW _WIN32_FIND_DATAW;
+
+typedef enum _SECURITY_IMPERSONATION_LEVEL SECURITY_IMPERSONATION_LEVEL;
+
+typedef struct HINSTANCE__* HMODULE;
+
+typedef struct ICDRAWSUGGEST ICDRAWSUGGEST;
+
+typedef struct _browseinfoW _browseinfoW;
+
+typedef struct _SMALL_RECT SMALL_RECT;
+
+typedef unsigned long* PULONG_PTR;
+
+typedef struct tagPOINT tagPOINT;
+
+typedef unsigned long* PLCID;
+
+typedef char* pointer;
+
+typedef void* PIMAGEHLP_CONTEXT;
+
+typedef unsigned char u_char;
+
+typedef void* RPC_NS_HANDLE;
+
+typedef long FT_Fixed;
+
+typedef struct _SMALL_RECT* PSMALL_RECT;
+
+typedef struct tagPANOSE tagPANOSE;
+
+typedef struct _SMALL_RECT _SMALL_RECT;
+
+typedef unsigned char TBYTE;
+
+typedef unsigned long UCS4;
+
+typedef unsigned char* PBYTE;
+
+typedef unsigned char* PByte;
+
+typedef unsigned char* PBYTE;
+
+typedef unsigned short UHALF_PTR;
+
+typedef struct _GUID* LPCLSID;
+
+typedef short* PHALF_PTR;
+
+typedef unsigned int FT_UInt32;
+
+typedef struct tagPSDW* LPPAGESETUPDLGW;
+
+typedef struct _LIST_ENTRY _LIST_ENTRY;
+
+typedef unsigned long* LPDWORD;
+
+typedef int TStates;
+
+typedef struct _LIST_ENTRY* PLIST_ENTRY;
+
+typedef void GLvoid;
+
+typedef struct HCOLORSPACE__* HCOLORSPACE;
+
+typedef struct HMETAFILE__ HMETAFILE__;
+
+typedef void  (SEC_GET_KEY_FN*)(void*, void*, unsigned long, void**, long*);
+
+typedef short FT_Short;
+
+typedef unsigned __int64 ULONG64;
+
+typedef unsigned long DWORD_PTR;
+
+typedef __int64* PLONG64;
+
+typedef struct tagWNDCLASSW WNDCLASSW;
+
+typedef struct tagCIEXYZ tagCIEXYZ;
+
+typedef struct _cpinfoexW _cpinfoexW;
+
+typedef struct tagMONITORINFO tagMONITORINFO;
+
+typedef enum tagSYSKIND tagSYSKIND;
+
+typedef unsigned short GLhalfNV;
+
+typedef struct HKL__ HKL__;
+
+typedef struct HCONVLIST__ HCONVLIST__;
+
+typedef char FT_Char;
+
+typedef struct HMMIO__* HMMIO;
+
+typedef struct _SECURITY_FUNCTION_TABLE_W _SECURITY_FUNCTION_TABLE_W;
+
+typedef struct _NETCONNECTINFOSTRUCT _NETCONNECTINFOSTRUCT;
+
+typedef struct _NETRESOURCEW _NETRESOURCEW;
+
+typedef long FT_Long;
+
+typedef struct tagPSDW tagPSDW;
+
+typedef unsigned int  (LPPRINTHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct _PROPSHEETPAGEW* LPCPROPSHEETPAGEW_V3;
+
+typedef unsigned long* PSCARDCONTEXT;
+
+typedef int INT;
+
+typedef int Int;
+
+typedef int INT;
+
+typedef struct tagMIXERCAPSW tagMIXERCAPSW;
+
+typedef long  (SET_CONTEXT_ATTRIBUTES_FN_W*)(struct _SecHandle*, unsigned long, void*, unsigned long);
+
+typedef struct _NOTIFYICONDATAW* PNOTIFYICONDATAW;
+
+typedef unsigned long LCID;
+
+typedef struct HICON__* HICON;
+
+typedef struct tagACCEL* LPACCEL;
+
+typedef char* HPSTR;
+
+typedef char* LPSTR;
+
+typedef struct _NOTIFYICONDATAW _NOTIFYICONDATAW;
+
+typedef char* NPSTR;
+
+typedef struct HIC__ HIC__;
+
+typedef struct HBITMAP__* HBITMAP;
+
+typedef void* PSID;
+
+typedef float D3DVALUE;
+
+typedef struct _numberfmtW NUMBERFMTW;
+
+typedef int* npointer;
+
+typedef struct tagOLEUIPASTESPECIALW tagOLEUIPASTESPECIALW;
+
+typedef void* vpointer;
+
+typedef unsigned char* upointer;
+
+typedef struct HDROP__ HDROP__;
+
+typedef struct _NETRESOURCEW* LPNETRESOURCEW;
+
+typedef enum OfflineFolderStatus OfflineFolderStatus;
+
+typedef struct tagKERNINGPAIR tagKERNINGPAIR;
+
+typedef struct _FOCUS_EVENT_RECORD FOCUS_EVENT_RECORD;
+
+typedef struct tagWAVEOUTCAPSW* LPWAVEOUTCAPSW;
+
+typedef struct _SecHandle* PCredHandle;
+
+typedef long FT_F26Dot6;
+
+typedef unsigned short* LPOLESTR;
+
+typedef struct tagOLEVERB tagOLEVERB;
+
+typedef unsigned int  (LPCCHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct _DCB _DCB;
+
+typedef void* gzFile;
+
+typedef double DATE;
+
+typedef struct _IMAGE_OPTIONAL_HEADER _IMAGE_OPTIONAL_HEADER;
+
+typedef struct _SYSTEMTIME _SYSTEMTIME;
+
+typedef unsigned char GLboolean;
+
+typedef void* HCRYPTMSG;
+
+typedef struct HHOOK__* HHOOK;
+
+typedef struct HRASCONN__ HRASCONN__;
+
+typedef unsigned int GROUP;
+
+typedef long SCODE;
+
+typedef unsigned short* PUWSTR;
+
+typedef __int64 fpos_t;
+
+typedef struct tagPDW tagPDW;
+
+typedef enum LSA_FOREST_TRUST_RECORD_TYPE LSA_FOREST_TRUST_RECORD_TYPE;
+
+typedef double lua_Number;
+
+typedef struct tagCHOOSECOLORW* LPCHOOSECOLORW;
+
+typedef struct tagOFNW OPENFILENAMEW;
+
+typedef char* PUTSTR;
+
+typedef unsigned long u_long;
+
+typedef __int64 REFERENCE_TIME;
+
+typedef void* z_voidp;
+
+typedef struct _ABCFLOAT _ABCFLOAT;
+
+typedef struct _MEMORY_BASIC_INFORMATION _MEMORY_BASIC_INFORMATION;
+
+typedef struct HFONT__ HFONT__;
+
+typedef unsigned char cs_byte;
+
+typedef void* HCONTEXT;
+
+typedef unsigned long* PSCARDHANDLE;
+
+typedef struct _ABCFLOAT* LPABCFLOAT;
+
+typedef struct tagMSGBOXPARAMSW tagMSGBOXPARAMSW;
+
+typedef struct tagOLEUIPASTEENTRYW tagOLEUIPASTEENTRYW;
+
+typedef unsigned int _dev_t;
+
+typedef struct tagOFNW* LPOPENFILENAMEW;
+
+typedef enum tagExtentMode tagExtentMode;
+
+typedef long  (DELETE_SECURITY_CONTEXT_FN*)(struct _SecHandle*);
+
+typedef enum SearchCommandExecuteErrors SearchCommandExecuteErrors;
+
+typedef void* HDWP;
+
+typedef int FT_Glyph_Format;
+
+typedef long sop;
+
+typedef struct tagOLEUICONVERTW tagOLEUICONVERTW;
+
+typedef int AH_Flags;
+
+typedef struct tagOLEUICONVERTW* LPOLEUICONVERTW;
+
+typedef long SSIZE_T;
+
+typedef unsigned long* PSIZE_T;
+
+typedef struct _GUID CLSID;
+
+typedef void* PACCESS_TOKEN;
+
+typedef struct tagTEXTMETRICW* LPTEXTMETRICW;
+
+typedef unsigned __int64 SAMPLE_TIME;
+
+typedef unsigned short VARTYPE;
+
+typedef long  (IMPERSONATE_SECURITY_CONTEXT_FN*)(struct _SecHandle*);
+
+typedef struct tagACCEL tagACCEL;
+
+typedef struct tagPOLYTEXTW tagPOLYTEXTW;
+
+typedef struct tagHW_PROFILE_INFOW* LPHW_PROFILE_INFOW;
+
+typedef int  (DATEFMT_ENUMPROCEXW*)(unsigned short*, unsigned long);
+
+typedef struct tagOLEUICHANGEICONW tagOLEUICHANGEICONW;
+
+typedef struct tagOLEUIOBJECTPROPSW tagOLEUIOBJECTPROPSW;
+
+typedef struct HTASK__* HTASK;
+
+typedef unsigned long D3DCOLOR;
+
+typedef long SECURITY_STATUS;
+
+typedef unsigned short u_short;
+
+typedef void* RPC_AUTHZ_HANDLE;
+
+typedef long  (PFNrokea*)(struct HKEY__*, char*, unsigned long, unsigned long, struct HKEY__**);
+
+typedef void* HDEVNOTIFY;
+
+typedef struct _SHELLEXECUTEINFOW _SHELLEXECUTEINFOW;
+
+typedef unsigned short* PBAD_TRACK_NUMBER;
+
+typedef struct IEnumSTATSTGVtbl IEnumSTATSTGVtbl;
+
+typedef struct tagPDW* LPPRINTDLGW;
+
+typedef struct _currencyfmtW _currencyfmtW;
+
+typedef struct tMIXERCONTROLDETAILS* LPMIXERCONTROLDETAILS;
+
+typedef int INT_PTR;
+
+typedef unsigned int ALG_ID;
+
+typedef struct RASIPADDR RASIPADDR;
+
+typedef struct _SecBufferDesc _SecBufferDesc;
+
+typedef struct _SecBufferDesc* PSecBufferDesc;
+
+typedef struct _IMAGE_DATA_DIRECTORY IMAGE_DATA_DIRECTORY;
+
+typedef long MUSIC_TIME;
+
+typedef struct _PRINTER_DEFAULTSW* LPPRINTER_DEFAULTSW;
+
+typedef struct _STARTUPINFOW _STARTUPINFOW;
+
+typedef struct HPALETTE__* HPALETTE;
+
+typedef long FXPT2DOT30;
+
+typedef void* NDR_CCONTEXT;
+
+typedef unsigned long PROPID;
+
+typedef void* RPC_SS_THREAD_HANDLE;
+
+typedef unsigned int DWORD32;
+
+typedef struct _IMAGE_NT_HEADERS* PIMAGE_NT_HEADERS32;
+
+typedef struct tagRASDIALEXTENSIONS tagRASDIALEXTENSIONS;
+
+typedef unsigned int  (LPFRHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct HENHMETAFILE__* HENHMETAFILE;
+
+typedef unsigned long error_status_t;
+
+typedef void* HCERTCHAINENGINE;
+
+typedef enum GODOTUNICODE GODOTUNICODE;
+
+typedef struct IEnumSTATSTG IEnumSTATSTG;
+
+typedef int socklen_t;
+
+typedef struct tagLOGCOLORSPACEW tagLOGCOLORSPACEW;
+
+typedef struct _LUID _LUID;
+
+typedef struct tagSTGMEDIUM tagSTGMEDIUM;
+
+typedef struct DLGTEMPLATE DLGTEMPLATE;
+
+typedef struct _ITEMIDLIST _ITEMIDLIST;
+
+typedef char GLbyte;
+
+typedef long  (ACCEPT_SECURITY_CONTEXT_FN*)(struct _SecHandle*, struct _SecHandle*, struct _SecBufferDesc*, unsigned long, unsigned long, struct _SecHandle*, struct _SecBufferDesc*, unsigned long*, union _LARGE_INTEGER*);
+
+typedef union _LARGE_INTEGER _LARGE_INTEGER;
+
+typedef int sock_t;
+
+typedef long  (APPLY_CONTROL_TOKEN_FN*)(struct _SecHandle*, struct _SecBufferDesc*);
+
+typedef struct _LUID LUID;
+
+typedef union _ULARGE_INTEGER ULARGE_INTEGER;
+
+typedef struct _GUID GUID;
+
+typedef unsigned __int64 RVA64;
+
+typedef int  (CALINFO_ENUMPROCEXW*)(unsigned short*, unsigned long);
+
+typedef int  (GRAYSTRINGPROC*)(struct HDC__*, long, int);
+
+typedef unsigned int SOCKET;
+
+typedef void* RPC_IF_HANDLE;
+
+typedef struct HDDEDATA__*  (PFNCALLBACK*)(unsigned int, unsigned int, struct HCONV__*, struct HSZ__*, struct HSZ__*, struct HDDEDATA__*, unsigned long, unsigned long);
+
+typedef struct HINSTANCE__* HINSTANCE;
+
+typedef struct _devicemodeW* PDEVMODEW;
+
+typedef unsigned int u_int;
+
+typedef struct tagPOINT POINT;
+
+typedef unsigned int HSCHEDULERTHREAD;
+
+typedef unsigned long HCRYPTKEY;
+
+typedef long  (DECRYPT_MESSAGE_FN*)(struct _SecHandle*, struct _SecBufferDesc*, unsigned long, unsigned long*);
+
+typedef unsigned long APARTMENTID;
+
+typedef struct _PRINTER_DEFAULTSW _PRINTER_DEFAULTSW;
+
+typedef unsigned long ACCESS_MASK;
+
+typedef int* PLONG32;
+
+typedef struct tagMIDIOUTCAPSW tagMIDIOUTCAPSW;
+
+typedef unsigned int ULONG32;
+
+typedef short FT_FWord;
+
+typedef struct DLLMap DLLMap;
+
+typedef unsigned short COLOR16;
+
+typedef struct tagPALETTEENTRY tagPALETTEENTRY;
+
+typedef struct tagCONVCONTEXT tagCONVCONTEXT;
+
+typedef struct tagRECT tagRECT;
+
+typedef unsigned int z_uInt;
+
+typedef struct tagOFNW tagOFNW;
+
+typedef unsigned char* RPC_BUFPTR;
+
+typedef struct IDataObjectVtbl IDataObjectVtbl;
+
+typedef union _LARGE_INTEGER* PTimeStamp;
+
+typedef struct tagHELPINFO tagHELPINFO;
+
+typedef struct _MEMORY_BASIC_INFORMATION MEMORY_BASIC_INFORMATION;
+
+typedef unsigned long GEOTYPE;
+
+typedef void* HMETAFILEPICT;
+
+typedef long  (ACQUIRE_CREDENTIALS_HANDLE_FN_W*)(unsigned short*, unsigned short*, unsigned long, void*, void*, void  (*)(void*, void*, unsigned long, void**, long*), void*, struct _SecHandle*, union _LARGE_INTEGER*);
+
+typedef struct tagCONVINFO CONVINFO;
+
+typedef struct HIC__* HIC;
+
+typedef struct tagOLEVERB* LPOLEVERB;
+
+typedef struct _GUID IID;
+
+typedef unsigned long DXFILELOADOPTIONS;
+
+typedef unsigned long LGRPID;
+
+typedef struct IOleUILinkInfoW IOleUILinkInfoW;
+
+typedef struct tagMIDIOUTCAPSW* LPMIDIOUTCAPSW;
+
+typedef struct IAdviseSink IAdviseSink;
+
+typedef struct IEnumSTATDATA IEnumSTATDATA;
+
+typedef struct DLGTEMPLATE* LPCDLGTEMPLATE;
+
+typedef unsigned short* PWSTR;
+
+typedef char* LPCSTR;
+
+typedef unsigned short CLIPFORMAT;
+
+typedef unsigned short SEC_WCHAR;
+
+typedef unsigned long z_uLongf;
+
+typedef long LONG_PTR;
+
+typedef int  (BFFCALLBACK*)(struct HWND__*, unsigned int, long, long);
+
+typedef unsigned short FT_UShort;
+
+typedef struct _SHFILEINFOW _SHFILEINFOW;
+
+typedef enum tagCHANGEKIND tagCHANGEKIND;
+
+typedef unsigned int  (LPPAGESETUPHOOK*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef long  (INITIALIZE_SECURITY_CONTEXT_FN_W*)(struct _SecHandle*, struct _SecHandle*, unsigned short*, unsigned long, unsigned long, unsigned long, struct _SecBufferDesc*, unsigned long, struct _SecHandle*, struct _SecBufferDesc*, unsigned long*, union _LARGE_INTEGER*);
+
+typedef unsigned int unint;
+
+typedef short RCStringIndex;
+
+typedef struct DLGTEMPLATE* LPCDLGTEMPLATEA;
+
+typedef struct tagRECT RECT;
+
+typedef unsigned long  (LPPROGRESS_ROUTINE*)(union _LARGE_INTEGER, union _LARGE_INTEGER, union _LARGE_INTEGER, union _LARGE_INTEGER, unsigned long, unsigned long, void*, void*, void*);
+
+typedef float GLclampf;
+
+typedef void* FT_Pointer;
+
+typedef struct tagRECT* LPCRECT;
+
+typedef struct _devicemodeW DEVMODEW;
+
+typedef struct _MOUSE_EVENT_RECORD _MOUSE_EVENT_RECORD;
+
+typedef int AH_Angle;
+
+typedef struct DLGTEMPLATE* LPCDLGTEMPLATEW;
+
+typedef unsigned int small;
+
+typedef char FT_String;
+
+typedef void* HANDLE;
+
+typedef struct _IMAGE_FILE_HEADER _IMAGE_FILE_HEADER;
+
+typedef long  (WNDPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct IOleObject IOleObject;
+
+typedef struct _MAT2 MAT2;
+
+typedef struct tagSTGMEDIUM STGMEDIUM;
+
+typedef struct tagCHOOSEFONTW tagCHOOSEFONTW;
+
+typedef unsigned short* PSECURITY_DESCRIPTOR_CONTROL;
+
+typedef union _ULARGE_INTEGER _ULARGE_INTEGER;
+
+typedef long  (QUERY_SECURITY_CONTEXT_TOKEN_FN*)(struct _SecHandle*, void**);
+
+typedef union _ULARGE_INTEGER* PULARGE_INTEGER;
+
+typedef unsigned short* LPWCH;
+
+typedef unsigned short* LPUWSTR;
+
+typedef unsigned short PRINTEROP_FLAGS;
+
+typedef void* HCRYPTOIDFUNCSET;
+
+typedef struct _cpinfoexW* LPCPINFOEXW;
+
+typedef unsigned int  (LPFNOLEUIHOOK*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef struct _WINDOW_BUFFER_SIZE_RECORD WINDOW_BUFFER_SIZE_RECORD;
+
+typedef char* LPTCH;
+
+typedef float GLfloat;
+
+typedef struct tagFORMATETC tagFORMATETC;
+
+typedef enum tagVARKIND tagVARKIND;
+
+typedef struct IEnumFORMATETC IEnumFORMATETC;
+
+typedef unsigned char FT_Byte;
+
+typedef long clock_t;
+
+typedef struct _IMAGE_OPTIONAL_HEADER IMAGE_OPTIONAL_HEADER32;
+
+typedef struct tagCONVCONTEXT* PCONVCONTEXT;
+
+typedef struct _COMMCONFIG _COMMCONFIG;
+
+typedef struct tagCONVCONTEXT CONVCONTEXT;
+
+typedef struct IDataObject* LPDATAOBJECT;
+
+typedef unsigned long HCRYPTPROV;
+
+typedef int FT_Encoding;
+
+typedef struct tagJOYCAPSW* LPJOYCAPSW;
+
+typedef char* PTSTR;
+
+typedef struct HRSRC__* HRSRC;
+
+typedef int TScan;
+
+typedef unsigned long DXFILEFORMAT;
+
+typedef enum __MIDL_ICodeInstall_0001 __MIDL_ICodeInstall_0001;
+
+typedef struct IStorageVtbl IStorageVtbl;
+
+typedef struct _devicemodeW* LPDEVMODEW;
+
+typedef unsigned char* PSECURITY_CONTEXT_TRACKING_MODE;
+
+typedef void* HOLEMENU;
+
+typedef struct IOleContainerVtbl IOleContainerVtbl;
+
+typedef struct HMONITOR__ HMONITOR__;
+
+typedef struct tagOLEUIVIEWPROPSW tagOLEUIVIEWPROPSW;
+
+typedef struct _ABC _ABC;
+
+typedef struct HCOLORSPACE__ HCOLORSPACE__;
+
+typedef enum _SPACTION _SPACTION;
+
+typedef struct IStorage IStorage;
+
+typedef struct _ABC* LPABC;
+
+typedef unsigned char* PUINT8;
+
+typedef unsigned short wctype_t;
+
+typedef int GLsizei;
+
+typedef unsigned long HWORLDOBJECT;
+
+typedef struct _ITEMIDLIST* LPITEMIDLIST;
+
+typedef void* HCERTSTORE;
+
+typedef long* PSSIZE_T;
+
+typedef struct _MMIOINFO* LPCMMIOINFO;
+
+typedef struct tagAUXCAPSW tagAUXCAPSW;
+
+typedef enum _tagQUERYOPTION _tagQUERYOPTION;
+
+typedef unsigned long POINTER_64_INT;
+
+typedef struct IStream IStream;
+
+typedef struct tagOLEUIINSERTOBJECTW* LPOLEUIINSERTOBJECTW;
+
+typedef struct _SecPkgInfoW* PSecPkgInfoW;
+
+typedef struct _MOUSE_EVENT_RECORD MOUSE_EVENT_RECORD;
+
+typedef unsigned long HREFTYPE;
+
+typedef void* PSECURITY_DESCRIPTOR;
+
+typedef struct _SecPkgInfoW _SecPkgInfoW;
+
+typedef void* HLOCAL;
+
+typedef struct HKEY__* HKEY;
+
+typedef char* LPUTSTR;
+
+typedef enum tagXMLEMEM_TYPE tagXMLEMEM_TYPE;
+
+typedef unsigned __int64 DWORD64;
+
+typedef long* PLONG_PTR;
+
+typedef unsigned long ULONG_PTR;
+
+typedef long  (ENUMERATE_SECURITY_PACKAGES_FN_W*)(unsigned long*, struct _SecPkgInfoW**);
+
+typedef struct tagALTTABINFO* PALTTABINFO;
+
+typedef unsigned int MMRESULT;
+
+typedef void* HWND;
+
+typedef struct HWND__* HWND;
+
+typedef void* HWND;
+
+typedef unsigned int* unpointer;
+
+typedef void* I_RPC_HANDLE;
+
+typedef struct HMIXEROBJ__ HMIXEROBJ__;
+
+typedef int  (PROPENUMPROCW*)(struct HWND__*, unsigned short*, void*);
+
+typedef struct tagMSG* LPMSG;
+
+typedef struct tagFINDREPLACEW* LPFINDREPLACEW;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef char Bool;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef unsigned char bool;
+
+typedef int BOOL;
+
+typedef int  (PROPENUMPROCA*)(struct HWND__*, char*, void*);
+
+typedef long TPos;
+
+typedef unsigned int MCIDEVICEID;
+
+typedef struct IOleUILinkContainerW IOleUILinkContainerW;
+
+typedef unsigned char z_Byte;
+
+typedef enum tagBINDSTRING tagBINDSTRING;
+
+typedef int T1_Field_Type;
+
+typedef int* LPBOOL;
+
+typedef struct HKL__* HKL;
+
+typedef long regoff_t;
+
+typedef struct tagRECT* LPRECT;
+
+typedef unsigned long SCARDHANDLE;
+
+typedef struct IMonikerVtbl IMonikerVtbl;
+
+typedef int GLsizeiptrARB;
+
+typedef struct IEnumFORMATETCVtbl IEnumFORMATETCVtbl;
+
+typedef long  (ADD_CREDENTIALS_FN_W*)(struct _SecHandle*, unsigned short*, unsigned short*, unsigned long, void*, void  (*)(void*, void*, unsigned long, void**, long*), void*, union _LARGE_INTEGER*);
+
+typedef unsigned long FT_ULong;
+
+typedef struct _MMIOINFO _MMIOINFO;
+
+typedef struct _GLYPHMETRICS _GLYPHMETRICS;
+
+typedef unsigned char z_Bytef;
+
+typedef int FT_Frame_Op;
+
+typedef struct IMoniker IMoniker;
+
+typedef char* PCHAR;
+
+typedef long sopno;
+
+typedef unsigned short WCHAR;
+
+typedef enum VARENUM VARENUM;
+
+typedef char TCHAR;
+
+typedef unsigned char UCHAR;
+
+typedef struct IOleUILinkContainerWVtbl IOleUILinkContainerWVtbl;
+
+typedef unsigned char BCHAR;
+
+typedef char CCHAR;
+
+typedef unsigned char FCHAR;
+
+typedef struct IOleObjectVtbl IOleObjectVtbl;
+
+typedef struct _PROPSHEETPAGEW* LPCPROPSHEETPAGEW;
+
+typedef struct HBITMAP__ HBITMAP__;
+
+typedef void* GLOBALHANDLE;
+
+typedef unsigned short* LPCWSTR;
+
+typedef long  (EXPORT_SECURITY_CONTEXT_FN*)(struct _SecHandle*, unsigned long, struct _SecBuffer*, void**);
+
+typedef long  (FREE_CREDENTIALS_HANDLE_FN*)(struct _SecHandle*);
+
+typedef double GLclampd;
+
+typedef unsigned int  (LPCFHOOKPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef int GLint;
+
+typedef unsigned short LANGID;
+
+typedef char* PSTR;
+
+typedef unsigned short _ino_t;
+
+typedef union _LARGE_INTEGER SECURITY_INTEGER;
+
+typedef unsigned short* BSTR;
+
+typedef struct _PROPSHEETPAGEW PROPSHEETPAGEW_V3;
+
+typedef unsigned long* PKSPIN_LOCK;
+
+typedef void MENUTEMPLATEA;
+
+typedef unsigned short* LPWSTR;
+
+typedef void* LPMENUTEMPLATEA;
+
+typedef struct _browseinfoW* LPBROWSEINFOW;
+
+typedef unsigned long FLONG;
+
+typedef void* LPMENUTEMPLATEW;
+
+typedef void MENUTEMPLATEW;
+
+typedef struct _PROCESS_INFORMATION _PROCESS_INFORMATION;
+
+typedef long* PLONG;
+
+typedef long* PLong;
+
+typedef long* PLONG;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef unsigned long ULONG;
+
+typedef unsigned long ulong;
+
+typedef struct _SECURITY_QUALITY_OF_SERVICE _SECURITY_QUALITY_OF_SERVICE;
+
+typedef struct IOleObject* LPOLEOBJECT;
+
+typedef void* HCRYPTOIDFUNCADDR;
+
+typedef char* LPTSTR;
+
+typedef struct _DCB* LPDCB;
+
+typedef int ptrdiff_t;
+
+typedef struct tagRASENTRYNAMEW tagRASENTRYNAMEW;
+
+typedef void MENUTEMPLATE;
+
+typedef struct HCONV__ HCONV__;
+
+typedef void* LPMENUTEMPLATE;
+
+typedef struct _DISCDLGSTRUCTW _DISCDLGSTRUCTW;
+
+typedef double lreal;
+
+typedef struct tagBIND_OPTS tagBIND_OPTS;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef unsigned char boolean;
+
+typedef unsigned char BOOLEAN;
+
+typedef struct tagCHOOSECOLORW tagCHOOSECOLORW;
+
+typedef unsigned int GLuint;
+
+typedef void  (SENDASYNCPROC*)(struct HWND__*, unsigned int, unsigned long, long);
+
+typedef struct HMENU__* HMENU;
+
+typedef int  (DLGPROC*)(struct HWND__*, unsigned int, unsigned int, long);
+
+typedef unsigned __int64 WOWGUID;
