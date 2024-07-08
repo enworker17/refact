@@ -36,7 +36,6 @@
 
 // pubsym <rva 0x363600> <code> ?ReplaceTexture@CSimpleModel@@QAEXIPBD@Z
 
-
 // pubsym <rva 0x3f6c90> <code> _XmlSizeOfUnknownEncoding
 
 // pubsym <rva 0x405438> __real@3feffd95da61f655
@@ -79993,25 +79992,15 @@
 
 // pubsym <rva 0x29ff50> <code> ?Render@DNSky@@QAEXXZ
 
-// pubsym <rva 0x484a98> ??_C@_05IFCG@S5933?$AA@
-
 // pubsym <rva 0x4163d8> __real@40effc0000000000
 
 // pubsym <rva 0x2f018a> <code> _GodotFailGetRoleTextW@12
 
 // pubsym <rva 0x20b2c0> <code> ?HandleSpellEventSound@CGUnit_C@@UAEXXZ
 
-// pubsym <rva 0x4a2614> ??_C@_0BB@HKAG@count?5?$DM?5maxCount?$AA@
-
-// pubsym <rva 0x444afc> ??_C@_0BI@LIGB@ERR_INVITED_TO_GUILD_SS?$AA@
-
 // pubsym <rva 0x3277bf> <code> ?InitZs@CPSLegacyProgram@D3DXShader@@IAEJXZ
 
 // pubsym <rva 0x8d150> <code> ?shuffle_@CRandom@NTempest@@SIXPAMKAAVCRndSeed@2@@Z
-
-// pubsym <rva 0x47abcc> ??_C@_0CC@MEEJ@Hub?5Interface_B?5PCI?9to?9PCI?5Bridg@
-
-// pubsym <rva 0x447330> ??_C@_0CO@DFEA@D?3?2build?2buildWoW?2WoW?2Source?2Ui?2@
 
 // pubsym <rva 0x216d10> <code> ?Destroy@?$TSHashTable@UUNITONESHOTEFFECTDESC@@VCHashKeyGUID@@@@UAEXXZ
 
@@ -80021,31 +80010,13 @@
 
 // pubsym <rva 0x45640> <code> ??_GLINKUNIQUE@@QAEPAXI@Z
 
-// pubsym <rva 0x4c1464> ??_C@_09DEOD@afii57415?$AA@
-
 // pubsym <rva 0x2e7ca0> <code> ??1EVENTLISTENERNODE@@QAE@XZ
 
-// pubsym <rva 0x483d68> ??_C@_0N@MCEI@p1690plus?9AB?$AA@
-
 // pubsym <rva 0x6ae30> <code> ?OsInputSetMousePosition@@YIXHH@Z
-
-// pubsym <rva 0x495a74> ??_C@_0O@BDON@Systech?5Corp?4?$AA@
-
-// pubsym <rva 0x4874c4> ??_C@_0O@PDCO@IMAQ?9PCI?91422?$AA@
-
-// pubsym <rva 0x497e10> ??_C@_0BG@NOBG@Maspar?5Computer?5Corp?4?$AA@
 
 // pubsym <rva 0x40bbd0> ??_7?$TSFixedArray@UInitialSpellStruct@@@@6B@
 
 // pubsym <rva 0x2025c0> <code> ?IsSplashing@CGUnit_C@@IAEHABVC3Vector@NTempest@@@Z
-
-// pubsym <rva 0x4968e4> ??_C@_03JGGO@EMC?$AA@
-
-// pubsym <rva 0x4b1c5c> ??_C@_06EFME@Sphere?$AA@
-
-// pubsym <rva 0x494dd0> ??_C@_08BJO@Hybricon?$AA@
-
-// pubsym <rva 0x442f84> ??_C@_0O@JOHJ@NotifyInspect?$AA@
 
 // pubsym <rva 0x4024e8> __imp__glTexSubImage2D@36
 
@@ -80053,15 +80024,11 @@
 
 // pubsym <rva 0x57880> <code> ?SelectAll@COsTreeView@@QAEXH@Z
 
-// pubsym <rva 0x4505bc> ??_C@_0O@GAEG@CURSOR_UPDATE?$AA@
-
 // pubsym <rva 0x582a0> <code> ?SetFilter@COsTreeView@@QAEXIH@Z
 
 // pubsym <rva 0x1e7ad0> <code> ?CombatLoggingFlagChanged@CGPlayer_C@@UAEXXZ
 
 // pubsym <rva 0x2e4b90> <code> @luaK_checkstack@8
-
-// pubsym <rva 0x4b0e60> ??_C@_04KNMK@href?$AA@
 
 // pubsym <rva 0x56980> <code> ?ClearValue@COsCheckbox@@QAEXXZ
 
@@ -80069,19 +80036,11 @@
 
 // pubsym <rva 0xcaf70> <code> ?ToggleLogging@CMovement@@SIHXZ
 
-// pubsym <rva 0x445044> ??_C@_0O@IJDI@ERR_AMMO_ONLY?$AA@
-
 // pubsym <rva 0x59380> <code> ?OnNotify@COsListView@@UAEHHPAX@Z
 
 // pubsym <rva 0x18ff20> <code> ?SetParam@CGxShader@@QAEXPAVCGxShaderParam@@ABVC4Vector@NTempest@@@Z
 
-// pubsym <rva 0x498c30> ??_C@_0DD@KMAE@monthday?5?$DN?$DN?5?91?5?$HM?$HM?5?$CImonthday?5?$DO?$DN?50@
-
 // pubsym <rva 0x2f0db2> <code> _ntohl@4
-
-// pubsym <rva 0x496a00> ??_C@_08MHCD@Datacube?$AA@
-
-// pubsym <rva 0x4916b0> ??_C@_0N@EHNO@Aralion?5Inc?4?$AA@
 
 // pubsym <rva 0x3b3db0> <code> ?WarningCount@Parser@@QAEXPBDJJ@Z
 
@@ -80092,10 +80051,6 @@
 // pubsym <rva 0x1e26a0> <code> ?Player_C_AppFocusMovementHandler@@YIHH@Z
 
 // pubsym <rva 0x41dbf8> ??_7?$TSHashTable@UANIMHASH@@VHASHKEY_STRI@@@@6B@
-
-// pubsym <rva 0x466a2c> ??_C@_0CJ@IJLG@Please?5specify?5how?5many?5lines?5to@
-
-// pubsym <rva 0x4403c0> ??_C@_0DE@EHL@0x?$CF016I64X?3?5facet?5faces?5downward@
 
 // pubsym <rva 0x248350> <code> ?Pad@CBitOutput@?%D:\build\buildWoW\Storm\Source\SComp.cpp126592503@@QAEXXZ
 
@@ -80109,13 +80064,9 @@
 
 // pubsym <rva 0x4021d4> __imp__OutputDebugStringA@4
 
-// pubsym <rva 0x48f618> ??_C@_0L@CKFD@PC?5Partner?$AA@
-
 // pubsym <rva 0xa8740> <code> ?SndDebugRegisterContinent@@YIXI@Z
 
 // pubsym <rva 0x669a0> <code> ?OsLoopConnSend@@YIXPAUHNETCONN__@@PBXK@Z
-
-// pubsym <rva 0x48bf90> ??_C@_0BK@LPBF@ATM?5155Mbps?5MM?5Controller?$AA@
 
 // pubsym <rva 0x26c260> <code> ?FrustumSet@CWorldScene@@SIXQBVC3Vector@NTempest@@@Z
 
@@ -80125,67 +80076,27 @@
 
 // pubsym <rva 0x402260> __imp__TlsAlloc@0
 
-// pubsym <rva 0x4a8040> ??_C@_03ELKG@NAK?$AA@
-
-// pubsym <rva 0x414d88> ??_C@_06NIOAIDEM@sincos?$AA@
-
-// pubsym <rva 0x462500> ??_C@_0L@BNBL@ShieldBash?$AA@
-
-// pubsym <rva 0x4365f0> ??_C@_0N@MMH@bytesWritten?$AA@
-
 // pubsym <rva 0x276bf0> <code> ?SetPercentage@Particulate@@QAEXM@Z
 
 // pubsym <rva 0x2d48d0> <code> ?Create_SimpleScrollFrame@@YIPAVCSimpleFrame@@PAV1@@Z
-
-// pubsym <rva 0x44d0f0> ??_C@_0DJ@LBAA@D?3?2build?2buildWoW?2WoW?2Source?2UIU@
 
 // pubsym <rva 0x247100> <code> ?LinkNode@?$TSList@V?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@V?$TSGetExplicitLink@V?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@@@@@QAEXPAV?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@K0@Z
 
 // pubsym <rva 0x251290> <code> _SFileLoadFile@20
 
-// pubsym <rva 0x4458d4> ??_C@_01FCOA@?5?$AA@
-
-// pubsym <rva 0x48b058> ??_C@_05CJOG@HYDRA?$AA@
-
 // pubsym <rva 0x56420> <code> ??_ECOsListBox@@UAEPAXI@Z
 
 // pubsym <rva 0x2ef7ae> <code> _GodotFailSetWindowsHookExW@16
 
-// pubsym <rva 0x496adc> ??_C@_0BA@JHAP@Ross?5Technology?$AA@
-
-// pubsym <rva 0x48f500> ??_C@_0BG@JOBK@Legend?5Ltd?4?5?$CIBeijing?$CJ?$AA@
-
 // pubsym <rva 0x17cb60> <code> ?Reserve@?$TSGrowableArray@V?$TSExplicitList@UDBCACHEHASH@?$DBCache@VGameObjectStats_C@@HVHASHKEY_INT@@@@$0?CCCCCCCD@@@@@AAEXIH@Z
 
-// pubsym <rva 0x47df24> ??_C@_07NDCJ@BCM5820?$AA@
-
-// pubsym <rva 0x47d9cc> ??_C@_0O@KKOG@HSF?556k?5Modem?$AA@
-
 // pubsym <rva 0xa4c8d4> ?psOcean0@CMap@@2PAVCGxPixelShader@@A
-
-// pubsym <rva 0x496220> ??_C@_0BK@NBHJ@Advanced?5Peripherals?5Tech?$AA@
-
-// pubsym <rva 0x431d0c> ??_C@_0BA@PBMP@?$CFdd?5?$CFdh?5?$CFdm?5?$CFds?$AA@
-
-// pubsym <rva 0x47c3ec> ??_C@_0CH@KMHA@Vision?5928?5GUI?5Accelerator?5VRAM?5@
-
-// pubsym <rva 0x4a78dc> ??_C@_0BD@JNGH@?$CFs?$CFs?5?$DN?5?$DMuserdata?$DO?6?$AA@
-
-// pubsym <rva 0x434f9c> ??_C@_07FMFC@extents?$AA@
-
-// pubsym <rva 0x4af5f8> ??_C@_0L@GLOL@frameLevel?$AA@
 
 // pubsym <rva 0x25ea10> <code> ??1?$TSGrowableArray@I@@QAE@XZ
 
 // pubsym <rva 0x308530> <code> ??1CNodeDecl@D3DXShader@@UAE@XZ
 
-// pubsym <rva 0x4ae91c> ??_C@_0M@CEGP@numKeys?5?$DO?50?$AA@
-
-// pubsym <rva 0x433d64> ??_C@_0BD@FBND@timer?9?$DOguidHandler?$AA@
-
 // pubsym <rva 0x30f719> <code> ?ParentChildInfo@CProgram@D3DXShader@@IAEJXZ
-
-// pubsym <rva 0x43f808> ??_C@_0DD@OGKH@0x?$CF016I64X?3?5Slope?5too?5flat?0?5read@
 
 // pubsym <rva 0x12fa0> <code> ??_G?$TSExplicitList@VCStringRep@@$0?CCCCCCCD@@@QAEPAXI@Z
 
@@ -80201,11 +80112,7 @@
 
 // pubsym <rva 0x1eedd0> <code> ??1CGGameObject_C@@QAE@XZ
 
-// pubsym <rva 0x4c2bc0> ??_C@_0N@PLMO@ordmasculine?$AA@
-
 // pubsym <rva 0x10a820> <code> ?InitializeGame@CGTaxiMap@@SIXXZ
-
-// pubsym <rva 0x457a78> ??_C@_0BA@LKJL@numVertices?5?$DO?50?$AA@
 
 // pubsym <rva 0x3347a3> <code> ?CoIssue@CShaderProgram@D3DXShader@@MAEKK@Z
 
@@ -80213,19 +80120,9 @@
 
 // pubsym <rva 0xa12650> ?g_chrProficiencyDB@@3V?$WowClientDB@VChrProficiencyRec@@@@A
 
-// pubsym <rva 0x434364> ??_C@_0CC@OIPB@?$CK?$CI?$CIULONG?5?$CK?$CJ?5?$CIfileData?$CJ?$CJ?5?$DN?$DN?5?8XLDM@
-
-// pubsym <rva 0x457f68> ??_C@_01FOFA@p?$AA@
-
-// pubsym <rva 0x45400c> ??_C@_05LPAB@AGUID?$AA@
-
 // pubsym <rva 0x4aee00> ??_R0PAVFRAMEPRIORITY@@@8
 
-// pubsym <rva 0x499608> ??_C@_0P@IPJK@STACK_OVERFLOW?$AA@
-
 // pubsym <rva 0x117a50> <code> ?SetSelection@CGCraftInfo@@SIXH@Z
-
-// pubsym <rva 0x488930> ??_C@_0BF@BAKK@Imagine?5128?5Series?52?$AA@
 
 // pubsym <rva 0x246360> <code> ?CheckArrayBounds@?$TSBaseArray@URECTF@@@@IBEXI@Z
 
@@ -80233,11 +80130,7 @@
 
 // pubsym <rva 0x2d7180> <code> ??0?$TSList@UFrameFactoryNode@@V?$TSGetExplicitLink@UFrameFactoryNode@@@@@@QAE@ABV0@@Z
 
-// pubsym <rva 0x4642f8> ??_C@_0IF@BAHP@?$CI?$CFd?$CJ?$CFs?5Hit?5?$CI?$CFg?$CF?$CF?1?$CFg?$CF?$CF?$CJ?5?$CFs?5for?5?$CFd@
-
 // pubsym <rva 0x350890> <code> ?AnimObjectSetVisibilityTrack@@YIXPAUCAnimData@@PAUCAnimVisibleObj@@ABU?$MDLKEYTRACK@M@@W4MDLTRACKTYPE@@@Z
-
-// pubsym <rva 0x434f14> ??_C@_06PBMA@sphere?$AA@
 
 // pubsym <rva 0xa404a0> ?nChunksRender@CWorld@@0IA
 
@@ -80245,35 +80138,11 @@
 
 // pubsym <rva 0x4c3a68> _kernel32_CreateProcessW_Ptr
 
-// pubsym <rva 0x4c0dc0> ??_C@_0M@MDDJ@braceleftbt?$AA@
-
-// pubsym <rva 0x446d0c> ??_C@_0O@GDHB@IsPartyLeader?$AA@
-
-// pubsym <rva 0x482a14> ??_C@_0P@CPKF@AccelePort?5RAS?$AA@
-
-// pubsym <rva 0x444444> ??_C@_0BE@NLH@GAMEERROROUTOFRANGE?$AA@
-
-// pubsym <rva 0x44b8ac> ??_C@_0BE@NIMF@GetMerchantItemLink?$AA@
-
-// pubsym <rva 0x499b18> ??_C@_0BH@GPM@buffer?5?$HM?$HM?5?$CBbufferchars?$AA@
-
 // pubsym <rva 0x3cd400> <code> @FT_SqrtFixed@4
 
 // pubsym <rva 0x2ef1b7> <code> _GodotFailDrawTextExW@24
 
-// pubsym <rva 0x449394> ??_C@_07CJEK@DISTANT?$AA@
-
-// pubsym <rva 0x447bbc> ??_C@_07JKFH@PetWait?$AA@
-
-// pubsym <rva 0x4c1a10> ??_C@_09JHPK@afii10024?$AA@
-
-// pubsym <rva 0x4afcf0> ??_C@_0P@NOKE@ClearAllPoints?$AA@
-
-// pubsym <rva 0x464958> ??_C@_0BD@GMIG@DISPELLEDOTHERSELF?$AA@
-
 // pubsym <rva 0x1f6660> <code> ?IsSpellAuraAnimActive@CGUnit_C@@IBE_NAAH@Z
-
-// pubsym <rva 0x457e24> ??_C@_0BN@FFMM@minX?5?$DO?$DN?50?40f?5?$CG?$CG?5maxX?5?$DM?$DN?51?40f?$AA@
 
 // pubsym <rva 0x411a04> __real@3f349f4a
 
@@ -80281,37 +80150,19 @@
 
 // pubsym <rva 0x410d24> ?WATER_SPEC_EXP@CMap@@2MB
 
-// pubsym <rva 0x479f20> ??_C@_08CHGH@aha?53940?$AA@
-
 // pubsym <rva 0x2f66e9> <code> ?Error@CAssembler@D3DXShader@@IAAXPBDZZ
 
-// pubsym <rva 0x448ad8> ??_C@_0CJ@NHHE@Usage?3?5GetTrainerServiceItemStat@
-
-// pubsym <rva 0x4614dc> ??_C@_0BN@PEIN@unitPtr?9?$DOIsA?$CIHIER_TYPE_UNIT?$CJ?$AA@
-
 // pubsym <rva 0x4023f0> __imp__isspace
-
-// pubsym <rva 0x452660> ??_C@_0BE@GCLK@Client?5side?5sheathe?$AA@
 
 // pubsym <rva 0x266080> <code> ?ConsoleCommand_ShowShadow@CWorld@@CIHPBD0@Z
 
 // pubsym <rva 0x50a20> <code> ??A?$TSCArray@UCGeosetColor@@$04@@QAEAAUCGeosetColor@@I@Z
 
-// pubsym <rva 0x4a7030> ??_C@_0BO@DPCA@attempt?5to?5compare?5?$CFs?5with?5?$CFs?$AA@
-
 // pubsym <rva 0x234180> <code> ?LinkNode@?$TSList@UTIMESTAMPSTRUCT@@V?$TSGetExplicitLink@UTIMESTAMPSTRUCT@@@@@@QAEXPAUTIMESTAMPSTRUCT@@K0@Z
 
 // pubsym <rva 0x3cf250> <code> @FT_Read_Stream@12
 
-// pubsym <rva 0x4c1428> ??_C@_09PNH@afii57420?$AA@
-
 // pubsym <rva 0x2f0860> <code> _QueryPerformanceCounter@4
-
-// pubsym <rva 0x495e74> ??_C@_09HOPK@Dataworld?$AA@
-
-// pubsym <rva 0x4b23f0> ??_C@_0P@GFIG@CollisionShape?$AA@
-
-// pubsym <rva 0x44424c> ??_C@_0BF@OLKJ@ERR_TAXIPLAYERMOVING?$AA@
 
 // pubsym <rva 0xa78f0> <code> ?DumpInfo@OUTDOORSCHUNKHASHOBJ@@QAEXHH@Z
 
@@ -80319,27 +80170,15 @@
 
 // pubsym <rva 0x19a310> <code> ?DeviceCreatePbuffer@CGxDeviceOpenGl@@QAEXXZ
 
-// pubsym <rva 0x47f1d0> ??_C@_0BM@DNFK@Eight?5Port?5RS?9232?5Interface?$AA@
-
 // pubsym <rva 0x1b97a0> <code> ?CheckArrayBounds@?$TSBaseArray@V?$TSExplicitList@UCLightList@@$0?CCCCCCCD@@@@@IBEXI@Z
 
 // pubsym <rva 0x402398> __imp__isupper
 
 // pubsym <rva 0x2f0abe> <code> _SendMessageA@16
 
-// pubsym <rva 0x47d218> ??_C@_06JECM@N2530A?$AA@
-
-// pubsym <rva 0x4a80ac> ??_C@_09LAOB@backspace?$AA@
-
 // pubsym <rva 0x23ad10> <code> ?Get@STypeCache@@YIPBDPBD@Z
 
-// pubsym <rva 0x4368e0> ??_C@_0N@FJMF@OsNetLog?4txt?$AA@
-
 // pubsym <rva 0x2f4f92> <code> ?Alloc@CTAlloc@D3DXShader@@QAEPAXI@Z
-
-// pubsym <rva 0x45aca0> ??_C@_0O@BNJH@?$CFs?$CFs?$CFs?2?$CFs?$CFs?$CFs?$AA@
-
-// pubsym <rva 0x433564> ??_C@_0BH@GAFD@theFile?9?$DOrefCount?5?$DO?$DN?50?$AA@
 
 // pubsym <rva 0x57050> <code> ?SetItemColor@COsTreeView@@QAEXPAXABVCImVector@NTempest@@@Z
 
@@ -80349,21 +80188,13 @@
 
 // pubsym <rva 0x40241c> __imp____p__commode
 
-// pubsym <rva 0x433d1c> ??_C@_0N@PNIL@pDispatchReg?$AA@
-
-// pubsym <rva 0x48e99c> ??_C@_0P@OEMH@Micron?1Crucial?$AA@
-
 // pubsym <rva 0x141d40> <code> ?Script_SendUnitSignal@@YIXAB_KH@Z
 
 // pubsym <rva 0xa6070> <code> ?SoundInterfaceDoodadDestroy@@YIXXZ
 
-// pubsym <rva 0x479430> ??_C@_0BG@HOE@Generic?5XT?5Compatible?$AA@
-
 // pubsym <rva 0x3395de> <code> ?EmitNEG@CShaderProgram@D3DXShader@@IAEJXZ
 
 // pubsym <rva 0x13f2f0> <code> ??0?$TSGrowableArray@UCFacet@NTempest@@@@QAE@XZ
-
-// pubsym <rva 0x47db5c> ??_C@_0BJ@NHFO@HCF?5Data?1Fax?1Voice?5?$CIUSA?$CJ?$AA@
 
 // pubsym <rva 0x2b0e0> <code> ??1MDLBASE@@QAE@XZ
 
@@ -80375,29 +80206,9 @@
 
 // pubsym <rva 0x5a380> <code> ?OsGuiEnableWindow@@YIXPAXH@Z
 
-// pubsym <rva 0x45f160> ??_C@_08PPBB@anim?5?$DM?54?$AA@
-
 // pubsym <rva 0x1e7cc0> <code> ?OnLevelChange@CGPlayer_C@@UAEXXZ
 
 // pubsym <rva 0x2f25bf> <code> ?Begin@CPreProcessor@D3DXShader@@QAEJK@Z
-
-// pubsym <rva 0x4324b4> ??_C@_0BM@GEFN@Now?5filtering?3?5all?5messages?$AA@
-
-// pubsym <rva 0x49b210> ??_C@_0DC@LBIP@?$CCSFileCloseArchive?9child?5archive@
-
-// pubsym <rva 0x416278> ??_C@_0CO@NOHIDLGN@internal?5error?3?5argument?5was?5nev@
-
-// pubsym <rva 0x4324f4> ??_C@_0CF@DHGF@?5?5?5?5?5?5?5?5?5use?5?$CCexcept?$CC?5to?5invert?5@
-
-// pubsym <rva 0x48c264> ??_C@_0L@OAGG@MCA?5Bridge?$AA@
-
-// pubsym <rva 0x4835ec> ??_C@_0BF@KIGA@Wide?5Ultra2?5SCSI?5HBA?$AA@
-
-// pubsym <rva 0x48506c> ??_C@_0BN@CPBK@GeForce2?5Integrated?5graphics?$AA@
-
-// pubsym <rva 0x466d24> ??_C@_0CB@MMGH@unsupported?5api?0?5must?5be?5one?5of?5@
-
-// pubsym <rva 0x4a4f44> ??_C@_0BJ@BJB@No?5minimap?5texture?3?5?$CC?$CFs?$CC?$AA@
 
 // pubsym <rva 0x378c0> <code> ?CheckArrayBounds@?$TSBaseArray@UCModelTexture@@@@IBEXI@Z
 
@@ -80413,13 +80224,9 @@
 
 // pubsym <rva 0x1fe520> <code> ?AddWorldDamageText@CGUnit_C@@QAEXIH@Z
 
-// pubsym <rva 0x438298> ??_C@_0BJ@PCIJ@Animation?5Event?5Handlers?$AA@
-
 // pubsym <rva 0x1c8c00> <code> ?MemLineNo@?$TSBaseArray@PAUIGXUTEXTLINE@@@@MBEHXZ
 
 // pubsym <rva 0x4a520c> ??_R0?AV?$TSFixedArray@PBVSkillLineAbilityRec@@@@@8
-
-// pubsym <rva 0x4634d4> ??_C@_0BM@PCEN@CMath?3?3fequal_?$CIscale?0?51?40f?$CJ?$AA@
 
 // pubsym <rva 0x1ab70> <code> ?IEvtQueueUnregister@@YIXPAUEvtContext@@W4EVENTID@@P6IHPBXPAX@Z3I@Z
 
@@ -80427,83 +80234,33 @@
 
 // pubsym <rva 0x40b534> ??_7CGxVertexBuffer@@6B@
 
-// pubsym <rva 0x431a38> ??_C@_08GNDP@nofixlag?$AA@
-
-// pubsym <rva 0x435efc> ??_C@_06OMCH@Shift?$CL?$AA@
-
-// pubsym <rva 0x4c077c> ??_C@_0O@KMJN@quotereversed?$AA@
-
 // pubsym <rva 0xcaef0> <code> ?StopFallLogging@CMovement@@SIXXZ
-
-// pubsym <rva 0x4369f8> ??_C@_0P@HKEP@Internal?5error?$AA@
-
-// pubsym <rva 0x47dcd8> ??_C@_0BG@OFOJ@SmartHSF?5Mobile?5Modem?$AA@
-
-// pubsym <rva 0x457838> ??_C@_0CA@LKDN@value?5?$DO?$DN?50?40f?5?$CG?$CG?5value?5?$DM?$DN?516?40f?$AA@
 
 // pubsym <rva 0x3cf270> <code> @FT_Read_Stream_At@16
 
-// pubsym <rva 0x4985b0> ??_C@_06MLEC@Unisys?$AA@
-
 // pubsym <rva 0x240ea0> <code> ??1CDebugSCritSect@@QAE@XZ
-
-// pubsym <rva 0x452984> ??_C@_09FJIJ@Ludicrous?$AA@
-
-// pubsym <rva 0x49e020> ??_C@_0BF@IDPM@Map?5objects?5enabled?4?$AA@
-
-// pubsym <rva 0x491a6c> ??_C@_0BG@ONAF@Chameleon?5Systems?5Inc?$AA@
-
-// pubsym <rva 0x4bdf40> ??_C@_0BC@IFCO@?1?1?5Exported?5on?5?$CFs?$AA@
-
-// pubsym <rva 0x4a4bd0> ??_C@_0BG@IHJF@SkyCloudLOD?5set?5to?5?$CFi?$AA@
 
 // pubsym <rva 0x1c8b30> <code> ?MemFileName@?$TSGrowableArray_@VCImVector@NTempest@@$0EHHIHFEG@$0DL@@@MBEPBDXZ
 
 // pubsym <rva 0xb2900> <code> ?CheckArrayBounds@?$TSBaseArray@V?$TSExplicitList@UC_OBJECTHASH@@$0?CCCCCCCD@@@@@IBEXI@Z
 
-// pubsym <rva 0x47de5c> ??_C@_08BMPP@11242?911?$AA@
-
-// pubsym <rva 0x4127a8> ??_C@_06JBHLIDKE@vs?42?4x?$AA@
-
 // pubsym <rva 0x3077d4> <code> ?Release@CBuffer@D3DXCore@@UAGKXZ
 
-// pubsym <rva 0x48f80c> ??_C@_0CB@MKAN@Pacific?5Broadband?5Communications@
-
 // pubsym <rva 0xcbaab8> ?u_4@@3Vunreal@@B
-
-// pubsym <rva 0x4c050c> ??_C@_02KJAF@xi?$AA@
 
 // pubsym <rva 0x2f00e0> <code> _GodotFailOleUIBusyW@4
 
 // pubsym <rva 0x9b810> <code> ??1WEAPONSOUNDS@@QAE@XZ
 
-// pubsym <rva 0x47bce8> ??_C@_07JDJD@PUNIREL?$AA@
-
-// pubsym <rva 0x45338c> ??_C@_0N@JB@Can?8t?5Create?$AA@
-
 // pubsym <rva 0x9e1cd4> ?m_selectedQuest@CGQuestLog@@0HA
-
-// pubsym <rva 0x4835b8> ??_C@_0BB@HMKC@GDT6558RD?16658RD?$AA@
-
-// pubsym <rva 0x4598e8> ??_C@_0DM@EHML@?$CIuint?$CJ?$CIwhich?5?9?5Ds_TextureArray0?$CJ@
 
 // pubsym <rva 0x366240> <code> ??_E?$TSHashTable@USIMPLETEXTUREREGHASH@@VHASHKEY_STR@@@@UAEPAXI@Z
 
 // pubsym <rva 0x3bd090> <code> ?SetCount@?$TSGrowableArray@V?$TSExplicitList@USoundFileDataCacheBlock@@$0?CCCCCCCD@@@@@QAEXI@Z
 
-// pubsym <rva 0x498144> ??_C@_03KLBA@DPT?$AA@
-
-// pubsym <rva 0x4a2b38> ??_C@_0O@DKIK@violenceLevel?$AA@
-
-// pubsym <rva 0x48588c> ??_C@_0BF@OAOE@Serial?5Parallel?5Card?$AA@
-
 // pubsym <rva 0x2b6dd0> <code> ?MemLineNo@?$TSBaseArray@Uregex_t@@@@MBEHXZ
 
 // pubsym <rva 0x2fa85d> <code> ?Error@CCompiler@D3DXShader@@IAAJPAVCNode@2@IPBDZZ
-
-// pubsym <rva 0x4bd69c> ??_C@_0CM@DKCE@Error?5reading?5gen?5object?5portion@
-
-// pubsym <rva 0x453b10> ??_C@_0CB@HEFP@General?5event?5?$CIdesigner?5defined?$CJ@
 
 // pubsym <rva 0x1b9500> <code> ?ChangeLinkOffset@?$TSList@UCLightList@@V?$TSGetExplicitLink@UCLightList@@@@@@QAEXH@Z
 
@@ -80511,39 +80268,17 @@
 
 // pubsym <rva 0x2bd860> <code> ?DayNightSI@@YIMM@Z
 
-// pubsym <rva 0x4c2ae8> ??_C@_05JOGL@minus?$AA@
-
-// pubsym <rva 0x4b1fa8> ??_C@_08LJNP@NearClip?$AA@
-
 // pubsym <rva 0x10d480> <code> ?HideGrid@CGActionBar@@SIXXZ
 
 // pubsym <rva 0x2ee8f5> <code> _GodotFailFreeEnvironmentStringsW@4
 
-// pubsym <rva 0x412150> ??_C@_0BB@MFFIAPJA@GetClipboardData?$AA@
-
-// pubsym <rva 0x43dd78> ??_C@_0BF@KBBL@numTextureComponents?$AA@
-
-// pubsym <rva 0x4a5cb4> ??_C@_0BH@CHPP@SPELL_FAILED_NOT_READY?$AA@
-
 // pubsym <rva 0x37eaa0> <code> ?OnLayerUpdate@CSimpleScrollFrame@@UAEXM@Z
-
-// pubsym <rva 0x44e7cc> ??_C@_0BP@BMJH@SPELL_TARGET_MULTIPLE_TEMPLATE?$AA@
-
-// pubsym <rva 0x458254> ??_C@_0DF@CDJL@m_xforms?$FLxf?$FN?4m_flags?$FL0?$FN?5?$CG?5CGxMat@
 
 // pubsym <rva 0x70a30> <code> ?TextureLoadImage@@YIPAUMipBits@@PAUHTEXTURE__@@PAI11PAVCStatus@@1@Z
 
 // pubsym <rva 0x405418> __real@3fdec709ce5c8365
 
-// pubsym <rva 0x47c060> ??_C@_06MMEF@86C390?$AA@
-
-// pubsym <rva 0x495f94> ??_C@_07GBN@A?9Trend?$AA@
-
 // pubsym <rva 0x1a2e60> <code> ?IBValid@CGxBufD3d@@QAEHXZ
-
-// pubsym <rva 0x4be128> ??_C@_0BI@NGE@No?5Sound?5?$CInon?9realtime?$CJ?$AA@
-
-// pubsym <rva 0x4be94c> ??_C@_0CE@IFJE@instanceNumber?5?$DM?5MAX_FILE_INSTAN@
 
 // pubsym <rva 0x4349b0> ??_R0?AUCGeoset@@@8
 
@@ -80551,47 +80286,23 @@
 
 // pubsym <rva 0x181220> <code> ??1ItemDisplayInfoRec@@QAE@XZ
 
-// pubsym <rva 0x4834e0> ??_C@_0L@OGFO@GDT?56x53RS?$AA@
-
-// pubsym <rva 0x4549a4> ??_C@_0CH@LCAB@Turn?5on?5beastmaster?5flag?5for?5the@
-
 // pubsym <rva 0x1be8e0> <code> ?GxuFontGetWrappedTextHeight@@YIMPAUCGxFont@@PBDMMMI@Z
 
 // pubsym <rva 0x4225d8> _t1_parser_funcs
 
 // pubsym <rva 0x40242c> __imp____dllonexit
 
-// pubsym <rva 0x454e5c> ??_C@_05BLMP@Frost?$AA@
-
-// pubsym <rva 0x4c1290> ??_C@_09HAFP@afii57505?$AA@
-
 // pubsym <rva 0x10d6d0> <code> ?AddAction@CGActionBar@@SIXH@Z
-
-// pubsym <rva 0x431d9c> ??_C@_0BE@BENG@Bad?5SMSG_NEW_WORLD?6?$AA@
 
 // pubsym <rva 0x45d204> ?s_name@?$TSGrowableArray_@UVERT@@$0EHHIHFEG@$0DK@@@0PADA
 
 // pubsym <rva 0x1ede20> <code> ??0CGGameObject_C_Type_Transport@@QAE@PAVCGGameObject_C@@@Z
 
-// pubsym <rva 0x462674> ??_C@_08BJKL@Ready2HL?$AA@
-
-// pubsym <rva 0x481ca8> ??_C@_08OBNP@LC82C115?$AA@
-
 // pubsym <rva 0x1b3980> <code> ?DelIgnore@FriendList@@QAEX_K@Z
-
-// pubsym <rva 0x44eea4> ??_C@_0BA@BGMB@ToggleMouseMove?$AA@
 
 // pubsym <rva 0x1e4390> <code> ?QueryQuest@CGPlayer_C@@QAEXAB_KH@Z
 
 // pubsym <rva 0x129bb0> <code> ?OnLayerCursorExit@CGMinimapFrame@@UAEXXZ
-
-// pubsym <rva 0x498688> ??_C@_0BO@HKMG@Digital?5Equipment?5Corporation?$AA@
-
-// pubsym <rva 0x44ab00> ??_C@_0DD@ELOL@D?3?2build?2buildWoW?2WoW?2Source?2Ui?2@
-
-// pubsym <rva 0x494510> ??_C@_05IPE@Casio?$AA@
-
-// pubsym <rva 0x447758> ??_C@_09CAOK@StartDuel?$AA@
 
 // pubsym <rva 0x64a70> <code> ?IsClosed@LOOPCONN@OsNet@@UBEHXZ
 
@@ -80599,31 +80310,7 @@
 
 // pubsym <rva 0xeecf0> <code> ?Unlink@?$TSLink@UWORDLIST@@@@QAEXXZ
 
-// pubsym <rva 0x44dc1c> ??_C@_0BD@BCPI@SPELL_EFFECT_PARRY?$AA@
-
-// pubsym <rva 0x443a90> ??_C@_0BD@KAFL@ERR_IGNORE_ADDED_S?$AA@
-
-// pubsym <rva 0x489c20> ??_C@_0BD@NJNI@PCI?5USB?5Controller?$AA@
-
-// pubsym <rva 0x460174> ??_C@_0BJ@FGCC@ANIM_STATE_TURNING_RIGHT?$AA@
-
-// pubsym <rva 0x498b10> ??_C@_0CL@GOJP@D?3?2build?2buildWoW?2WoW?2Source?2Gam@
-
-// pubsym <rva 0x462938> ??_C@_0BI@FJHI@bytes?5?$DM?$DN?5sizeof?$CI?$CKm_obj?$CJ?$AA@
-
-// pubsym <rva 0x486ec0> ??_C@_07NLEL@DB87144?$AA@
-
-// pubsym <rva 0x43b650> ??_C@_08JDEI@CGUnit_C?$AA@
-
-// pubsym <rva 0x45e0e0> ??_C@_09BBEP@inventory?$AA@
-
-// pubsym <rva 0x4c132c> ??_C@_09IHFK@afii57446?$AA@
-
 // pubsym <rva 0x2e7b00> <code> ??0EVENTLISTENERNODE@@QAE@XZ
-
-// pubsym <rva 0x4a3574> ??_C@_0L@BGAH@HWORLDTEXT?$AA@
-
-// pubsym <rva 0x4526a8> ??_C@_0BA@DAAD@Talk?5anim?5laugh?$AA@
 
 // pubsym <rva 0x290bf0> <code> ?FreeDoodadDef@CMap@@SIXPAVCMapDoodadDef@@@Z
 
@@ -80633,8 +80320,6 @@
 
 // pubsym <rva 0x31ad93> <code> ?SamplerExpr@CParse@D3DXShader@@IAEPAVCNode@2@PAV32@@Z
 
-// pubsym <rva 0x460414> ??_C@_0DJ@MFFL@newDesc?9?$DOstandAnim?5?$DM?5SPELLPROC_S@
-
 // pubsym <rva 0xae25fc> ?gxBufFreeList@CDetailDoodad@@0V?$TSGrowableArray@PAUCGxBuf@@@@A
 
 // pubsym <rva 0x257810> <code> ?Unlink@?$TSHashTable@UZipFileDirEntry@@VHASHKEY_CONSTSTRI@@@@QAEXPAUZipFileDirEntry@@@Z
@@ -80642,10 +80327,6 @@
 // pubsym <rva 0x2d98e0> <code> @luaL_openlib@16
 
 // pubsym <rva 0x2ef356> <code> _GodotFailGetKeyNameTextW@12
-
-// pubsym <rva 0x44a450> ??_C@_0M@LGCN@NUMPADMINUS?$AA@
-
-// pubsym <rva 0x4854a8> ??_C@_0O@LLML@nForce?5MCP?9T?$DP?$AA@
 
 // pubsym <rva 0x90900> <code> ??4CMemBlock@NTempest@@QAEAAV01@ABV01@@Z
 
@@ -80663,15 +80344,9 @@
 
 // pubsym <rva 0x1b9060> <code> ?NextLink@?$TSLink@VCGxuLightLink@@@@ABEPAV1@H@Z
 
-// pubsym <rva 0x4566e4> ??_C@_0BM@GCCL@DBFilesClient?2Languages?4dbc?$AA@
-
-// pubsym <rva 0x4a7080> ??_C@_0CP@FFNJ@D?3?2build?2buildWoW?2ENGINE?2SOURCE?2@
-
 // pubsym <rva 0x16bdb0> <code> ?VerifyPack@?$DBCache@VNPCText@@HVHASHKEY_INT@@@@QAEXPAVCGContainer_C@@P6IXHAB_KPAX_N@Z2@Z
 
 // pubsym <rva 0x367a30> <code> ?Link@?$TSList@USIMPLECONTEXTHASHOBJ@@V?$TSGetExplicitLink@USIMPLECONTEXTHASHOBJ@@@@@@ABEPAV?$TSLink@USIMPLECONTEXTHASHOBJ@@@@PBUSIMPLECONTEXTHASHOBJ@@@Z
-
-// pubsym <rva 0x492ccc> ??_C@_0L@LHHN@Rascom?5Inc?$AA@
 
 // pubsym <rva 0xe7a70> <code> ?UpdateInteractTarget@CGGameUI@@SIXXZ
 
@@ -80679,31 +80354,15 @@
 
 // pubsym <rva 0x82bd0> <code> ??_ECAngle@@UAEPAXI@Z
 
-// pubsym <rva 0x45b734> ??_C@_08NPHI@password?$AA@
-
-// pubsym <rva 0x4c1860> ??_C@_09GHAM@afii10060?$AA@
-
-// pubsym <rva 0x412780> ??_C@_06DIFKINLB@vs_2_0?$AA@
-
 // pubsym <rva 0x1fde80> <code> ?CanAssist@CGUnit_C@@QBE_NPBV1@@Z
-
-// pubsym <rva 0x49769c> ??_C@_0P@MPJN@Racal?5Interlan?$AA@
 
 // pubsym <rva 0x309906> <code> ??_GCNodeType@D3DXShader@@UAEPAXI@Z
 
 // pubsym <rva 0x24d160> <code> ??_GARCHIVEREC@SFile@Storm@@QAEPAXI@Z
 
-// pubsym <rva 0x45dccc> ??_C@_0BB@OLCC@Not?5enough?5money?$AA@
-
 // pubsym <rva 0x8af80> <code> ?SetVelocity@CParticleEmitter@@QAEXM@Z
 
-// pubsym <rva 0x41bd30> ??_C@_0BA@KFOANDAN@program?5too?5big?$AA@
-
-// pubsym <rva 0x49ed9c> ??_C@_0BI@OEMN@Pixel?5shaders?5disabled?4?$AA@
-
 // pubsym <rva 0x4114c0> ??_7?$TSFixedArray@V?$TSExplicitList@UCSimpleDoodad@@$0?CCCCCCCD@@@@@6B@
-
-// pubsym <rva 0x494ca8> ??_C@_05DDAG@Ancor?$AA@
 
 // pubsym <rva 0x239a70> <code> ?SStrVPrintf@@YAKPADKPBD0@Z
 
@@ -80711,55 +80370,31 @@
 
 // pubsym <rva 0x45dc24> ??_R0?AUQUESTGIVEREMOTENODE@@@8
 
-// pubsym <rva 0x4bdfb4> ??_C@_0M@FFLB@count?5?$CB?$DN?564?$AA@
-
 // pubsym <rva 0x2efd1c> <code> _GodotFailWNetGetNetworkInformationW@8
 
 // pubsym <rva 0x95a50> <code> ?Squad@C4Quaternion@NTempest@@SI?AV12@MABV12@000@Z
 
 // pubsym <rva 0x2e8300> <code> ?Unlink@?$TSLinkedNode@UEVENTLISTENERNODE@@@@QAEXXZ
 
-// pubsym <rva 0x49ec28> ??_C@_0CI@JOGC@TexLodBias?5must?5be?5in?5range?5?91?40@
-
-// pubsym <rva 0x43309c> ??_C@_0CL@HFAM@Toggle?5showing?5?8GM?8?5label?5to?5oth@
-
 // pubsym <rva 0x1b3c70> <code> ??0WowConnection@@QAE@HPAUsockaddr_in@@PAVWowConnectionResponse@@@Z
-
-// pubsym <rva 0x43e20c> ??_C@_0DK@HAFI@0x?$CF016I64X?3?5Want?5to?5move?5?$CI?$CFg?0?$CFg?0@
 
 // pubsym <rva 0x3ad980> <code> ??0?$TSFixedArray@U?$MDLKEYFRAME@VC4Quaternion@NTempest@@@@@@QAE@ABV0@@Z
 
 // pubsym <rva 0x3cf5b0> <code> @FT_Read_Short@8
 
-// pubsym <rva 0x4198d0> ??_C@_06IJDLPEM@length?$AA@
-
 // pubsym <rva 0x40222c> __imp__GetModuleFileNameA@12
 
 // pubsym <rva 0x81920> <code> ??_GCParticle2_Model@@QAEPAXI@Z
 
-// pubsym <rva 0x482bb0> ??_C@_0P@GFNN@AccelePort?5EPC?$AA@
-
 // pubsym <rva 0x1f67e0> <code> ?RefreshAuraVisuals@CGUnit_C@@IAEXXZ
-
-// pubsym <rva 0x4a7238> ??_C@_0BC@OBPM@unexpected?5symbol?$AA@
 
 // pubsym <rva 0x18d290> <code> ?GetFilename@NamesReservedRec@@SIPBDXZ
 
-// pubsym <rva 0x455c9c> ??_C@_0CF@KJOK@DBFilesClient?2CinematicSequences@
-
 // pubsym <rva 0x2ef214> <code> _GodotFailEnumPropsA@8
-
-// pubsym <rva 0x494c14> ??_C@_05NGPA@Norsk?$AA@
 
 // pubsym <rva 0x421718> _ft_raster5_renderer_class
 
-// pubsym <rva 0x47cb3c> ??_C@_08FNFE@701?91350?$AA@
-
 // pubsym <rva 0x17bf0> <code> ??0?$TSGrowableArray@I@@QAE@XZ
-
-// pubsym <rva 0x495298> ??_C@_0M@ECAA@Mediamatics?$AA@
-
-// pubsym <rva 0x45bfc0> ??_C@_0BA@IJBO@s?5?$DM?$DN?50x7fffffff?$AA@
 
 // pubsym <rva 0x1fa660> <code> ?OnSetFacingGUIDLocalNoUpdate@CGUnit_C@@QAEXKAB_K@Z
 
@@ -80767,29 +80402,11 @@
 
 // pubsym <rva 0x216ea0> <code> ??_E?$TSHashTable@UUNITONESHOTEFFECTDESC@@VCHashKeyGUID@@@@UAEPAXI@Z
 
-// pubsym <rva 0x432348> ??_C@_03CCDL@fog?$AA@
-
-// pubsym <rva 0x432204> ??_C@_07GMBE@resmode?$AA@
-
-// pubsym <rva 0x494340> ??_C@_07GPDJ@Ensoniq?$AA@
-
-// pubsym <rva 0x432ddc> ??_C@_05EILI@?$CFI64d?$AA@
-
-// pubsym <rva 0x47aeac> ??_C@_08IEPA@82801DBM?$AA@
-
-// pubsym <rva 0x4551e0> ??_C@_05LELA@?$CFs?1?$CFs?$AA@
-
-// pubsym <rva 0x484240> ??_C@_0P@GLIJ@PCI?5ISA?5Bridge?$AA@
-
-// pubsym <rva 0x48b788> ??_C@_0CF@MAJ@advanced?5PCI?5DirectSound?5acceler@
-
 // pubsym <rva 0x41e13c> ??_7?$TSGrowableArray@UCSimpleBatchedTexture@@@@6B@
 
 // pubsym <rva 0x265ff0> <code> ?ConsoleCommand_DetailDoodadAlpha@CWorld@@CIHPBD0@Z
 
 // pubsym <rva 0x1fef10> <code> ?UnitUninitializeModel@CGUnit_C@@QAEXPAUHMODEL__@@@Z
-
-// pubsym <rva 0x465dd4> ??_C@_0CI@JCND@?$CI?$CFs?$CJ?5releasing?5melee?5death?5hold?5@
 
 // pubsym <rva 0x28b530> <code> ?IntGxBufFill@CMapObjGroup@@CIXAAUCGxBufCommand@@PAUCGxBuf@@@Z
 
@@ -80799,51 +80416,19 @@
 
 // pubsym <rva 0x9e71d0> ?m_rewardText@CGQuestInfo@@1PADA
 
-// pubsym <rva 0x489d4c> ??_C@_0BB@OLHL@Samurai?5device?50?$AA@
-
 // pubsym <rva 0x7fe60> <code> ?SetLifeSpan@CParticleEmitter2@@QAEXM@Z
-
-// pubsym <rva 0x459128> ??_C@_0BG@PHBJ@GL_NV_texture_shader3?$AA@
-
-// pubsym <rva 0x488360> ??_C@_0BM@MGBB@PowerPC?5ISA?1PCI?5Motherboard?$AA@
-
-// pubsym <rva 0x49374c> ??_C@_0CF@HJGM@Symicron?5Computer?5Communication?5@
-
-// pubsym <rva 0x43a718> ??_C@_0EM@KACE@D?3?2build?2buildWoW?2WoW?2Source?2Sou@
 
 // pubsym <rva 0x2a2c0> <code> ?RoundToChunk@?$TSGrowableArray@PAUHMATERIAL__@@@@ABEIII@Z
 
-// pubsym <rva 0x44fd00> ??_C@_0EI@DDKO@statNumber?5?$DM?5?$CIsizeof?$CIm_unit?9?$DObas@
-
-// pubsym <rva 0x43e0b8> ??_C@_0GK@GEEJ@0x?$CF016I64X?3?5update?5time?$CI0x?$CF08X?$CJ?5@
-
 // pubsym <rva 0x2f079a> <code> __errno
-
-// pubsym <rva 0x48e7b4> ??_C@_06OAK@Belkin?$AA@
 
 // pubsym <rva 0xe98e0> <code> ?OnClientControlChanged@CGGameUI@@SIXH@Z
 
-// pubsym <rva 0x48ff68> ??_C@_0BF@DEFB@MeltDown?5Systems?5LLC?$AA@
-
-// pubsym <rva 0x49116c> ??_C@_0BG@IMOF@Otis?5Elevator?5Company?$AA@
-
 // pubsym <rva 0x8c090> <code> ?reale_@CRandom@NTempest@@SIMMAAVCRndSeed@2@@Z
-
-// pubsym <rva 0x47cf6c> ??_C@_0BN@FBJF@Spot?5Insight?5Interface?5Board?$AA@
-
-// pubsym <rva 0x4603d8> ??_C@_0DM@GPOJ@D?3?2build?2buildWoW?2WoW?2Source?2Obj@
 
 // pubsym <rva 0x2217b0> <code> ?MonitorFullness@?$TSHashTable@UUNITHASHOBJ@@VCHashKeyGUID@@@@AAEHI@Z
 
 // pubsym <rva 0x404d30> __real@bfe62e42fefa39ef
-
-// pubsym <rva 0x487f54> ??_C@_07GDJJ@FLIPPER?$AA@
-
-// pubsym <rva 0x48b6e8> ??_C@_08JABN@TGUI9320?$AA@
-
-// pubsym <rva 0x433a24> ??_C@_0M@PDAE@EvtShutdown?$AA@
-
-// pubsym <rva 0x47b244> ??_C@_0BO@KMGK@Advanced?5Interrupt?5Controller?$AA@
 
 // pubsym <rva 0x3930d0> <code> ??0?$MDLKEYTRACK@VC4Quaternion@NTempest@@@@QAE@W4MDLTRACKTYPE@@@Z
 
@@ -80853,10 +80438,6 @@
 
 // pubsym <rva 0x2bb5b0> <code> ?DayNightForceFullUpdate@@YIXXZ
 
-// pubsym <rva 0x484544> ??_C@_0P@MAHP@Fast?5Wide?5SCSI?$AA@
-
-// pubsym <rva 0x4bda40> ??_C@_0BE@MJBL@group?5matrix?5counts?$AA@
-
 // pubsym <rva 0x58970> <code> ?AddTransparentRect@COsStaticBox@@QAEXABVCiRect@NTempest@@@Z
 
 // pubsym <rva 0x3aa980> <code> ?ReadBinGeosets@MDL@@YIHAAVCMsgBuffer@@IAAUMDLDATA@@PAVCMDLStatus@@@Z
@@ -80865,73 +80446,31 @@
 
 // pubsym <rva 0x402170> __imp__SetLastError@4
 
-// pubsym <rva 0x47cd24> ??_C@_0M@BIDG@PLX?5PCI9054?$AA@
-
-// pubsym <rva 0x495d84> ??_C@_0M@NFJO@BitFlow?5Inc?$AA@
-
-// pubsym <rva 0x443a64> ??_C@_0BC@DBDL@ERR_ONLY_ONE_BOLT?$AA@
-
-// pubsym <rva 0x435d78> ??_C@_0BC@DLJF@msctls_progress32?$AA@
-
-// pubsym <rva 0x4445e8> ??_C@_0BD@OKHD@ERR_QUEST_FAILED_S?$AA@
-
 // pubsym <rva 0x339034> <code> ?EmitDest@CShaderProgram@D3DXShader@@MAEJKK@Z
 
 // pubsym <rva 0x263950> <code> ?QueryMapObjFog@CWorld@@SIHKAAVFogs@SMOFog@@AAM@Z
-
-// pubsym <rva 0x454150> ??_C@_0BM@JGAN@All?5units?5continually?5emote?$AA@
 
 // pubsym <rva 0x119dd0> <code> ?Reserve@?$TSGrowableArray@PAUCraftInfo@@@@AAEXIH@Z
 
 // pubsym <rva 0x3190b4> <code> ?WarnCastInt@CParse@D3DXShader@@IAEXNPAUD3DXTOKEN@2@@Z
 
-// pubsym <rva 0x45c9fc> ??_C@_0DD@KIFL@textHeight?5?$HM?$HM?5?$CI?5flags?5?$CG?5EGxStrin@
-
 // pubsym <rva 0x23f180> <code> ?MonitorFullness@?$TSHashTable@UFILEMAP@@VHASHKEY_STRI@@@@AAEHI@Z
 
 // pubsym <rva 0x3771b0> <code> ??_GCSimpleButton@@UAEPAXI@Z
 
-// pubsym <rva 0x4c1aa0> ??_C@_0L@INHK@Zdotaccent?$AA@
-
-// pubsym <rva 0x4794b0> ??_C@_0L@NFMJ@PCI?1PCMCIA?$AA@
-
 // pubsym <rva 0x1d4a50> <code> ?CanGoInSlot@CGItem_C@@QBEHI@Z
-
-// pubsym <rva 0x48f4a4> ??_C@_0O@GFDL@Wistron?5Corp?4?$AA@
-
-// pubsym <rva 0x44191c> ??_C@_0BC@KEJG@GAMEOBJECT_FACING?$AA@
 
 // pubsym <rva 0x37e3b0> <code> ??_ECSimpleMessageFrame@@WBA@AEPAXI@Z
 
 // pubsym <rva 0xc9980> <code> ?OnTeleport@CMovement@@QAEXKABVC3Vector@NTempest@@M@Z
 
-// pubsym <rva 0x495134> ??_C@_0BA@HBM@PMC?9Sierra?5Inc?4?$AA@
-
 // pubsym <rva 0x2edfbb> <code> _kernel32_SetCurrentDirectoryW_Thunk@0
 
-// pubsym <rva 0x44dee0> ??_C@_0BJ@GAAN@UNIT_PLUS_LEVEL_TEMPLATE?$AA@
-
-// pubsym <rva 0x48d46c> ??_C@_0BJ@JDJJ@Rage?5Mobility?5128?5AGP?54x?$AA@
-
 // pubsym <rva 0x192d90> <code> ?RsSet@CGxDevice@@QAEXW4EGxRenderState@@ABVC3Vector@NTempest@@@Z
-
-// pubsym <rva 0x481390> ??_C@_08CLFA@GIGAline?$AA@
-
-// pubsym <rva 0x4827e8> ??_C@_0L@CKBA@3D?5Blaster?$AA@
-
-// pubsym <rva 0x483bf8> ??_C@_0L@IIHF@FPGA?9CPTRE?$AA@
-
-// pubsym <rva 0x4c23d0> ??_C@_0N@MDFA@zerosuperior?$AA@
 
 // pubsym <rva 0x13b1f0> <code> ?RemoveRange@RangeList@@QAEXMM@Z
 
 // pubsym <rva 0x118d90> <code> ?SetCollapseFilter@CGCraftInfo@@SIXH@Z
-
-// pubsym <rva 0x460870> ??_C@_0BL@JOLI@m_currentWoundAnimDuration?$AA@
-
-// pubsym <rva 0x496f90> ??_C@_0BN@NNAI@Micro?5Industries?5Corporation?$AA@
-
-// pubsym <rva 0x458360> ??_C@_0DB@IOGG@CGxDevice?3?3PrimUnlockIndexPtr?$CI?$CJ?3@
 
 // pubsym <rva 0x3347ad> <code> ?AddUserOffsetInfo@CShaderProgram@D3DXShader@@MAEJPAVCNodeVariable@2@PAU_D3DXSHADER_CONSTANTINFO@@@Z
 
@@ -80941,17 +80480,7 @@
 
 // pubsym <rva 0x3cc830> <code> ??1CGSimpleHealthBar@@UAE@XZ
 
-// pubsym <rva 0x48822c> ??_C@_09BCLE@YMF744B?9V?$AA@
-
-// pubsym <rva 0x4c27cc> ??_C@_0M@GDKF@oneoldstyle?$AA@
-
-// pubsym <rva 0x486fbc> ??_C@_0O@LEPG@ACC?52056?12188?$AA@
-
 // pubsym <rva 0x1d5c50> <code> ?CanBeTargetted@CGObject_C@@UBEHXZ
-
-// pubsym <rva 0x493808> ??_C@_0P@JLDK@Analogic?5Corp?4?$AA@
-
-// pubsym <rva 0x4647bc> ??_C@_0BE@EKML@VSDEFLECTOTHEROTHER?$AA@
 
 // pubsym <rva 0x1b8380> <code> ?Unlink@?$TSLink@VCGxuLightLink@@@@QAEXXZ
 
@@ -80959,47 +80488,21 @@
 
 // pubsym <rva 0x9db30> <code> ?MemFileName@?$TSBaseArray@V?$TSExplicitList@UFOOTSTEPSNDCACHE@@$0?CCCCCCCD@@@@@MBEPBDXZ
 
-// pubsym <rva 0x48b210> ??_C@_05KDN@M4803?$AA@
-
 // pubsym <rva 0x3b8350> <code> ?OsGetNumButtons@@YIHH@Z
 
-// pubsym <rva 0x436db8> ??_C@_05PANF@?$CFs?515?$AA@
-
 // pubsym <rva 0x2ef101> <code> _GodotFailDdeQueryStringW@20
-
-// pubsym <rva 0x483418> ??_C@_0L@IOPN@GDT?57x53RN?$AA@
 
 // pubsym <rva 0xa4ca84> ?entityHandlerParam@CMap@@2PAXA
 
 // pubsym <rva 0x40270c> __imp__TranslateAcceleratorA@12
 
-// pubsym <rva 0x47e894> ??_C@_0N@ENBL@NextMove?5PCI?$AA@
-
-// pubsym <rva 0x49918c> ??_C@_0O@KCLB@SMemReAlloc?$CI?$CJ?$AA@
-
-// pubsym <rva 0x492914> ??_C@_0BC@MOPD@Micro?5Science?5Inc?$AA@
-
-// pubsym <rva 0x48f604> ??_C@_0BD@NDBK@PC?5Partner?5Limited?$AA@
-
 // pubsym <rva 0x134660> <code> ?GetSpellEffectString@CGTooltip@@SIXPADIPBVSpellRec@@IIHW4TOOLTIP_DETAIL@@@Z
 
 // pubsym <rva 0x1ccf60> <code> ?SetCount@?$TSGrowableArray@V?$TSExplicitList@UGLYPHBITMAPDATA@@$0?CCCCCCCD@@@@@QAEXI@Z
 
-// pubsym <rva 0x485534> ??_C@_03LFMA@NV5?$AA@
-
-// pubsym <rva 0x484358> ??_C@_06DFPE@VT6305?$AA@
-
-// pubsym <rva 0x412ba8> ??_C@_03IANKFOOF@Arg?$AA@
-
-// pubsym <rva 0x419b1c> ??_C@_0M@IFPDMPDN@pixelshader?$AA@
-
 // pubsym <rva 0x858f0> <code> ?SetSegment@CParticleKey@@QAEXMM@Z
 
 // pubsym <rva 0x1fcdc0> <code> ?UpdateMovementAnimSpeed@CGUnit_C@@QAEXHH@Z
-
-// pubsym <rva 0x441ec0> ??_C@_0BL@FBBK@UNIT_FIELD_MOD_DAMAGE_DONE?$AA@
-
-// pubsym <rva 0x490274> ??_C@_0BL@JG@Lynx?5Studio?5Technology?5Inc?$AA@
 
 // pubsym <rva 0xacc40> <code> ?MemFileName@?$TSBaseArray@VCObjectHeap@@@@MBEPBDXZ
 
@@ -81007,41 +80510,15 @@
 
 // pubsym <rva 0x2c53c0> <code> ??0LightData@@QAE@XZ
 
-// pubsym <rva 0x4870a0> ??_C@_05MEOG@HPCEX?$AA@
-
-// pubsym <rva 0x4c1bbc> ??_C@_06PEEH@Sacute?$AA@
-
-// pubsym <rva 0x4b0414> ??_C@_08KGKC@EdgeSize?$AA@
-
-// pubsym <rva 0x494c38> ??_C@_08OKF@Power?5IO?$AA@
-
-// pubsym <rva 0x414d3c> ??_C@_05GBILPNCC@texld?$AA@
-
-// pubsym <rva 0x4814f0> ??_C@_09GFDO@ADSP?92192?$AA@
-
-// pubsym <rva 0x4a1774> ??_C@_0BI@IMJE@detailDoodad?9?$DOgeom?5?$DN?$DN?50?$AA@
-
 // pubsym <rva 0x298d20> <code> ?SyncLoad@CMapChunk@@AAEXAAPAUSMChunk@@AAPAUSMLayer@@AAPAE2@Z
-
-// pubsym <rva 0x432f48> ??_C@_0BJ@NANI@?$CK?$CK?$CK?5MEMORY?5DUMP?5END?5?$CK?$CK?$CK?6?$AA@
 
 // pubsym <rva 0x3cc950> <code> ?SetStatusBarColor@CGSimpleHealthBar@@UAEXABVCImVector@NTempest@@@Z
 
 // pubsym <rva 0x240e80> <code> ??0CDebugSCritSect@@QAE@XZ
 
-// pubsym <rva 0x436620> ??_C@_08EMFE@pathName?$AA@
-
 // pubsym <rva 0x3fc860> <code> ?GetFloat@CMsgBuffer@@QAEMXZ
 
-// pubsym <rva 0x446168> ??_C@_0BD@IGJK@GetLanguageByIndex?$AA@
-
-// pubsym <rva 0x492c54> ??_C@_0BD@IGNG@Tamura?5Corporation?$AA@
-
 // pubsym <rva 0x191e80> <code> ?XformPop@CGxDevice@@QAEXW4EGxXform@@@Z
-
-// pubsym <rva 0x4a5ac0> ??_C@_0BG@LCEO@SPELL_FAILED_PACIFIED?$AA@
-
-// pubsym <rva 0x498a84> ??_C@_0DJ@PGNE@You?5must?5type?5?8y?8?5to?5confirm?5ove@
 
 // pubsym <rva 0xa6e5b4> ?soundEmitterCreateHandler@CMapChunk@@0P6IXAAVCWSoundEmitter@@@ZA
 
@@ -81053,15 +80530,7 @@
 
 // pubsym <rva 0x2e89b0> <code> ?Reserve@?$TSGrowableArray@V?$TSExplicitList@UFrameScriptObject_Variable@@$0?CCCCCCCD@@@@@AAEXIH@Z
 
-// pubsym <rva 0x4433d4> ??_C@_04MHIC@NONE?$AA@
-
-// pubsym <rva 0x4c09bc> ??_C@_05JJNC@kappa?$AA@
-
-// pubsym <rva 0x48edd0> ??_C@_06JGPF@Dunord?$AA@
-
 // pubsym <rva 0x2b65b0> <code> ??0WORLDTEXTCREATEPARAMS@@QAE@XZ
-
-// pubsym <rva 0x484ee4> ??_C@_0BE@DFGB@Memory?5Controller?54?$AA@
 
 // pubsym <rva 0x407eac> ??_7?$TSGrowableArray@PBVLanguageWordsRec@@@@6B@
 
@@ -81069,31 +80538,11 @@
 
 // pubsym <rva 0x9b820> <code> ??0WEAPONSOUNDS@@QAE@XZ
 
-// pubsym <rva 0x4198c0> ??_C@_01GOHFPIOK@m?$AA@
-
-// pubsym <rva 0x485ad4> ??_C@_06KGDI@NM2200?$AA@
-
-// pubsym <rva 0x48c404> ??_C@_0L@IKBK@CL?9GD5436U?$AA@
-
-// pubsym <rva 0x49b5b0> ??_C@_0P@LFH@compressedData?$AA@
-
-// pubsym <rva 0x4b0efc> ??_C@_0BA@KL@GetMinMaxValues?$AA@
-
 // pubsym <rva 0x18d640> <code> ?SDBItemSubclassInitialize@@YIXXZ
-
-// pubsym <rva 0x47d70c> ??_C@_0BH@POBH@PCI?5PS?12?5Keyboard?5Port?$AA@
-
-// pubsym <rva 0x45db80> ??_C@_0BL@KINO@You?5can?8t?5shop?5while?5dead?4?$AA@
-
-// pubsym <rva 0x47b524> ??_C@_0CJ@FDEN@Orion?5Extended?5Express?5CPU?5to?5PC@
 
 // pubsym <rva 0x195f30> <code> ?Destroy@?$TSHashTableReuse@VCGxVertexShader@@VHASHKEY_STRI@@$00@@UAEXXZ
 
-// pubsym <rva 0x4c3658> ??_C@_05PAK@frexp?$AA@
-
 // pubsym <rva 0xf4230> <code> ??1CModelRecord@@QAE@XZ
-
-// pubsym <rva 0x4a63bc> ??_C@_05DDBE@learn?$AA@
 
 // pubsym <rva 0x2ef89a> <code> _GodotFailCreateFontIndirectW@4
 
@@ -81103,27 +80552,9 @@
 
 // pubsym <rva 0x241a40> <code> ?DumpAllEntries@CDebugSRWLock@@SIXXZ
 
-// pubsym <rva 0x4a6a18> ??_C@_0DF@FLBG@D?3?2build?2buildWoW?2ENGINE?2SOURCE?2@
-
 // pubsym <rva 0x276a90> <code> ?ComputeMovement@Particulate@@AAE?AVC3Vector@NTempest@@M@Z
 
-// pubsym <rva 0x4ae7ac> ??_C@_04BPHC@anim?$AA@
-
 // pubsym <rva 0x283cc0> <code> ?Destroy@DNGlare@@QAEXXZ
-
-// pubsym <rva 0x48b560> ??_C@_08ONOJ@TGUI9683?$AA@
-
-// pubsym <rva 0x483740> ??_C@_0N@HAHE@GDT6125?16525?$AA@
-
-// pubsym <rva 0x439cdc> ??_C@_09MICC@mem_?5?$CB?$DN?50?$AA@
-
-// pubsym <rva 0x4122f4> ??_C@_0N@GNDPINJL@rasapi32?4dll?$AA@
-
-// pubsym <rva 0x44d90c> ??_C@_0BG@LNNM@UNITNAME_TITLE_MINION?$AA@
-
-// pubsym <rva 0x4a2f80> ??_C@_0CI@JBJJ@Toggles?5showing?5your?5title?5in?5wo@
-
-// pubsym <rva 0x43fe90> ??_C@_0DE@DIOP@0x?$CF016I64X?3?5lastUpdateTime?5?$CI0x?$CF0@
 
 // pubsym <rva 0x725e0> <code> ?TextureCopyMippedImage@@YIPAUMipBits@@PAU1@W4EGxTexFormat@@II@Z
 
@@ -81132,14 +80563,6 @@
 // pubsym <rva 0x127360> <code> ?Link@?$TSList@UFrameScriptObject_Variable@@V?$TSGetExplicitLink@UFrameScriptObject_Variable@@@@@@ABEPAV?$TSLink@UFrameScriptObject_Variable@@@@PBUFrameScriptObject_Variable@@@Z
 
 // pubsym <rva 0x41fbd4> _GUID_DMUS_PROP_DLS1
-
-// pubsym <rva 0x485264> ??_C@_06DCAH@NV17?41?$AA@
-
-// pubsym <rva 0x44cc90> ??_C@_07HMAN@GetZoom?$AA@
-
-// pubsym <rva 0x449548> ??_C@_0BE@PDDM@ItemTextHasNextPage?$AA@
-
-// pubsym <rva 0x4457fc> ??_C@_0CD@GJFB@Usage?3?5GuildUninviteByName?$CI?$CCname@
 
 // pubsym <rva 0x263740> <code> ?QueryMapObjMinimap@CWorld@@SI_NKABVCAaBox@NTempest@@AAV?$TSStackArray@UMinimapQuad@CWorld@@@@@Z
 
@@ -81153,31 +80576,15 @@
 
 // pubsym <rva 0x39eb70> <code> ??1MDLPARTICLEEMITTER2@@QAE@XZ
 
-// pubsym <rva 0x44985c> ??_C@_0P@GKIB@IsAttackAction?$AA@
-
 // pubsym <rva 0xfda70> <code> ?ProcessClick@CGWorldMap@@SIXMM@Z
 
 // pubsym <rva 0x58250> <code> ?OnEndEdit@COsTreeView@@QAEHPAXPBD@Z
 
 // pubsym <rva 0x32abaf> <code> ??1CPSLegacyProgram@D3DXShader@@UAE@XZ
 
-// pubsym <rva 0x490498> ??_C@_0CG@HIBM@Lava?5Semiconductor?5Manufacturing@
-
-// pubsym <rva 0x438140> ??_C@_0BL@HDHG@stockID?5?$DM?5SCRNSTOCKOBJECTS?$AA@
-
-// pubsym <rva 0x4a2130> ??_C@_0DM@LOIJ@D?3?2build?2buildWoW?2WoW?2Source?2Wor@
-
-// pubsym <rva 0x433dc8> ??_C@_0EB@HAGD@Error?0?5attempt?5to?5kill?5eventID?5?$CF@
-
-// pubsym <rva 0x43fd70> ??_C@_0DM@EKLJ@0x?$CF016I64X?3?5?$CIredir?$CJ?5lastUpdateTi@
-
 // pubsym <rva 0x32a332> <code> ?FindOutput@CPSLegacyProgram@D3DXShader@@MAEJPAVCArgument@2@AAK1PAH@Z
 
-// pubsym <rva 0x488948> ??_C@_06DAKA@I128s2?$AA@
-
 // pubsym <rva 0x2ce5e0> <code> ?Spell_C_IsModal@@YI_NXZ
-
-// pubsym <rva 0x4c2294> ??_C@_0M@DCFF@Agravesmall?$AA@
 
 // pubsym <rva 0x8a750> <code> ??4CParticleEmitter@@QAEAAV0@ABV0@@Z
 
@@ -81187,59 +80594,21 @@
 
 // pubsym <rva 0x3cf500> <code> @FT_Get_LongLE@4
 
-// pubsym <rva 0x497b4c> ??_C@_07HDHD@Leadtek?$AA@
-
-// pubsym <rva 0x4a7270> ??_C@_0L@KFEO@?$CIfor?5step?$CJ?$AA@
-
-// pubsym <rva 0x498448> ??_C@_0BC@GEFC@Acer?5Incorporated?$AA@
-
 // pubsym <rva 0x4027fc> __imp__FSOUND_SetMaxHardwareChannels@4
 
-// pubsym <rva 0x444530> ??_C@_0BI@LBEJ@ERR_QUEST_REWARD_ITEM_S?$AA@
-
 // pubsym <rva 0x291c00> <code> ?Unlink@?$TSLink@VCMapSoundEmitter@@@@QAEXXZ
-
-// pubsym <rva 0x485004> ??_C@_0BI@EKDN@Memory?5Controller?5?$CIDDR?$CJ?$AA@
-
-// pubsym <rva 0x43c784> ??_C@_0BO@OBPP@Usage?3?5SetSelectedRace?$CIindex?$CJ?$AA@
-
-// pubsym <rva 0x47bb88> ??_C@_0CN@PALB@PCI?5System?5Controller?5?$CIPSC?$CJ?5for?5@
 
 // pubsym <rva 0x372280> <code> ?RoundToChunk@?$TSGrowableArray@UCSimpleBatchedTexture@@@@ABEIII@Z
 
 // pubsym <rva 0xab9c0> <code> ?ReallocData@?$TSFixedArray@V?$TSExplicitList@UCHUNKHASHOBJ@@$0?CCCCCCCD@@@@@IAEXI@Z
 
-// pubsym <rva 0x452c40> ??_C@_04CPJK@koKR?$AA@
-
 // pubsym <rva 0x41f944> _CLSID_DirectMusicChordMap
-
-// pubsym <rva 0x4884d4> ??_C@_0O@KCNO@Control?5Video?$AA@
-
-// pubsym <rva 0x44423c> ??_C@_0BA@NFP@ERR_TAXINOPATHS?$AA@
 
 // pubsym <rva 0x12fc60> <code> ??1?$TSLinkedNode@UBFSNODE@@@@QAE@XZ
 
 // pubsym <rva 0x451d0> <code> ??1?$TSFixedArray@UCGeosetColor@@@@QAE@XZ
 
-// pubsym <rva 0x4888c4> ??_C@_0BE@EOLF@HB4?5486?5PCI?5Chipset?$AA@
-
-// pubsym <rva 0x4827a8> ??_C@_0BC@FPHO@NB6536?5?$CICNB20?9LE?$CJ?$AA@
-
-// pubsym <rva 0x493e48> ??_C@_0BJ@DINI@CompCore?5Multimedia?5Inc?4?$AA@
-
 // pubsym <rva 0x92130> <code> ?Scale@C34Matrix@NTempest@@QAEXABVC3Vector@2@@Z
-
-// pubsym <rva 0x48e398> ??_C@_0CA@DADO@Tachyon?5TL?564?9bit?166?9Mhz?5FC?5HBA?$AA@
-
-// pubsym <rva 0x438edc> ??_C@_0BP@JCBI@Total?5Texture?5in?5Mbytes?3?7?7?$CF?42f?$AA@
-
-// pubsym <rva 0x4986c8> ??_C@_06MHLJ@Weitek?$AA@
-
-// pubsym <rva 0x489814> ??_C@_09JJMN@STG?51746X?$AA@
-
-// pubsym <rva 0x47e870> ??_C@_0O@ILNC@RoadRunner?510?$AA@
-
-// pubsym <rva 0x44f3f4> ??_C@_0P@FDME@PitchDownStart?$AA@
 
 // pubsym <rva 0xecf80> <code> ?GetChannelString@CGChat@@SIPBDPBD@Z
 
@@ -81247,23 +80616,11 @@
 
 // pubsym <rva 0x94110> <code> ?Scale@C44Matrix@NTempest@@QAEXABVC3Vector@2@@Z
 
-// pubsym <rva 0x44c6b0> ??_C@_0CD@OMGM@Usage?3?5GetGetAvailableLevel?$CIinde@
-
-// pubsym <rva 0x47cdbc> ??_C@_0CE@BDBN@PCI?5camera?5link?5video?5capture?5bo@
-
-// pubsym <rva 0x4a236c> ??_C@_0BL@IPEF@mIffChunk?9?$DOtoken?5?$DN?$DN?5?8MCIN?8?$AA@
-
 // pubsym <rva 0x3cdd30> <code> @FT_Load_Char@12
 
 // pubsym <rva 0x2bac50> <code> ?Update@DNStars@@QAEXXZ
 
-// pubsym <rva 0x4950e8> ??_C@_09DCEA@Datel?5Inc?$AA@
-
-// pubsym <rva 0x4444c0> ??_C@_0O@JPDM@ERR_INSPECT_S?$AA@
-
 // pubsym <rva 0x1fd70> <code> ?IsCurrentContext@EvtContext@@QBEHXZ
-
-// pubsym <rva 0x496398> ??_C@_0BE@JNHM@Pine?5Technology?5Ltd?$AA@
 
 // pubsym <rva 0x375ac0> <code> ?SetMinMaxValues@CSimpleStatusBar@@QAEXMM@Z
 
@@ -81271,35 +80628,17 @@
 
 // pubsym <rva 0x1a6610> <code> ?IRsSendToHw@CGxDeviceD3d@@UAEXW4EGxRenderState@@@Z
 
-// pubsym <rva 0x4bdb30> ??_C@_0CF@HGIG@Error?5reading?5scalekeys?5of?5texan@
-
 // pubsym <rva 0x41e800> ??_7?$TSFixedArray@VCSimpleMessageScrollFrameDisplayNode@@@@6B@
-
-// pubsym <rva 0x43ebcc> ??_C@_0CB@NAFO@0x?$CF016I64X?3?5Receive?5move?5?$CI0x?$CFX?$CJ?5@
 
 // pubsym <rva 0x402468> __imp__putc
 
-// pubsym <rva 0x4c0638> ??_C@_09LDFC@tildecomb?$AA@
-
-// pubsym <rva 0x43af14> ??_C@_0M@KGPB@Environment?$AA@
-
 // pubsym <rva 0x188ff0> <code> ?GetFilename@SheatheSoundLookupsRec@@SIPBDXZ
-
-// pubsym <rva 0x48cec8> ??_C@_0BI@KDNM@Radeon?57000?5?1?5Radeon?5VE?$AA@
-
-// pubsym <rva 0x4bd204> ??_C@_0DJ@JCIA@Error?5reading?5zsource?5keys?5porti@
 
 // pubsym <rva 0x2117b0> <code> ?GetPosition@CGCorpse_C@@UBEXAAVC3Vector@NTempest@@@Z
 
 // pubsym <rva 0x318f18> <code> ?EvalType@CParse@D3DXShader@@IAEIPAVCNode@2@PAU_D3DXVALUE@2@@Z
 
-// pubsym <rva 0x438064> ??_C@_04IMHF@rect?$AA@
-
 // pubsym <rva 0x83e60> <code> ??_G?$TManaged@M@@UAEPAXI@Z
-
-// pubsym <rva 0x49d8b0> ??_C@_0N@KHPE@enumTextures?$AA@
-
-// pubsym <rva 0x4878b0> ??_C@_0P@DPCP@UltraSPARC?5IIe?$AA@
 
 // pubsym <rva 0x41dd50> ??_7?$TSFixedArray@PAVFRAMEPRIORITY@@@@6B@
 
@@ -81311,85 +80650,41 @@
 
 // pubsym <rva 0x368fc0> <code> ?Reserve@?$TSGrowableArray@V?$TSExplicitList@USIMPLETEXTUREREGHASH@@$0?CCCCCCCD@@@@@AAEXIH@Z
 
-// pubsym <rva 0x45e764> ??_C@_08IKFA@itemNode?$AA@
-
 // pubsym <rva 0x43b270> ??_R0?AUOUTDOORSCHUNKHASHOBJ@@@8
 
 // pubsym <rva 0x1adf70> <code> ?ClientServices_IsConnected@@YIHXZ
 
 // pubsym <rva 0x9dff68> ?m_knownSpellBits@CGSpellBook@@0VFBitField@@A
 
-// pubsym <rva 0x4a2a10> ??_C@_0BJ@PMFK@pIffChunk?9?$DOtoken?$DN?$DN?8MODR?8?$AA@
-
 // pubsym <rva 0x40ab74> ??_7?$TSHashTable@UDBCACHEHASH@?$DBCache@VPageTextCache_C@@HVHASHKEY_INT@@@@VHASHKEY_INT@@@@6B@
 
 // pubsym <rva 0x402338> __imp____mb_cur_max
 
-// pubsym <rva 0x488254> ??_C@_07KEAF@YMF724F?$AA@
-
 // pubsym <rva 0x11f50> <code> ?Get@CStringManager@@KIPAV1@XZ
 
-// pubsym <rva 0x4594a8> ??_C@_0BJ@NIEC@glClientActiveTextureARB?$AA@
-
-// pubsym <rva 0x48ea18> ??_C@_0CB@OKPO@Adrienne?5Electronics?5Corporation@
-
 // pubsym <rva 0x371db0> <code> ?ClearFromSimpleRegistry@CSimpleFontString@@UAEXXZ
-
-// pubsym <rva 0x4325c8> ??_C@_0BO@FMBE@Debug?5target?5tooltips?5enabled?$AA@
 
 // pubsym <rva 0x2214e0> <code> ??_E?$TSHashTable@UUNITHASHOBJ@@VCHashKeyGUID@@@@UAEPAXI@Z
 
 // pubsym <rva 0x7dd90> <code> ?MoveParticle@CParticleEmitter2@@IAEHAAVCParticle2_Model@@M@Z
 
-// pubsym <rva 0x478fd0> ??_C@_04MIML@DPIO?$AA@
-
-// pubsym <rva 0x4980f4> ??_C@_05GKIP@Genoa?$AA@
-
-// pubsym <rva 0x4c18c0> ??_C@_09JNN@afii10052?$AA@
-
-// pubsym <rva 0x47a208> ??_C@_08FLBC@AVA?92930?$AA@
-
 // pubsym <rva 0x3b9f50> <code> ?Tell@SoundFileCache@@SGHI@Z
 
-// pubsym <rva 0x4c2cac> ??_C@_0N@GJPL@quotedblbase?$AA@
-
 // pubsym <rva 0x38e650> <code> ?AddObjectErrors@@YIXAAVTSet@@@Z
-
-// pubsym <rva 0x447bec> ??_C@_0P@LCHL@PetPassiveMode?$AA@
-
-// pubsym <rva 0x43bd2c> ??_C@_0BE@BBBO@CharacterAttachment?$AA@
 
 // pubsym <rva 0x264250> <code> ?SetObjectCollisionHandler@CWorld@@SIXP6IH_KKPAUWorldObjCollisionHandlerData@@@Z@Z
 
 // pubsym <rva 0x19ced0> <code> ?DeviceReadPixels@CGxDeviceD3d@@UAEXAAVCiRect@NTempest@@AAV?$TSGrowableArray@VCImVector@NTempest@@@@@Z
 
-// pubsym <rva 0x4937e4> ??_C@_07NEBK@Pericom?$AA@
-
 // pubsym <rva 0x3b5ff0> <code> ?IsStopping@Sound@@QAE_NXZ
-
-// pubsym <rva 0x4a7288> ??_C@_0M@DICD@?$CIfor?5state?$CJ?$AA@
-
-// pubsym <rva 0x48e560> ??_C@_0CJ@EFOJ@64Bit?066MHz?0Dual?5Channel?5WideUlt@
 
 // pubsym <rva 0x4bc20> <code> ?CheckArrayBounds@?$TSBaseArray@UMDLRIBBONEMITTER@@@@IBEXI@Z
 
 // pubsym <rva 0x2d6030> <code> ?Next@?$TSLink@UFrameFactoryNode@@@@QAEPAUFrameFactoryNode@@XZ
 
-// pubsym <rva 0x486298> ??_C@_08BFPJ@3C905?9T4?$AA@
-
-// pubsym <rva 0x4821f4> ??_C@_08IPLH@Model?524?$AA@
-
-// pubsym <rva 0x497744> ??_C@_09CLGH@Meidensha?$AA@
-
-// pubsym <rva 0x45d054> ??_C@_09JANM@pixelSize?$AA@
-
 // pubsym <rva 0x595a0> <code> ?SetButtonSize@COsToolBar@@QAEXHH@Z
 
 // pubsym <rva 0x2075d0> <code> ?UpdateModelLoadStatus@CGUnit_C@@UAEHXZ
-
-// pubsym <rva 0x4590f8> ??_C@_0BI@FHFF@GL_ARB_fragment_program?$AA@
-
-// pubsym <rva 0x452ec4> ??_C@_0BF@ILIO@Can?8t?5Cast?0?5No?5Focus?$AA@
 
 // pubsym <rva 0x3087ea> <code> ?IsEqual@CNodeArray@D3DXShader@@UAEHPAVCNode@2@@Z
 
@@ -81401,33 +80696,17 @@
 
 // pubsym <rva 0x9f8f0> <code> ?ShutdownGlueMusic@@YIXXZ
 
-// pubsym <rva 0x483584> ??_C@_0L@BBKH@GDT6537RP2?$AA@
-
 // pubsym <rva 0x3b5560> <code> ?ProcessUpdateList@Sound@@CIXXZ
-
-// pubsym <rva 0x47ed24> ??_C@_0BB@OPEH@Audiomodem?5Riser?$AA@
 
 // pubsym <rva 0x41dc7c> ??_7?$TSGrowableArray@PAUCAnimObj@@@@6B@
 
-// pubsym <rva 0x445e64> ??_C@_0CN@FNA@D?3?2build?2buildWoW?2WoW?2Source?2Ui?2@
-
-// pubsym <rva 0x442efc> ??_C@_07GNHJ@RepopMe?$AA@
-
-// pubsym <rva 0x467264> ??_C@_08HPHD@previous?$AA@
-
 // pubsym <rva 0x7bbc0> <code> ??_GCRibbonVertex@@QAEPAXI@Z
-
-// pubsym <rva 0x466b7c> ??_C@_05PNBL@?$CFdx?$CFd?$AA@
-
-// pubsym <rva 0x484ca0> ??_C@_0O@ILAN@IMS5026?127?128?$AA@
 
 // pubsym <rva 0x187fa0> <code> ?GetFilename@ZoneMusicRec@@SIPBDXZ
 
 // pubsym <rva 0x1fe040> <code> ?CanInteract@CGUnit_C@@QBE_NPBV1@@Z
 
 // pubsym <rva 0x20e050> <code> ?UpdateModelLoadStatus@CGObject_C@@UAEHXZ
-
-// pubsym <rva 0x4bd9a8> ??_C@_0CE@JNN@Error?5reading?5Geoset?5anim?5sectio@
 
 // pubsym <rva 0xbe250> <code> ?MemFileName@?$TSBaseArray@UFACIALGEOSETS@@@@MBEPBDXZ
 
@@ -81437,8 +80716,6 @@
 
 // pubsym <rva 0x41f644> _GUID_PerfAutoDownload
 
-// pubsym <rva 0x452b64> ??_C@_05IDIH@Small?$AA@
-
 // pubsym <rva 0x587d0> <code> ??_GCOsTextButton@@UAEPAXI@Z
 
 // pubsym <rva 0x2c2740> <code> ?MinimapGetZoomLevels@@YIIXZ
@@ -81447,51 +80724,21 @@
 
 // pubsym <rva 0x58160> <code> ?SetInsertionMark@COsTreeView@@QAEXPAXH@Z
 
-// pubsym <rva 0x457ae0> ??_C@_0BN@OMJC@state?5?$DM?5GxMasterEnables_Last?$AA@
-
-// pubsym <rva 0x439a9c> ??_C@_0DM@MGPM@D?3?2build?2buildWoW?2ENGINE?2Source?2@
-
 // pubsym <rva 0x20b500> <code> ?MemLineNo@?$TSBaseArray@UQUESTGIVEREMOTENODE@@@@MBEHXZ
-
-// pubsym <rva 0x44a160> ??_C@_0BM@GKFL@Usage?3?5GetGuildInfo?$CI?$CCunit?$CC?$CJ?$AA@
 
 // pubsym <rva 0x3a2550> <code> ?ReadAttachment@MDL@@YIHAAVParser@@AAUMDLDATA@@PAVCMDLStatus@@@Z
 
 // pubsym <rva 0x3e5630> <code> _XML_ParserFree
 
-// pubsym <rva 0x4a02e4> ??_C@_04KFLO@link?$AA@
-
-// pubsym <rva 0x479688> ??_C@_09EBFB@ARK2000MT?$AA@
-
 // pubsym <rva 0x3e5ed0> <code> _XML_GetCurrentColumnNumber
-
-// pubsym <rva 0x487568> ??_C@_09JPPE@PCI?96023E?$AA@
 
 // pubsym <rva 0xcb475c> ?d3dxtok_val@D3DXShader@@3HA
 
 // pubsym <rva 0x29d80> <code> ??0?$TSFixedArray_@I$0EJENGPGE@$0BBN@@@QAE@ABV0@@Z
 
-// pubsym <rva 0x43c7e4> ??_C@_0CD@NACC@Usage?3?5HasCharCustomization?$CIinde@
-
 // pubsym <rva 0x240700> <code> ??0CMDDEF@@QAE@XZ
 
-// pubsym <rva 0x466fc0> ??_C@_03NKLF@WTF?$AA@
-
 // pubsym <rva 0x4c3a64> __imp__CreateFileW@28
-
-// pubsym <rva 0x48729c> ??_C@_06HDFF@QD8580?$AA@
-
-// pubsym <rva 0x4123fc> ??_C@_0O@IBILDNOM@FindResourceW?$AA@
-
-// pubsym <rva 0x491cbc> ??_C@_0BF@LGCB@Broadcom?5Corporation?$AA@
-
-// pubsym <rva 0x4418ac> ??_C@_0BG@DBAO@DYNAMICOBJECT_SPELLID?$AA@
-
-// pubsym <rva 0x44385c> ??_C@_0BI@ODMN@ERR_GUILDEMBLEM_NOGUILD?$AA@
-
-// pubsym <rva 0x4454f8> ??_C@_0BN@JNAI@Usage?3?5EquipCursorItem?$CIslot?$CJ?$AA@
-
-// pubsym <rva 0x44ca10> ??_C@_0CO@LNBM@image?4Height?$CI?$CJ?5?$DN?$DN?5LOWER_EMBLEM_T@
 
 // pubsym <rva 0x410d7c> __real@3f3f0b76
 
@@ -81499,29 +80746,9 @@
 
 // pubsym <rva 0x19bd80> <code> ?Fence@CGxMemBuffer_VAR@@AAEXXZ
 
-// pubsym <rva 0x498db8> ??_C@_0P@BOGH@curr?9?$DOcallback?$AA@
-
 // pubsym <rva 0x38f930> <code> ?SkipUnknown@@YIXAAVCMsgBuffer@@AAI@Z
 
-// pubsym <rva 0x4a307c> ??_C@_0N@JNCA@elapsed?5?$DO?$DN?50?$AA@
-
-// pubsym <rva 0x462a48> ??_C@_0BG@CBOE@ObjectSelectionCircle?$AA@
-
-// pubsym <rva 0x4976b4> ??_C@_0BK@NONN@Globe?5Manufacturing?5Sales?$AA@
-
-// pubsym <rva 0x46128c> ??_C@_09KNOM@modelData?$AA@
-
-// pubsym <rva 0x47c188> ??_C@_0M@CIIP@Trio64V2?1DX?$AA@
-
-// pubsym <rva 0x464590> ??_C@_0BF@DNMC@SPELLEVADEDOTHERSELF?$AA@
-
-// pubsym <rva 0x49df40> ??_C@_0BJ@HAAH@MapObj?5lighting?5enabled?4?$AA@
-
 // pubsym <rva 0x3b7050> <code> ?DecrementCategory@Sound@@AAEXW4SOUNDCATEGORIES@@@Z
-
-// pubsym <rva 0x453304> ??_C@_0CC@FJJA@Can?8t?5Buy?0?5Can?8t?5Afford?5Bank?5Slo@
-
-// pubsym <rva 0x445664> ??_C@_0BM@DBIJ@Usage?3?5InviteByName?$CI?$CCname?$CC?$CJ?$AA@
 
 // pubsym <rva 0x805e0> <code> ?Update@CParticleEmitter2@@QAEXMABVC34Matrix@NTempest@@ABVC3Vector@3@@Z
 
@@ -81531,17 +80758,7 @@
 
 // pubsym <rva 0x2f0580> <code> _isalnum
 
-// pubsym <rva 0x4c0a80> ??_C@_06CD@ibreve?$AA@
-
 // pubsym <rva 0x2c76a0> <code> ?SpellTableInitialize@@YIXXZ
-
-// pubsym <rva 0x4a678c> ??_C@_0M@DCJE@ScrollFrame?$AA@
-
-// pubsym <rva 0x4385bc> ??_C@_08FNCC@len2?5?$DO?50?$AA@
-
-// pubsym <rva 0x4a7198> ??_C@_0BA@MCON@local?5variables?$AA@
-
-// pubsym <rva 0x445018> ??_C@_0BD@LCOG@ERR_WRONG_BAG_TYPE?$AA@
 
 // pubsym <rva 0x3628e0> <code> ??1?$TSFixedArray@PAVFRAMEPRIORITY@@@@QAE@XZ
 
@@ -81551,14 +80768,6 @@
 
 // pubsym <rva 0xa2b30> <code> ?ChangeLinkOffset@?$TSList@UUISOUNDLOOKUP@@V?$TSGetExplicitLink@UUISOUNDLOOKUP@@@@@@QAEXH@Z
 
-// pubsym <rva 0x49541c> ??_C@_04LAGJ@Cray?$AA@
-
-// pubsym <rva 0x495720> ??_C@_09OKEE@Dainippon?$AA@
-
-// pubsym <rva 0x499650> ??_C@_0O@OLMF@FLT_UNDERFLOW?$AA@
-
-// pubsym <rva 0x47bb28> ??_C@_0BD@MCNM@Scalability?5Port?50?$AA@
-
 // pubsym <rva 0x187fd0> <code> ?Read@ZoneMusicRec@@QAE_NPAVSFile@@PBD@Z
 
 // pubsym <rva 0xc1040> <code> ?IsTabardSectionLayerAndPriority@CTexComponent@@QBE_NW4TEXCOMPONENT_SECTIONS@@W4TEXCOMPONENT_LAYERS@@W4LAYERPRIORITY@@@Z
@@ -81567,47 +80776,23 @@
 
 // pubsym <rva 0x3e5fa0> <code> _XML_ExpatVersionInfo
 
-// pubsym <rva 0x492728> ??_C@_04IAJO@Zoom?$AA@
-
 // pubsym <rva 0x41fc64> _IID_IDirectMusicInstrument
 
 // pubsym <rva 0x2efbf1> <code> _GodotFailRasEnumDevicesW@12
 
-// pubsym <rva 0x48be4c> ??_C@_0BC@NKCI@PLB?5to?5PCI?5Bridge?$AA@
-
 // pubsym <rva 0x6ae80> <code> ?OsGetDefaultWindowRect@@YIHPAUtagRECT@@@Z
 
-// pubsym <rva 0x445f30> ??_C@_0BE@OJLG@?4?4?2UIUtil?1Tooltip?4h?$AA@
-
 // pubsym <rva 0x248860> <code> ?InputBits@CBitInput@?%D:\build\buildWoW\Storm\Source\SComp.cpp126592503@@QAEKKK@Z
-
-// pubsym <rva 0x436448> ??_C@_04KPPF@com4?$AA@
 
 // pubsym <rva 0x1857e0> <code> ??0TerrainTypeRec@@QAE@XZ
 
 // pubsym <rva 0xa13248> ?m_log@CGxDevice@@1PAUHSLOG__@@A
 
-// pubsym <rva 0x466f70> ??_C@_0CO@IDII@Set?5the?5value?5of?5a?5CVar?5to?5it?8s?5@
-
 // pubsym <rva 0x37120> <code> ?Reserve@?$TSGrowableArray@VC3Vector@NTempest@@@@AAEXIH@Z
-
-// pubsym <rva 0x4c300c> ??_C@_05KLHA@?4null?$AA@
 
 // pubsym <rva 0x2801a0> <code> ?LoadMapObjNames@CMap@@CIXXZ
 
 // pubsym <rva 0x210fb0> <code> ?OnLeftClick@CGCorpse_C@@UAEXXZ
-
-// pubsym <rva 0x44e510> ??_C@_0M@OJOB@?$CFs_NOSCHOOL?$AA@
-
-// pubsym <rva 0x4938fc> ??_C@_0CB@FPEI@Pluto?5Technologies?5International@
-
-// pubsym <rva 0x48f734> ??_C@_0BO@PPMB@SensoMotoric?5Instruments?5GmbH?$AA@
-
-// pubsym <rva 0x44c0c4> ??_C@_0CL@OLLP@Bad?5inv?5slot?5in?5SetTradeSkillInv@
-
-// pubsym <rva 0x4603a0> ??_C@_0DH@KKJD@newDesc?9?$DOwalkAnim?5?$DM?5SPELLPROC_WA@
-
-// pubsym <rva 0x4128e4> ??_C@_04GNFOIEOK@elif?$AA@
 
 // pubsym <rva 0x58ee0> <code> ??_GCOsListView@@UAEPAXI@Z
 
@@ -81617,15 +80802,9 @@
 
 // pubsym <rva 0x1d9b70> <code> ?AcceptResurrectRequest@CGPlayer_C@@QAEXH@Z
 
-// pubsym <rva 0x48d1d8> ??_C@_0BF@HBGN@Rage?5128?5Pro?5PN?5AGP?5?$AA@
-
 // pubsym <rva 0x403c58> ??_7?$TSGrowableArray@UOsGuiTreeItemParams@@@@6B@
 
-// pubsym <rva 0x4152e8> ??_C@_0EI@PMOHFJJO@Matrices?5cannot?5be?5specified?5in?5@
-
 // pubsym <rva 0xfee0> <code> ?Destroy@?$TSHashTable@UPrefetchNode@@VHASHKEY_STRI@@@@UAEXXZ
-
-// pubsym <rva 0xcba200> ??_C@_11A@?$AA?$AA@
 
 // pubsym <rva 0x41e158> __real@406fe00000000000
 
@@ -81633,41 +80812,21 @@
 
 // pubsym <rva 0x3089f3> <code> ??1CNodeFunction@D3DXShader@@UAE@XZ
 
-// pubsym <rva 0x492398> ??_C@_0BK@ONEB@Cleveland?5Motion?5Controls?$AA@
-
-// pubsym <rva 0x486b50> ??_C@_0BP@FGCC@PCI?59056?5Rapid?5Development?5Kit?$AA@
-
-// pubsym <rva 0x48590c> ??_C@_0CD@DEON@PCI?5Ultra?5Wide?5SCSI?92?5Host?5Adapt@
-
 // pubsym <rva 0x28cce0> <code> ?QueryLiquidFishable@CMapObjGroup@@QAE_NABVC3Vector@NTempest@@AAH@Z
 
 // pubsym <rva 0x2e8a80> <code> ?CalcChunkSize@?$TSGrowableArray@V?$TSExplicitList@UFrameScriptObject_Variable@@$0?CCCCCCCD@@@@@AAEII@Z
 
 // pubsym <rva 0x2d8ea0> <code> @lua_pcall@16
 
-// pubsym <rva 0x4974f0> ??_C@_03DILD@STB?$AA@
-
 // pubsym <rva 0x25e580> <code> ??ABigBuffer@@QBEII@Z
-
-// pubsym <rva 0x4878e8> ??_C@_06MLND@Schizo?$AA@
-
-// pubsym <rva 0x45dfc0> ??_C@_07BGPH@itemptr?$AA@
 
 // pubsym <rva 0x17fbb0> <code> ??0CreatureTypeRec@@QAE@XZ
 
 // pubsym <rva 0x6a7c0> <code> ?OsGetPhysicalMemory@@YIKXZ
 
-// pubsym <rva 0x4446dc> ??_C@_0BA@DFEA@ERR_LOOT_LOCKED?$AA@
-
 // pubsym <rva 0x1eeea0> <code> ?PostPostInit@CGGameObject_C@@QAEXXZ
 
-// pubsym <rva 0x492d0c> ??_C@_0BC@JLHO@Crystal?5Group?5Inc?$AA@
-
 // pubsym <rva 0x2cb430> <code> ?IsShapeshiftSpell@@YI_NPBVSpellRec@@@Z
-
-// pubsym <rva 0x444d64> ??_C@_0BF@DOFC@ERR_ABILITY_COOLDOWN?$AA@
-
-// pubsym <rva 0x44d8dc> ??_C@_0BI@FO@UNITNAME_TITLE_GUARDIAN?$AA@
 
 // pubsym <rva 0x295a80> <code> ??1?$TSFixedArray@V?$TSExplicitList@VCMapObj@@$0?CCCCCCCD@@@@@QAE@XZ
 
@@ -81675,57 +80834,29 @@
 
 // pubsym <rva 0x191b50> <code> ?ScenePresent@CGxDevice@@UAEXI@Z
 
-// pubsym <rva 0x43333c> ??_C@_0P@EONB@pval?5?$HM?$HM?5?$CBcount?$AA@
-
-// pubsym <rva 0x48b060> ??_C@_0CF@FFNA@Embedded?5Systems?5Management?5Devi@
-
 // pubsym <rva 0xbe3b0> <code> ??1?$TSFixedArray@V?$TSFixedArray@UVARIATIONS@@@@@@QAE@XZ
-
-// pubsym <rva 0x45ecd8> ??_C@_0BK@HMME@rec?9?$DOm_MountScale?5?$DO?$DN?50?40f?$AA@
 
 // pubsym <rva 0x393a50> <code> ?ReadEventObject@MDL@@YIHAAVParser@@AAUMDLDATA@@PAVCMDLStatus@@@Z
 
 // pubsym <rva 0x293220> <code> ??1CMapObj@@QAE@XZ
 
-// pubsym <rva 0x494cdc> ??_C@_05HHNM@Ariel?$AA@
-
-// pubsym <rva 0x4c2fcc> ??_C@_0M@IMNE@partialdiff?$AA@
-
 // pubsym <rva 0x996d0> <code> ?invertarray_@CMath@NTempest@@SIXPANK@Z
 
 // pubsym <rva 0x3428d0> <code> ?Unlink@?$TSLink@UCAnimNameHash@@@@QAEXXZ
-
-// pubsym <rva 0x48c35c> ??_C@_0BH@GNKF@Nordic?5GUI?5Accelerator?$AA@
-
-// pubsym <rva 0x48a514> ??_C@_0CE@OCGJ@Fast?5Ethernet?1Home?5Networking?5Ct@
-
-// pubsym <rva 0x49a474> ??_C@_0CI@MJLG@D?3?2build?2buildWoW?2Storm?2Source?2S@
 
 // pubsym <rva 0x338b0> <code> ?ModelHitTestVolumes@@YIHPAUHMODEL__@@MABVC3Vector@NTempest@@1HPAM@Z
 
 // pubsym <rva 0x246960> <code> ?NewNode@?$TSList@V?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@V?$TSGetExplicitLink@V?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@@@@@QAEPAV?$TSHashObjectChunk@URGN@@VHASHKEY_NONE@@@@KKK@Z
 
-// pubsym <rva 0x487c10> ??_C@_09IBPN@Model?5618?$AA@
-
 // pubsym <rva 0x3353e8> <code> ??_GCShaderProgram@D3DXShader@@UAEPAXI@Z
 
 // pubsym <rva 0x13f310> <code> ??1?$TSFixedArray@UCFacet@NTempest@@@@QAE@XZ
 
-// pubsym <rva 0x4907d8> ??_C@_0BK@ENBH@Quicknet?5Technologies?5Inc?$AA@
-
-// pubsym <rva 0x45edb8> ??_C@_0BP@PKJE@ERR_WRONG_DIRECTION_FOR_ATTACK?$AA@
-
-// pubsym <rva 0x44ebb8> ??_C@_0EA@JFBF@Invalid?5trade?5skill?5item?5in?5SetT@
-
 // pubsym <rva 0x40b4f8> ?s_d3dCubeMapFaces@CGxDeviceD3d@@0QBW4_D3DCUBEMAP_FACES@@B
-
-// pubsym <rva 0x43ff08> ??_C@_0EN@JKEI@0x?$CF016I64X?3?5?$DN?$DN?$DN?$DN?$HM?5Starting?5new?5m@
 
 // pubsym <rva 0x23ec10> <code> ?Clear@?$TSFixedArray@V?$TSExplicitList@UFILEMAP@@$0?CCCCCCCD@@@@@QAEXXZ
 
 // pubsym <rva 0x256210> <code> ?Set@Flags@@QAEXI@Z
-
-// pubsym <rva 0x45eb08> ??_C@_06BMEB@number?$AA@
 
 // pubsym <rva 0x18b830> <code> ??1WMOAreaTableRec@@QAE@XZ
 
@@ -81733,17 +80864,7 @@
 
 // pubsym <rva 0x2ef701> <code> _GodotFailSendNotifyMessageW@16
 
-// pubsym <rva 0x44a888> ??_C@_0BA@CMPC@CanSignPetition?$AA@
-
-// pubsym <rva 0x48dc9c> ??_C@_0BA@NLPP@LSI53C1020?11030?$AA@
-
-// pubsym <rva 0x44e104> ??_C@_0BG@GEHF@ITEM_PROPOSED_ENCHANT?$AA@
-
 // pubsym <rva 0x1eebf0> <code> ??_GCGGameObject_C_Type_Ritual@@UAEPAXI@Z
-
-// pubsym <rva 0x456d10> ??_C@_0CJ@JKHL@DBFilesClient?2SoundSamplePrefere@
-
-// pubsym <rva 0x47b7e0> ??_C@_0CF@DGEJ@Fast?5Ethernet?5PCI?1CardBus?5Contro@
 
 // pubsym <rva 0x197630> <code> ?ReallocData@?$TSFixedArray@UCGxAppRenderState@@@@IAEXI@Z
 
@@ -81753,37 +80874,17 @@
 
 // pubsym <rva 0x2f0c08> <code> _ShowCursor@4
 
-// pubsym <rva 0x484cb0> ??_C@_06GKKO@LP8000?$AA@
-
-// pubsym <rva 0x47d170> ??_C@_06MJPN@E2929A?$AA@
-
-// pubsym <rva 0x47e014> ??_C@_07CPBB@BCM5703?$AA@
-
-// pubsym <rva 0x454e08> ??_C@_0O@FCDI@questComplete?$AA@
-
 // pubsym <rva 0x212b40> <code> ?MovementMoveTransports@@YIXKM@Z
 
 // pubsym <rva 0x190dc0> <code> ?AddBuf@CGxMemBuffer@@QAEXPAUCGxBuf@@@Z
 
 // pubsym <rva 0x7ff30> <code> ?MaterialDisableLight@CParticleEmitter2@@QAEXH@Z
 
-// pubsym <rva 0x48a15c> ??_C@_0CJ@NCLA@Hewlett?9Packard?5VisualizeFX?5Seri@
-
-// pubsym <rva 0x4665ec> ??_C@_0CJ@FDAC@Resets?5all?5the?5font?5and?5console?5@
-
-// pubsym <rva 0x489468> ??_C@_07FOAN@PCI1031?$AA@
-
 // pubsym <rva 0x425868> _IID_ISynchronizeContainer
 
 // pubsym <rva 0x39f660> <code> ??0MDLPARTICLEEMITTER2@@QAE@XZ
 
 // pubsym <rva 0x19bd50> <code> ??_ECGxMemBuffer_VAR@@UAEPAXI@Z
-
-// pubsym <rva 0x489d24> ??_C@_0BD@DMOC@Samurai?5IDE?5device?$AA@
-
-// pubsym <rva 0x443c6c> ??_C@_0BF@PDLF@ERR_CANNOTCREATEFILE?$AA@
-
-// pubsym <rva 0x48fefc> ??_C@_0BF@PCEN@Datavoice?5?$CIPty?$CJ?5Ltd?4?$AA@
 
 // pubsym <rva 0x38910> <code> ?RemoveLast@?$CDynTable@PAUCOpaqueLayer@@@NTempest@@QAE_NXZ
 
@@ -81793,33 +80894,13 @@
 
 // pubsym <rva 0x41fc34> _IID_IDirectMusic8
 
-// pubsym <rva 0x45cda4> ??_C@_07BAL@viewPtr?$AA@
-
-// pubsym <rva 0x4a6f00> ??_C@_0P@FMPB@table?5overflow?$AA@
-
 // pubsym <rva 0x459e0> <code> ??0?$TSFixedArray@UCGeosetColor@@@@QAE@XZ
-
-// pubsym <rva 0x4657f0> ??_C@_0BG@FOMI@SPELLFAILPERFORMOTHER?$AA@
 
 // pubsym <rva 0x140280> <code> ?InputControlRegisterScriptFunctions@@YIXXZ
 
-// pubsym <rva 0x491e38> ??_C@_0CJ@LJHD@Billionton?5Systems?5Inc?4?1Cadmus?5M@
-
-// pubsym <rva 0x4380ec> ??_C@_0CP@LNAC@D?3?2build?2buildWoW?2ENGINE?2Source?2@
-
 // pubsym <rva 0xa133c8> ?glExtCVA@@3HA
 
-// pubsym <rva 0x489be4> ??_C@_06BKLM@82C557?$AA@
-
-// pubsym <rva 0x48aec8> ??_C@_07GGCM@Twister?$AA@
-
 // pubsym <rva 0x55a70> <code> ??_GCOsStaticText@@UAEPAXI@Z
-
-// pubsym <rva 0x466f14> ??_C@_0L@OLKH@List?5cvars?$AA@
-
-// pubsym <rva 0x493118> ??_C@_0M@MFHN@Quatech?5Inc?$AA@
-
-// pubsym <rva 0x44dfa4> ??_C@_0BI@DOOF@LOCKED_WITH_SPELL_KNOWN?$AA@
 
 // pubsym <rva 0x33860> <code> ?ModelHasHitTestVolumes@@YIHPAUHMODEL__@@@Z
 
@@ -81829,27 +80910,13 @@
 
 // pubsym <rva 0x4aeef8> ??_R0?AV?$TSExplicitList@USIMPLECONTEXTHASHOBJ@@$0?CCCCCCCD@@@@8
 
-// pubsym <rva 0x4551e8> ??_C@_03BKEA@WDB?$AA@
-
-// pubsym <rva 0x4974c8> ??_C@_05JFDH@Madge?$AA@
-
-// pubsym <rva 0x493dd0> ??_C@_0M@KPDK@Simpact?5Inc?$AA@
-
 // pubsym <rva 0x1dcf80> <code> ?SetActive@CGPlayer_C@@SIXPBV1@@Z
 
 // pubsym <rva 0x59a00> <code> ?SetPageSize@COsScrollBar@@QAEXH@Z
 
 // pubsym <rva 0xb6780> <code> ?ChangeFacialHairGeosets@CCharCreateInfo@@KIXI@Z
 
-// pubsym <rva 0x45e3c4> ??_C@_0BO@FDE@show?5all?5available?5taxi?5nodes?$AA@
-
-// pubsym <rva 0x44f12c> ??_C@_03CBNM@fov?$AA@
-
-// pubsym <rva 0x44bde8> ??_C@_08OEEN@HEADSLOT?$AA@
-
 // pubsym <rva 0x2d7240> <code> ?GetSibling@XMLNode@@QBEPBV1@XZ
-
-// pubsym <rva 0x48f938> ??_C@_0O@KKDD@U?4S?4?5Robotics?$AA@
 
 // pubsym <rva 0x323230> <code> ??0CPSLegacyProgram@D3DXShader@@QAE@XZ
 
@@ -81857,47 +80924,21 @@
 
 // pubsym <rva 0x5d330> <code> ?OsSetFileTime@@YIHPAUHOSFILE__@@PBUOSFILETIME@@11@Z
 
-// pubsym <rva 0x4a6da0> ??_C@_04ICIO@next?$AA@
-
 // pubsym <rva 0x2d7fd0> <code> ?XMLTree_Load@@YIPAUXMLTree@@PBDI@Z
 
-// pubsym <rva 0x49e774> ??_C@_0BC@KOIK@Use?5pixel?5shaders?$AA@
-
-// pubsym <rva 0x497844> ??_C@_0BF@JKJB@Quantum?5Designs?5Ltd?4?$AA@
-
 // pubsym <rva 0x1bf5b0> <code> ?Unlink@?$TSLink@UBATCHEDRENDERFONTDESC@@@@QAEXXZ
-
-// pubsym <rva 0x415d70> ??_C@_0DP@OGPGLIEM@array?5references?5of?5intermediate@
 
 // pubsym <rva 0x399c60> <code> ?WriteFloatKeyFrames@@YIXIPBDABU?$MDLKEYTRACK@VC3Color@@@@AAV?$TSGrowableArray@D@@@Z
 
 // pubsym <rva 0xa13314> ?glFinishFenceNV@@3P6GXI@ZA
 
-// pubsym <rva 0x44a8ac> ??_C@_0BE@NLCA@GetNumPetitionNames?$AA@
-
-// pubsym <rva 0x441edc> ??_C@_0BF@EFJF@UNIT_FIELD_AURASTATE?$AA@
-
-// pubsym <rva 0x4419d8> ??_C@_0BH@JEOK@PLAYER_GUILD_TIMESTAMP?$AA@
-
-// pubsym <rva 0x4bd81c> ??_C@_0BH@OBAM@at?5least?5three?5entries?$AA@
-
-// pubsym <rva 0x456f08> ??_C@_0CA@FPMD@Error?5reading?5SoundWaterTypeRec?$AA@
-
 // pubsym <rva 0x85ae0> <code> ?SetColors@CParticleKey@@QAEXVCImVector@NTempest@@0@Z
 
 // pubsym <rva 0x1d3970> <code> ??1CGItem_C@@QAE@XZ
 
-// pubsym <rva 0x4620cc> ??_C@_09GLIM@ShoulderR?$AA@
-
-// pubsym <rva 0x4506b4> ??_C@_0L@BMPJ@PLAYER_SIT?$AA@
-
-// pubsym <rva 0x4958e0> ??_C@_0N@MHKD@United?5Video?$AA@
-
 // pubsym <rva 0x3820a0> <code> ?ParseIMG@CSimpleHTML@@IAEXPBVXMLNode@@PAVCStatus@@@Z
 
 // pubsym <rva 0x34a2b0> <code> ?SetObjectSequencesReset@@YIXPAUCAnim@@PAUCAnimData@@IIH@Z
-
-// pubsym <rva 0x49aff8> ??_C@_0JN@NBKE@request?9?$DOlocation?5?9?5request?9?$DOstr@
 
 // pubsym <rva 0x91d80> <code> ?AffineInverse@C34Matrix@NTempest@@QBE?AV12@ABVC3Vector@2@@Z
 
@@ -81905,25 +80946,13 @@
 
 // pubsym <rva 0x36f330> <code> ?Link@?$TSList@USIMPLEFRAMENODE@@V?$TSGetLink@USIMPLEFRAMENODE@@@@@@ABEPAV?$TSLink@USIMPLEFRAMENODE@@@@PBUSIMPLEFRAMENODE@@@Z
 
-// pubsym <rva 0x49831c> ??_C@_03EFLE@NEC?$AA@
-
-// pubsym <rva 0x43aec8> ??_C@_0N@BJGG@EnvDiffusion?$AA@
-
 // pubsym <rva 0x1fcc00> <code> ?SpellEventHit@CGUnit_C@@QAEXXZ
 
 // pubsym <rva 0x1db1c0> <code> ?OnAttackStart@CGPlayer_C@@UAEX_K@Z
 
-// pubsym <rva 0x4a0350> ??_C@_0BE@JLPI@chunk?9?$DOnLayers?5?$DN?$DN?50?$AA@
-
 // pubsym <rva 0x34d690> <code> ??BC4QuaternionCompressed@NTempest@@QBE?AVC4Quaternion@1@XZ
 
 // pubsym <rva 0x1aeff0> <code> ?HandleLogoutAbortAck@ClientConnection@@QAEHW4NETMESSAGE@@KPAVCDataStore@@@Z
-
-// pubsym <rva 0x4a7f0c> ??_C@_05NNEN@three?$AA@
-
-// pubsym <rva 0x486454> ??_C@_06IKPD@FEM656?$AA@
-
-// pubsym <rva 0x4c05c8> ??_C@_07DBKH@umacron?$AA@
 
 // pubsym <rva 0x2ee902> <code> _GodotFailFindResourceW@12
 
@@ -81931,41 +80960,19 @@
 
 // pubsym <rva 0x379e00> <code> ?DispatchAction@CSimpleEditBox@@IAEXH@Z
 
-// pubsym <rva 0x484a48> ??_C@_0BK@IIKK@Transputer?5Link?5Interface?$AA@
-
-// pubsym <rva 0x4954d8> ??_C@_0BP@LBAJ@Image?5Technologies?5Development?$AA@
-
 // pubsym <rva 0x2bdc30> <code> ??A?$CDynTable@VLightQE@@@NTempest@@QBEAAVLightQE@@K@Z
 
 // pubsym <rva 0x1ec0c0> <code> ?CanUseNow@CGGameObject_C_TypeBase@@UBE_NPAW4GAME_ERROR_TYPE@@@Z
 
 // pubsym <rva 0x282f90> <code> ?SetCount@?$TSGrowableArray@V?$TSExplicitList@VCMapObjDef@@$0?CCCCCCCD@@@@@QAEXI@Z
 
-// pubsym <rva 0x47a4bc> ??_C@_07IOLB@82461GX?$AA@
-
 // pubsym <rva 0x3b6200> <code> ?UpdatePosition@Sound@@AAEXXZ
-
-// pubsym <rva 0x49698c> ??_C@_0BC@DGCD@Efficent?5Networks?$AA@
-
-// pubsym <rva 0x48c728> ??_C@_0BE@FPAP@Fast?5Ethernet?5Ctrlr?$AA@
-
-// pubsym <rva 0x4950b4> ??_C@_0BI@FLHK@High?5Street?5Consultants?$AA@
 
 // pubsym <rva 0x18c660> <code> ?Read@WorldMapContinentRec@@QAE_NPAVSFile@@PBD@Z
 
 // pubsym <rva 0x26710> <code> ?MemLineNo@?$TSBaseArray@UMDLEVENTSECTION@@@@MBEHXZ
 
-// pubsym <rva 0x454a80> ??_C@_0CA@BACA@Unit?$CIs?$CJ?5face?5a?5particular?5angle?$AA@
-
 // pubsym <rva 0x2bb550> <code> ?DayNightDestroy@@YIXXZ
-
-// pubsym <rva 0x499538> ??_C@_02MODK@?$DP?$EA?$AA@
-
-// pubsym <rva 0x454e30> ??_C@_07PLJD@Layer?52?$AA@
-
-// pubsym <rva 0x41a0d8> ??_C@_05OODBEKIG@while?$AA@
-
-// pubsym <rva 0x47f8e4> ??_C@_09IPKI@PCI?9INT32?$AA@
 
 // pubsym <rva 0x9e0fbc> ?m_knowsSpells@CGSpellBook@@0HA
 
@@ -81973,19 +80980,11 @@
 
 // pubsym <rva 0x4368c0> ?OSNETERR_SOCKETFAILED@OsNet@@3PBDB
 
-// pubsym <rva 0x497d30> ??_C@_0BD@PCML@Aten?5Research?5Inc?4?$AA@
-
 // pubsym <rva 0x64300> <code> ?SetRecvTimeout@NETCONNFULL@OsNet@@UAEXK@Z
 
 // pubsym <rva 0x77660> <code> ?ReallocData@?$TSFixedArray@P6IXXZ@@IAEXI@Z
 
-// pubsym <rva 0x431fa8> ??_C@_0BI@JBEA@Toggle?5profanity?5filter?$AA@
-
 // pubsym <rva 0x197730> <code> ?ReallocData@?$TSFixedArray@VCGxStateBom@@@@IAEXI@Z
-
-// pubsym <rva 0x412988> ??_C@_0EH@JLACBPNO@include?5interface?5required?5to?5su@
-
-// pubsym <rva 0x485fb4> ??_C@_0CG@DEGN@CPU?5to?5PCI?5?$CG?5PCI?5to?5ISA?5Bridge?5w@
 
 // pubsym <rva 0x257120> <code> ??_E?$TSHashTable@UZipFileDirEntry@@VHASHKEY_CONSTSTRI@@@@UAEPAXI@Z
 
@@ -81993,23 +80992,11 @@
 
 // pubsym <rva 0x429888> __NULL_IMPORT_DESCRIPTOR
 
-// pubsym <rva 0x493724> ??_C@_07DMOP@Rainbow?$AA@
-
-// pubsym <rva 0x4904c0> ??_C@_0L@ONNP@Europop?5AG?$AA@
-
 // pubsym <rva 0x3ba1f0> <code> ?Initialize@SoundFileCache@@SIXH@Z
-
-// pubsym <rva 0x49749c> ??_C@_0BB@DEKC@3Com?5Corporation?$AA@
 
 // pubsym <rva 0x1be130> <code> ?GxuFontGetFontFlags@@YIIPAUCGxFont@@@Z
 
 // pubsym <rva 0x2486b0> <code> ?IncrementWeight@CHuffman@@IAEXPAUHUFFNODE@@@Z
-
-// pubsym <rva 0x495628> ??_C@_0BK@BJDI@HAL?5Computer?5Systems?5Inc?4?$AA@
-
-// pubsym <rva 0x49fc6c> ??_C@_0BH@GGNC@iffChunk?4token?$DN?$DN?8MPHD?8?$AA@
-
-// pubsym <rva 0x4633a8> ??_C@_0EL@MCKK@attachPoint?5?$DM?5?$CIsizeof?$CIg_attachme@
 
 // pubsym <rva 0x380910> <code> ??1?$TSFixedArray@VCSimpleMessageScrollFrameDisplayNode@@@@QAE@XZ
 
@@ -82019,21 +81006,13 @@
 
 // pubsym <rva 0x237150> <code> _SErrDisplayError@24
 
-// pubsym <rva 0x4a68e8> ??_C@_07CGNH@OVERLAY?$AA@
-
 // pubsym <rva 0x190320> <code> ?GxAllocIndexMem@@YIPAXI@Z
-
-// pubsym <rva 0x419bb0> ??_C@_05KNFBNCOH@float?$AA@
 
 // pubsym <rva 0x287a50> <code> ?GetVertexCount@Batch@CWTriData@@QBEGXZ
 
 // pubsym <rva 0x74ec0> <code> ?LinkNode@?$TSList@V?$TSHashObjectChunk@UCTextureHash@@VHASHKEY_TEXTUREFILE@@@@V?$TSGetExplicitLink@V?$TSHashObjectChunk@UCTextureHash@@VHASHKEY_TEXTUREFILE@@@@@@@@QAEXPAV?$TSHashObjectChunk@UCTextureHash@@VHASHKEY_TEXTUREFILE@@@@K0@Z
 
-// pubsym <rva 0x48c1e0> ??_C@_07PMFB@82G2675?$AA@
-
 // pubsym <rva 0x5d1b0> <code> ?OsDirectoryExists@@YIHPBD@Z
-
-// pubsym <rva 0x47f9bc> ??_C@_0P@PGIO@PCI?9DAS6402?112?$AA@
 
 // pubsym <rva 0x411a28> ??_7?$TSFixedArray@ULightMarker@@@@6B@
 
@@ -82043,31 +81022,15 @@
 
 // pubsym <rva 0x240710> <code> ??1CMDDEF@@QAE@XZ
 
-// pubsym <rva 0x48012c> ??_C@_09HMGO@3cp803598?$AA@
-
 // pubsym <rva 0x45c8bc> ??_R0?AUTEXTLINETEXTURE@@@8
 
 // pubsym <rva 0xfb190> <code> ?ShutdownGame@CGDuelInfo@@SIXXZ
 
-// pubsym <rva 0x47f99c> ??_C@_0N@LIFL@PCI?9DDA02?112?$AA@
-
-// pubsym <rva 0x456534> ??_C@_0BJ@NNMP@Error?5reading?5AreaPOIRec?$AA@
-
-// pubsym <rva 0x45b4c4> ??_C@_0BN@NEK@CSTATUS_NEGOTIATION_COMPLETE?$AA@
-
-// pubsym <rva 0x4871b8> ??_C@_0BL@KBCP@BtV?5Mediastream?5Controller?$AA@
-
 // pubsym <rva 0x3f6c30> <code> _XmlUtf16Encode
-
-// pubsym <rva 0x4a6968> ??_C@_03GKPL@val?$AA@
 
 // pubsym <rva 0x403008> ??_7CSBasePriority@@6B@
 
 // pubsym <rva 0x255b30> <code> ?ConvertFromZip@@YIXPAD@Z
-
-// pubsym <rva 0x4be7b4> ??_C@_0M@ENFG@GlobalAlloc?$AA@
-
-// pubsym <rva 0x432d10> ??_C@_0L@MIGK@?$CFg?5degrees?$AA@
 
 // pubsym <rva 0xc8a40> <code> ?UpdateAnchors@CMovement@@AAEXK@Z
 
@@ -82079,25 +81042,9 @@
 
 // pubsym <rva 0x3b2f0> <code> ?ModelGetSequenceName@@YIHPAUHMODEL__@@IPADI@Z
 
-// pubsym <rva 0x486798> ??_C@_0BK@GEBF@16?14?5CardBus?5?5Adapter?5Mk2?$AA@
-
-// pubsym <rva 0x495a30> ??_C@_0BM@ELLG@Marvell?5Semiconductor?0?5Inc?4?$AA@
-
-// pubsym <rva 0x460a28> ??_C@_0HF@BKMP@?$CB?$CBhighestPrioritySpellFoundByKit@
-
 // pubsym <rva 0x94c10> <code> ?SquadInterm@C4Quaternion@NTempest@@SIXABV12@00AAV12@1@Z
 
-// pubsym <rva 0x480e28> ??_C@_02NGPH@B1?$AA@
-
-// pubsym <rva 0x45b004> ??_C@_06BILM@Neuter?$AA@
-
-// pubsym <rva 0x43bd1c> ??_C@_0O@ECFL@PetAttachment?$AA@
-
 // pubsym <rva 0x287c10> <code> ?QueryGroundType@CMap@@SI_NABVC3Vector@NTempest@@AAI@Z
-
-// pubsym <rva 0x44fd6c> ??_C@_0BK@LCKG@Usage?3?5UnitDamage?$CI?$CCunit?$CC?$CJ?$AA@
-
-// pubsym <rva 0x454a5c> ??_C@_0CD@MFEP@Unit?$CIs?$CJ?5face?5a?5unit?5or?5game?5obje@
 
 // pubsym <rva 0x4392a8> ??_R0M@8
 
@@ -82107,17 +81054,9 @@
 
 // pubsym <rva 0x41d178> _IID_IDirect3DTexture9
 
-// pubsym <rva 0x43a4c8> ??_C@_0L@HCO@SoundMixer?$AA@
-
-// pubsym <rva 0x4c24bc> ??_C@_0O@FEOP@Dieresissmall?$AA@
-
-// pubsym <rva 0x44f05c> ??_C@_0BA@MGH@cameraDistanceB?$AA@
-
 // pubsym <rva 0xaa570> <code> ?SetCurrentChunkINDOORS@@YIHPBD0@Z
 
 // pubsym <rva 0xcbac0> <code> ?CollisionStateChanged@CMovement@@AAEXXZ
-
-// pubsym <rva 0x48988c> ??_C@_0BE@CFKF@STPC?5Consmr?1Indstrl?$AA@
 
 // pubsym <rva 0x243700> <code> ?SInterlockedDecrementNonAtomic@@YIXPA_J@Z
 
@@ -82125,39 +81064,17 @@
 
 // pubsym <rva 0x2d6050> <code> ?Unlink@?$TSLink@UFrameFactoryNode@@@@QAEXXZ
 
-// pubsym <rva 0x44a128> ??_C@_0DG@KPDC@Usage?3?5SetInventoryPortaitTextur@
-
 // pubsym <rva 0x31b22f> <code> ?PushUsageType@CParse@D3DXShader@@IAEJPAVCNode@2@@Z
 
 // pubsym <rva 0x402300> __imp__strcspn
 
-// pubsym <rva 0x45a8c4> ??_C@_04IDPG@blit?$AA@
-
-// pubsym <rva 0x4528a4> ??_C@_09GJJA@Heartbeat?$AA@
-
 // pubsym <rva 0x190a40> <code> ?Pop@CGxMatrixStack@@QAEXXZ
 
-// pubsym <rva 0x482a64> ??_C@_09HKKE@T1?1E1?1PRI?$AA@
-
 // pubsym <rva 0xd6b0> <code> ?BaseInitializeContext@@YIXXZ
-
-// pubsym <rva 0x495e94> ??_C@_0N@BGPM@Fujikura?5Ltd?$AA@
-
-// pubsym <rva 0x4444d0> ??_C@_0BG@DLMC@ERR_COMBAT_DAMAGE_SSI?$AA@
 
 // pubsym <rva 0x264600> <code> ?UpdateObject@CWorld@@SIXKABVC44Matrix@NTempest@@ABVCAaBox@3@@Z
 
 // pubsym <rva 0x1f3a0> <code> ?IEvtTimerSetAbsolute@@YIIPAUEvtContext@@KP6IHPBXPAX@Z2P6IH1_K2@Z42@Z
-
-// pubsym <rva 0x44a354> ??_C@_07DAOF@NUMLOCK?$AA@
-
-// pubsym <rva 0x453cf4> ??_C@_0N@DDAD@UCallForHelp?$AA@
-
-// pubsym <rva 0x442f94> ??_C@_0O@JJAE@InitiateTrade?$AA@
-
-// pubsym <rva 0x465ce0> ??_C@_0BC@LPJH@?$CBIsDeathFlagSet?$CI?$CJ?$AA@
-
-// pubsym <rva 0x49b5c0> ??_C@_0BE@GCJN@m_providerList?5?$DN?$DN?50?$AA@
 
 // pubsym <rva 0x1a8b20> <code> ?DxtDecompress@@YIXPBUDxt1Block@@PAPAVCArgb1555@NTempest@@ABUDxtRect@@@Z
 
@@ -82177,8 +81094,6 @@
 
 // pubsym <rva 0x1f2160> <code> ?CalcScalar@SPELLEFFECTDESC@@QAEMXZ
 
-// pubsym <rva 0x441adc> ??_C@_0BF@IBAJ@PLAYER_QUEST_LOG_1_1?$AA@
-
 // pubsym <rva 0x307b0f> <code> ?Create@CStringBuffer@D3DXCore@@SGJKPAPAV12@@Z
 
 // pubsym <rva 0x29ac00> <code> ?Enclose@CAaBox@NTempest@@QAEXABVC3Vector@2@@Z
@@ -82188,8 +81103,6 @@
 // pubsym <rva 0x2d2ef0> <code> ?NextLink@?$TSLink@USPELLHISTORY@@@@ABEPAV1@H@Z
 
 // pubsym <rva 0x20b390> <code> ?MemFileName@?$TSBaseArray@UANIMENDDATA@@@@MBEPBDXZ
-
-// pubsym <rva 0x432210> ??_C@_0IG@KEHP@x?3?5sets?5the?5screen?5resolution?5mo@
 
 // pubsym <rva 0x3090fd> <code> ?IsEqual@CNodeExpression@D3DXShader@@UAEHPAVCNode@2@@Z
 
@@ -82201,19 +81114,9 @@
 
 // pubsym <rva 0x240aa0> <code> ?s_SLaunchThread@S_Thread@@YGKPAX@Z
 
-// pubsym <rva 0x4931cc> ??_C@_0BD@KMHO@Promax?5Systems?5Inc?$AA@
-
-// pubsym <rva 0x433698> ??_C@_0O@MCHF@refCount?5?$DN?$DN?50?$AA@
-
-// pubsym <rva 0x492af4> ??_C@_0BK@DDDN@Graphics?5Microsystems?5Inc?$AA@
-
 // pubsym <rva 0x223740> <code> ?ResetFingersSeq@CGUnit_C@@IAEXPAUHMODEL__@@II@Z
 
 // pubsym <rva 0x26010> <code> ?MemFileName@?$TSBaseArray@UCMdlBounds@@@@MBEPBDXZ
-
-// pubsym <rva 0x45e49c> ??_C@_0CC@FJPF@prevents?5melee?5damage?5by?5monster@
-
-// pubsym <rva 0x44eab8> ??_C@_0DB@IJFE@Usage?3?5SetInventoryItem?$CIunit?0?5sl@
 
 // pubsym <rva 0x18020> <code> ?LinkNode@?$TSList@UEvtContext@@V?$TSGetLink@UEvtContext@@@@@@QAEXPAUEvtContext@@K0@Z
 
@@ -82221,15 +81124,7 @@
 
 // pubsym <rva 0x41f6b4> _GUID_SeedVariations
 
-// pubsym <rva 0x47ccb0> ??_C@_06OJHH@AC1000?$AA@
-
-// pubsym <rva 0x483e44> ??_C@_08JADK@VT82C601?$AA@
-
-// pubsym <rva 0x4829b0> ??_C@_0BC@MIBK@AccelePort?52r?5920?$AA@
-
 // pubsym <rva 0x83b60> <code> ??0?$TSFixedArray@PAVCBaseManaged@@@@QAE@XZ
-
-// pubsym <rva 0x41d758> ??_C@_0CI@MFAPPDLE@maximum?5sampler?5register?5index?5e@
 
 // pubsym <rva 0x16da90> <code> ?VerifyPack@?$DBCache@VNameCache@@_KVCHashKeyGUID@@@@QAEXPAVCGContainer_C@@P6IXHAB_KPAX_N@Z2@Z
 
@@ -82247,21 +81142,11 @@
 
 // pubsym <rva 0x4a2280> ??_R0?AUSMDoodadDef@@@8
 
-// pubsym <rva 0x4c2094> ??_C@_07FIHI@AEacute?$AA@
-
 // pubsym <rva 0x17fbc0> <code> ??1CreatureTypeRec@@QAE@XZ
-
-// pubsym <rva 0x491f1c> ??_C@_0N@DMAN@Myricom?5Inc?4?$AA@
 
 // pubsym <rva 0x41dcd4> ??_7?$TSGrowableArray@W4ACTIVITY@@@@6B@
 
 // pubsym <rva 0x1ecc30> <code> ?IsAtRest@CGGameObject_C_Type_Door@@QBE_NXZ
-
-// pubsym <rva 0x456350> ??_C@_0CC@DFME@Error?5reading?5SpellEffectNamesRe@
-
-// pubsym <rva 0x449fd8> ??_C@_0DA@NHKD@Invalid?5inventory?5slot?5in?5IsInve@
-
-// pubsym <rva 0x460480> ??_C@_0GK@OKFE@resistance?5?$DM?5?$CIsizeof?$CIm_unit?9?$DOres@
 
 // pubsym <rva 0x36d60> <code> ??_G?$CPriorityQ@PAUCTransparentObject@@U1@@NTempest@@UAEPAXI@Z
 
