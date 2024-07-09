@@ -45,31 +45,6 @@ struct TEXTUREINFO {
 };
 // <size 0x1c>
 
-struct TEXTUREINFO {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* name;
-  /*<thisrel this+0x4>*/ /*|0x1|*/ unsigned char scaleWithProgress;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float centerX;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float centerY;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ float width;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ float height;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ enum EGxBlend blend;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
 struct MipBits {
 
   // static data ------------------------------------
@@ -88,50 +63,6 @@ struct MipBits {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct RECTF {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float left;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float bottom;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float right;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float top;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-struct RECTF {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float left;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ float bottom;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float right;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float top;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct RECTF {
 
@@ -396,60 +327,6 @@ struct CMemCmdDump {
 };
 // <size 0x30>
 
-struct CMemCmdDump {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x8|*/ unsigned __int64 m_sumAllocated;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ unsigned __int64 m_sumCommitted;
-  /*<thisrel this+0x10>*/ /*|0x8|*/ unsigned __int64 m_sumReserved;
-  /*<thisrel this+0x18>*/ /*|0x14|*/ class TSGrowableArray<CMemCmdItem> m_items;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CMemCmdDump(struct CMemCmdDump&);
-  void __thiscall CMemCmdDump();
-  struct CMemCmdDump& __thiscall operator=(struct CMemCmdDump&);
-  void __thiscall ~CMemCmdDump();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x30>
-
-struct CMemCmdDump {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x8|*/ unsigned __int64 m_sumAllocated;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ unsigned __int64 m_sumCommitted;
-  /*<thisrel this+0x10>*/ /*|0x8|*/ unsigned __int64 m_sumReserved;
-  /*<thisrel this+0x18>*/ /*|0x14|*/ class TSGrowableArray<CMemCmdItem> m_items;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CMemCmdDump(struct CMemCmdDump&);
-  void __thiscall CMemCmdDump();
-  struct CMemCmdDump& __thiscall operator=(struct CMemCmdDump&);
-  void __thiscall ~CMemCmdDump();
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x30>
-
 struct HOUTPUTCONTEXT__ {
 
   // static data ------------------------------------
@@ -468,28 +345,6 @@ struct HOUTPUTCONTEXT__ {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct _ARGLIST {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long flags;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long id;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ char* name;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ int  (callback*)(struct _CMDPARAMS*, char*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct _ARGLIST {
 
@@ -678,56 +533,6 @@ struct CGxGammaRamp {
 };
 // <size 0x600>
 
-struct CGxGammaRamp {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x200|*/ unsigned short red[256];
-  /*<thisrel this+0x200>*/ /*|0x200|*/ unsigned short green[256];
-  /*<thisrel this+0x400>*/ /*|0x200|*/ unsigned short blue[256];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CGxGammaRamp::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ float gamma);
-  void __thiscall CGxGammaRamp(float);
-  void __thiscall CGxGammaRamp();
-  struct CGxGammaRamp& __thiscall operator=(struct CGxGammaRamp&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x600>
-
-struct CGxGammaRamp {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x200|*/ unsigned short red[256];
-  /*<thisrel this+0x200>*/ /*|0x200|*/ unsigned short green[256];
-  /*<thisrel this+0x400>*/ /*|0x200|*/ unsigned short blue[256];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall CGxGammaRamp::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ float gamma);
-  void __thiscall CGxGammaRamp(float);
-  void __thiscall CGxGammaRamp();
-  struct CGxGammaRamp& __thiscall operator=(struct CGxGammaRamp&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x600>
-
 struct IRunningObjectTable {
 
   // static data ------------------------------------
@@ -746,28 +551,6 @@ struct IRunningObjectTable {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct _GUID {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long Data1;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ unsigned short Data2;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ unsigned short Data3;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ unsigned char Data4[8];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct _GUID {
 
@@ -901,53 +684,6 @@ struct IRunningObjectTableVtbl {
 };
 // <size 0x28>
 
-struct IRunningObjectTableVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IRunningObjectTable*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IRunningObjectTable*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IRunningObjectTable*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Register*)(struct IRunningObjectTable*, unsigned long, struct IUnknown*, struct IMoniker*, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Revoke*)(struct IRunningObjectTable*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (IsRunning*)(struct IRunningObjectTable*, struct IMoniker*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (GetObjectA*)(struct IRunningObjectTable*, struct IMoniker*, struct IUnknown**);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (NoteChangeTime*)(struct IRunningObjectTable*, unsigned long, struct _FILETIME*);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (GetTimeOfLastChange*)(struct IRunningObjectTable*, struct IMoniker*, struct _FILETIME*);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (EnumRunning*)(struct IRunningObjectTable*, struct IEnumMoniker**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x28>
-
-struct IRunningObjectTable {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IRunningObjectTableVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct IEnumString {
 
   // static data ------------------------------------
@@ -1013,50 +749,6 @@ struct tagBIND_OPTS {
   // virtual functions ------------------------------
 };
 // <size 0x10>
-
-struct IEnumStringVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IEnumString*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IEnumString*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IEnumString*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Next*)(struct IEnumString*, unsigned long, unsigned short**, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Skip*)(struct IEnumString*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Reset*)(struct IEnumString*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Clone*)(struct IEnumString*, struct IEnumString**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
-struct IEnumString {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumStringVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct IBindCtx {
 
@@ -1076,28 +768,6 @@ struct IBindCtx {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct tagBIND_OPTS {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long cbStruct;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long grfFlags;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long grfMode;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long dwTickCountDeadline;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct IBindCtxVtbl {
 
@@ -1359,50 +1029,6 @@ struct IEnumFORMATETCVtbl {
 };
 // <size 0x1c>
 
-struct IEnumFORMATETCVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IEnumFORMATETC*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IEnumFORMATETC*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IEnumFORMATETC*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Next*)(struct IEnumFORMATETC*, unsigned long, struct tagFORMATETC*, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Skip*)(struct IEnumFORMATETC*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Reset*)(struct IEnumFORMATETC*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Clone*)(struct IEnumFORMATETC*, struct IEnumFORMATETC**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
-struct IEnumFORMATETC {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumFORMATETCVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct IUnknownVtbl {
 
   // static data ------------------------------------
@@ -1423,96 +1049,6 @@ struct IUnknownVtbl {
   // virtual functions ------------------------------
 };
 // <size 0xc>
-
-struct IBindCtxVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IBindCtx*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IBindCtx*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IBindCtx*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (RegisterObjectBound*)(struct IBindCtx*, struct IUnknown*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (RevokeObjectBound*)(struct IBindCtx*, struct IUnknown*);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (ReleaseBoundObjects*)(struct IBindCtx*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (SetBindOptions*)(struct IBindCtx*, struct tagBIND_OPTS*);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (GetBindOptions*)(struct IBindCtx*, struct tagBIND_OPTS*);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (GetRunningObjectTable*)(struct IBindCtx*, struct IRunningObjectTable**);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (RegisterObjectParam*)(struct IBindCtx*, unsigned short*, struct IUnknown*);
-  /*<thisrel this+0x28>*/ /*|0x4|*/ long  (GetObjectParam*)(struct IBindCtx*, unsigned short*, struct IUnknown**);
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ long  (EnumObjectParam*)(struct IBindCtx*, struct IEnumString**);
-  /*<thisrel this+0x30>*/ /*|0x4|*/ long  (RevokeObjectParam*)(struct IBindCtx*, unsigned short*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x34>
-
-struct IBindCtx {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IBindCtxVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct IUnknownVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IUnknown*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IUnknown*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IUnknown*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0xc>
-
-struct IUnknown {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IUnknownVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct IEnumUnknown {
 
@@ -1692,50 +1228,6 @@ struct DLGTEMPLATE {
 };
 // <size 0x12>
 
-struct IEnumSTATSTGVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IEnumSTATSTG*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IEnumSTATSTG*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IEnumSTATSTG*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Next*)(struct IEnumSTATSTG*, unsigned long, struct tagSTATSTG*, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Skip*)(struct IEnumSTATSTG*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Reset*)(struct IEnumSTATSTG*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Clone*)(struct IEnumSTATSTG*, struct IEnumSTATSTG**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
-struct IEnumSTATSTG {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumSTATSTGVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct IEnumUnknownVtbl {
 
   // static data ------------------------------------
@@ -1779,35 +1271,6 @@ struct IEnumUnknown {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct tagSTATSTG {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned short* pwcsName;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long type;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ union _ULARGE_INTEGER cbSize;
-  /*<thisrel this+0x10>*/ /*|0x8|*/ struct _FILETIME mtime;
-  /*<thisrel this+0x18>*/ /*|0x8|*/ struct _FILETIME ctime;
-  /*<thisrel this+0x20>*/ /*|0x8|*/ struct _FILETIME atime;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ unsigned long grfMode;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ unsigned long grfLocksSupported;
-  /*<thisrel this+0x30>*/ /*|0x10|*/ struct _GUID clsid;
-  /*<thisrel this+0x40>*/ /*|0x4|*/ unsigned long grfStateBits;
-  /*<thisrel this+0x44>*/ /*|0x4|*/ unsigned long reserved;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x48>
 
 struct tagPALETTEENTRY {
 
@@ -1897,50 +1360,6 @@ struct _PROPSHEETPAGEW {
 };
 // <size 0x34>
 
-struct IEnumMonikerVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IEnumMoniker*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IEnumMoniker*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IEnumMoniker*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Next*)(struct IEnumMoniker*, unsigned long, struct IMoniker**, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Skip*)(struct IEnumMoniker*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Reset*)(struct IEnumMoniker*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Clone*)(struct IEnumMoniker*, struct IEnumMoniker**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
-struct IEnumMoniker {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumMonikerVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct tagDVTARGETDEVICE {
 
   // static data ------------------------------------
@@ -1964,61 +1383,6 @@ struct tagDVTARGETDEVICE {
   // virtual functions ------------------------------
 };
 // <size 0x10>
-
-struct tagFORMATETC {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x2|*/ unsigned short cfFormat;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct tagDVTARGETDEVICE* ptd;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwAspect;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long lindex;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned long tymed;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x14>
-
-struct IStreamVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IStream*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IStream*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IStream*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Read*)(struct IStream*, void*, unsigned long, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Write*)(struct IStream*, void*, unsigned long, unsigned long*);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Seek*)(struct IStream*, union _LARGE_INTEGER, unsigned long, union _ULARGE_INTEGER*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (SetSize*)(struct IStream*, union _ULARGE_INTEGER);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (CopyTo*)(struct IStream*, struct IStream*, union _ULARGE_INTEGER, union _ULARGE_INTEGER*, union _ULARGE_INTEGER*);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (Commit*)(struct IStream*, unsigned long);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (Revert*)(struct IStream*);
-  /*<thisrel this+0x28>*/ /*|0x4|*/ long  (LockRegion*)(struct IStream*, union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long);
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ long  (UnlockRegion*)(struct IStream*, union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long);
-  /*<thisrel this+0x30>*/ /*|0x4|*/ long  (Stat*)(struct IStream*, struct tagSTATSTG*, unsigned long);
-  /*<thisrel this+0x34>*/ /*|0x4|*/ long  (Clone*)(struct IStream*, struct IStream**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x38>
 
 struct IStream {
 
@@ -2425,28 +1789,6 @@ struct _NETRESOURCEW {
   // virtual functions ------------------------------
 };
 // <size 0x20>
-
-struct _GUID {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long Data1;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ unsigned short Data2;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ unsigned short Data3;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ unsigned char Data4[8];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct _ITEMIDLIST {
 
@@ -3986,26 +3328,6 @@ struct tagOLEUIGNRLPROPSW {
 };
 // <size 0x28>
 
-struct _FILETIME {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwLowDateTime;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwHighDateTime;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
 struct IStorageVtbl {
 
   // static data ------------------------------------
@@ -4134,26 +3456,6 @@ struct _WIN32_FIND_DATAW {
   // virtual functions ------------------------------
 };
 // <size 0x250>
-
-struct _FILETIME {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwLowDateTime;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwHighDateTime;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
 
 struct __unnamed_d0_ {
 
@@ -4449,25 +3751,6 @@ struct IMonikerVtbl {
   // virtual functions ------------------------------
 };
 // <size 0x5c>
-
-struct IMoniker {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IMonikerVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct _SHFILEINFOW {
 
@@ -10469,25 +9752,6 @@ struct tagMSG {
 // <size 0x1c>
 
 struct HDC__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct HINSTANCE__ {
 
   // static data ------------------------------------
 
@@ -27967,50 +27231,6 @@ struct NULLSTATUS : class CStatus  {
 };
 // <size 0x10>
 
-struct TEXTUREINFO {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned int width;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned int height;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ enum EGxTexFormat format;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned int levels;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ int opaque;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned int alphaBits;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall TEXTUREINFO::TEXTUREINFO();
-
-  // virtual functions ------------------------------
-};
-// <size 0x18>
-
-struct MipBits {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct C4Pixel* mip[1];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct HMIPPEDTEXTURE__ : struct HOBJECT__  {
 
   // static data ------------------------------------
@@ -39661,27 +38881,6 @@ struct WhoListEntry {
 };
 // <size 0xa4>
 
-struct LoginData {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x40|*/ char m_account[64];
-  /*<thisrel this+0x40>*/ /*|0x4|*/ int m_loginServerID;
-  /*<thisrel this+0x44>*/ /*|0x28|*/ unsigned char m_sessionKey[40];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x6c>
-
 struct SHA1_CONTEXT {
 
   // static data ------------------------------------
@@ -44611,61 +43810,6 @@ struct CategoryTranslation {
   // virtual functions ------------------------------
 };
 // <size 0x18>
-
-struct CVar : class TSHashObject<CVar,HASHKEY_STRI>  {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x18>*/ /*|0x20|*/ char m_name[32];
-  /*<thisrel this+0x38>*/ /*|0x4|*/ unsigned int m_category;
-  /*<thisrel this+0x3c>*/ /*|0x4|*/ unsigned int m_flags;
-  /*<thisrel this+0x40>*/ /*|0x4|*/ char* m_stringValue;
-  /*<thisrel this+0x44>*/ /*|0x4|*/ float m_floatValue;
-  /*<thisrel this+0x48>*/ /*|0x4|*/ int m_intValue;
-  /*<thisrel this+0x4c>*/ /*|0x4|*/ int m_modified;
-  /*<thisrel this+0x50>*/ /*|0x4|*/ char* m_defaultValue;
-  /*<thisrel this+0x54>*/ /*|0x4|*/ char* m_resetValue;
-  /*<thisrel this+0x58>*/ /*|0x4|*/ char* m_latchedValue;
-  /*<thisrel this+0x5c>*/ /*|0x4|*/ unsigned char  (m_callback*)(struct CVar*, char*, char*, void*);
-  /*<thisrel this+0x60>*/ /*|0x4|*/ void* m_arg;
-
-  // base classes -----------------------------------
-  // baseclass class TSHashObject<CVar,HASHKEY_STRI>
-  // <base data offset+0x0>
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static void __fastcall CVar::Initialize(/*<register ecx>*/ /*|0x4|*/ char* filename);
-  static void __fastcall CVar::Destroy();
-  static struct CVar* __fastcall CVar::Register(/*<register ecx>*/ /*|0x4|*/ char* name, /*<register edx>*/ /*|0x4|*/ char* help, /*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int flags, /*<regrel ebp+0xc>*/ /*|0x4|*/ char* value, /*<regrel ebp+0x10>*/ /*|0x4|*/ unsigned char  (fcn*)(struct CVar*, char*, char*, void*), /*<regrel ebp+0x14>*/ /*|0x4|*/ unsigned int category, /*<regrel ebp+0x18>*/ /*|0x1|*/ unsigned char setCommand, /*<regrel ebp+0x1c>*/ /*|0x4|*/ void* arg);
-  static struct CVar* __fastcall CVar::Lookup(/*<register ecx>*/ /*|0x4|*/ char* name);
-
-  // non-virtual functions --------------------------
-  void __thiscall CVar(struct CVar&);
-  void __thiscall CVar::CVar();
-  void __thiscall CVar::~CVar();
-  char* __thiscall GetString();
-  float __thiscall GetFloat();
-  int __thiscall GetInt();
-  char* __thiscall GetName();
-  char* __thiscall GetLatchedValue();
-  char* __thiscall GetDefaultValue();
-  char* __thiscall GetResetValue();
-  unsigned char __thiscall CVar::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ char* value, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char setValue, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char setReset, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char setDefault);
-  void __thiscall CVar::Reset();
-  void __thiscall CVar::Default();
-  unsigned char __thiscall CVar::Update();
-  int __thiscall Modified();
-  unsigned char __thiscall IsArchived();
-  void __thiscall CVar::InternalSet(/*<regrel ebp+0x8>*/ /*|0x4|*/ char* value, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char setValue, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char setReset, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char setDefault);
-  struct CVar& __thiscall operator=(struct CVar&);
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x64>
 
 struct CONSOLELINE : class TSLinkedNode<CONSOLELINE>  {
 
@@ -53739,368 +52883,6 @@ struct SDIRENT {
 };
 // <size 0x104>
 
-struct CStatus::STATUSENTRY {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* text;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ enum STATUS_TYPE severity;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ class TSLink<CStatus::STATUSENTRY> link;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall ~STATUSENTRY();
-  void __thiscall STATUSENTRY(struct CStatus::STATUSENTRY&);
-  void __thiscall STATUSENTRY();
-  struct CStatus::STATUSENTRY& __thiscall operator=(struct CStatus::STATUSENTRY&);
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-struct CStatus::STATUSENTRY {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* text;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ enum STATUS_TYPE severity;
-  /*<thisrel this+0x8>*/ /*|0x8|*/ class TSLink<CStatus::STATUSENTRY> link;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall ~STATUSENTRY();
-  void __thiscall STATUSENTRY(struct CStatus::STATUSENTRY&);
-  void __thiscall STATUSENTRY();
-  struct CStatus::STATUSENTRY& __thiscall operator=(struct CStatus::STATUSENTRY&);
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-struct CDataStore::Space {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x0>
-
-struct CDataStore::Space<T> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned int m_pos;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall Space<T>();
-  unsigned int __thiscall GetDifferenceInclusive(class CDataStore&);
-  unsigned int __thiscall GetDifferenceExclusive(class CDataStore&);
-  void __thiscall Set(class CDataStore&, ...);
-  void __thiscall SetDifferenceInclusive(class CDataStore&);
-  void __thiscall SetDifferenceExclusive(class CDataStore&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::Space<T> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned int m_pos;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall Space<T>();
-  unsigned int __thiscall GetDifferenceInclusive(class CDataStore&);
-  unsigned int __thiscall GetDifferenceExclusive(class CDataStore&);
-  void __thiscall Set(class CDataStore&, ...);
-  void __thiscall SetDifferenceInclusive(class CDataStore&);
-  void __thiscall SetDifferenceExclusive(class CDataStore&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedString {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x0>
-
-struct CDataStore::FixedString<T,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedString<T,MAXSIZE>(...*);
-  void __thiscall FixedString<T,MAXSIZE>();
-  struct CDataStore::FixedString<T,MAXSIZE>& __thiscall operator=(...*);
-  unsigned int __thiscall MaxSize();
-  int __thiscall Compare(...*);
-  int __thiscall CompareI(...*);
-  void __thiscall Copy(...*);
-  void __thiscall Reset();
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedString<T,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedString<T,MAXSIZE>(...*);
-  void __thiscall FixedString<T,MAXSIZE>();
-  struct CDataStore::FixedString<T,MAXSIZE>& __thiscall operator=(...*);
-  unsigned int __thiscall MaxSize();
-  int __thiscall Compare(...*);
-  int __thiscall CompareI(...*);
-  void __thiscall Copy(...*);
-  void __thiscall Reset();
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedBuffer {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x0>
-
-struct CDataStore::FixedBuffer<SIZET,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_size;
-  /*<thisrel this+0x0>*/ /*|0x0|*/ unsigned char m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedBuffer<SIZET,MAXSIZE>(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall FixedBuffer<SIZET,MAXSIZE>();
-  struct CDataStore::FixedBuffer<SIZET,MAXSIZE>& __thiscall operator=(class CDataStore&);
-  struct CDataStore::FixedBuffer<SIZET,MAXSIZE>& __thiscall operator=(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void* __thiscall operator void *();
-  void* __thiscall operator const void *();
-  unsigned int __thiscall MaxSize();
-  unsigned int __thiscall Size();
-  unsigned int __thiscall MaxBytes();
-  unsigned int __thiscall Bytes();
-  int __thiscall Compare(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall Copy(class CDataStore&);
-  void __thiscall Copy(void*, ...);
-  void __thiscall Copy(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall Reset();
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedBuffer<SIZET,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_size;
-  /*<thisrel this+0x0>*/ /*|0x0|*/ unsigned char m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedBuffer<SIZET,MAXSIZE>(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall FixedBuffer<SIZET,MAXSIZE>();
-  struct CDataStore::FixedBuffer<SIZET,MAXSIZE>& __thiscall operator=(class CDataStore&);
-  struct CDataStore::FixedBuffer<SIZET,MAXSIZE>& __thiscall operator=(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void* __thiscall operator void *();
-  void* __thiscall operator const void *();
-  unsigned int __thiscall MaxSize();
-  unsigned int __thiscall Size();
-  unsigned int __thiscall MaxBytes();
-  unsigned int __thiscall Bytes();
-  int __thiscall Compare(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall Copy(class CDataStore&);
-  void __thiscall Copy(void*, ...);
-  void __thiscall Copy(struct CDataStore::FixedBuffer<SIZET,MAXSIZE>&);
-  void __thiscall Reset();
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedArray {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x0>
-
-struct CDataStore::FixedArray<SIZET,T,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_size;
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedArray<SIZET,T,MAXSIZE>(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  void __thiscall FixedArray<SIZET,T,MAXSIZE>();
-  struct CDataStore::FixedArray<SIZET,T,MAXSIZE>& __thiscall operator=(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  unsigned int __thiscall MaxSize();
-  unsigned int __thiscall Size();
-  unsigned int __thiscall MaxBytes();
-  unsigned int __thiscall Bytes();
-  void __thiscall Copy(...*, ...);
-  void __thiscall Copy(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  void __thiscall Reset();
-  void __thiscall PutFast(class CDataStore&);
-  void __thiscall GetFast(class CDataStore&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct CDataStore::FixedArray<SIZET,T,MAXSIZE> {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_size;
-  /*<thisrel this+0x0>*/ /*|0x0|*/ ... m_data[0];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall FixedArray<SIZET,T,MAXSIZE>(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  void __thiscall FixedArray<SIZET,T,MAXSIZE>();
-  struct CDataStore::FixedArray<SIZET,T,MAXSIZE>& __thiscall operator=(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  unsigned int __thiscall MaxSize();
-  unsigned int __thiscall Size();
-  unsigned int __thiscall MaxBytes();
-  unsigned int __thiscall Bytes();
-  void __thiscall Copy(...*, ...);
-  void __thiscall Copy(struct CDataStore::FixedArray<SIZET,T,MAXSIZE>&);
-  void __thiscall Reset();
-  void __thiscall PutFast(class CDataStore&);
-  void __thiscall GetFast(class CDataStore&);
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct CDataAllocator::Block {
 
   // static data ------------------------------------
@@ -55188,27 +53970,6 @@ struct CSimpleTop::frame_layout {
   // virtual functions ------------------------------
 };
 // <size 0x24>
-
-struct HLAYER__ : struct HOBJECT__  {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x4>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-  // baseclass struct HOBJECT__
-  // <base data offset+0x0>
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
 
 struct CSimpleTop::frame_layout {
 
@@ -57242,61 +56003,6 @@ struct SMOFog::Fog {
 };
 // <size 0xc>
 
-struct CVar : class TSHashObject<CVar,HASHKEY_STRI>  {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x18>*/ /*|0x20|*/ char m_name[32];
-  /*<thisrel this+0x38>*/ /*|0x4|*/ unsigned int m_category;
-  /*<thisrel this+0x3c>*/ /*|0x4|*/ unsigned int m_flags;
-  /*<thisrel this+0x40>*/ /*|0x4|*/ char* m_stringValue;
-  /*<thisrel this+0x44>*/ /*|0x4|*/ float m_floatValue;
-  /*<thisrel this+0x48>*/ /*|0x4|*/ int m_intValue;
-  /*<thisrel this+0x4c>*/ /*|0x4|*/ int m_modified;
-  /*<thisrel this+0x50>*/ /*|0x4|*/ char* m_defaultValue;
-  /*<thisrel this+0x54>*/ /*|0x4|*/ char* m_resetValue;
-  /*<thisrel this+0x58>*/ /*|0x4|*/ char* m_latchedValue;
-  /*<thisrel this+0x5c>*/ /*|0x4|*/ unsigned char  (m_callback*)(struct CVar*, char*, char*, void*);
-  /*<thisrel this+0x60>*/ /*|0x4|*/ void* m_arg;
-
-  // base classes -----------------------------------
-  // baseclass class TSHashObject<CVar,HASHKEY_STRI>
-  // <base data offset+0x0>
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static void __fastcall CVar::Initialize(/*<register ecx>*/ /*|0x4|*/ char* filename);
-  static void __fastcall CVar::Destroy();
-  static struct CVar* __fastcall CVar::Register(/*<register ecx>*/ /*|0x4|*/ char* name, /*<register edx>*/ /*|0x4|*/ char* help, /*<regrel ebp+0x8>*/ /*|0x4|*/ unsigned int flags, /*<regrel ebp+0xc>*/ /*|0x4|*/ char* value, /*<regrel ebp+0x10>*/ /*|0x4|*/ unsigned char  (fcn*)(struct CVar*, char*, char*, void*), /*<regrel ebp+0x14>*/ /*|0x4|*/ unsigned int category, /*<regrel ebp+0x18>*/ /*|0x1|*/ unsigned char setCommand, /*<regrel ebp+0x1c>*/ /*|0x4|*/ void* arg);
-  static struct CVar* __fastcall CVar::Lookup(/*<register ecx>*/ /*|0x4|*/ char* name);
-
-  // non-virtual functions --------------------------
-  void __thiscall CVar(struct CVar&);
-  void __thiscall CVar::CVar();
-  void __thiscall CVar::~CVar();
-  char* __thiscall GetString();
-  float __thiscall GetFloat();
-  int __thiscall GetInt();
-  char* __thiscall GetName();
-  char* __thiscall GetLatchedValue();
-  char* __thiscall GetDefaultValue();
-  char* __thiscall GetResetValue();
-  unsigned char __thiscall CVar::Set(/*<regrel ebp+0x8>*/ /*|0x4|*/ char* value, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char setValue, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char setReset, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char setDefault);
-  void __thiscall CVar::Reset();
-  void __thiscall CVar::Default();
-  unsigned char __thiscall CVar::Update();
-  int __thiscall Modified();
-  unsigned char __thiscall IsArchived();
-  void __thiscall CVar::InternalSet(/*<regrel ebp+0x8>*/ /*|0x4|*/ char* value, /*<regrel ebp+0xc>*/ /*|0x1|*/ unsigned char setValue, /*<regrel ebp+0x10>*/ /*|0x1|*/ unsigned char setReset, /*<regrel ebp+0x14>*/ /*|0x1|*/ unsigned char setDefault);
-  struct CVar& __thiscall operator=(struct CVar&);
-  void* __thiscall __vecDelDtor(unsigned int);
-
-  // virtual functions ------------------------------
-};
-// <size 0x64>
-
 struct LightMarker {
 
   // static data ------------------------------------
@@ -57592,25 +56298,6 @@ struct LightListData {
   // virtual functions ------------------------------
 };
 // <size 0x40>
-
-struct MipBits {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct C4Pixel* mip[1];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct HGAMETIMECALLBACK__ : struct HOBJECT__  {
 
@@ -62056,25 +60743,6 @@ struct _RTL_CRITICAL_SECTION_DEBUG {
 };
 // <size 0x20>
 
-struct HOUTPUTCONTEXT__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct _PARAMS {
 
   // static data ------------------------------------
@@ -62794,28 +61462,6 @@ struct CMDDEF : class TSLinkedNode<CMDDEF>  {
   // virtual functions ------------------------------
 };
 // <size 0x40>
-
-struct _ARGLIST {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long flags;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long id;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ char* name;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ int  (callback*)(struct _CMDPARAMS*, char*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct HUFFNODE : class TSLinkedNode<HUFFNODE>  {
 
@@ -64428,54 +63074,6 @@ struct _iobuf {
   // virtual functions ------------------------------
 };
 // <size 0x20>
-
-struct IUnknown {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall IUnknown(struct IUnknown&);
-  void __thiscall IUnknown();
-  struct IUnknown& __thiscall operator=(struct IUnknown&);
-
-  // virtual functions ------------------------------
-  virtual /*<vtableoff 0x0>*/ long __stdcall QueryInterface(struct _GUID&, void**) = 0;
-  virtual /*<vtableoff 0x4>*/ unsigned long __stdcall AddRef() = 0;
-  virtual /*<vtableoff 0x8>*/ unsigned long __stdcall Release() = 0;
-};
-// <size 0x4>
-
-struct IUnknown {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall IUnknown(struct IUnknown&);
-  void __thiscall IUnknown();
-  struct IUnknown& __thiscall operator=(struct IUnknown&);
-
-  // virtual functions ------------------------------
-  virtual /*<vtableoff 0x0>*/ long __stdcall QueryInterface(struct _GUID&, void**) = 0;
-  virtual /*<vtableoff 0x4>*/ unsigned long __stdcall AddRef() = 0;
-  virtual /*<vtableoff 0x8>*/ unsigned long __stdcall Release() = 0;
-};
-// <size 0x4>
 
 struct CONSOLECOMMAND : class TSHashObject<CONSOLECOMMAND,HASHKEY_CONSTSTRI>  {
 
@@ -79014,70 +77612,6 @@ struct ISequentialStream : struct IUnknown  {
 };
 // <size 0x4>
 
-struct IStream : struct ISequentialStream  {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-  // baseclass struct ISequentialStream
-  // <base data offset+0x0>
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall IStream(struct IStream&);
-  void __thiscall IStream();
-  struct IStream& __thiscall operator=(struct IStream&);
-
-  // virtual functions ------------------------------
-  virtual /*<vtableoff 0x14>*/ long __stdcall Seek(union _LARGE_INTEGER, unsigned long, union _ULARGE_INTEGER*) = 0;
-  virtual /*<vtableoff 0x18>*/ long __stdcall SetSize(union _ULARGE_INTEGER) = 0;
-  virtual /*<vtableoff 0x1c>*/ long __stdcall CopyTo(struct IStream*, union _ULARGE_INTEGER, union _ULARGE_INTEGER*, union _ULARGE_INTEGER*) = 0;
-  virtual /*<vtableoff 0x20>*/ long __stdcall Commit(unsigned long) = 0;
-  virtual /*<vtableoff 0x24>*/ long __stdcall Revert() = 0;
-  virtual /*<vtableoff 0x28>*/ long __stdcall LockRegion(union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long) = 0;
-  virtual /*<vtableoff 0x2c>*/ long __stdcall UnlockRegion(union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long) = 0;
-  virtual /*<vtableoff 0x30>*/ long __stdcall Stat(struct tagSTATSTG*, unsigned long) = 0;
-  virtual /*<vtableoff 0x34>*/ long __stdcall Clone(struct IStream**) = 0;
-};
-// <size 0x4>
-
-struct IStream : struct ISequentialStream  {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-
-  // base classes -----------------------------------
-  // baseclass struct ISequentialStream
-  // <base data offset+0x0>
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-  void __thiscall IStream(struct IStream&);
-  void __thiscall IStream();
-  struct IStream& __thiscall operator=(struct IStream&);
-
-  // virtual functions ------------------------------
-  virtual /*<vtableoff 0x14>*/ long __stdcall Seek(union _LARGE_INTEGER, unsigned long, union _ULARGE_INTEGER*) = 0;
-  virtual /*<vtableoff 0x18>*/ long __stdcall SetSize(union _ULARGE_INTEGER) = 0;
-  virtual /*<vtableoff 0x1c>*/ long __stdcall CopyTo(struct IStream*, union _ULARGE_INTEGER, union _ULARGE_INTEGER*, union _ULARGE_INTEGER*) = 0;
-  virtual /*<vtableoff 0x20>*/ long __stdcall Commit(unsigned long) = 0;
-  virtual /*<vtableoff 0x24>*/ long __stdcall Revert() = 0;
-  virtual /*<vtableoff 0x28>*/ long __stdcall LockRegion(union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long) = 0;
-  virtual /*<vtableoff 0x2c>*/ long __stdcall UnlockRegion(union _ULARGE_INTEGER, union _ULARGE_INTEGER, unsigned long) = 0;
-  virtual /*<vtableoff 0x30>*/ long __stdcall Stat(struct tagSTATSTG*, unsigned long) = 0;
-  virtual /*<vtableoff 0x34>*/ long __stdcall Clone(struct IStream**) = 0;
-};
-// <size 0x4>
-
 struct OsGuiTVDDInfo {
 
   // static data ------------------------------------
@@ -84856,25 +83390,6 @@ struct EvtTimer {
 };
 // <size 0x38>
 
-struct HEVENTCONTEXT__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct EvtContext : class TSingletonInstanceId<EvtContext,8>  {
 
   // static data ------------------------------------
@@ -86967,73 +85482,3 @@ struct CAnimNameHash : class TSHashObject<CAnimNameHash,HASHKEY_CONSTSTRI>  {
 };
 // <size 0x1c>
 
-struct CMemCmdItem {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned int m_allocated;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned int m_committed;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned int m_reserved;
-  /*<thisrel this+0xc>*/ /*|0x100|*/ char m_name[256];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static int __cdecl CMemCmdItem::Compare(/*<regrel ebp+0x8>*/ /*|0x4|*/ void* m1, /*<regrel ebp+0xc>*/ /*|0x4|*/ void* m2);
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10c>
-
-struct CMemCmdItem {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned int m_allocated;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned int m_committed;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned int m_reserved;
-  /*<thisrel this+0xc>*/ /*|0x100|*/ char m_name[256];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-  static int __cdecl CMemCmdItem::Compare(/*<regrel ebp+0x8>*/ /*|0x4|*/ void* m1, /*<regrel ebp+0xc>*/ /*|0x4|*/ void* m2);
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10c>
-
-struct TEXTUREINFO {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* name;
-  /*<thisrel this+0x4>*/ /*|0x1|*/ unsigned char scaleWithProgress;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ float centerX;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ float centerY;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ float width;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ float height;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ enum EGxBlend blend;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>

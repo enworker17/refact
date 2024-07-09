@@ -43,50 +43,6 @@ union _ULARGE_INTEGER {
 };
 // <size 0x8>
 
-union _LARGE_INTEGER {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long LowPart;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long HighPart;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ struct __unnamed_d0_ u;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ __int64 QuadPart;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
-union _ULARGE_INTEGER {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long LowPart;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long HighPart;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ struct __unnamed_d1_ u;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ unsigned __int64 QuadPart;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
 union __unnamed_d2_ {
 
   // static data ------------------------------------
@@ -196,112 +152,6 @@ union UTokenData {
 };
 // <size 0x4>
 
-union UTokenData {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x1|*/ char cVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long lVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float fVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* sVal;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-union _ULARGE_INTEGER {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long LowPart;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long HighPart;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ struct _ULARGE_INTEGER::__unnamed_dd_ u;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ unsigned __int64 QuadPart;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
-union _LARGE_INTEGER {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long LowPart;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long HighPart;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ struct _LARGE_INTEGER::__unnamed_de_ u;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ __int64 QuadPart;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
-union NETADDR {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x10|*/ unsigned char data[16];
-  /*<thisrel this+0x0>*/ /*|0x10|*/ struct NETADDR::__unnamed_e0_ file;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-union NETADDR {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x10|*/ unsigned char data[16];
-  /*<thisrel this+0x0>*/ /*|0x10|*/ struct NETADDR::__unnamed_e0_ file;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
 union NETADDR {
 
   // static data ------------------------------------
@@ -341,27 +191,6 @@ union SHA1_Transform::CHAR64LONG16 {
   // virtual functions ------------------------------
 };
 // <size 0x40>
-
-union CGameObjectDef::ValueInfo {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0xc|*/ struct CGameObjectDef::EnumValue e;
-  /*<thisrel this+0x0>*/ /*|0x10|*/ struct CGameObjectDef::NumberValue n;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct CGameObjectDef::StringValue s;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 union CGameObjectDef::ValueInfo {
 
@@ -427,69 +256,6 @@ union MDLHITTESTSHAPE::__unnamed_d4_ {
   // virtual functions ------------------------------
 };
 // <size 0x18>
-
-union ArgumentType {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int asInt;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ void* asPointer;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ __int64 asLongLong;
-  /*<thisrel this+0x0>*/ /*|0x8|*/ double asDouble;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
-union CGameObjectDef::ValueInfo {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0xc|*/ struct CGameObjectDef::EnumValue e;
-  /*<thisrel this+0x0>*/ /*|0x10|*/ struct CGameObjectDef::NumberValue n;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct CGameObjectDef::StringValue s;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
-union FT_StreamDesc_ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long value;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ void* pointer;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 union FT_StreamDesc_ {
 
@@ -616,24 +382,3 @@ union mdl_data {
 };
 // <size 0x4>
 
-union mdl_data {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x1|*/ char cVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long lVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ float fVal;
-  /*<thisrel this+0x0>*/ /*|0x4|*/ char* sVal;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
