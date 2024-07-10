@@ -1203,75 +1203,6 @@ struct DLGTEMPLATE {
 };
 // <size 0x12>
 
-struct DLGTEMPLATE {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long style;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwExtendedStyle;
-  /*<thisrel this+0x8>*/ /*|0x2|*/ unsigned short cdit;
-  /*<thisrel this+0xa>*/ /*|0x2|*/ short x;
-  /*<thisrel this+0xc>*/ /*|0x2|*/ short y;
-  /*<thisrel this+0xe>*/ /*|0x2|*/ short cx;
-  /*<thisrel this+0x10>*/ /*|0x2|*/ short cy;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x12>
-
-struct IEnumUnknownVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IEnumUnknown*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IEnumUnknown*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IEnumUnknown*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (Next*)(struct IEnumUnknown*, unsigned long, struct IUnknown**, unsigned long*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (Skip*)(struct IEnumUnknown*, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Reset*)(struct IEnumUnknown*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Clone*)(struct IEnumUnknown*, struct IEnumUnknown**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
-struct IEnumUnknown {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumUnknownVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct tagPALETTEENTRY {
 
   // static data ------------------------------------
@@ -1293,39 +1224,6 @@ struct tagPALETTEENTRY {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct _PROPSHEETPAGEW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwSize;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwFlags;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ struct HINSTANCE__* hInstance;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned short* pszTemplate;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ struct DLGTEMPLATE* pResource;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ struct HICON__* hIcon;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned short* pszIcon;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned short* pszTitle;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ int  (pfnDlgProc*)(struct HWND__*, unsigned int, unsigned int, long);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long lParam;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ unsigned int  (pfnCallback*)(struct HWND__*, unsigned int, struct _PROPSHEETPAGEW*);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ unsigned int* pcRefParent;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ unsigned short* pszHeaderTitle;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ unsigned short* pszHeaderSubTitle;
-  /*<thisrel this+0x30>*/ /*|0x4|*/ void* hActCtx;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x34>
 
 struct _PROPSHEETPAGEW {
 
@@ -1421,33 +1319,6 @@ struct IDataObject {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct tagSTGMEDIUM {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long tymed;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct HBITMAP__* hBitmap;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ void* hMetaFilePict;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct HENHMETAFILE__* hEnhMetaFile;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ void* hGlobal;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned short* lpszFileName;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct IStream* pstm;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct IStorage* pstg;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ struct IUnknown* pUnkForRelease;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0xc>
 
 struct IAdviseSink {
 
@@ -1565,30 +1436,6 @@ struct IAdviseSinkVtbl {
 };
 // <size 0x20>
 
-struct tagDVTARGETDEVICE {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long tdSize;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ unsigned short tdDriverNameOffset;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ unsigned short tdDeviceNameOffset;
-  /*<thisrel this+0x8>*/ /*|0x2|*/ unsigned short tdPortNameOffset;
-  /*<thisrel this+0xa>*/ /*|0x2|*/ unsigned short tdExtDevmodeOffset;
-  /*<thisrel this+0xc>*/ /*|0x1|*/ unsigned char tdData[1];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
-
 struct tagOLEVERB {
 
   // static data ------------------------------------
@@ -1659,28 +1506,6 @@ struct IOleUILinkInfoWVtbl {
   // virtual functions ------------------------------
 };
 // <size 0x30>
-
-struct tagRECT {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long left;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long top;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long right;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long bottom;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct tagRECT {
 
@@ -1789,25 +1614,6 @@ struct _NETRESOURCEW {
   // virtual functions ------------------------------
 };
 // <size 0x20>
-
-struct _ITEMIDLIST {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x3|*/ struct _SHITEMID mkid;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x3>
 
 struct _ITEMIDLIST {
 
@@ -2054,28 +1860,6 @@ struct tagMIXERLINEW {
   // virtual functions ------------------------------
 };
 // <size 0x118>
-
-struct tagOLEVERB {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long lVerb;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned short* lpszVerbName;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long fuFlags;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long grfAttribs;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct _SMALL_RECT {
 
@@ -2655,37 +2439,6 @@ struct __unnamed_cd_ {
 };
 // <size 0x50>
 
-struct tagMIXERLINEW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long cbStruct;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwDestination;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwSource;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long dwLineID;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned long fdwLine;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned long dwUser;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ unsigned long dwComponentType;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ unsigned long cChannels;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ unsigned long cConnections;
-  /*<thisrel this+0x24>*/ /*|0x4|*/ unsigned long cControls;
-  /*<thisrel this+0x28>*/ /*|0x20|*/ unsigned short szShortName[16];
-  /*<thisrel this+0x48>*/ /*|0x80|*/ unsigned short szName[64];
-  /*<thisrel this+0xc8>*/ /*|0x50|*/ struct __unnamed_cd_ Target;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x118>
-
 struct _SECURITY_ATTRIBUTES {
 
   // static data ------------------------------------
@@ -2843,39 +2596,6 @@ struct HICON__ {
   // virtual functions ------------------------------
 };
 // <size 0x4>
-
-struct _PROPSHEETPAGEW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwSize;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwFlags;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ struct HINSTANCE__* hInstance;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned short* pszTemplate;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ struct DLGTEMPLATE* pResource;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ struct HICON__* hIcon;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned short* pszIcon;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned short* pszTitle;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ int  (pfnDlgProc*)(struct HWND__*, unsigned int, unsigned int, long);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long lParam;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ unsigned int  (pfnCallback*)(struct HWND__*, unsigned int, struct _PROPSHEETPAGEW*);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ unsigned int* pcRefParent;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ unsigned short* pszHeaderTitle;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ unsigned short* pszHeaderSubTitle;
-  /*<thisrel this+0x30>*/ /*|0x4|*/ void* hActCtx;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x34>
 
 struct _WIN32_FIND_DATAW {
 
@@ -3364,71 +3084,6 @@ struct IStorageVtbl {
 };
 // <size 0x48>
 
-struct HPALETTE__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct _DCB {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long DCBlength;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long BaudRate;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fBinary:0:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fParity:1:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fOutxCtsFlow:2:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fOutxDsrFlow:3:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fDtrControl:4:2;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fDsrSensitivity:6:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fTXContinueOnXoff:7:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fOutX:8:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fInX:9:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fErrorChar:a:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fNull:b:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fRtsControl:c:2;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fAbortOnError:e:1;
-  /*<bitfield this+0x8>*/ /*|0x4|*/ unsigned long fDummy2:f:11;
-  /*<thisrel this+0xc>*/ /*|0x2|*/ unsigned short wReserved;
-  /*<thisrel this+0xe>*/ /*|0x2|*/ unsigned short XonLim;
-  /*<thisrel this+0x10>*/ /*|0x2|*/ unsigned short XoffLim;
-  /*<thisrel this+0x12>*/ /*|0x1|*/ unsigned char ByteSize;
-  /*<thisrel this+0x13>*/ /*|0x1|*/ unsigned char Parity;
-  /*<thisrel this+0x14>*/ /*|0x1|*/ unsigned char StopBits;
-  /*<thisrel this+0x15>*/ /*|0x1|*/ char XonChar;
-  /*<thisrel this+0x16>*/ /*|0x1|*/ char XoffChar;
-  /*<thisrel this+0x17>*/ /*|0x1|*/ char ErrorChar;
-  /*<thisrel this+0x18>*/ /*|0x1|*/ char EofChar;
-  /*<thisrel this+0x19>*/ /*|0x1|*/ char EvtChar;
-  /*<thisrel this+0x1a>*/ /*|0x2|*/ unsigned short wReserved1;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x1c>
-
 struct _WIN32_FIND_DATAW {
 
   // static data ------------------------------------
@@ -3659,98 +3314,6 @@ struct tagRASCONNW {
   // virtual functions ------------------------------
 };
 // <size 0x558>
-
-struct HENHMETAFILE__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct tagLOGFONTW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long lfHeight;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long lfWidth;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long lfEscapement;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long lfOrientation;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long lfWeight;
-  /*<thisrel this+0x14>*/ /*|0x1|*/ unsigned char lfItalic;
-  /*<thisrel this+0x15>*/ /*|0x1|*/ unsigned char lfUnderline;
-  /*<thisrel this+0x16>*/ /*|0x1|*/ unsigned char lfStrikeOut;
-  /*<thisrel this+0x17>*/ /*|0x1|*/ unsigned char lfCharSet;
-  /*<thisrel this+0x18>*/ /*|0x1|*/ unsigned char lfOutPrecision;
-  /*<thisrel this+0x19>*/ /*|0x1|*/ unsigned char lfClipPrecision;
-  /*<thisrel this+0x1a>*/ /*|0x1|*/ unsigned char lfQuality;
-  /*<thisrel this+0x1b>*/ /*|0x1|*/ unsigned char lfPitchAndFamily;
-  /*<thisrel this+0x1c>*/ /*|0x40|*/ unsigned short lfFaceName[32];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x5c>
-
-struct IMonikerVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IMoniker*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IMoniker*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IMoniker*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (GetClassID*)(struct IMoniker*, struct _GUID*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (IsDirty*)(struct IMoniker*);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (Load*)(struct IMoniker*, struct IStream*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (Save*)(struct IMoniker*, struct IStream*, int);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (GetSizeMax*)(struct IMoniker*, union _ULARGE_INTEGER*);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (BindToObject*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, struct _GUID*, void**);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (BindToStorage*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, struct _GUID*, void**);
-  /*<thisrel this+0x28>*/ /*|0x4|*/ long  (Reduce*)(struct IMoniker*, struct IBindCtx*, unsigned long, struct IMoniker**, struct IMoniker**);
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ long  (ComposeWith*)(struct IMoniker*, struct IMoniker*, int, struct IMoniker**);
-  /*<thisrel this+0x30>*/ /*|0x4|*/ long  (Enum*)(struct IMoniker*, int, struct IEnumMoniker**);
-  /*<thisrel this+0x34>*/ /*|0x4|*/ long  (IsEqual*)(struct IMoniker*, struct IMoniker*);
-  /*<thisrel this+0x38>*/ /*|0x4|*/ long  (Hash*)(struct IMoniker*, unsigned long*);
-  /*<thisrel this+0x3c>*/ /*|0x4|*/ long  (IsRunning*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, struct IMoniker*);
-  /*<thisrel this+0x40>*/ /*|0x4|*/ long  (GetTimeOfLastChange*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, struct _FILETIME*);
-  /*<thisrel this+0x44>*/ /*|0x4|*/ long  (Inverse*)(struct IMoniker*, struct IMoniker**);
-  /*<thisrel this+0x48>*/ /*|0x4|*/ long  (CommonPrefixWith*)(struct IMoniker*, struct IMoniker*, struct IMoniker**);
-  /*<thisrel this+0x4c>*/ /*|0x4|*/ long  (RelativePathTo*)(struct IMoniker*, struct IMoniker*, struct IMoniker**);
-  /*<thisrel this+0x50>*/ /*|0x4|*/ long  (GetDisplayName*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, unsigned short**);
-  /*<thisrel this+0x54>*/ /*|0x4|*/ long  (ParseDisplayName*)(struct IMoniker*, struct IBindCtx*, struct IMoniker*, unsigned short*, unsigned long*, struct IMoniker**);
-  /*<thisrel this+0x58>*/ /*|0x4|*/ long  (IsSystemMoniker*)(struct IMoniker*, unsigned long*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x5c>
 
 struct _SHFILEINFOW {
 
@@ -4446,28 +4009,6 @@ struct tagMSG {
 };
 // <size 0x1c>
 
-struct tagPALETTEENTRY {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x1|*/ unsigned char peRed;
-  /*<thisrel this+0x1>*/ /*|0x1|*/ unsigned char peGreen;
-  /*<thisrel this+0x2>*/ /*|0x1|*/ unsigned char peBlue;
-  /*<thisrel this+0x3>*/ /*|0x1|*/ unsigned char peFlags;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct tagLOGPALETTE {
 
   // static data ------------------------------------
@@ -4794,57 +4335,6 @@ struct HMENU__ {
 };
 // <size 0x4>
 
-struct DLGTEMPLATE {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long style;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwExtendedStyle;
-  /*<thisrel this+0x8>*/ /*|0x2|*/ unsigned short cdit;
-  /*<thisrel this+0xa>*/ /*|0x2|*/ short x;
-  /*<thisrel this+0xc>*/ /*|0x2|*/ short y;
-  /*<thisrel this+0xe>*/ /*|0x2|*/ short cx;
-  /*<thisrel this+0x10>*/ /*|0x2|*/ short cy;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x12>
-
-struct _NETRESOURCEW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwScope;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwType;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwDisplayType;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long dwUsage;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned short* lpLocalName;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned short* lpRemoteName;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ unsigned short* lpComment;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ unsigned short* lpProvider;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x20>
-
 struct _COORD {
 
   // static data ------------------------------------
@@ -5081,51 +4571,6 @@ struct _MMIOINFO {
 };
 // <size 0x48>
 
-struct IAdviseSinkVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IAdviseSink*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IAdviseSink*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IAdviseSink*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ void  (OnDataChange*)(struct IAdviseSink*, struct tagFORMATETC*, struct tagSTGMEDIUM*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ void  (OnViewChange*)(struct IAdviseSink*, unsigned long, long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ void  (OnRename*)(struct IAdviseSink*, struct IMoniker*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ void  (OnSave*)(struct IAdviseSink*);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ void  (OnClose*)(struct IAdviseSink*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x20>
-
-struct IAdviseSink {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IAdviseSinkVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct HMONITOR__ {
 
   // static data ------------------------------------
@@ -5231,55 +4676,6 @@ struct IOleUIObjInfoW {
 
   // non-static data --------------------------------
   /*<thisrel this+0x0>*/ /*|0x4|*/ struct IOleUIObjInfoWVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct IOleUILinkInfoWVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IOleUILinkInfoW*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IOleUILinkInfoW*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IOleUILinkInfoW*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long  (GetNextLink*)(struct IOleUILinkInfoW*, unsigned long);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (SetLinkUpdateOptions*)(struct IOleUILinkInfoW*, unsigned long, unsigned long);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (GetLinkUpdateOptions*)(struct IOleUILinkInfoW*, unsigned long, unsigned long*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (SetLinkSource*)(struct IOleUILinkInfoW*, unsigned long, unsigned short*, unsigned long, unsigned long*, int);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (GetLinkSource*)(struct IOleUILinkInfoW*, unsigned long, unsigned short**, unsigned long*, unsigned short**, unsigned short**, int*, int*);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (OpenLinkSource*)(struct IOleUILinkInfoW*, unsigned long);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (UpdateLink*)(struct IOleUILinkInfoW*, unsigned long, int, int);
-  /*<thisrel this+0x28>*/ /*|0x4|*/ long  (CancelLink*)(struct IOleUILinkInfoW*, unsigned long);
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ long  (GetLastUpdate*)(struct IOleUILinkInfoW*, unsigned long, struct _FILETIME*);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x30>
-
-struct IOleUILinkInfoW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IOleUILinkInfoWVtbl* lpVtbl;
 
   // base classes -----------------------------------
 
@@ -5910,26 +5306,6 @@ struct HMETAFILE__ {
 };
 // <size 0x4>
 
-struct _POINTL {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long x;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long y;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
 struct _devicemodeW {
 
   // static data ------------------------------------
@@ -6149,28 +5525,6 @@ struct _STARTUPINFOW {
   // virtual functions ------------------------------
 };
 // <size 0x44>
-
-struct _SMALL_RECT {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x2|*/ short Left;
-  /*<thisrel this+0x2>*/ /*|0x2|*/ short Top;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ short Right;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ short Bottom;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
 
 struct _NOTIFYICONDATAW {
 
@@ -6457,73 +5811,6 @@ struct tagWNDCLASSW {
   // virtual functions ------------------------------
 };
 // <size 0x28>
-
-struct tagOFNW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long lStructSize;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ struct HWND__* hwndOwner;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ struct HINSTANCE__* hInstance;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned short* lpstrFilter;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned short* lpstrCustomFilter;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned long nMaxCustFilter;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ unsigned long nFilterIndex;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ unsigned short* lpstrFile;
-  /*<thisrel this+0x20>*/ /*|0x4|*/ unsigned long nMaxFile;
-  /*<thisrel this+0x24>*/ /*|0x4|*/ unsigned short* lpstrFileTitle;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ unsigned long nMaxFileTitle;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ unsigned short* lpstrInitialDir;
-  /*<thisrel this+0x30>*/ /*|0x4|*/ unsigned short* lpstrTitle;
-  /*<thisrel this+0x34>*/ /*|0x4|*/ unsigned long Flags;
-  /*<thisrel this+0x38>*/ /*|0x2|*/ unsigned short nFileOffset;
-  /*<thisrel this+0x3a>*/ /*|0x2|*/ unsigned short nFileExtension;
-  /*<thisrel this+0x3c>*/ /*|0x4|*/ unsigned short* lpstrDefExt;
-  /*<thisrel this+0x40>*/ /*|0x4|*/ long lCustData;
-  /*<thisrel this+0x44>*/ /*|0x4|*/ unsigned int  (lpfnHook*)(struct HWND__*, unsigned int, unsigned int, long);
-  /*<thisrel this+0x48>*/ /*|0x4|*/ unsigned short* lpTemplateName;
-  /*<thisrel this+0x4c>*/ /*|0x4|*/ void* pvReserved;
-  /*<thisrel this+0x50>*/ /*|0x4|*/ unsigned long dwReserved;
-  /*<thisrel this+0x54>*/ /*|0x4|*/ unsigned long FlagsEx;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x58>
-
-struct _COMMCONFIG {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwSize;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ unsigned short wVersion;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ unsigned short wReserved;
-  /*<thisrel this+0x8>*/ /*|0x1c|*/ struct _DCB dcb;
-  /*<thisrel this+0x24>*/ /*|0x4|*/ unsigned long dwProviderSubType;
-  /*<thisrel this+0x28>*/ /*|0x4|*/ unsigned long dwProviderOffset;
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ unsigned long dwProviderSize;
-  /*<thisrel this+0x30>*/ /*|0x2|*/ unsigned short wcProviderData[1];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x34>
 
 struct _SHFILEOPSTRUCTW {
 
@@ -7274,33 +6561,6 @@ struct tMIXERCONTROLDETAILS {
 };
 // <size 0x18>
 
-struct tagMIXERCONTROLW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long cbStruct;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwControlID;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwControlType;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long fdwControl;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned long cMultipleItems;
-  /*<thisrel this+0x14>*/ /*|0x20|*/ unsigned short szShortName[16];
-  /*<thisrel this+0x34>*/ /*|0x80|*/ unsigned short szName[64];
-  /*<thisrel this+0xb4>*/ /*|0x18|*/ union __unnamed_ce_ Bounds;
-  /*<thisrel this+0xcc>*/ /*|0x18|*/ union __unnamed_cf_ Metrics;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0xe4>
-
 struct IEnumOLEVERBVtbl {
 
   // static data ------------------------------------
@@ -7474,38 +6734,6 @@ struct _CHAR_INFO {
 };
 // <size 0x4>
 
-struct tagLOGFONTW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long lfHeight;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long lfWidth;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long lfEscapement;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long lfOrientation;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long lfWeight;
-  /*<thisrel this+0x14>*/ /*|0x1|*/ unsigned char lfItalic;
-  /*<thisrel this+0x15>*/ /*|0x1|*/ unsigned char lfUnderline;
-  /*<thisrel this+0x16>*/ /*|0x1|*/ unsigned char lfStrikeOut;
-  /*<thisrel this+0x17>*/ /*|0x1|*/ unsigned char lfCharSet;
-  /*<thisrel this+0x18>*/ /*|0x1|*/ unsigned char lfOutPrecision;
-  /*<thisrel this+0x19>*/ /*|0x1|*/ unsigned char lfClipPrecision;
-  /*<thisrel this+0x1a>*/ /*|0x1|*/ unsigned char lfQuality;
-  /*<thisrel this+0x1b>*/ /*|0x1|*/ unsigned char lfPitchAndFamily;
-  /*<thisrel this+0x1c>*/ /*|0x40|*/ unsigned short lfFaceName[32];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x5c>
-
 struct tagTEXTMETRICW {
 
   // static data ------------------------------------
@@ -7612,75 +6840,6 @@ struct tagMIDIOUTCAPSW {
 };
 // <size 0x54>
 
-struct IDataObjectVtbl {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long  (QueryInterface*)(struct IDataObject*, struct _GUID*, void**);
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long  (AddRef*)(struct IDataObject*);
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long  (Release*)(struct IDataObject*);
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long  (GetData*)(struct IDataObject*, struct tagFORMATETC*, struct tagSTGMEDIUM*);
-  /*<thisrel this+0x10>*/ /*|0x4|*/ long  (GetDataHere*)(struct IDataObject*, struct tagFORMATETC*, struct tagSTGMEDIUM*);
-  /*<thisrel this+0x14>*/ /*|0x4|*/ long  (QueryGetData*)(struct IDataObject*, struct tagFORMATETC*);
-  /*<thisrel this+0x18>*/ /*|0x4|*/ long  (GetCanonicalFormatEtc*)(struct IDataObject*, struct tagFORMATETC*, struct tagFORMATETC*);
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ long  (SetData*)(struct IDataObject*, struct tagFORMATETC*, struct tagSTGMEDIUM*, int);
-  /*<thisrel this+0x20>*/ /*|0x4|*/ long  (EnumFormatEtc*)(struct IDataObject*, unsigned long, struct IEnumFORMATETC**);
-  /*<thisrel this+0x24>*/ /*|0x4|*/ long  (DAdvise*)(struct IDataObject*, struct tagFORMATETC*, unsigned long, struct IAdviseSink*, unsigned long*);
-  /*<thisrel this+0x28>*/ /*|0x4|*/ long  (DUnadvise*)(struct IDataObject*, unsigned long);
-  /*<thisrel this+0x2c>*/ /*|0x4|*/ long  (EnumDAdvise*)(struct IDataObject*, struct IEnumSTATDATA**);
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x30>
-
-struct IDataObject {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IDataObjectVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct _LUID {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long LowPart;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long HighPart;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
 struct tagMENUITEMINFOW {
 
   // static data ------------------------------------
@@ -7737,25 +6896,6 @@ struct _SHITEMID {
   // non-static data --------------------------------
   /*<thisrel this+0x0>*/ /*|0x2|*/ unsigned short cb;
   /*<thisrel this+0x2>*/ /*|0x1|*/ unsigned char abID[1];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x3>
-
-struct _ITEMIDLIST {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x3|*/ struct _SHITEMID mkid;
 
   // base classes -----------------------------------
 
@@ -7910,28 +7050,6 @@ struct tagWAVEOUTCAPSW {
 };
 // <size 0x54>
 
-struct tagSTATDATA {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x14|*/ struct tagFORMATETC formatetc;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ unsigned long advf;
-  /*<thisrel this+0x18>*/ /*|0x4|*/ struct IAdviseSink* pAdvSink;
-  /*<thisrel this+0x1c>*/ /*|0x4|*/ unsigned long dwConnection;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x20>
-
 struct IEnumSTATDATAVtbl {
 
   // static data ------------------------------------
@@ -8023,48 +7141,6 @@ struct tagWNDCLASSW {
 };
 // <size 0x28>
 
-struct tagJOYCAPSW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x2|*/ unsigned short wMid;
-  /*<thisrel this+0x2>*/ /*|0x2|*/ unsigned short wPid;
-  /*<thisrel this+0x4>*/ /*|0x40|*/ unsigned short szPname[32];
-  /*<thisrel this+0x44>*/ /*|0x4|*/ unsigned int wXmin;
-  /*<thisrel this+0x48>*/ /*|0x4|*/ unsigned int wXmax;
-  /*<thisrel this+0x4c>*/ /*|0x4|*/ unsigned int wYmin;
-  /*<thisrel this+0x50>*/ /*|0x4|*/ unsigned int wYmax;
-  /*<thisrel this+0x54>*/ /*|0x4|*/ unsigned int wZmin;
-  /*<thisrel this+0x58>*/ /*|0x4|*/ unsigned int wZmax;
-  /*<thisrel this+0x5c>*/ /*|0x4|*/ unsigned int wNumButtons;
-  /*<thisrel this+0x60>*/ /*|0x4|*/ unsigned int wPeriodMin;
-  /*<thisrel this+0x64>*/ /*|0x4|*/ unsigned int wPeriodMax;
-  /*<thisrel this+0x68>*/ /*|0x4|*/ unsigned int wRmin;
-  /*<thisrel this+0x6c>*/ /*|0x4|*/ unsigned int wRmax;
-  /*<thisrel this+0x70>*/ /*|0x4|*/ unsigned int wUmin;
-  /*<thisrel this+0x74>*/ /*|0x4|*/ unsigned int wUmax;
-  /*<thisrel this+0x78>*/ /*|0x4|*/ unsigned int wVmin;
-  /*<thisrel this+0x7c>*/ /*|0x4|*/ unsigned int wVmax;
-  /*<thisrel this+0x80>*/ /*|0x4|*/ unsigned int wCaps;
-  /*<thisrel this+0x84>*/ /*|0x4|*/ unsigned int wMaxAxes;
-  /*<thisrel this+0x88>*/ /*|0x4|*/ unsigned int wNumAxes;
-  /*<thisrel this+0x8c>*/ /*|0x4|*/ unsigned int wMaxButtons;
-  /*<thisrel this+0x90>*/ /*|0x40|*/ unsigned short szRegKey[32];
-  /*<thisrel this+0xd0>*/ /*|0x208|*/ unsigned short szOEMVxD[260];
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x2d8>
-
 struct tagOLEUIINSERTOBJECTW {
 
   // static data ------------------------------------
@@ -8104,25 +7180,6 @@ struct tagOLEUIINSERTOBJECTW {
   // virtual functions ------------------------------
 };
 // <size 0x70>
-
-struct HKL__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct tagPDW {
 
@@ -8363,31 +7420,6 @@ struct HRSRC__ {
 };
 // <size 0x4>
 
-struct tagMIXERLINECONTROLSW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long cbStruct;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwLineID;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwControlID;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long dwControlType;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned long cControls;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned long cbmxctrl;
-  /*<thisrel this+0x14>*/ /*|0x4|*/ struct tagMIXERCONTROLW* pamxctrl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x18>
-
 struct IStorageVtbl {
 
   // static data ------------------------------------
@@ -8423,25 +7455,6 @@ struct IStorageVtbl {
   // virtual functions ------------------------------
 };
 // <size 0x48>
-
-struct IStorage {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IStorageVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
 
 struct tagALTTABINFO {
 
@@ -8664,25 +7677,6 @@ struct tagOLEUICHANGEICONW {
 };
 // <size 0x244>
 
-struct HBITMAP__ {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct _NETINFOSTRUCT {
 
   // static data ------------------------------------
@@ -8843,25 +7837,6 @@ struct IEnumSTATDATAVtbl {
 };
 // <size 0x1c>
 
-struct IEnumSTATDATA {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ struct IEnumSTATDATAVtbl* lpVtbl;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
 struct _INPUT_RECORD {
 
   // static data ------------------------------------
@@ -8881,28 +7856,6 @@ struct _INPUT_RECORD {
   // virtual functions ------------------------------
 };
 // <size 0x14>
-
-struct tagRECT {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ long left;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ long top;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ long right;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ long bottom;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x10>
 
 struct tagMSGBOXPARAMSW {
 
@@ -9789,26 +8742,6 @@ struct HMIXEROBJ__ {
 };
 // <size 0x4>
 
-struct _SecHandle {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long dwLower;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long dwUpper;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
-
 struct IOleUILinkContainerWVtbl {
 
   // static data ------------------------------------
@@ -9877,51 +8810,6 @@ struct _ABCFLOAT {
   // virtual functions ------------------------------
 };
 // <size 0xc>
-
-struct _SecBufferDesc {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long ulVersion;
-  /*<thisrel this+0x4>*/ /*|0x4|*/ unsigned long cBuffers;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ struct _SecBuffer* pBuffers;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0xc>
-
-struct _SecPkgInfoW {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x4|*/ unsigned long fCapabilities;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ unsigned short wVersion;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ unsigned short wRPCID;
-  /*<thisrel this+0x8>*/ /*|0x4|*/ unsigned long cbMaxToken;
-  /*<thisrel this+0xc>*/ /*|0x4|*/ unsigned short* Name;
-  /*<thisrel this+0x10>*/ /*|0x4|*/ unsigned short* Comment;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x14>
 
 struct HHOOK__ {
 
@@ -10299,28 +9187,6 @@ struct _numberfmtW {
   // virtual functions ------------------------------
 };
 // <size 0x18>
-
-struct _SMALL_RECT {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x2|*/ short Left;
-  /*<thisrel this+0x2>*/ /*|0x2|*/ short Top;
-  /*<thisrel this+0x4>*/ /*|0x2|*/ short Right;
-  /*<thisrel this+0x6>*/ /*|0x2|*/ short Bottom;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x8>
 
 struct _CHAR_INFO {
 
@@ -24784,28 +23650,6 @@ struct HCOLORLIST__ {
 
   // non-static data --------------------------------
   /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct tagPALETTEENTRY {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x1|*/ unsigned char peRed;
-  /*<thisrel this+0x1>*/ /*|0x1|*/ unsigned char peGreen;
-  /*<thisrel this+0x2>*/ /*|0x1|*/ unsigned char peBlue;
-  /*<thisrel this+0x3>*/ /*|0x1|*/ unsigned char peFlags;
 
   // base classes -----------------------------------
 
@@ -66436,28 +65280,6 @@ struct HCOLORMAP__ {
 
   // non-static data --------------------------------
   /*<thisrel this+0x0>*/ /*|0x4|*/ int unused;
-
-  // base classes -----------------------------------
-
-  // friends ----------------------------------------
-
-  // static functions -------------------------------
-
-  // non-virtual functions --------------------------
-
-  // virtual functions ------------------------------
-};
-// <size 0x4>
-
-struct tagPALETTEENTRY {
-
-  // static data ------------------------------------
-
-  // non-static data --------------------------------
-  /*<thisrel this+0x0>*/ /*|0x1|*/ unsigned char peRed;
-  /*<thisrel this+0x1>*/ /*|0x1|*/ unsigned char peGreen;
-  /*<thisrel this+0x2>*/ /*|0x1|*/ unsigned char peBlue;
-  /*<thisrel this+0x3>*/ /*|0x1|*/ unsigned char peFlags;
 
   // base classes -----------------------------------
 
