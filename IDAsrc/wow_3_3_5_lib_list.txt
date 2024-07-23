@@ -1,0 +1,11 @@
+Vorbis 		https://github.com/xiph/vorbis/tree/master 	// TODO: уточнить версию
+Ogg		https://github.com/xiph/ogg/tree/master		
+bzip2/libbzip2	1.0.2, 30-Dec-2001
+libjpeg		https://github.com/winlibs/libjpeg
+fmod
+libFLAC 1.1.4
+Lua 5.1.1 Copyright (C) 1994-2006 Lua.org
+zlib 1.2.2
+RtAudio 	https://github.com/thestk/rtaudio/tree/master
+jpeg-opencl	https://github.com/klokantech/jpeg-opencl/tree/master
+Expat		https://github.com/libexpat/libexpat
