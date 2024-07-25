@@ -77,6 +77,8 @@
 .?AUCameraShake@@
 .?AUChatChannel@@
 .?AUDBCACHECALLBACK@@
+
+
 .?AUDBCACHEHASH@?$DBCache@VCGPetition@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VCreatureStats_C@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VGameObjectStats_C@@HVHASHKEY_INT@@@@
@@ -87,6 +89,7 @@
 .?AUDBCACHEHASH@?$DBCache@VPageTextCache_C@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VPetNameCache@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VQuestCache@@HVHASHKEY_INT@@@@
+
 .?AUDEATTHUDSOUNDINFO@@
 .?AUDEFERREDDAMAGE@@
 .?AUDEFERREDSPELLMISS@@
@@ -237,7 +240,7 @@
 .?AUWorldMapContinentInfo@@
 .?AUWorldMapLandmarkInfo@@
 .?AUregex_t@@
-.?AUtagACCEL@@
+
 .?AV?$TSExplicitList@UANIMHASH@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UANIMKIT@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UAREAHASHOBJECT@@$0?CCCCCCCD@@@
@@ -303,6 +306,7 @@
 .?AV?$TSExplicitList@UUNITPORTRAIT@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UUncachableNode@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UWORDLIST@@$0?CCCCCCCD@@@
+
 .?AV?$TSExplicitList@VCGxPixelShader@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@VCGxVertexShader@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@VCMapDoodadDef@@$0?CCCCCCCD@@@
@@ -324,6 +328,12 @@
 .?AV?$TSHashObjectChunk@USoundFileObjectCacheNode@@VHASHKEY_NONE@@@@
 .?AV?$TSHashObjectChunk@VCGxPixelShader@@VHASHKEY_STRI@@@@
 .?AV?$TSHashObjectChunk@VCGxVertexShader@@VHASHKEY_STRI@@@@
+
+
+
+
+
+
 .?AV?$TSList@ULINKUNIQUE@@V?$TSGetLink@ULINKUNIQUE@@@@@@
 .?AVC2Vector@NTempest@@
 .?AVC34Matrix@NTempest@@
@@ -371,13 +381,13 @@
 .?AVONESHOTSTANDALONEEFFECTNODE@@
 .?AVWTOBJECT@@
 .?AVtype_info@@
+
 .?AW4ACTIVITY@@
 .?AW4ANIMENUMERATION@@
 .?AW4EGxRenderState@@
 .?AW4FACET_COLOR@@
 .?AW4MISS_REASON@@
 
-.P6IXXZ
 .PAUCAnimObj@@
 .PAUCGxBuf@@
 .PAUCGxuLight@@
@@ -399,6 +409,7 @@
 .PAUTradeSkillSubClassInfo@@
 .PAUTrainerServiceInfo@@
 .PAUTrainerSkillLineInfo@@
+
 .PAVCBaseManaged@@
 .PAVCDetailDoodadData@@
 .PAVCFramePoint@@

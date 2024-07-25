@@ -1,6 +1,6 @@
-.?'J2
-.?'J2
+
 .?ATNETADDR@@
+
 .?AU?$Packet@UDrop@Rain@@$0BIAA@$02@@
 .?AU?$Packet@UFlake@Snow@@$0BIAA@$00@@
 .?AU?$Packet@UGrain@Sand@@$0BIAA@$00@@
@@ -58,6 +58,7 @@
 .?AUCombatFeedbackSpell@@
 .?AUConsoleString@@
 .?AUDBCACHECALLBACK@@
+
 .?AUDBCACHEHASH@?$DBCache@VCGPetition@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VCreatureStats_C@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VGameObjectStats_C@@HVHASHKEY_INT@@@@
@@ -71,6 +72,7 @@
 .?AUDBCACHEHASH@?$DBCache@VPetNameCache@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VQuestCache@@HVHASHKEY_INT@@@@
 .?AUDBCACHEHASH@?$DBCache@VWardenCachedModule@@VCWardenKey@@V2@@@
+
 .?AUDEATTHUDSOUNDINFO@@
 .?AUDIRTYFACE@@
 .?AUDNOverrideSky@@
@@ -222,6 +224,7 @@
 .?AU_SOURCE@@
 .?AUregex_t@@
 .?AUtagACCEL@@
+
 .?AV?$TSExplicitList@UADDONSTATE@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UBATCHEDRENDERFONTDESC@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@UCHARCODEDESC@@$0?CCCCCCCD@@@
@@ -296,7 +299,7 @@
 .?AV?$TSExplicitList@VCMapObj@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@VCMapObjDef@@$0?CCCCCCCD@@@
 .?AV?$TSExplicitList@VCStringRep@@$0?CCCCCCCD@@@
-.?AV?$TSFixedArray@H@@
+
 .?AVASYNCREAD@@
 .?AVC2Vector@NTempest@@
 .?AVC2iVector@NTempest@@
@@ -346,14 +349,12 @@
 .?AVWTOBJECT@@
 .?AVWater0Ripple@@
 .?AVtype_info@@
+
 .?AW4EGxRenderState@@
 .?AW4INV_ALERT_STATUS@@
 .?AW4MISS_REASON@@
-.A?\rP
-.A?\rP
 
-.P6IHXZ
-.P6IXXZ
+
 .PAUAddressListNode@@
 .PAUCGxBuf@@
 .PAUCGxuLight@@
@@ -379,6 +380,7 @@
 .PAUTrainerServiceInfo@@
 .PAUTrainerSkillLineInfo@@
 .PAUUIADDON@@
+
 .PAVCBaseManaged@@
 .PAVCDetailDoodadData@@
 .PAVCFrameStrataNode@@
@@ -400,6 +402,7 @@
 .PAVSArchive@@
 .PAVSThread@@
 .PAVWowConnection@@
+
 .PBVAreaPOIRec@@
 .PBVChrClassesRec@@
 .PBVItemSubClassRec@@

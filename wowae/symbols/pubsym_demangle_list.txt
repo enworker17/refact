@@ -4132,7 +4132,61 @@ _z_errmsg
 
 // <code>
 
+_XmlSizeOfUnknownEncoding
+_GodotFailEnumSystemLocalesW@8
+_GodotFailPostThreadMessageW@16
+_GodotFailAcquireCredentialsHandleW@36
+_GodotFaillstrlenW@4
+_GodotFailcapGetDriverDescriptionW@20
+_SBigFromStream@16
+_FSOUND_File_SetCallbacks@20
+_DirectCall_FindNextFileW@0
+_glCopyTexSubImage2D@32
+
+@FT_Outline_Done_Internal@8
+@FT_MulDiv@12
+@_tr_align@4
+@luaH_new@12
+
+int __fastcall MDL::ReadBinModelGlobals(class CMsgBuffer &,unsigned int,struct MDLDATA &,class CMDLStatus *)
+struct HMODEL__ * __fastcall ComponentUtilGetChildModel(struct HMODEL__ *,int)
+void __fastcall OsGuiMaximizeWindow(void *,int)
+void __fastcall FrameScript_Execute(int,class FrameScript_Object *)
+void __fastcall ReadObjectFloatKeyframes(class Parser &,struct MDLKEYTRACK<float> *)
+void __fastcall TextureGxCacheFlush(void)
+class SoundProviderPreferencesRec const * __fastcall ClientDBGetDefaultOutdoorProviderPrefs(void)
+int __fastcall ProfileGetValueIndex(void *,char const *,char const *,char const *)
+int __fastcall GxuFontAddToInternalBatch(struct CGxString *)
+char * __stdcall SStrDupA(char const *,char const *,unsigned int)
+void __fastcall GxXformSetView(class NTempest::C44Matrix const &)
+void __fastcall SysMsgInitialize(void)
+int __fastcall MDL::ReadHelper(class Parser &,struct MDLDATA &,class CMDLStatus *)
+void __fastcall OsGuiBeep(void)
+void __fastcall DBCache_Initialize(void)
+int __fastcall SysMsgAdd(class CStatus const &,unsigned int)
+struct HTEXTURE__ * __fastcall TextureAllocImage(enum EGxTexFormat,unsigned int,unsigned int)
+char * __fastcall SStrStrI(char *,char const *)
+BOOL __fastcall IsAngleWithinRange(float,float,float)
+void __fastcall ClientServices_CharacterAbortLogout(void)
 void __fastcall SndInterfaceMIDISetPaused(BOOL)
+void __fastcall SndInterfaceZoneIntroIdler(void)
+void __fastcall DxtMakeTableAlpha(struct DxtColorBlock const &,class NTempest::CRgb565 *)
+void __fastcall OsTcpConnect(unsigned long,unsigned short,int (__stdcall*)(struct HNETCONN__ *,struct NETCONNADDR const *,enum NETNOTE,void *,void const *,unsigned long,unsigned long *),void *,void const *,unsigned long)
+void __fastcall OsUdpConnect(union NETADDR const *,unsigned short,unsigned short,int (__stdcall*)(struct HNETCONN__ *,struct NETCONNADDR const *,enum NETNOTE,void *,void const *,unsigned long,unsigned long *),void *)
+int __fastcall CheckMachineStateSymbolHelper(void)
+struct Storm::SFile::FILEREC * __fastcall Storm::SFile::GetFilePtr(struct HSFILE__ *)
+unsigned char * __fastcall AnimObjectSetAttenuation(unsigned char *,unsigned int,struct CAnimData *,struct CAnimLightObj *,enum MDLTRACKTYPE)
+int __fastcall GxuFontGenerateColorString(char *,unsigned int,class NTempest::CImVector const &)
+void __fastcall Spell_C_CancelCombatSpell(void)
+void __fastcall ClntObjMgrSetActivePlayer(unsigned __int64)
+unsigned int __fastcall CursorGetCursorType(void)
+void __fastcall ReadObjectName(class Parser &,char *)
+int __fastcall FrameXML_CreateFrames(char const *,class CStatus *)
+void __fastcall OsNetConnAddr(struct HNETCONN__ *,struct NETCONNADDR *)
+void __fastcall GxMasterEnableSet(enum EGxMasterEnables,int)
+void __fastcall ModelShowModel(struct HMODEL__ *,int)
+
+
 public: void __thiscall CGObject_C::RemoveWorldObject(void)
 public: virtual void __thiscall CSimpleFrame::OnLayerCursorEnter(void)
 private: int __thiscall CMovement::TestStepUp(class NTempest::C3Vector const &)
@@ -4141,12 +4195,10 @@ public: int __thiscall CTgaFile::SetImage(class CTgaFile const &)
 public: class NTempest::C33Matrix __thiscall NTempest::C33Matrix::Inverse(float)const 
 public: virtual void * __thiscall TSHashTable<class CMapDoodadDef,class HASHKEY_DWORD>::`vector deleting destructor'(unsigned int)
 private: int __thiscall TSHashTable<struct CVar,class HASHKEY_STRI>::MonitorFullness(unsigned int)
-void __fastcall SndInterfaceZoneIntroIdler(void)
 public: unsigned int __thiscall CSimpleMessageScrollFrame::AddMultiLine(char *,class CSimpleFontStringAttributes const *)
 private: virtual void __thiscall TSHashTable<struct ProfileInternal::KEYVALUE,class HASHKEY_CONSTSTRI>::InternalDelete(struct ProfileInternal::KEYVALUE *)
 public: void __thiscall CObserver::ClearRegistry(void)
 public: void __thiscall CSimpleModel::ReplaceTexture(unsigned int,char const *)
-_XmlSizeOfUnknownEncoding
 protected: virtual char const * __thiscall TSFixedArray_<unsigned short,1281976168,41>::MemFileName(void)const 
 public: __thiscall TSExplicitList<struct FOOTSTEPSNDCACHE,-572662307>::TSExplicitList<struct FOOTSTEPSNDCACHE,-572662307>(void)
 protected: void __thiscall TSBaseArray<class TSExplicitList<struct ITEMCOOLDOWNHASHNODE,-572662307> >::CheckArrayBounds(unsigned int)const 
@@ -4156,10 +4208,7 @@ public: virtual int __thiscall CGObject_C::UpdateAttachmentLoadStatus(void)
 public: class CParticleKey const & __thiscall CParticleEmitter2::Key(unsigned int)
 private: unsigned int __thiscall TSGrowableArray<struct MDLKEYFRAME<class C3Color> >::RoundToChunk(unsigned int,unsigned int)const 
 public: virtual __thiscall TSExportTableSync<struct RGN,struct HSRGN__ *,struct HLOCKEDRGN__ *,class CCritSect,1>::~TSExportTableSync<struct RGN,struct HSRGN__ *,struct HLOCKEDRGN__ *,class CCritSect,1>(void)
-@FT_MulDiv@12
 public: static unsigned long __fastcall NTempest::CRandom::lattice_(long)
-void __fastcall DxtMakeTableAlpha(struct DxtColorBlock const &,class NTempest::CRgb565 *)
-unsigned char * __fastcall AnimObjectSetAttenuation(unsigned char *,unsigned int,struct CAnimData *,struct CAnimLightObj *,enum MDLTRACKTYPE)
 public: __thiscall SPELLEFFECTDESC::~SPELLEFFECTDESC(void)
 public: __thiscall TSLink<struct HANDLER>::~TSLink<struct HANDLER>(void)
 public: float __thiscall CGxFont::GetCharAdvance(unsigned int)
@@ -4170,16 +4219,12 @@ protected: void __thiscall COsScrollBar::UpdateRangeValues(void)
 public: static int __fastcall CGCharacterInfo::PutItemInBackpack(void)
 public: __thiscall HelmetGeosetVisDataRec::HelmetGeosetVisDataRec(void)
 protected: long __thiscall D3DXShader::CPSLegacyProgram::RemapConstants(void)
-struct Storm::SFile::FILEREC * __fastcall Storm::SFile::GetFilePtr(struct HSFILE__ *)
 protected: class D3DXShader::CNode * __thiscall D3DXShader::CParse::VariableExpr(class D3DXShader::CNode *,class D3DXShader::CNode *)
 protected: long __thiscall D3DXShader::CParse::PushScope(enum D3DXShader::_D3DXSCOPE_TYPE,char const *)
 public: static void __fastcall CGLootInfo::EnterWorld(void)
 public: int __thiscall CGUnit_C::IsBadFacing(void)
 public: enum NTempest::C3Vector::EAxis __thiscall NTempest::C3Vector::MinorAxis(void)const 
 public: struct REQUEST * __thiscall TSList<struct REQUEST,class TSGetLink<struct REQUEST> >::Head(void)
-void __fastcall OsTcpConnect(unsigned long,unsigned short,int (__stdcall*)(struct HNETCONN__ *,struct NETCONNADDR const *,enum NETNOTE,void *,void const *,unsigned long,unsigned long *),void *,void const *,unsigned long)
-void __fastcall OsUdpConnect(union NETADDR const *,unsigned short,unsigned short,int (__stdcall*)(struct HNETCONN__ *,struct NETCONNADDR const *,enum NETNOTE,void *,void const *,unsigned long,unsigned long *),void *)
-@_tr_align@4
 public: int __thiscall COsControl::IsEnabled(void)
 private: void __thiscall CMapArea::Create(unsigned char *)
 public: void __thiscall CLayoutFrame::ClearAllPoints(int)
@@ -4188,7 +4233,6 @@ public: void __thiscall TSList<struct CMDDEF,class TSGetLink<struct CMDDEF> >::U
 public: struct ITEMPORTRAIT * __thiscall TSHashTable<struct ITEMPORTRAIT,class HASHKEY_STR>::New(unsigned int,char const *,unsigned long,unsigned long)
 private: struct CACHEENTRY * __thiscall TSHashTable<struct CACHEENTRY,class HASHKEY_STRI>::InternalNewNode(unsigned int,unsigned long,unsigned long)
 private: void __thiscall TSHashTable<struct DBCache<class CreatureStats_C,int,class HASHKEY_INT>::DBCACHEHASH,class HASHKEY_INT>::InternalClear(int)
-int __fastcall CheckMachineStateSymbolHelper(void)
 protected: long __thiscall D3DXShader::CPSLegacyProgram::FixSatTex(void)
 public: static int __fastcall CGGameUI::FilterMouseDown(class CMouseEvent const &)
 public: __thiscall TSFixedArray_<struct CPrimitive,1229811556,280>::TSFixedArray_<struct CPrimitive,1229811556,280>(class TSFixedArray_<struct CPrimitive,1229811556,280> const &)
@@ -4200,23 +4244,19 @@ public: static void __fastcall CGGameUI::OpenGuildInvite(char const *,char const
 private: int __thiscall CTgaFile::RleCompressLine(unsigned char * *,unsigned char * *)
 public: __thiscall TSLink<struct FrameScriptObject_Variable>::TSLink<struct FrameScriptObject_Variable>(void)
 protected: virtual char const * __thiscall TSBaseArray<class CParticleEmitter *>::MemFileName(void)const 
-int __fastcall GxuFontGenerateColorString(char *,unsigned int,class NTempest::CImVector const &)
 private: void __thiscall TSHashTable<struct CLightList,class HASHKEY_DWORD>::GrowListArray(unsigned int)
 public: void __thiscall TSList<struct TEXTLINETEXTURE,class TSGetLink<struct TEXTLINETEXTURE> >::LinkNode(struct TEXTLINETEXTURE *,unsigned long,struct TEXTLINETEXTURE *)
 private: void __thiscall CMovement::ProcessFalling(unsigned long)
 protected: virtual int __thiscall TSBaseArray<class CGxTex *>::MemLineNo(void)const 
 protected: void __thiscall NTempest::CMemBlock::Constructor_(unsigned long,unsigned long,char const *,long)
 public: void __thiscall CTexComponent::UpdateSections(class CStatus *,int)
-void __fastcall Spell_C_CancelCombatSpell(void)
 public: int __thiscall CGxDevice::TexNeedsUpdate(class CGxTex *)
 private: void __thiscall TSList<struct BATCHEDRENDERFONTDESC,class TSGetExplicitLink<struct BATCHEDRENDERFONTDESC> >::InitializeTerminator(void)
 private: virtual struct CSolidTextureHash * __thiscall TSHashTable<struct CSolidTextureHash,class HASHKEY_NONE>::InternalNew(class TSExplicitList<struct CSolidTextureHash,-572662307> *,unsigned long,unsigned long)
 public: virtual void __thiscall CGUnit_C::OnRightClick(void)
-void __fastcall ClntObjMgrSetActivePlayer(unsigned __int64)
 public: __thiscall TSExplicitList<struct AREAHASHOBJECT,-572662307>::TSExplicitList<struct AREAHASHOBJECT,-572662307>(void)
 public: void __thiscall CSimpleMessageScrollFrame::SetMessageFrameInsets(float,float,float,float)
 public: __thiscall CDataRecycler::CDataRecycler(unsigned int,long)
-unsigned int __fastcall CursorGetCursorType(void)
 public: __thiscall CinematicCameraRec::~CinematicCameraRec(void)
 public: __thiscall CSimpleDoodadGeoset::CSimpleDoodadGeoset(void)
 private: void __thiscall TSGrowableArray<class COsDialog *>::Reserve(unsigned int,int)
@@ -4224,20 +4264,14 @@ public: int __thiscall CGCamera::SetModelCamera(char const *,class NTempest::C3V
 public: void __thiscall TSList<struct SIMPLEFRAMEREGHASH,class TSGetExplicitLink<struct SIMPLEFRAMEREGHASH> >::LinkNode(struct SIMPLEFRAMEREGHASH *,unsigned long,struct SIMPLEFRAMEREGHASH *)
 public: void * __thiscall CChunkLiquid::`scalar deleting destructor'(unsigned int)
 public: virtual float __thiscall CSimpleModel::GetWidth(void)
-void __fastcall ReadObjectName(class Parser &,char *)
 public: static void __fastcall CGReputationInfo::ShutdownGame(void)
 public: BOOL __thiscall CGUnit_C::TorsoAnimLocksHead(void)const 
-int __fastcall FrameXML_CreateFrames(char const *,class CStatus *)
-void __fastcall OsNetConnAddr(struct HNETCONN__ *,struct NETCONNADDR *)
 public: void __thiscall ACTIVEATTACHMENTINFO::Hide(class CGUnit_C *,struct HMODEL__ *,struct HMODEL__ *,BOOL)
 public: __thiscall CharVariationsRec::CharVariationsRec(void)
-_GodotFailEnumSystemLocalesW@8
-?Link@?$TSList@V?$TSHashObjectChunk@VCGxVertexShader@@VHASHKEY_STRI@@@@V?$TSGetExplicitLink@V?$TSHashObjectChunk@VCGxVertexShader@@VHASHKEY_STRI@@@@@@@@ABEPAV?$TSLink@V?$TSHashObjectChunk@VCGxVertexShader@@VHASHKEY_STRI@@@@@@PBV?$TSHashObjectChunkd835c29f
 public: virtual void * __thiscall CSimpleModel::`vector deleting destructor'(unsigned int)
 private: void __thiscall WowConnection::CloseSocket(int)
 public: static char const * __fastcall CreatureTypeRec::GetFilename(void)
 protected: void __thiscall CGUnit_C::SetHandsState(struct HMODEL__ *)
-void __fastcall GxMasterEnableSet(enum EGxMasterEnables,int)
 public: virtual int __thiscall WDataStore::InternalFetchWrite(unsigned int,unsigned int,unsigned char * &,unsigned int &,unsigned int &,char const *,int)
 protected: void __thiscall TSBaseArray<struct CRibbonMat>::CheckArrayBounds(unsigned int)const 
 public: __thiscall CGGameObject_C_Type_SpellFocus::CGGameObject_C_Type_SpellFocus(class CGGameObject_C *)
@@ -4246,7 +4280,6 @@ public: class CStringRep & __thiscall CStringManager::Add(char const *)
 public: unsigned char & __thiscall TSBaseArray<unsigned char>::operator[](unsigned int)
 public: unsigned int & __thiscall TSBaseArray<unsigned int>::operator[](unsigned int)
 public: class TSFixedArray<float> & __thiscall TSFixedArray<float>::operator=(class TSFixedArray<float> const &)
-void __fastcall ModelShowModel(struct HMODEL__ *,int)
 public: __thiscall TSFixedArray<struct OsNet::NETSELSOCKPTR>::~TSFixedArray<struct OsNet::NETSELSOCKPTR>(void)
 public: class MemChunk * & __thiscall TSBaseArray<class MemChunk *>::operator[](unsigned int)
 public: struct CPrimitive & __thiscall TSBaseArray<struct CPrimitive>::operator[](unsigned int)
@@ -4258,28 +4291,19 @@ public: void __thiscall TSLink<class CLayoutFrame>::Unlink(void)
 public: void * __thiscall TSExplicitList<struct SIMPLEFONTSTRINGREGHASH,-572662307>::`scalar deleting destructor'(unsigned int)
 public: __thiscall CMapObjDefGroup::~CMapObjDefGroup(void)
 public: void __thiscall CGUnit_C::SpellDelayed(int)
-_GodotFailPostThreadMessageW@16
-void __fastcall ClientServices_CharacterAbortLogout(void)
 protected: virtual int __thiscall CDataStore::InternalFetchWrite(unsigned int,unsigned int,unsigned char * &,unsigned int &,unsigned int &,char const *,int)
 public: __thiscall D3DXShader::CProgram::CProgram(void)
-BOOL __fastcall IsAngleWithinRange(float,float,float)
 public: virtual void __thiscall D3DXShader::CNodeVariable::Print(void)
-@luaH_new@12
-char * __fastcall SStrStrI(char *,char const *)
 protected: void __thiscall TSFixedArray<class TSExplicitList<struct FADEOUTHASHOBJ,-572662307> >::ReallocData(unsigned int)
-_GodotFailAcquireCredentialsHandleW@36
 public: virtual void __thiscall CSplineParticleEmitter::SetHeight(float)
 public: __thiscall TSGrowableArray<class CObjectHeap>::TSGrowableArray<class CObjectHeap>(void)
 public: void __thiscall WTOBJECT::SetColor(class NTempest::CImVector)
 protected: virtual int __thiscall TSBaseArray<struct LightDataFog>::MemLineNo(void)const 
-struct HTEXTURE__ * __fastcall TextureAllocImage(enum EGxTexFormat,unsigned int,unsigned int)
 private: unsigned int __thiscall TSGrowableArray<struct MDLMATERIALSECTION>::CalcChunkSize(unsigned int)
 public: void __thiscall TSList<struct Storm::SFile::FILEREC,class TSGetLink<struct Storm::SFile::FILEREC> >::UnlinkAll(void)
 private: void __thiscall CMapChunk::RenderLayersColor(void)
 public: void __thiscall CSimpleFontString::RemoveShadow(void)
-int __fastcall SysMsgAdd(class CStatus const &,unsigned int)
 public: __thiscall WowConnection::WowConnection(class WowConnectionResponse *,void (__fastcall*)(void))
-_GodotFaillstrlenW@4
 public: __thiscall D3DXShader::CPPBlock::CPPBlock(unsigned long)
 protected: unsigned int __thiscall D3DXShader::CTokenize::LexHex(char const *,unsigned int *)
 private: class TSLink<struct BREAKCMD> * __thiscall TSLink<struct BREAKCMD>::NextLink(int)const 
@@ -4291,19 +4315,13 @@ private: struct CLinearKeyFrame<float> const * __thiscall CKeyFrameTrack<float,f
 private: struct CSplineKeyFrame<float> const * __thiscall CKeyFrameTrack<float,float>::ToSplineKey(struct CKeyFrame const *)const 
 private: void __thiscall CAaBsp_Query_AaBox<class BspQuery_Volume<class NTempest::CAaBox> >::GetFaceIndices(unsigned int,class NTempest::CAaBox const &,class NTempest::CAaBox const &)
 public: virtual __thiscall OsNet::TSSlottedListEx<struct OsNet::NETCONNECT,8,1>::~TSSlottedListEx<struct OsNet::NETCONNECT,8,1>(void)
-void __fastcall OsGuiBeep(void)
-void __fastcall DBCache_Initialize(void)
 public: class CDataStore & __thiscall CDataStore::Get(unsigned char &)
-_GodotFailcapGetDriverDescriptionW@20
 public: void __thiscall TSLink<struct REGIONNODE>::Unlink(void)
 public: virtual __thiscall CBaseManaged::~CBaseManaged(void)
-int __fastcall MDL::ReadHelper(class Parser &,struct MDLDATA &,class CMDLStatus *)
 public: unsigned long __thiscall CBitOutput::GetTotalBytes(void)
 public: __thiscall TSFixedArray<struct CTexLayer>::TSFixedArray<struct CTexLayer>(void)
 public: void __thiscall TSList<class CStringRep,class TSGetExplicitLink<class CStringRep> >::LinkNode(class CStringRep *,unsigned long,class CStringRep *)
 public: __thiscall TSFixedArray<class TSExplicitList<struct DBCache<class NPCText,int,class HASHKEY_INT>::DBCACHEHASH,-572662307> >::~TSFixedArray<class TSExplicitList<struct DBCache<class NPCText,int,class HASHKEY_INT>::DBCACHEHASH,-572662307> >(void)
-_SBigFromStream@16
-void __fastcall SysMsgInitialize(void)
 public: __thiscall HelmetGeosetVisDataRec::~HelmetGeosetVisDataRec(void)
 public: virtual void * __thiscall D3DXCore::CStringBuffer::`vector deleting destructor'(unsigned int)
 public: BOOL __thiscall UnitBloodRec::Read(class SFile *,char const *)
@@ -4312,10 +4330,7 @@ public: void __thiscall CGxDevice::DeviceSystemGamma(struct CGxGammaRamp &)
 public: __thiscall SPELLEFFECTDESC::SPELLEFFECTDESC(void)
 public: __thiscall TSLink<struct HANDLER>::TSLink<struct HANDLER>(void)
 public: static void __fastcall CGQuestInfo::QueryQuest(unsigned int)
-void __fastcall GxXformSetView(class NTempest::C44Matrix const &)
 protected: virtual char const * __thiscall TSBaseArray<struct LightData>::MemFileName(void)const 
-char * __stdcall SStrDupA(char const *,char const *,unsigned int)
-_FSOUND_File_SetCallbacks@20
 public: virtual void __thiscall CGxDevice::DeviceSetBaseMipLevel(unsigned int)
 public: static void __fastcall CGTutorial::TriggerTutorial(enum TUTORIAL)
 private: unsigned int __thiscall TSGrowableArray<struct MDLKEYFRAME<float> >::CalcChunkSize(unsigned int)
@@ -4323,16 +4338,12 @@ public: __thiscall INVHOLDINFO::INVHOLDINFO(enum CHARACTER_ITEM_GEOSETS,enum TEX
 public: void __thiscall TSList<class CMapChunk,class TSGetExplicitLink<class CMapChunk> >::LinkNode(class CMapChunk *,unsigned long,class CMapChunk *)
 public: void __thiscall IGXUTEXTLINE::Destroy(void)
 public: void __thiscall CSimpleFrame::SetParent(class CSimpleFrame *)
-int __fastcall GxuFontAddToInternalBatch(struct CGxString *)
 public: virtual void __thiscall CGGameObject_C::GetWorldMatrix(class NTempest::C34Matrix *)const 
 public: void __thiscall TSList<struct WNDREC,class TSGetLink<struct WNDREC> >::UnlinkAll(void)
-?empty@?4??GetEnchantment@CGItem@@QBEPBUItemEnchantment@@H@Z@$AU2@A
 public: __thiscall TSList<struct DBCache<class QuestCache,int,class HASHKEY_INT>::DBCACHEHASH,class TSGetExplicitLink<struct DBCache<class QuestCache,int,class HASHKEY_INT>::DBCACHEHASH> >::~TSList<struct DBCache<class QuestCache,int,class HASHKEY_INT>::DBCACHEHASH,class TSGetExplicitLink<struct DBCache<class QuestCache,int,class HASHKEY_INT>::DBCACHEHASH> >(void)
-@FT_Outline_Done_Internal@8
 public: void __thiscall CArray<struct CKeySeq>::ReserveSpace(unsigned int)
 protected: void __thiscall TSFixedArray<struct MDLKEYFRAME<class NTempest::C4Quaternion> >::ReallocAndClearData(unsigned int)
 public: virtual void * __thiscall CWOWClientStatus::`vector deleting destructor'(unsigned int)
-int __fastcall ProfileGetValueIndex(void *,char const *,char const *,char const *)
 public: __thiscall TSLink<struct FrameScriptObject_Variable>::~TSLink<struct FrameScriptObject_Variable>(void)
 protected: void __thiscall CSimpleEditBox::MoveBackwardWord(int)
 public: void __thiscall TSGrowableArray<struct RGN>::ReserveSpace(unsigned int)
@@ -4341,18 +4352,12 @@ private: unsigned int __thiscall TSGrowableArray<class TSExplicitList<struct ARE
 public: void * __thiscall NTempest::C44Matrix::`scalar deleting destructor'(unsigned int)
 public: void __thiscall COsTreeView::SetItemImage(void *,int,int,void *)
 protected: void __thiscall CSimpleMessageFrame::HideLineNode(class CSimpleMessageFrameLineNode *)
-class SoundProviderPreferencesRec const * __fastcall ClientDBGetDefaultOutdoorProviderPrefs(void)
 public: __thiscall COsWindow::COsWindow(void *)
-void __fastcall TextureGxCacheFlush(void)
 protected: int __thiscall CBLPFile::GetFormatSize(enum PIXEL_FORMAT,unsigned int,unsigned int *,unsigned int *)const 
-void __fastcall ReadObjectFloatKeyframes(class Parser &,struct MDLKEYTRACK<float> *)
 public: void * __thiscall TSHashObjectChunk<struct CSolidTextureHash,class HASHKEY_NONE>::`scalar deleting destructor'(unsigned int)
-_DirectCall_FindNextFileW@0
 protected: virtual void __thiscall CGUnit_C::ProcessAnim(struct ANIMQUEUENODE *)
 public: virtual void __thiscall CSimpleStatusBar::LoadXML_Scripts(class XMLNode const *,class CStatus *)
 public: int __thiscall COsDialog::IsInFront(void)
-void __fastcall OsGuiMaximizeWindow(void *,int)
-void __fastcall FrameScript_Execute(int,class FrameScript_Object *)
 public: __thiscall CinematicCameraRec::CinematicCameraRec(void)
 public: __thiscall CSimpleDoodadGeoset::~CSimpleDoodadGeoset(void)
 public: __thiscall NTempest::CImVector::operator class NTempest::C3Vector(void)const 
@@ -4362,13 +4367,10 @@ public: static void __fastcall NTempest::CMath::normalize_(float &,float &)
 public: __thiscall TSFixedArray<class TSExplicitList<struct DBCache<class ItemStats_C,int,class HASHKEY_INT>::DBCACHEHASH,-572662307> >::~TSFixedArray<class TSExplicitList<struct DBCache<class ItemStats_C,int,class HASHKEY_INT>::DBCACHEHASH,-572662307> >(void)
 public: __thiscall CharVariationsRec::~CharVariationsRec(void)
 public: void __thiscall WowConnection::StopListening(void)
-struct HMODEL__ * __fastcall ComponentUtilGetChildModel(struct HMODEL__ *,int)
 protected: void __thiscall CDataMgr::AddManaged(class TManaged<class C3Color> *,unsigned int,unsigned int)
-int __fastcall MDL::ReadBinModelGlobals(class CMsgBuffer &,unsigned int,struct MDLDATA &,class CMDLStatus *)
 public: static void __fastcall CGBankInfo::OpenBank(unsigned __int64 const &)
 private: void __thiscall CGObject_C::ReportMissingAnimObj(char const *,unsigned int,char const *)const 
 public: virtual void * __thiscall TSHashTable<struct ITEMEXPIRATION,class CHashKeyGUID>::`scalar deleting destructor'(unsigned int)
-_glCopyTexSubImage2D@32
 public: void __thiscall Sound::SetPanning(float)
 public: void __thiscall CCharGeoset::Commit(void)
 public: virtual __thiscall D3DXShader::CProgram::~CProgram(void)
