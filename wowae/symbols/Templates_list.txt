@@ -2,7 +2,7 @@
 // Templates
 /////////////////////////////////////////////////
 
-{ // TSLink
+{ // TSLink ( wowae)
 
 class TSLink<CILayer> {
 
@@ -7565,7 +7565,7 @@ class TSLink<CAnimNameHash> {
 // <size 0x8>
 }
 
-{ // TSLinkedNode
+{ // TSLinkedNode ( wowae )
 
 class TSLinkedNode<EvtThread> {
 
