@@ -8,14 +8,18 @@
 template <typename T>
 class TSLink // <size 0x8>
 {
+  template<typename U, typename GetLink>
+  friend class TSList;
+
   // Functions
 public:
   TSLink<T>();
   ~TSLink<T>();
 
-  TSLink<T>(TSLink<T>& obj);
-  TSLink<T>& operator=(TSLink<T>& obj);
+  TSLink<T>(const TSLink<T>& obj);
+  TSLink<T>& operator=(const TSLink<T>& obj);
 
+  // void Link(TSLink<T>* link); // добавлено
   void Unlink();
   bool IsLinked();
 
@@ -52,22 +56,29 @@ inline TSLink<T>::TSLink()
 template <typename T>
 inline TSLink<T>::~TSLink()
 {
-  return;
+  return Unlink();
 }
 
 template <typename T>
-inline TSLink<T>::TSLink(TSLink<T>& obj)
+inline TSLink<T>::TSLink(const TSLink<T>& obj)
 {
   CopyConstructor(&obj);
   return;
 }
 
 template <typename T>
-inline TSLink<T>& TSLink<T>::operator=(TSLink<T>& obj)
+inline TSLink<T>& TSLink<T>::operator=(const TSLink<T>& obj)
 {
   CopyConstructor(&obj);
   return this;
 }
+
+// template<typename T>
+// inline void TSLink<T>::Link(TSLink<T>* link) // added
+// {
+//   m_prevlink = link;
+//   m_next = static_cast<T>(~static_cast<iPtr>(link));
+// }
 
 template <typename T>
 inline void TSLink<T>::Unlink()
@@ -150,8 +161,8 @@ inline void TSLink<T>::Constructor()
 template <typename T>
 inline void TSLink<T>::CopyConstructor(TSLink<T>& obj)
 {
-  m_prevlink = obj->m_prevlink;
-  m_next = obj->m_next;
+  m_prevlink = obj.m_prevlink;
+  m_next = obj.m_next;
   return;
 }
 

@@ -3,30 +3,35 @@
 //
 
 #pragma once
+typedef float              f32;
+typedef double             f64;
 
-#include <stdint.h>
+typedef signed char        i8;
+typedef signed short       i16;
+typedef signed int         i32;
+typedef signed long long   i64;
 
-typedef int8_t    i8;
-typedef int16_t   i16;
-typedef int32_t   i32;
-typedef int64_t   i64;
+typedef unsigned char      u8;
+typedef unsigned short     u16;
+typedef unsigned int       u32;
+typedef unsigned long long u64;
 
-typedef uint8_t   u8;
-typedef uint16_t  u16;
-typedef uint32_t  u32;
-typedef uint64_t  u64;
+// typedef intptr_t  iPtr;
+// typedef uintptr_t uPtr;
 
-typedef intptr_t  iPtr;
-typedef uintptr_t uPtr;
+#if defined(_WIN64) || defined(WIN64) || \
+    defined(__LP64__) || defined(_LP64)
+typedef signed long long iPtr;
+typedef unsigned long long uPtr;
+#else
+typedef signed int iPtr;
+typedef unsigned int iPtr;
+#endif
 
-// #if defined(_WIN64)
-// typedef long long iptr;
-// #else
-// typedef long iptr;
-// #endif
+// boolean type
+// #define b32   u32 /* bool 32 bit */
+// #define b8    u8  /* bool 8 bit */
+// #define TRUE  1
+// #define FALSE 0
 
-// #define b32 u32
-// #define b8 u8
-// #define true 1
-// #define false 0
 
