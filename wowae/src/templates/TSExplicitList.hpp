@@ -13,7 +13,6 @@ public:
     TSExplicitList<T, iP>()
     {
         SetLinkOffset(iP);
-        return;
     }
 
     ~TSExplicitList<T, iP>()
@@ -21,9 +20,10 @@ public:
         return;
     }
 
-    TSExplicitList(const TSExplicitList<T, iP>& obj) : TSList<T, TSGetExplicitLink<T> >(obj)
+    TSExplicitList(const TSExplicitList<T, iP>& obj)
     {
-        return;
+        this->m_linkoffset = obj.m_linkoffset;
+        this->m_terminator = obj.m_terminator;
     }
 
     TSExplicitList<T, iP>& operator=(const TSExplicitList<T, iP>& obj)

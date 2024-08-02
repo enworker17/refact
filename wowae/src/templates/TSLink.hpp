@@ -37,7 +37,7 @@ private:
 
 
   // members
-private:
+public:
   TSLink<T>* m_prevlink;
   T* m_next;
 };
@@ -187,9 +187,8 @@ inline TSLink<T>* TSLink<T>::NextLink(iPtr linkOffset) const
   iPtr next = static_cast<iPtr>(m_next);
   if (next > 0)
   {
-    iPtr offset = (linkOffset < 0) ?
-      (static_cast<iPtr>(this) - static_cast<iPtr>(m_prevlink->m_next)) :
-      linkOffset;
+    iPtr offset = (linkOffset < 0) ? 
+        (static_cast<iPtr>(this) - static_cast<iPtr>(m_prevlink->m_next)) : linkOffset;
 
     return static_cast<TSLink<T>*>(offset + next);
   }

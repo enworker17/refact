@@ -87,7 +87,6 @@ template<typename T, typename GetLink>
 inline TSList<T, GetLink>::TSList(const TSList<T, GetLink>& obj)
 {
     CopyConstructor(obj);
-    return;
 }
 
 template<typename T, typename GetLink>
@@ -112,7 +111,7 @@ inline void TSList<T, GetLink>::Clear()
 {
     while (true)
     {
-        T* obj = m_terminator.m_next;
+        T* obj = m_terminator.RawNext();
         if (obj <= 0)
             break;
 
