@@ -122,7 +122,7 @@ inline T* TSLink<T>::Next()
 template <typename T>
 inline T* TSLink<T>::Prev()
 {
-  return Next(m_prevlink->m_prevlink);;
+  return m_prevlink->Next();
 }
 
 template <typename T>
@@ -187,8 +187,8 @@ inline TSLink<T>* TSLink<T>::NextLink(iPtr linkOffset) const
   iPtr next = static_cast<iPtr>(m_next);
   if (next > 0)
   {
-    iPtr offset = (linkOffset < 0) ? 
-        (static_cast<iPtr>(this) - static_cast<iPtr>(m_prevlink->m_next)) : linkOffset;
+    iPtr offset = (linkOffset < 0) ?
+      (static_cast<iPtr>(this) - static_cast<iPtr>(m_prevlink->m_next)) : linkOffset;
 
     return static_cast<TSLink<T>*>(offset + next);
   }
