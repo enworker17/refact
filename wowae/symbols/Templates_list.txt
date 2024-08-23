@@ -2,7 +2,7 @@
 // Templates
 /////////////////////////////////////////////////
 
-{ // TSLink ( wowae)
+{ // TSLink +(impl.: wowae)
 
 class TSLink<CILayer> {
 
@@ -7565,7 +7565,7 @@ class TSLink<CAnimNameHash> {
 // <size 0x8>
 }
 
-{ // TSLinkedNode ( wowae )
+{ // TSLinkedNode +(impl.: wowae)
 
 class TSLinkedNode<EvtThread> {
 
@@ -9969,7 +9969,7 @@ class TSLinkedNode<EventReg::EVENTCALLBACKREG> {
 
 }
 
-{ // TSGetLink ( wowae )
+{ // TSGetLink +(impl.: wowae)
 
 class TSGetLink<HANDLER> {
 
@@ -10201,7 +10201,7 @@ class TSGetLink<ZipFileArchive> {
 
 }
 
-{ // TSGetExplicitLink ( wowae )
+{ // TSGetExplicitLink +(impl.: wowae)
 
 class TSGetExplicitLink<FILEMAP> {
 
@@ -10281,7 +10281,7 @@ class TSGetExplicitLink<ZipFileDirEntry> {
 
 }
 
-{ // TSList ( wowae{кроме Combine()} )
+{ // TSList +
 
 class TSList<OsNet::TCPLISTEN,TSGetExplicitLink<OsNet::TCPLISTEN> > {
 
@@ -20689,7 +20689,7 @@ class TSList<CAnimNameHash,TSGetExplicitLink<CAnimNameHash> > {
 
 }
 
-{ // TSExplicitList - 163 ( wowae )
+{ // TSExplicitList - 163 +
 
 class TSExplicitList<CMapObjDefGroup,8> : class TSList<CMapObjDefGroup,TSGetExplicitLink<CMapObjDefGroup> >  {
 
@@ -24769,7 +24769,7 @@ class TSExplicitList<CStatus::STATUSENTRY,8> : class TSList<CStatus::STATUSENTRY
 
 }
 
-{ // TSListWinHeap - 1
+{ // TSListWinHeap - 1 +
 
 class TSListWinHeap<HANDLER,TSGetLink<HANDLER> > : class TSList<HANDLER,TSGetLink<HANDLER> >  {
 
@@ -24800,7 +24800,7 @@ class TSListWinHeap<HANDLER,TSGetLink<HANDLER> > : class TSList<HANDLER,TSGetLin
 
 }
 
-{ // TSBaseArray - 288
+{ // TSBaseArray - 288 +
 
 class TSBaseArray<CAnimLayerStatus> {
 
