@@ -2495,7 +2495,7 @@ class SCritSect {
 };
 // <size 0x18>
 
-class HASHKEY_STR {
+class HASHKEY_STR { // +
 
   // static data ------------------------------------
 
@@ -2553,7 +2553,7 @@ class CHandleObject {
 };
 // <size 0x8>
 
-class HASHKEY_NONE {
+class HASHKEY_NONE { // +
 
   // static data ------------------------------------
 
@@ -9498,7 +9498,7 @@ class ClntObjMgr {
 };
 // <size 0xc8>
 
-class CHashKeyGUID {
+class CHashKeyGUID { // +
 
   // static data ------------------------------------
 
@@ -14479,7 +14479,7 @@ class EmotesTextDataRec {
 };
 // <size 0x28>
 
-class HASHKEY_LANGUAGE {
+class HASHKEY_LANGUAGE { // +
 
   // static data ------------------------------------
 
@@ -17941,7 +17941,7 @@ class WowConnectionInitializer {
 };
 // <size 0x1>
 
-class HASHKEY_PTR {
+class HASHKEY_PTR { // +
 
   // static data ------------------------------------
 
@@ -17990,7 +17990,7 @@ class KERNINGHASHKEY {
 };
 // <size 0x4>
 
-class HASHKEY_DWORD {
+class HASHKEY_DWORD { // +
 
   // static data ------------------------------------
 
@@ -19400,7 +19400,7 @@ class TestFile : class WowFile  {
 };
 // <size 0x8>
 
-class HASHKEY_CONSTSTR {
+class HASHKEY_CONSTSTR { // +
 
   // static data ------------------------------------
 
@@ -22707,7 +22707,7 @@ class CGPlayer {
 };
 // <size 0x4>
 
-class HASHKEY_INT {
+class HASHKEY_INT { // +
 
   // static data ------------------------------------
 
@@ -22946,7 +22946,7 @@ class CPlayerMoveQueue {
 };
 // <size 0xc>
 
-class HASHKEY_LONGLONG {
+class HASHKEY_LONGLONG { // +
 
   // static data ------------------------------------
 

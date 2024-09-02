@@ -35749,7 +35749,7 @@ class TSBaseArray<CMemCmdItem> {
 
 }
 
-{ // TSStackArray - 11
+{ // TSStackArray - 11 +
 
 class TSStackArray<enum MISS_REASON> {
 
@@ -36205,7 +36205,7 @@ class TSStackArray<NTempest::C3Vector> {
 
 }
 
-{ // TSCArray - 22
+{ // TSCArray - 22 +
 
 class TSCArray<HTEXTURE__ *,96> {
 
@@ -37060,7 +37060,7 @@ class TSCArray<CGeosetColor,5> {
 
 }
 
-{ // TSFixedArray - 288
+{ // TSFixedArray - 288 +
 
 class TSFixedArray<CAnimLayerStatus> : class TSBaseArray<CAnimLayerStatus>  {
 
@@ -47974,7 +47974,7 @@ class TSFixedArray<CKeySeq> {
 
 }
 
-{ // TSFixedArray_ - 19
+{ // TSFixedArray_ - 19 +
 
 class TSFixedArray_<unsigned int,1229811556,285> : class TSFixedArray<unsigned int>  {
 
@@ -48530,7 +48530,7 @@ class TSFixedArray_<NTempest::C2Vector,1229811556,266> : class TSFixedArray<NTem
 
 }
 
-{ // TSGrowableArray - 243
+{ // TSGrowableArray - 243 +
 
 class TSGrowableArray<NTempest::CiRect> : class TSFixedArray<NTempest::CiRect>  {
 
@@ -59689,7 +59689,7 @@ class TSGrowableArray<CAnimSequence> {
 
 }
 
-{ // TSGrowableArray_ - 7
+{ // TSGrowableArray_ - 7 +
 
 class TSGrowableArray_<unsigned char,1330464594,71> : class TSGrowableArray<unsigned char>  {
 
@@ -59897,7 +59897,7 @@ class TSGrowableArray_<unsigned char,1396853063,102> : class TSGrowableArray<uns
 
 }
 
-{ // CArray - 29
+{ // CArray - 29 +
 
 class CArray<unsigned char> {
 
