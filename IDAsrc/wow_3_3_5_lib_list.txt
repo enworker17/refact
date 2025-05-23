@@ -2,7 +2,7 @@ Vorbis 		https://github.com/xiph/vorbis/tree/master 	// TODO: уточнить �
 Ogg		https://github.com/xiph/ogg/tree/master		
 bzip2/libbzip2	1.0.2, 30-Dec-2001
 libjpeg		https://github.com/winlibs/libjpeg
-fmod
+fmod4..
 libFLAC 1.1.4
 Lua 5.1.1 Copyright (C) 1994-2006 Lua.org
 zlib 1.2.2
